@@ -1,0 +1,112 @@
+{
+    "date": "2022-06-01T23:40:33.000Z",
+    "passed": true,
+    "problems": false,
+    "properties": {
+        "DCS": {
+            "ABC_temp_raw_0": 2624.0,
+            "ABC_temp_raw_1": 2570.0,
+            "ABC_temp_raw_2": 2427.0,
+            "ABC_temp_raw_3": 2391.0,
+            "ABC_temp_raw_4": 2427.0,
+            "ABC_temp_raw_5": 2671.0,
+            "ABC_temp_raw_6": 2416.0,
+            "ABC_temp_raw_7": 2476.0,
+            "HCC_temp_raw": 379.0
+        },
+        "FRACTION": 0.57,
+        "det_info": {
+            "ABC_Fuse": [
+                "8940284c",
+                "8940284d",
+                "8940284e",
+                "8940284f",
+                "894030ed",
+                "894030ee",
+                "894030ef",
+                "894030f0"
+            ],
+            "Address": [
+                10,
+                9,
+                8,
+                7,
+                6,
+                5,
+                4,
+                3
+            ],
+            "Channel": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "DUT_type": "ABCStar_Test #2y",
+            "HCC_Fuse": "30007251",
+            "name": "ABCStar_R4H1_Hybrid0"
+        },
+        "scan_info": {
+            "event_count": 32
+        },
+        "system_info": {
+            "Analysis_time": "2022-06-01T23:40:34.000Z",
+            "Firmware revision": "0xb60f",
+            "GIT URL": "https://gitlab.cern.ch/atlas-itk-strips-daq/itsdaq-sw.git/-/tree/a8e59c51b7d473b4aa721f1605323e5c16333150",
+            "GIT branch": "",
+            "GIT build date": "2022-04-22 21:02:07 +0000 (Fri, 22 Apr 2022)",
+            "GIT commit date": "2022-04-22 15:57:32 +0000 (Fri, 22 Apr 2022)",
+            "GIT describe": "itsdaq_24_1_2022-386-ga8e59c5",
+            "GIT revision": "a8e59c51b7d473b4aa721f1605323e5c16333150",
+            "Location": "TRIUMF",
+            "User": "LP",
+            "analysis_version": "3.43",
+            "dedication": "New dedication as we're going for PPA",
+            "host": "rockbiter"
+        }
+    },
+    "results": {
+        "StrobeDelay_away": [
+            21,
+            23,
+            23,
+            20,
+            18,
+            19,
+            20,
+            20,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "StrobeDelay_under": [
+            21,
+            23,
+            23,
+            19,
+            18,
+            18,
+            20,
+            20,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ]
+    },
+    "runNumber": "1326-4",
+    "testType": "STROBE_DELAY_PPA"
+}

@@ -1,0 +1,2049 @@
+#chan	code	gain	vt50	innse	comment
+   0	 80000	51.4	68.2	2291	very high noise
+   1	 80000	56.6	84.7	2288	very high noise
+   2	 80000	57.8	86.7	2300	very high noise
+   3	 80000	55.6	82.6	2284	very high noise
+   4	 80000	53.9	82.3	2257	very high noise
+   5	 80000	53.0	79.9	2283	very high noise
+   6	 80000	52.7	79.1	2325	very high noise
+   7	 80000	53.9	80.8	2305	very high noise
+   8	 80000	52.7	80.9	2302	very high noise
+   9	 80000	54.1	80.9	2249	very high noise
+  10	 80000	55.4	83.7	2308	very high noise
+  11	 80000	55.1	88.4	2304	very high noise
+  12	 80000	53.5	80.8	2266	very high noise
+  13	 80000	54.6	81.1	2305	very high noise
+  14	 80000	53.7	82.2	2288	very high noise
+  15	 80000	53.3	82.7	2318	very high noise
+  16	 80000	46.1	63.5	2385	very high noise
+  17	 80000	54.2	82.3	2309	very high noise
+  18	 80000	53.5	82.3	2279	very high noise
+  19	 80000	55.1	84.4	2264	very high noise
+  20	 80000	53.8	78.0	2279	very high noise
+  21	 80000	51.9	79.7	2301	very high noise
+  22	 80000	56.0	87.1	2303	very high noise
+  23	 80000	53.2	76.5	2274	very high noise
+  24	 80000	51.2	76.4	2290	very high noise
+  25	 80000	53.3	79.5	2301	very high noise
+  26	 80000	52.6	81.9	2300	very high noise
+  27	 80000	54.0	80.4	2291	very high noise
+  28	 80000	53.1	81.9	2279	very high noise
+  29	 80000	53.9	85.5	2333	very high noise
+  30	 80000	52.4	77.7	2266	very high noise
+  31	 80000	54.4	80.6	2293	very high noise
+  32	 80000	54.6	84.2	2315	very high noise
+  33	 80000	52.0	79.8	2339	very high noise
+  34	 80000	52.7	82.4	2316	very high noise
+  35	 80000	53.7	82.2	2316	very high noise
+  36	 80000	54.9	85.7	2299	very high noise
+  37	 80000	55.5	88.9	2305	very high noise
+  38	 80000	55.3	82.9	2287	very high noise
+  39	 80000	55.2	84.2	2320	very high noise
+  40	 80000	54.5	83.2	2294	very high noise
+  41	 80000	52.4	79.9	2292	very high noise
+  42	 80000	54.9	83.8	2275	very high noise
+  43	 80000	51.5	74.5	2351	very high noise
+  44	 80000	55.6	83.2	2285	very high noise
+  45	 80000	55.3	81.9	2297	very high noise
+  46	 80000	53.4	80.1	2318	very high noise
+  47	 80000	53.6	87.1	2321	very high noise
+  48	 80000	54.8	81.7	2275	very high noise
+  49	 80000	55.7	84.3	2284	very high noise
+  50	 80000	55.1	81.4	2273	very high noise
+  51	 80000	55.8	87.2	2308	very high noise
+  52	 80000	53.9	81.0	2254	very high noise
+  53	 80000	52.5	78.9	2299	very high noise
+  54	 80000	56.6	88.7	2322	very high noise
+  55	 80000	53.2	82.5	2327	very high noise
+  56	 80000	54.1	83.4	2297	very high noise
+  57	 80000	52.4	78.2	2286	very high noise
+  58	 80000	57.0	85.7	2269	very high noise
+  59	 80000	54.1	80.4	2279	very high noise
+  60	 80000	55.9	85.9	2305	very high noise
+  61	 80000	56.7	89.5	2337	very high noise
+  62	 80000	56.3	83.8	2296	very high noise
+  63	 80000	57.1	80.9	2250	very high noise
+  64	 80000	56.0	87.3	2301	very high noise
+  65	 80000	56.3	83.9	2271	very high noise
+  66	 80000	54.4	83.8	2311	very high noise
+  67	 80000	53.0	85.2	2326	very high noise
+  68	 80000	52.9	77.7	2299	very high noise
+  69	 80000	52.5	83.5	2336	very high noise
+  70	 80000	52.5	82.5	2296	very high noise
+  71	 80000	52.3	81.2	2326	very high noise
+  72	 80000	52.1	79.6	2310	very high noise
+  73	 80000	56.3	89.1	2315	very high noise
+  74	 80000	54.6	83.6	2295	very high noise
+  75	 80000	55.6	86.3	2302	very high noise
+  76	 80000	55.4	86.9	2277	very high noise
+  77	 80000	54.8	85.0	2301	very high noise
+  78	 80000	54.3	81.9	2311	very high noise
+  79	 80000	52.2	78.5	2295	very high noise
+  80	 80000	52.6	81.9	2309	very high noise
+  81	 80000	53.7	80.1	2285	very high noise
+  82	 80000	53.5	83.8	2317	very high noise
+  83	 80000	55.0	84.8	2314	very high noise
+  84	 80000	55.4	84.1	2228	very high noise
+  85	 80000	52.8	82.1	2302	very high noise
+  86	 80000	56.5	85.6	2288	very high noise
+  87	 80000	52.5	80.1	2273	very high noise
+  88	 80000	52.9	81.1	2292	very high noise
+  89	 80000	54.1	82.8	2310	very high noise
+  90	 80000	56.7	92.7	2288	very high noise
+  91	 80000	53.6	79.2	2269	very high noise
+  92	 80000	52.8	78.4	2317	very high noise
+  93	 80000	54.4	80.6	2242	very high noise
+  94	 80000	54.5	85.0	2331	very high noise
+  95	 80000	54.4	82.2	2318	very high noise
+  96	 80000	54.7	86.0	2300	very high noise
+  97	 80000	51.7	77.5	2284	very high noise
+  98	 80000	54.3	85.3	2291	very high noise
+  99	 80000	54.1	81.3	2240	very high noise
+ 100	 80000	53.9	81.7	2293	very high noise
+ 101	 80000	52.8	85.0	2363	very high noise
+ 102	 80000	50.9	79.1	2273	very high noise
+ 103	 80000	54.4	81.1	2304	very high noise
+ 104	     0	54.3	119.1	1865	OK
+ 105	 80000	52.4	80.2	2262	very high noise
+ 106	 80000	53.6	81.2	2306	very high noise
+ 107	 80000	54.8	82.9	2288	very high noise
+ 108	 80000	54.1	81.0	2325	very high noise
+ 109	 80000	55.2	83.3	2279	very high noise
+ 110	 80000	51.3	81.2	2294	very high noise
+ 111	 80000	56.1	93.7	2259	very high noise
+ 112	 80000	55.6	85.6	2286	very high noise
+ 113	 80000	53.3	85.9	2316	very high noise
+ 114	 80000	54.1	82.7	2324	very high noise
+ 115	 80000	53.1	79.0	2282	very high noise
+ 116	 80000	52.8	82.4	2322	very high noise
+ 117	 80000	52.2	79.1	2293	very high noise
+ 118	 80000	53.7	83.9	2332	very high noise
+ 119	 80000	51.8	81.4	2285	very high noise
+ 120	 80000	55.2	86.5	2295	very high noise
+ 121	 80000	53.4	83.7	2318	very high noise
+ 122	 80000	54.5	81.2	2300	very high noise
+ 123	 80000	53.7	83.7	2301	very high noise
+ 124	 80000	54.2	87.2	2350	very high noise
+ 125	 80000	54.8	82.0	2349	very high noise
+ 126	 80000	53.4	79.3	2339	very high noise
+ 127	 80000	55.2	82.2	2376	very high noise
+ 128	 80000	59.1	88.1	2225	very high noise
+ 129	 80000	59.8	85.2	2199	very high noise
+ 130	 80000	58.9	88.3	2178	very high noise
+ 131	 80000	58.9	85.0	2241	very high noise
+ 132	 80000	57.0	81.9	2222	very high noise
+ 133	 80000	59.3	103.9	2042	very high noise
+ 134	 80000	56.4	89.5	2198	very high noise
+ 135	 80000	58.1	86.3	2196	very high noise
+ 136	 80000	57.8	88.8	2231	very high noise
+ 137	 80000	56.2	81.3	2178	very high noise
+ 138	 80000	55.5	81.6	2214	very high noise
+ 139	 80000	56.8	83.7	2212	very high noise
+ 140	 80000	56.9	86.1	2210	very high noise
+ 141	 80000	56.3	85.3	2249	very high noise
+ 142	 80000	57.5	87.6	2215	very high noise
+ 143	 80000	56.3	84.3	2229	very high noise
+ 144	 80000	57.5	89.0	2213	very high noise
+ 145	 80000	56.4	83.2	2230	very high noise
+ 146	 80000	55.8	84.7	2245	very high noise
+ 147	 80000	56.6	82.1	2236	very high noise
+ 148	 80000	55.6	83.9	2222	very high noise
+ 149	 80000	55.7	87.5	2264	very high noise
+ 150	 80000	57.5	85.4	2228	very high noise
+ 151	 80000	56.8	82.2	2207	very high noise
+ 152	 80000	56.4	84.5	2224	very high noise
+ 153	 80000	57.1	81.5	2219	very high noise
+ 154	 80000	58.4	83.7	2190	very high noise
+ 155	 80000	55.2	81.8	2254	very high noise
+ 156	 80000	56.5	81.8	2214	very high noise
+ 157	 80000	55.1	82.0	2245	very high noise
+ 158	 80000	56.7	87.5	2228	very high noise
+ 159	 80000	58.5	105.6	2014	very high noise
+ 160	 80000	55.3	84.7	2236	very high noise
+ 161	 80000	57.3	85.4	2231	very high noise
+ 162	 80000	57.9	88.6	2236	very high noise
+ 163	 80000	57.6	83.6	2218	very high noise
+ 164	 80000	54.0	79.8	2237	very high noise
+ 165	 80000	57.0	80.9	2206	very high noise
+ 166	 80000	56.2	86.5	2200	very high noise
+ 167	 80000	56.6	82.0	2236	very high noise
+ 168	 80000	56.4	83.0	2229	very high noise
+ 169	 80000	56.8	87.9	2242	very high noise
+ 170	 80000	56.0	84.2	2216	very high noise
+ 171	 80000	57.2	85.1	2234	very high noise
+ 172	 80000	56.0	80.8	2241	very high noise
+ 173	 80000	55.8	84.1	2262	very high noise
+ 174	 80000	56.5	86.0	2241	very high noise
+ 175	 80000	55.1	79.6	2233	very high noise
+ 176	 80000	57.2	86.8	2233	very high noise
+ 177	 80000	58.2	83.7	2205	very high noise
+ 178	 80000	57.1	84.9	2244	very high noise
+ 179	 80000	59.5	86.9	2201	very high noise
+ 180	 80000	57.2	82.7	2222	very high noise
+ 181	 80000	56.0	81.0	2245	very high noise
+ 182	 80000	57.9	89.1	2240	very high noise
+ 183	 80000	60.3	90.6	2191	very high noise
+ 184	 80000	57.3	82.4	2216	very high noise
+ 185	 80000	57.7	88.6	2254	very high noise
+ 186	 80000	58.3	86.3	2189	very high noise
+ 187	 80000	57.0	84.7	2235	very high noise
+ 188	 80000	58.5	86.6	2259	very high noise
+ 189	 80000	58.6	86.5	2238	very high noise
+ 190	 80000	61.1	89.3	2223	very high noise
+ 191	 80000	60.3	84.5	2203	very high noise
+ 192	 80000	58.6	84.8	2219	very high noise
+ 193	 80000	59.6	87.4	2218	very high noise
+ 194	 80000	56.4	84.2	2217	very high noise
+ 195	 80000	58.8	91.0	2205	very high noise
+ 196	 80000	55.8	80.7	2226	very high noise
+ 197	 80000	52.2	69.2	2244	very high noise
+ 198	 80000	56.6	83.1	2233	very high noise
+ 199	 80000	54.5	80.0	2212	very high noise
+ 200	 80000	59.1	86.2	2248	very high noise
+ 201	 80000	57.6	85.3	2233	very high noise
+ 202	 80000	57.2	81.8	2198	very high noise
+ 203	 80000	57.9	87.6	2228	very high noise
+ 204	 80000	55.0	79.4	2185	very high noise
+ 205	 80000	58.1	83.9	2226	very high noise
+ 206	 80000	58.1	85.4	2211	very high noise
+ 207	 80000	55.2	82.9	2225	very high noise
+ 208	 80000	56.5	85.5	2241	very high noise
+ 209	 80000	56.2	81.4	2180	very high noise
+ 210	 80000	55.7	81.6	2201	very high noise
+ 211	 80000	58.9	90.3	2237	very high noise
+ 212	 80000	57.5	82.6	2232	very high noise
+ 213	 80000	56.5	85.6	2230	very high noise
+ 214	 80000	56.7	88.9	2232	very high noise
+ 215	 80000	57.8	84.5	2214	very high noise
+ 216	 80000	57.5	84.4	2210	very high noise
+ 217	 80000	57.7	83.1	2189	very high noise
+ 218	 80000	55.7	82.8	2247	very high noise
+ 219	 80000	52.7	75.9	2207	very high noise
+ 220	 80000	57.2	83.6	2221	very high noise
+ 221	 80000	55.9	84.2	2246	very high noise
+ 222	 80000	55.8	86.7	2233	very high noise
+ 223	 80000	57.1	85.2	2154	very high noise
+ 224	 80000	57.6	87.0	2231	very high noise
+ 225	 80000	54.9	83.8	2237	very high noise
+ 226	 80000	55.5	81.6	2187	very high noise
+ 227	 80000	55.9	85.9	2244	very high noise
+ 228	 80000	56.2	85.1	2230	very high noise
+ 229	 80000	55.4	82.7	2218	very high noise
+ 230	 80000	52.8	79.3	2239	very high noise
+ 231	 80000	57.0	88.4	2202	very high noise
+ 232	 80000	56.4	86.4	2229	very high noise
+ 233	 80000	55.2	82.5	2221	very high noise
+ 234	 80000	53.6	78.9	2214	very high noise
+ 235	 80000	58.4	88.2	2204	very high noise
+ 236	 80000	56.4	85.2	2229	very high noise
+ 237	 80000	55.3	80.7	2197	very high noise
+ 238	 80000	56.2	83.0	2188	very high noise
+ 239	 80000	59.2	88.5	2218	very high noise
+ 240	 80000	55.9	82.5	2220	very high noise
+ 241	 80000	56.1	80.7	2186	very high noise
+ 242	 80000	54.1	80.4	2222	very high noise
+ 243	 80000	52.9	79.2	2230	very high noise
+ 244	 80000	54.2	83.1	2246	very high noise
+ 245	 80000	56.9	88.3	2246	very high noise
+ 246	 80000	57.3	87.1	2255	very high noise
+ 247	 80000	57.4	82.7	2203	very high noise
+ 248	 80000	56.3	87.7	2217	very high noise
+ 249	 80000	55.5	83.2	2231	very high noise
+ 250	 80000	59.6	88.5	2233	very high noise
+ 251	 80000	58.1	87.8	2210	very high noise
+ 252	 80000	61.1	91.9	2208	very high noise
+ 253	 80000	55.5	81.1	2212	very high noise
+ 254	 80000	59.0	88.3	2198	very high noise
+ 255	 80000	58.7	85.2	2193	very high noise
+ 256	 80000	59.6	86.0	2175	very high noise
+ 257	 80000	59.5	91.8	2200	very high noise
+ 258	 80000	60.2	84.9	2155	very high noise
+ 259	 80000	56.4	86.4	2181	very high noise
+ 260	 80000	56.2	82.1	2217	very high noise
+ 261	 80000	54.7	83.5	2217	very high noise
+ 262	 80000	57.4	87.0	2205	very high noise
+ 263	 80000	56.2	84.8	2196	very high noise
+ 264	 80000	54.6	81.2	2186	very high noise
+ 265	 80000	56.8	82.9	2200	very high noise
+ 266	 80000	57.2	83.1	2176	very high noise
+ 267	 80000	57.0	82.6	2183	very high noise
+ 268	 80000	59.2	101.7	2012	very high noise
+ 269	 80000	57.6	87.3	2213	very high noise
+ 270	 80000	57.5	83.2	2176	very high noise
+ 271	 80000	53.8	81.2	2209	very high noise
+ 272	 80000	59.0	93.9	2116	very high noise
+ 273	 80000	53.9	78.3	2207	very high noise
+ 274	 80000	55.7	85.4	2173	very high noise
+ 275	 80000	55.6	80.8	2171	very high noise
+ 276	 80000	59.1	96.5	2072	very high noise
+ 277	 80000	56.9	91.1	2174	very high noise
+ 278	 80000	56.3	86.6	2151	very high noise
+ 279	 80000	59.3	87.8	2192	very high noise
+ 280	 80000	58.3	87.7	2171	very high noise
+ 281	 80000	57.4	88.8	2192	very high noise
+ 282	 80000	57.5	83.8	2181	very high noise
+ 283	 80000	56.2	83.7	2174	very high noise
+ 284	 80000	53.9	79.0	2199	very high noise
+ 285	 80000	55.0	83.5	2215	very high noise
+ 286	 80000	55.9	82.5	2174	very high noise
+ 287	 80000	55.1	80.0	2177	very high noise
+ 288	 80000	55.4	87.0	2210	very high noise
+ 289	 80000	52.3	78.0	2188	very high noise
+ 290	 80000	56.2	81.5	2174	very high noise
+ 291	 80000	56.2	85.2	2204	very high noise
+ 292	 80000	54.9	83.3	2218	very high noise
+ 293	 80000	57.2	93.6	2153	very high noise
+ 294	 80000	57.0	86.8	2171	very high noise
+ 295	 80000	56.1	84.8	2183	very high noise
+ 296	 80000	55.9	84.5	2204	very high noise
+ 297	 80000	54.0	80.3	2206	very high noise
+ 298	 80000	57.6	87.8	2195	very high noise
+ 299	 80000	54.8	81.5	2207	very high noise
+ 300	 80000	54.7	83.3	2226	very high noise
+ 301	 80000	55.4	80.4	2179	very high noise
+ 302	 80000	57.4	86.9	2193	very high noise
+ 303	 80000	56.4	85.3	2214	very high noise
+ 304	 80000	54.6	81.3	2178	very high noise
+ 305	 80000	55.8	86.8	2241	very high noise
+ 306	 80000	55.6	86.2	2206	very high noise
+ 307	 80000	56.1	82.4	2209	very high noise
+ 308	 80000	56.7	83.5	2197	very high noise
+ 309	 80000	54.0	79.7	2184	very high noise
+ 310	 80000	56.6	86.3	2159	very high noise
+ 311	 80000	56.2	83.4	2206	very high noise
+ 312	 80000	56.5	82.8	2171	very high noise
+ 313	 80000	56.2	86.2	2206	very high noise
+ 314	 80000	57.4	87.5	2199	very high noise
+ 315	 80000	56.1	86.9	2186	very high noise
+ 316	 80000	57.5	85.2	2195	very high noise
+ 317	 80000	54.8	85.1	2209	very high noise
+ 318	 80000	55.8	80.2	2145	very high noise
+ 319	 80000	60.7	92.5	2181	very high noise
+ 320	 80000	55.7	82.5	2203	very high noise
+ 321	 80000	57.4	86.7	2181	very high noise
+ 322	 80000	56.3	83.8	2198	very high noise
+ 323	 80000	56.4	83.0	2205	very high noise
+ 324	 80000	54.0	82.0	2215	very high noise
+ 325	 80000	56.4	81.8	2231	very high noise
+ 326	 80000	56.0	81.7	2168	very high noise
+ 327	 80000	54.6	81.1	2191	very high noise
+ 328	 80000	54.1	81.1	2219	very high noise
+ 329	 80000	53.8	80.7	2199	very high noise
+ 330	 80000	54.0	80.7	2183	very high noise
+ 331	 80000	55.4	83.2	2180	very high noise
+ 332	 80000	54.5	80.3	2194	very high noise
+ 333	 80000	53.3	80.8	2205	very high noise
+ 334	 80000	55.5	84.3	2199	very high noise
+ 335	 80000	57.4	86.9	2177	very high noise
+ 336	 80000	56.2	84.0	2226	very high noise
+ 337	 80000	58.1	84.0	2204	very high noise
+ 338	 80000	55.0	82.8	2197	very high noise
+ 339	 80000	56.1	82.3	2213	very high noise
+ 340	 80000	56.6	81.3	2182	very high noise
+ 341	 80000	58.4	89.5	2210	very high noise
+ 342	 80000	56.5	85.9	2185	very high noise
+ 343	 80000	54.0	81.8	2211	very high noise
+ 344	 80000	56.0	83.8	2206	very high noise
+ 345	 80000	54.1	81.7	2215	very high noise
+ 346	 80000	53.6	78.8	2210	very high noise
+ 347	 80000	55.0	84.6	2209	very high noise
+ 348	 80000	55.5	82.7	2187	very high noise
+ 349	 80000	53.9	82.3	2192	very high noise
+ 350	 80000	56.5	97.3	2116	very high noise
+ 351	 80000	56.6	82.7	2171	very high noise
+ 352	 80000	55.0	82.3	2181	very high noise
+ 353	 80000	55.1	82.0	2196	very high noise
+ 354	 80000	53.5	83.9	2200	very high noise
+ 355	 80000	54.5	83.3	2246	very high noise
+ 356	 80000	53.7	81.5	2195	very high noise
+ 357	 80000	55.5	84.6	2159	very high noise
+ 358	 80000	55.0	82.1	2200	very high noise
+ 359	 80000	55.0	82.2	2210	very high noise
+ 360	 80000	55.1	82.8	2209	very high noise
+ 361	 80000	53.4	78.5	2243	very high noise
+ 362	 80000	55.9	82.8	2190	very high noise
+ 363	 80000	55.2	82.5	2183	very high noise
+ 364	 80000	54.9	85.0	2218	very high noise
+ 365	 80000	56.1	84.7	2188	very high noise
+ 366	 80000	53.2	80.3	2212	very high noise
+ 367	 80000	55.4	83.5	2233	very high noise
+ 368	 80000	53.3	77.9	2196	very high noise
+ 369	 80000	52.9	81.0	2196	very high noise
+ 370	 80000	54.3	80.7	2168	very high noise
+ 371	 80000	53.0	80.1	2193	very high noise
+ 372	 80000	56.4	83.6	2193	very high noise
+ 373	 80000	54.3	85.9	2223	very high noise
+ 374	 80000	54.5	81.6	2216	very high noise
+ 375	 80000	52.0	77.2	2182	very high noise
+ 376	 80000	54.1	83.0	2226	very high noise
+ 377	 80000	52.4	82.3	2203	very high noise
+ 378	 80000	52.9	79.3	2212	very high noise
+ 379	 80000	53.6	79.7	2193	very high noise
+ 380	 80000	53.6	82.4	2204	very high noise
+ 381	 80000	53.4	81.1	2194	very high noise
+ 382	 80000	52.4	79.2	2164	very high noise
+ 383	 80000	53.2	74.2	2139	very high noise
+ 384	 80000	57.7	83.0	2160	very high noise
+ 385	 80000	61.0	88.8	2088	very high noise
+ 386	 80000	57.9	85.1	2087	very high noise
+ 387	 80000	57.8	84.0	2117	very high noise
+ 388	 80000	56.7	81.3	2110	very high noise
+ 389	 80000	55.3	80.4	2130	very high noise
+ 390	 80000	58.1	86.4	2105	very high noise
+ 391	 80000	57.9	82.0	2094	very high noise
+ 392	 80000	57.5	85.4	2110	very high noise
+ 393	 80000	57.3	85.4	2134	very high noise
+ 394	 80000	57.4	88.0	2124	very high noise
+ 395	 80000	57.2	82.2	2096	very high noise
+ 396	 80000	57.1	85.1	2126	very high noise
+ 397	 80000	59.0	85.8	2128	very high noise
+ 398	 80000	61.2	90.1	2131	very high noise
+ 399	 80000	56.2	81.8	2145	very high noise
+ 400	 80000	58.3	85.2	2096	very high noise
+ 401	 80000	58.6	84.1	2128	very high noise
+ 402	 80000	56.0	86.0	2130	very high noise
+ 403	 80000	57.4	86.4	2103	very high noise
+ 404	 80000	56.7	87.1	2116	very high noise
+ 405	 80000	58.5	88.3	2112	very high noise
+ 406	 80000	56.5	84.9	2101	very high noise
+ 407	 80000	55.6	73.5	2088	very high noise
+ 408	 80000	59.1	85.2	2104	very high noise
+ 409	 80000	57.7	91.5	2124	very high noise
+ 410	 80000	58.0	85.0	2116	very high noise
+ 411	 80000	57.8	82.2	2126	very high noise
+ 412	 80000	56.1	84.4	2134	very high noise
+ 413	 80000	55.7	80.8	2104	very high noise
+ 414	 80000	55.8	80.2	2099	very high noise
+ 415	 80000	58.2	86.5	2109	very high noise
+ 416	 80000	55.8	82.4	2126	very high noise
+ 417	 80000	55.6	82.4	2099	very high noise
+ 418	 80000	58.5	90.5	2106	very high noise
+ 419	 80000	58.2	83.8	2105	very high noise
+ 420	 80000	58.0	84.6	2107	very high noise
+ 421	 80000	56.8	81.1	2129	very high noise
+ 422	 80000	58.2	85.3	2118	very high noise
+ 423	 80000	57.2	82.5	2105	very high noise
+ 424	 80000	57.8	85.6	2116	very high noise
+ 425	 80000	56.3	81.4	2145	very high noise
+ 426	 80000	55.5	82.3	2116	very high noise
+ 427	 80000	57.2	85.7	2142	very high noise
+ 428	 80000	58.6	87.9	2111	very high noise
+ 429	 80000	58.3	83.2	2119	very high noise
+ 430	 80000	57.4	87.6	2142	very high noise
+ 431	 80000	58.8	83.0	2106	very high noise
+ 432	 80000	60.0	91.8	2133	very high noise
+ 433	 80000	59.2	84.0	2156	very high noise
+ 434	 80000	59.1	87.5	2120	very high noise
+ 435	 80000	58.7	84.9	2115	very high noise
+ 436	 80000	59.1	89.1	2105	very high noise
+ 437	 80000	57.2	83.2	2127	very high noise
+ 438	 80000	57.0	80.8	2088	very high noise
+ 439	 80000	57.9	83.4	2151	very high noise
+ 440	 80000	57.9	83.1	2124	very high noise
+ 441	 80000	57.6	87.1	2139	very high noise
+ 442	 80000	58.3	85.0	2109	very high noise
+ 443	 80000	58.1	84.6	2111	very high noise
+ 444	 80000	60.9	85.5	2111	very high noise
+ 445	 80000	63.1	88.6	2101	very high noise
+ 446	 80000	59.5	85.0	2105	very high noise
+ 447	 80000	57.4	81.0	2091	very high noise
+ 448	 80000	59.9	86.9	2124	very high noise
+ 449	 80000	62.2	87.1	2098	very high noise
+ 450	 80000	58.6	84.1	2110	very high noise
+ 451	 80000	57.6	82.7	2135	very high noise
+ 452	 80000	58.6	85.9	2114	very high noise
+ 453	 80000	59.4	91.0	2100	very high noise
+ 454	 80000	57.8	83.4	2082	very high noise
+ 455	 80000	55.5	80.6	2139	very high noise
+ 456	 80000	57.9	84.3	2110	very high noise
+ 457	 80000	58.0	83.7	2115	very high noise
+ 458	 80000	58.6	84.9	2134	very high noise
+ 459	 80000	57.8	85.0	2085	very high noise
+ 460	 80000	57.7	85.9	2114	very high noise
+ 461	 80000	58.7	83.9	2098	very high noise
+ 462	 80000	55.3	81.7	2153	very high noise
+ 463	 80000	55.4	78.1	2117	very high noise
+ 464	 80000	60.8	94.3	2066	very high noise
+ 465	 80000	57.3	84.5	2093	very high noise
+ 466	 80000	61.0	85.8	2070	very high noise
+ 467	 80000	58.4	84.7	2115	very high noise
+ 468	 80000	56.3	85.4	2088	very high noise
+ 469	 80000	58.3	85.3	2116	very high noise
+ 470	 80000	56.7	85.0	2153	very high noise
+ 471	 80000	60.4	89.3	2097	very high noise
+ 472	 80000	57.3	94.5	2074	very high noise
+ 473	 80000	59.7	94.7	2068	very high noise
+ 474	 80000	58.2	89.5	2131	very high noise
+ 475	 80000	58.3	82.7	2107	very high noise
+ 476	 80000	59.7	85.4	2095	very high noise
+ 477	 80000	56.5	81.3	2121	very high noise
+ 478	 80000	58.7	83.5	2078	very high noise
+ 479	 80000	58.5	84.3	2117	very high noise
+ 480	 80000	57.6	83.2	2091	very high noise
+ 481	 80000	60.0	89.9	2113	very high noise
+ 482	 80000	55.2	74.5	2083	very high noise
+ 483	 80000	58.7	84.3	2118	very high noise
+ 484	 80000	57.2	84.4	2085	very high noise
+ 485	 80000	59.6	85.3	2093	very high noise
+ 486	 80000	57.4	85.8	2094	very high noise
+ 487	 80000	60.5	94.2	2096	very high noise
+ 488	 80000	58.8	86.1	2118	very high noise
+ 489	 80000	58.8	80.1	2061	very high noise
+ 490	 80000	60.2	86.7	2102	very high noise
+ 491	 80000	59.8	84.5	2127	very high noise
+ 492	 80000	59.7	85.7	2075	very high noise
+ 493	 80000	58.1	82.4	2102	very high noise
+ 494	 80000	61.1	86.4	2103	very high noise
+ 495	 80000	62.0	87.2	2051	very high noise
+ 496	 80000	60.3	85.0	2089	very high noise
+ 497	 80000	60.7	85.5	2095	very high noise
+ 498	 80000	59.4	84.5	2086	very high noise
+ 499	 80000	58.8	83.8	2112	very high noise
+ 500	 80000	59.3	82.8	2083	very high noise
+ 501	 80000	57.5	82.5	2115	very high noise
+ 502	 80000	60.3	83.8	2069	very high noise
+ 503	 80000	62.0	87.0	2085	very high noise
+ 504	 80000	58.4	83.3	2094	very high noise
+ 505	 80000	60.6	86.3	2123	very high noise
+ 506	 80000	61.9	86.9	2062	very high noise
+ 507	 80000	60.5	89.7	2104	very high noise
+ 508	 80000	64.1	93.3	2075	very high noise
+ 509	 80000	62.7	88.3	2098	very high noise
+ 510	     0	61.7	105.7	1797	OK
+ 511	 80000	60.5	86.6	2115	very high noise
+ 512	 80000	57.5	83.8	2205	very high noise
+ 513	 80000	57.8	87.3	2222	very high noise
+ 514	 80000	54.9	80.5	2185	very high noise
+ 515	 80000	58.9	86.1	2181	very high noise
+ 516	 80000	58.4	84.8	2160	very high noise
+ 517	 80000	56.7	83.7	2172	very high noise
+ 518	 80000	54.0	79.6	2157	very high noise
+ 519	 80000	56.4	83.9	2147	very high noise
+ 520	 80000	56.2	87.6	2184	very high noise
+ 521	 80000	56.7	87.3	2188	very high noise
+ 522	 80000	55.6	86.4	2201	very high noise
+ 523	 80000	58.2	88.5	2188	very high noise
+ 524	 80000	55.3	80.7	2155	very high noise
+ 525	 80000	55.6	83.6	2193	very high noise
+ 526	 80000	56.7	83.0	2191	very high noise
+ 527	 80000	58.0	94.1	2161	very high noise
+ 528	 80000	56.6	85.2	2166	very high noise
+ 529	 80000	56.5	82.7	2183	very high noise
+ 530	 80000	58.6	90.1	2188	very high noise
+ 531	 80000	58.1	84.6	2160	very high noise
+ 532	 80000	58.4	93.0	2119	very high noise
+ 533	 80000	57.3	82.6	2122	very high noise
+ 534	 80000	56.4	82.3	2163	very high noise
+ 535	 80000	56.6	80.7	2166	very high noise
+ 536	     0	59.4	105.7	1902	OK
+ 537	 80000	56.4	82.2	2178	very high noise
+ 538	 80000	57.1	82.3	2191	very high noise
+ 539	 80000	57.3	81.8	2161	very high noise
+ 540	 80000	56.5	84.2	2158	very high noise
+ 541	 80000	58.5	81.8	2158	very high noise
+ 542	 80000	56.3	80.8	2142	very high noise
+ 543	     0	58.9	117.3	1762	OK
+ 544	 80000	55.8	81.6	2164	very high noise
+ 545	 80000	56.7	83.2	2192	very high noise
+ 546	 80000	58.2	83.6	2166	very high noise
+ 547	 80000	58.2	89.0	2185	very high noise
+ 548	 80000	56.0	85.1	2178	very high noise
+ 549	 80000	57.1	86.2	2187	very high noise
+ 550	 80000	55.7	80.3	2143	very high noise
+ 551	 80000	56.7	83.0	2160	very high noise
+ 552	 80000	56.9	84.5	2168	very high noise
+ 553	 80000	57.2	82.7	2165	very high noise
+ 554	 80000	55.4	80.2	2175	very high noise
+ 555	 80000	56.3	84.3	2164	very high noise
+ 556	 80000	56.7	82.8	2153	very high noise
+ 557	 80000	58.4	86.5	2200	very high noise
+ 558	 80000	55.5	87.4	2159	very high noise
+ 559	 80000	58.6	85.0	2197	very high noise
+ 560	 80000	54.0	79.1	2164	very high noise
+ 561	 80000	55.8	81.3	2198	very high noise
+ 562	 80000	57.4	83.5	2177	very high noise
+ 563	 80000	58.2	86.8	2176	very high noise
+ 564	 80000	57.4	81.4	2157	very high noise
+ 565	 80000	57.1	81.8	2163	very high noise
+ 566	 80000	57.2	82.9	2148	very high noise
+ 567	 80000	56.4	86.6	2169	very high noise
+ 568	 80000	59.2	86.2	2180	very high noise
+ 569	 80000	57.9	83.6	2175	very high noise
+ 570	 80000	57.6	84.2	2160	very high noise
+ 571	 80000	57.9	87.7	2205	very high noise
+ 572	 80000	60.3	84.4	2181	very high noise
+ 573	 80000	60.0	84.3	2161	very high noise
+ 574	 80000	59.3	86.7	2177	very high noise
+ 575	 80000	56.5	78.5	2137	very high noise
+ 576	 80000	59.4	85.5	2174	very high noise
+ 577	 80000	56.9	83.2	2148	very high noise
+ 578	 80000	57.4	88.2	2217	very high noise
+ 579	 80000	57.7	84.5	2193	very high noise
+ 580	 80000	57.8	88.6	2170	very high noise
+ 581	 80000	58.1	86.8	2165	very high noise
+ 582	 80000	57.0	82.8	2199	very high noise
+ 583	 80000	58.3	92.5	2185	very high noise
+ 584	 80000	56.2	82.9	2164	very high noise
+ 585	 80000	57.1	80.5	2183	very high noise
+ 586	 80000	56.3	84.9	2196	very high noise
+ 587	 80000	54.9	82.8	2181	very high noise
+ 588	 80000	59.2	88.2	2173	very high noise
+ 589	 80000	58.4	87.6	2201	very high noise
+ 590	 80000	56.5	85.2	2175	very high noise
+ 591	 80000	56.5	81.8	2204	very high noise
+ 592	 80000	54.9	80.9	2187	very high noise
+ 593	 80000	57.6	83.5	2185	very high noise
+ 594	 80000	56.2	83.1	2189	very high noise
+ 595	 80000	54.8	79.3	2200	very high noise
+ 596	 80000	55.7	80.6	2166	very high noise
+ 597	 80000	57.6	85.8	2181	very high noise
+ 598	 80000	57.0	82.0	2139	very high noise
+ 599	 80000	55.2	83.7	2222	very high noise
+ 600	 80000	55.8	81.9	2207	very high noise
+ 601	 80000	55.7	82.4	2215	very high noise
+ 602	 80000	56.2	81.3	2183	very high noise
+ 603	 80000	55.2	84.1	2160	very high noise
+ 604	 80000	57.0	84.3	2196	very high noise
+ 605	 80000	56.4	85.1	2188	very high noise
+ 606	 80000	56.3	80.3	2166	very high noise
+ 607	 80000	56.3	81.5	2165	very high noise
+ 608	 80000	57.5	84.9	2155	very high noise
+ 609	 80000	57.4	88.3	2198	very high noise
+ 610	 80000	56.0	82.5	2193	very high noise
+ 611	 80000	56.6	83.9	2221	very high noise
+ 612	 80000	57.2	83.5	2195	very high noise
+ 613	 80000	55.6	81.9	2193	very high noise
+ 614	 80000	55.4	81.3	2202	very high noise
+ 615	 80000	55.3	84.9	2233	very high noise
+ 616	 80000	57.2	84.1	2193	very high noise
+ 617	 80000	55.5	78.1	2097	very high noise
+ 618	 80000	55.6	81.7	2191	very high noise
+ 619	 80000	57.2	82.7	2187	very high noise
+ 620	 80000	57.4	83.4	2180	very high noise
+ 621	 80000	55.6	83.7	2171	very high noise
+ 622	 80000	55.8	81.0	2216	very high noise
+ 623	 80000	55.7	81.3	2180	very high noise
+ 624	 80000	55.7	85.1	2200	very high noise
+ 625	 80000	55.1	82.3	2202	very high noise
+ 626	 80000	56.6	82.4	2166	very high noise
+ 627	 80000	56.1	85.9	2204	very high noise
+ 628	 80000	55.9	82.5	2173	very high noise
+ 629	 80000	56.3	84.9	2204	very high noise
+ 630	 80000	55.3	82.4	2166	very high noise
+ 631	 80000	57.8	85.0	2198	very high noise
+ 632	 80000	54.2	81.5	2162	very high noise
+ 633	 80000	55.3	86.0	2230	very high noise
+ 634	 80000	60.5	95.0	2154	very high noise
+ 635	 80000	57.9	87.3	2198	very high noise
+ 636	 80000	57.2	87.7	2185	very high noise
+ 637	 80000	57.2	83.2	2174	very high noise
+ 638	 80000	55.6	82.7	2183	very high noise
+ 639	 80000	58.2	85.7	2156	very high noise
+ 640	 80000	62.1	90.4	2106	very high noise
+ 641	 80000	62.4	87.5	2140	very high noise
+ 642	 80000	58.7	84.8	2139	very high noise
+ 643	 80000	58.7	84.3	2159	very high noise
+ 644	 80000	58.5	85.5	2133	very high noise
+ 645	 80000	57.0	82.6	2163	very high noise
+ 646	 80000	57.3	83.8	2170	very high noise
+ 647	 80000	56.4	80.0	2148	very high noise
+ 648	 80000	58.1	82.4	2127	very high noise
+ 649	 80000	57.8	83.7	2171	very high noise
+ 650	 80000	56.8	83.8	2150	very high noise
+ 651	 80000	56.1	84.3	2168	very high noise
+ 652	 80000	56.1	81.4	2150	very high noise
+ 653	 80000	54.7	81.4	2192	very high noise
+ 654	 80000	56.2	80.5	2154	very high noise
+ 655	 80000	57.4	82.9	2172	very high noise
+ 656	 80000	56.6	83.5	2189	very high noise
+ 657	 80000	56.6	85.1	2167	very high noise
+ 658	 80000	56.0	85.0	2167	very high noise
+ 659	 80000	55.8	78.2	2148	very high noise
+ 660	 80000	55.1	81.5	2180	very high noise
+ 661	 80000	58.7	93.1	2131	very high noise
+ 662	 80000	56.1	81.0	2162	very high noise
+ 663	 80000	54.1	79.3	2162	very high noise
+ 664	 80000	55.5	81.1	2174	very high noise
+ 665	 80000	57.3	87.4	2185	very high noise
+ 666	 80000	56.3	82.8	2159	very high noise
+ 667	 80000	56.4	85.8	2187	very high noise
+ 668	 80000	53.7	79.0	2178	very high noise
+ 669	 80000	56.1	82.5	2145	very high noise
+ 670	 80000	57.2	82.6	2128	very high noise
+ 671	 80000	57.4	82.7	2180	very high noise
+ 672	 80000	58.0	84.1	2173	very high noise
+ 673	 80000	56.2	80.5	2148	very high noise
+ 674	 80000	58.0	82.9	2174	very high noise
+ 675	 80000	58.2	83.4	2134	very high noise
+ 676	 80000	55.2	79.0	2166	very high noise
+ 677	 80000	55.3	83.2	2193	very high noise
+ 678	 80000	57.3	84.5	2156	very high noise
+ 679	 80000	59.0	85.0	2185	very high noise
+ 680	 80000	56.3	83.7	2165	very high noise
+ 681	 80000	58.8	88.5	2166	very high noise
+ 682	 80000	56.9	83.9	2157	very high noise
+ 683	 80000	56.9	83.1	2171	very high noise
+ 684	 80000	57.5	82.4	2177	very high noise
+ 685	 80000	58.1	82.4	2152	very high noise
+ 686	 80000	56.8	83.2	2179	very high noise
+ 687	 80000	56.9	82.6	2175	very high noise
+ 688	 80000	58.0	84.4	2141	very high noise
+ 689	 80000	56.0	85.4	2203	very high noise
+ 690	 80000	56.8	84.4	2173	very high noise
+ 691	 80000	58.4	85.4	2195	very high noise
+ 692	 80000	58.0	83.7	2178	very high noise
+ 693	 80000	55.1	80.4	2130	very high noise
+ 694	 80000	56.0	81.9	2154	very high noise
+ 695	 80000	57.6	86.5	2175	very high noise
+ 696	 80000	60.3	86.7	2179	very high noise
+ 697	 80000	58.1	84.6	2176	very high noise
+ 698	 80000	56.3	81.7	2192	very high noise
+ 699	 80000	56.5	84.0	2188	very high noise
+ 700	 80000	58.8	83.3	2139	very high noise
+ 701	 80000	57.3	81.9	2187	very high noise
+ 702	 80000	58.1	83.9	2160	very high noise
+ 703	 80000	60.1	85.3	2144	very high noise
+ 704	 80000	60.8	85.8	2174	very high noise
+ 705	 80000	59.3	92.5	2193	very high noise
+ 706	 80000	56.2	81.0	2175	very high noise
+ 707	 80000	56.9	88.1	2218	very high noise
+ 708	 80000	57.3	85.0	2160	very high noise
+ 709	 80000	56.3	82.4	2189	very high noise
+ 710	 80000	58.0	86.9	2208	very high noise
+ 711	 80000	54.3	81.2	2192	very high noise
+ 712	 80000	55.3	80.0	2173	very high noise
+ 713	 80000	57.0	86.3	2183	very high noise
+ 714	 80000	56.8	86.1	2216	very high noise
+ 715	 80000	56.2	81.5	2165	very high noise
+ 716	 80000	56.0	81.7	2186	very high noise
+ 717	 80000	56.5	83.5	2200	very high noise
+ 718	 80000	59.9	83.2	2213	very high noise
+ 719	 80000	57.5	85.0	2189	very high noise
+ 720	 80000	52.4	79.9	2236	very high noise
+ 721	 80000	55.9	80.1	2175	very high noise
+ 722	 80000	57.3	87.8	2203	very high noise
+ 723	 80000	58.5	86.6	2177	very high noise
+ 724	 80000	56.2	82.8	2177	very high noise
+ 725	 80000	54.2	81.0	2208	very high noise
+ 726	 80000	55.7	81.7	2221	very high noise
+ 727	 80000	55.2	81.9	2193	very high noise
+ 728	 80000	57.6	87.5	2186	very high noise
+ 729	 80000	56.1	83.1	2214	very high noise
+ 730	 80000	53.0	81.7	2191	very high noise
+ 731	 80000	55.8	82.2	2212	very high noise
+ 732	 80000	54.9	81.9	2177	very high noise
+ 733	 80000	53.8	74.5	2207	very high noise
+ 734	 80000	56.9	83.3	2169	very high noise
+ 735	 80000	59.4	86.0	2188	very high noise
+ 736	 80000	57.3	83.1	2188	very high noise
+ 737	 80000	56.7	83.7	2209	very high noise
+ 738	 80000	55.8	84.1	2222	very high noise
+ 739	 80000	57.8	83.5	2181	very high noise
+ 740	 80000	57.8	83.1	2178	very high noise
+ 741	 80000	56.8	84.0	2194	very high noise
+ 742	 80000	54.7	80.6	2181	very high noise
+ 743	 80000	57.3	82.3	2196	very high noise
+ 744	 80000	57.5	87.2	2199	very high noise
+ 745	 80000	58.0	87.9	2170	very high noise
+ 746	 80000	56.7	83.0	2192	very high noise
+ 747	 80000	59.3	86.4	2203	very high noise
+ 748	 80000	56.5	81.5	2197	very high noise
+ 749	 80000	56.1	82.7	2202	very high noise
+ 750	 80000	57.9	86.8	2220	very high noise
+ 751	 80000	59.0	90.1	2179	very high noise
+ 752	 80000	57.8	88.0	2211	very high noise
+ 753	 80000	60.1	86.6	2192	very high noise
+ 754	 80000	52.8	73.1	2208	very high noise
+ 755	 80000	56.2	81.5	2195	very high noise
+ 756	 80000	55.0	80.5	2230	very high noise
+ 757	 80000	57.9	80.5	2203	very high noise
+ 758	 80000	55.2	80.3	2192	very high noise
+ 759	 80000	57.5	83.8	2197	very high noise
+ 760	     0	60.2	108.5	1877	OK
+ 761	 80000	58.4	90.4	2234	very high noise
+ 762	 80000	57.2	82.8	2189	very high noise
+ 763	 80000	57.8	83.6	2200	very high noise
+ 764	 80000	59.1	84.7	2178	very high noise
+ 765	 80000	57.7	88.9	2193	very high noise
+ 766	 80000	60.6	84.6	2187	very high noise
+ 767	 80000	59.3	84.7	2180	very high noise
+ 768	 80000	60.0	89.3	2172	very high noise
+ 769	 80000	60.4	86.9	2165	very high noise
+ 770	 80000	57.8	84.5	2158	very high noise
+ 771	 80000	56.5	82.0	2155	very high noise
+ 772	 80000	58.4	84.1	2152	very high noise
+ 773	 80000	58.6	89.2	2148	very high noise
+ 774	 80000	57.4	85.3	2143	very high noise
+ 775	 80000	59.2	88.9	2158	very high noise
+ 776	 80000	58.4	87.3	2168	very high noise
+ 777	 80000	59.9	85.5	2137	very high noise
+ 778	 80000	56.7	85.5	2143	very high noise
+ 779	 80000	57.7	83.9	2137	very high noise
+ 780	 80000	57.7	82.4	2121	very high noise
+ 781	 80000	60.4	87.2	2141	very high noise
+ 782	 80000	57.6	83.8	2132	very high noise
+ 783	 80000	59.4	91.2	2153	very high noise
+ 784	 80000	59.3	84.8	2136	very high noise
+ 785	 80000	59.9	87.1	2148	very high noise
+ 786	 80000	58.4	83.3	2114	very high noise
+ 787	 80000	58.7	85.7	2144	very high noise
+ 788	 80000	57.6	84.9	2142	very high noise
+ 789	 80000	59.2	88.9	2151	very high noise
+ 790	 80000	60.0	88.1	2140	very high noise
+ 791	 80000	61.2	87.0	2146	very high noise
+ 792	 80000	59.4	89.2	2127	very high noise
+ 793	 80000	63.2	93.8	2077	very high noise
+ 794	 80000	60.4	90.8	2141	very high noise
+ 795	 80000	59.5	90.1	2122	very high noise
+ 796	 80000	58.9	87.5	2105	very high noise
+ 797	 80000	59.6	88.7	2110	very high noise
+ 798	 80000	59.3	85.9	2135	very high noise
+ 799	 80000	60.3	84.9	2125	very high noise
+ 800	 80000	59.7	85.3	2125	very high noise
+ 801	 80000	58.7	82.5	2141	very high noise
+ 802	 80000	59.5	84.7	2143	very high noise
+ 803	 80000	60.4	84.9	2113	very high noise
+ 804	 80000	63.5	91.8	2085	very high noise
+ 805	 80000	61.0	90.5	2106	very high noise
+ 806	 80000	62.4	93.5	2094	very high noise
+ 807	 80000	52.6	56.7	2089	very high noise
+ 808	 80000	61.7	89.8	2133	very high noise
+ 809	 80000	59.9	86.7	2108	very high noise
+ 810	 80000	59.3	86.0	2135	very high noise
+ 811	 80000	61.7	91.1	2133	very high noise
+ 812	 80000	60.5	86.5	2125	very high noise
+ 813	 80000	55.2	70.7	2136	very high noise
+ 814	 80000	60.2	89.7	2138	very high noise
+ 815	 80000	60.6	89.6	2155	very high noise
+ 816	 80000	62.5	86.2	2107	very high noise
+ 817	 80000	61.4	87.0	2145	very high noise
+ 818	 80000	59.5	83.0	2146	very high noise
+ 819	 80000	60.5	87.2	2119	very high noise
+ 820	 80000	60.0	86.6	2138	very high noise
+ 821	 80000	62.3	86.9	2141	very high noise
+ 822	 80000	60.5	87.0	2153	very high noise
+ 823	 80000	60.9	87.0	2145	very high noise
+ 824	 80000	59.2	84.6	2146	very high noise
+ 825	 80000	61.8	88.1	2149	very high noise
+ 826	 80000	61.2	86.6	2126	very high noise
+ 827	 80000	61.6	86.7	2130	very high noise
+ 828	 80000	60.9	85.4	2105	very high noise
+ 829	 80000	63.2	88.6	2113	very high noise
+ 830	 80000	63.0	87.9	2115	very high noise
+ 831	 80000	61.8	86.9	2089	very high noise
+ 832	 80000	62.2	85.2	2119	very high noise
+ 833	 80000	63.8	92.8	2129	very high noise
+ 834	 80000	59.5	86.5	2142	very high noise
+ 835	 80000	61.5	82.2	2075	very high noise
+ 836	 80000	60.8	88.9	2165	very high noise
+ 837	 80000	61.1	90.2	2093	very high noise
+ 838	 80000	60.0	79.3	2097	very high noise
+ 839	 80000	62.0	91.4	2103	very high noise
+ 840	 80000	61.5	91.4	2138	very high noise
+ 841	 80000	60.1	90.1	2138	very high noise
+ 842	 80000	61.0	88.4	2122	very high noise
+ 843	 80000	60.1	88.2	2115	very high noise
+ 844	 80000	60.2	87.5	2123	very high noise
+ 845	 80000	62.4	87.7	2090	very high noise
+ 846	 80000	59.0	84.7	2113	very high noise
+ 847	 80000	59.3	84.4	2137	very high noise
+ 848	 80000	61.1	86.6	2145	very high noise
+ 849	 80000	59.3	83.0	2106	very high noise
+ 850	 80000	58.9	86.6	2177	very high noise
+ 851	 80000	58.1	83.3	2110	very high noise
+ 852	 80000	58.3	84.9	2142	very high noise
+ 853	 80000	59.9	90.5	2137	very high noise
+ 854	 80000	56.8	83.1	2150	very high noise
+ 855	 80000	58.3	85.6	2144	very high noise
+ 856	 80000	59.8	83.5	2130	very high noise
+ 857	 80000	57.2	81.2	2115	very high noise
+ 858	 80000	60.0	88.0	2147	very high noise
+ 859	 80000	60.4	92.1	2133	very high noise
+ 860	 80000	61.3	89.6	2125	very high noise
+ 861	 80000	59.9	83.9	2131	very high noise
+ 862	 80000	58.0	84.4	2146	very high noise
+ 863	 80000	59.8	89.4	2127	very high noise
+ 864	 80000	59.8	85.2	2112	very high noise
+ 865	 80000	58.7	84.8	2117	very high noise
+ 866	 80000	60.3	85.0	2119	very high noise
+ 867	 80000	60.8	87.0	2119	very high noise
+ 868	 80000	62.0	89.0	2130	very high noise
+ 869	 80000	62.8	88.8	2109	very high noise
+ 870	 80000	62.3	91.0	2122	very high noise
+ 871	 80000	61.0	87.0	2106	very high noise
+ 872	 80000	60.7	86.7	2130	very high noise
+ 873	 80000	59.6	88.7	2153	very high noise
+ 874	 80000	62.3	90.1	2105	very high noise
+ 875	 80000	60.3	87.6	2090	very high noise
+ 876	 80000	60.0	85.0	2116	very high noise
+ 877	 80000	58.5	81.7	2095	very high noise
+ 878	 80000	63.3	99.9	2059	very high noise
+ 879	 80000	59.3	85.7	2136	very high noise
+ 880	 80000	60.9	88.6	2118	very high noise
+ 881	 80000	59.9	84.9	2097	very high noise
+ 882	 80000	61.8	92.8	2141	very high noise
+ 883	 80000	59.3	85.1	2105	very high noise
+ 884	 80000	61.0	91.4	2128	very high noise
+ 885	 80000	58.2	86.7	2158	very high noise
+ 886	 80000	60.4	83.8	2115	very high noise
+ 887	 80000	62.4	91.8	2141	very high noise
+ 888	 80000	60.1	89.4	2116	very high noise
+ 889	 80000	59.5	86.8	2155	very high noise
+ 890	 80000	60.4	84.6	2108	very high noise
+ 891	 80000	62.5	86.8	2132	very high noise
+ 892	 80000	62.6	87.7	2141	very high noise
+ 893	 80000	60.9	90.5	2126	very high noise
+ 894	 80000	62.8	86.8	2137	very high noise
+ 895	 80000	60.5	90.5	2177	very high noise
+ 896	 80000	59.4	81.3	2096	very high noise
+ 897	 80000	63.5	91.3	2039	very high noise
+ 898	 80000	61.2	84.4	2017	very high noise
+ 899	 80000	62.2	89.1	2002	very high noise
+ 900	 80000	60.2	88.6	2000	very high noise
+ 901	 80000	59.1	83.7	2008	very high noise
+ 902	 80000	59.5	85.2	2018	very high noise
+ 903	 80000	59.6	85.8	2025	very high noise
+ 904	 80000	59.5	85.9	2016	very high noise
+ 905	 80000	61.5	84.9	2006	very high noise
+ 906	 80000	58.1	86.2	2002	very high noise
+ 907	 80000	59.4	86.3	2027	very high noise
+ 908	     0	59.7	87.8	1979	OK
+ 909	 80000	58.1	82.5	2024	very high noise
+ 910	     0	60.4	87.5	1994	OK
+ 911	 80000	59.8	86.5	2024	very high noise
+ 912	     0	57.5	81.9	1992	OK
+ 913	 80000	58.5	86.1	2001	very high noise
+ 914	     0	61.2	88.4	1994	OK
+ 915	 80000	58.7	86.5	2020	very high noise
+ 916	 80000	59.4	81.4	2025	very high noise
+ 917	 80000	60.5	85.9	2023	very high noise
+ 918	     0	59.3	86.5	1993	OK
+ 919	 80000	60.8	86.9	2029	very high noise
+ 920	     0	60.9	85.8	1968	OK
+ 921	     0	59.4	84.1	1987	OK
+ 922	 80000	58.6	87.1	2026	very high noise
+ 923	 80000	61.3	87.4	2006	very high noise
+ 924	     0	61.1	88.8	1988	OK
+ 925	 80000	61.7	85.0	2007	very high noise
+ 926	     0	60.6	86.6	1999	OK
+ 927	 80000	61.2	87.8	2006	very high noise
+ 928	 80000	60.4	86.1	2019	very high noise
+ 929	     0	62.0	90.1	1952	OK
+ 930	 80000	61.0	90.5	2009	very high noise
+ 931	     0	61.9	99.8	1881	OK
+ 932	 80000	60.1	86.5	2007	very high noise
+ 933	 80000	59.3	88.0	2021	very high noise
+ 934	     0	61.6	88.0	1973	OK
+ 935	 80000	59.8	88.6	2007	very high noise
+ 936	 80000	57.2	84.9	2019	very high noise
+ 937	 80000	59.5	84.4	2013	very high noise
+ 938	     0	58.2	84.0	1975	OK
+ 939	 80000	59.8	88.4	2034	very high noise
+ 940	 80000	59.8	85.8	2001	very high noise
+ 941	 80000	58.7	83.3	2020	very high noise
+ 942	 80000	57.2	83.2	2017	very high noise
+ 943	 80000	60.3	86.9	2024	very high noise
+ 944	 80000	60.5	89.4	2030	very high noise
+ 945	 80000	60.3	86.8	2014	very high noise
+ 946	 80000	59.1	84.0	2041	very high noise
+ 947	 80000	59.4	86.6	2012	very high noise
+ 948	     0	59.8	83.0	1984	OK
+ 949	 80000	57.6	83.4	2033	very high noise
+ 950	 80000	58.7	84.8	2010	very high noise
+ 951	 80000	59.3	83.9	2042	very high noise
+ 952	     0	58.6	85.3	1996	OK
+ 953	 80000	58.9	86.6	2011	very high noise
+ 954	     0	60.1	83.8	1995	OK
+ 955	 80000	59.1	82.7	2022	very high noise
+ 956	 80000	64.2	86.6	2002	very high noise
+ 957	 80000	59.8	85.1	2043	very high noise
+ 958	 80000	60.8	89.1	2009	very high noise
+ 959	 80000	60.5	85.3	2009	very high noise
+ 960	 80000	64.2	90.1	2011	very high noise
+ 961	 80000	62.0	86.1	2012	very high noise
+ 962	 80000	61.4	87.9	2037	very high noise
+ 963	 80000	58.4	82.4	2022	very high noise
+ 964	 80000	56.5	79.7	2039	very high noise
+ 965	 80000	61.1	88.4	2020	very high noise
+ 966	 80000	60.3	84.0	2025	very high noise
+ 967	 80000	58.4	85.2	2052	very high noise
+ 968	     0	60.0	84.5	1996	OK
+ 969	 80000	58.7	82.5	2027	very high noise
+ 970	 80000	58.2	85.8	2015	very high noise
+ 971	 80000	59.1	86.4	2071	very high noise
+ 972	 80000	58.8	83.7	2039	very high noise
+ 973	     0	59.8	89.3	1998	OK
+ 974	 80000	56.7	84.0	2044	very high noise
+ 975	 80000	58.2	85.1	2054	very high noise
+ 976	 80000	59.0	84.9	2014	very high noise
+ 977	 80000	59.5	85.2	2020	very high noise
+ 978	 80000	60.3	89.7	2035	very high noise
+ 979	 80000	57.9	82.9	2047	very high noise
+ 980	 80000	59.9	87.4	2034	very high noise
+ 981	 80000	58.0	84.3	2025	very high noise
+ 982	 80000	56.4	83.6	2063	very high noise
+ 983	 80000	57.1	83.8	2045	very high noise
+ 984	 80000	59.9	84.8	2041	very high noise
+ 985	 80000	56.7	83.3	2062	very high noise
+ 986	 80000	58.1	87.0	2042	very high noise
+ 987	 80000	57.6	84.7	2041	very high noise
+ 988	 80000	57.4	87.8	2013	very high noise
+ 989	 80000	56.2	84.5	2030	very high noise
+ 990	 80000	59.1	84.9	2054	very high noise
+ 991	 80000	59.6	87.2	2094	very high noise
+ 992	 80000	58.1	85.8	2040	very high noise
+ 993	 80000	57.1	80.8	2033	very high noise
+ 994	     0	59.9	92.3	1988	OK
+ 995	 80000	59.6	87.1	2033	very high noise
+ 996	 80000	57.6	83.5	2050	very high noise
+ 997	 80000	56.6	82.3	2040	very high noise
+ 998	 80000	56.6	80.6	2071	very high noise
+ 999	 80000	56.6	76.1	2012	very high noise
+1000	 80000	59.3	91.4	2029	very high noise
+1001	 80000	57.2	80.8	2065	very high noise
+1002	 80000	58.4	86.6	2044	very high noise
+1003	 80000	60.7	84.3	2049	very high noise
+1004	 80000	58.5	84.0	2057	very high noise
+1005	     0	59.0	98.0	1922	OK
+1006	     0	59.1	84.9	1995	OK
+1007	 80000	58.2	85.2	2049	very high noise
+1008	 80000	56.4	81.3	2044	very high noise
+1009	 80000	59.0	88.7	2029	very high noise
+1010	 80000	57.4	84.0	2060	very high noise
+1011	 80000	57.0	83.2	2027	very high noise
+1012	 80000	59.2	84.3	2038	very high noise
+1013	 80000	59.2	88.1	2058	very high noise
+1014	 80000	57.7	87.7	2043	very high noise
+1015	 80000	59.5	85.4	2070	very high noise
+1016	 80000	56.9	80.9	2042	very high noise
+1017	 80000	58.0	84.6	2073	very high noise
+1018	 80000	59.0	87.9	2032	very high noise
+1019	 80000	56.6	82.0	2082	very high noise
+1020	 80000	56.7	83.3	2062	very high noise
+1021	 80000	56.9	82.4	2060	very high noise
+1022	 80000	58.2	84.3	2032	very high noise
+1023	 80000	58.6	85.1	2054	very high noise
+1024	 80000	56.3	82.6	2171	very high noise
+1025	 80000	56.9	82.3	2141	very high noise
+1026	 80000	57.2	86.7	2165	very high noise
+1027	 80000	56.3	83.5	2188	very high noise
+1028	 80000	55.4	80.5	2135	very high noise
+1029	 80000	55.8	85.3	2148	very high noise
+1030	 80000	56.4	86.7	2132	very high noise
+1031	 80000	58.4	82.2	2129	very high noise
+1032	 80000	55.4	84.5	2152	very high noise
+1033	 80000	56.1	82.6	2152	very high noise
+1034	 80000	56.6	83.0	2149	very high noise
+1035	 80000	55.8	83.8	2135	very high noise
+1036	 80000	57.2	86.6	2132	very high noise
+1037	 80000	56.6	84.2	2177	very high noise
+1038	 80000	56.2	82.6	2129	very high noise
+1039	 80000	55.5	81.1	2164	very high noise
+1040	 80000	56.7	89.0	2156	very high noise
+1041	 80000	56.9	85.7	2178	very high noise
+1042	 80000	55.9	83.0	2151	very high noise
+1043	 80000	55.3	84.0	2203	very high noise
+1044	 80000	55.0	84.3	2169	very high noise
+1045	 80000	55.8	86.0	2185	very high noise
+1046	 80000	54.9	81.5	2187	very high noise
+1047	 80000	58.1	87.7	2151	very high noise
+1048	 80000	54.5	84.9	2198	very high noise
+1049	 80000	55.0	81.4	2164	very high noise
+1050	 80000	56.2	87.5	2172	very high noise
+1051	 80000	54.4	81.8	2180	very high noise
+1052	 80000	56.7	88.7	2169	very high noise
+1053	 80000	54.7	83.0	2202	very high noise
+1054	 80000	56.4	85.0	2156	very high noise
+1055	 80000	54.5	82.6	2187	very high noise
+1056	 80000	57.1	87.8	2162	very high noise
+1057	 80000	56.5	94.9	2106	very high noise
+1058	 80000	56.0	87.0	2178	very high noise
+1059	 80000	55.7	83.6	2161	very high noise
+1060	 80000	55.4	82.7	2161	very high noise
+1061	 80000	56.4	84.5	2178	very high noise
+1062	 80000	54.3	82.6	2163	very high noise
+1063	 80000	54.9	83.4	2182	very high noise
+1064	 80000	54.6	81.2	2205	very high noise
+1065	 80000	53.7	80.2	2189	very high noise
+1066	 80000	55.0	84.1	2157	very high noise
+1067	 80000	53.8	79.5	2173	very high noise
+1068	 80000	54.8	83.3	2187	very high noise
+1069	 80000	55.5	83.8	2139	very high noise
+1070	 80000	55.5	85.3	2179	very high noise
+1071	 80000	56.3	83.8	2200	very high noise
+1072	 80000	57.3	88.9	2165	very high noise
+1073	 80000	55.6	81.2	2173	very high noise
+1074	 80000	55.3	84.3	2167	very high noise
+1075	 80000	54.5	82.9	2154	very high noise
+1076	 80000	57.5	89.5	2147	very high noise
+1077	 80000	56.3	83.3	2174	very high noise
+1078	 80000	55.3	85.5	2134	very high noise
+1079	 80000	57.2	84.3	2181	very high noise
+1080	 80000	53.8	79.1	2157	very high noise
+1081	 80000	57.2	81.6	2136	very high noise
+1082	 80000	58.4	86.5	2155	very high noise
+1083	 80000	57.9	85.1	2167	very high noise
+1084	 80000	57.7	82.9	2098	very high noise
+1085	 80000	58.1	84.1	2177	very high noise
+1086	 80000	60.0	85.9	2110	very high noise
+1087	 80000	59.8	85.6	2160	very high noise
+1088	 80000	55.9	87.5	2179	very high noise
+1089	 80000	56.4	84.5	2167	very high noise
+1090	 80000	55.8	86.4	2158	very high noise
+1091	 80000	54.6	82.3	2172	very high noise
+1092	 80000	54.1	79.1	2150	very high noise
+1093	 80000	55.6	81.4	2103	very high noise
+1094	 80000	56.0	82.9	2161	very high noise
+1095	 80000	55.2	81.8	2142	very high noise
+1096	 80000	56.6	81.4	2141	very high noise
+1097	 80000	56.5	83.2	2176	very high noise
+1098	 80000	54.6	82.4	2186	very high noise
+1099	 80000	55.4	82.5	2136	very high noise
+1100	 80000	57.4	86.1	2184	very high noise
+1101	 80000	52.2	78.4	2163	very high noise
+1102	 80000	54.4	84.8	2214	very high noise
+1103	 80000	55.2	83.6	2139	very high noise
+1104	 80000	55.3	84.3	2175	very high noise
+1105	 80000	54.4	81.2	2163	very high noise
+1106	 80000	55.6	82.7	2149	very high noise
+1107	 80000	54.4	81.8	2173	very high noise
+1108	 80000	56.9	88.5	2128	very high noise
+1109	 80000	56.4	84.5	2166	very high noise
+1110	 80000	55.1	82.8	2184	very high noise
+1111	 80000	57.5	93.2	2125	very high noise
+1112	 80000	52.9	79.3	2189	very high noise
+1113	 80000	54.2	79.9	2157	very high noise
+1114	 80000	55.7	85.3	2139	very high noise
+1115	 80000	57.4	82.8	2151	very high noise
+1116	 80000	56.0	85.2	2185	very high noise
+1117	 80000	52.9	80.1	2145	very high noise
+1118	 80000	54.3	81.9	2179	very high noise
+1119	 80000	55.6	84.1	2189	very high noise
+1120	 80000	52.8	78.4	2173	very high noise
+1121	 80000	57.0	84.3	2156	very high noise
+1122	 80000	54.6	83.3	2190	very high noise
+1123	 80000	56.4	83.0	2113	very high noise
+1124	 80000	54.6	83.0	2186	very high noise
+1125	 80000	57.1	85.5	2169	very high noise
+1126	 80000	54.9	82.5	2190	very high noise
+1127	 80000	55.3	85.5	2162	very high noise
+1128	 80000	54.0	85.2	2169	very high noise
+1129	 80000	57.0	84.4	2147	very high noise
+1130	 80000	54.7	82.3	2154	very high noise
+1131	 80000	55.6	84.0	2190	very high noise
+1132	 80000	54.8	82.8	2147	very high noise
+1133	 80000	56.8	84.1	2159	very high noise
+1134	 80000	56.8	86.7	2170	very high noise
+1135	 80000	56.9	86.8	2151	very high noise
+1136	 80000	55.8	82.6	2184	very high noise
+1137	 80000	55.3	80.6	2161	very high noise
+1138	 80000	55.3	81.7	2171	very high noise
+1139	 80000	55.3	85.6	2152	very high noise
+1140	 80000	54.2	84.3	2157	very high noise
+1141	 80000	55.2	81.5	2160	very high noise
+1142	 80000	56.8	80.7	2143	very high noise
+1143	 80000	56.0	81.8	2160	very high noise
+1144	 80000	55.2	80.2	2153	very high noise
+1145	 80000	56.0	82.8	2199	very high noise
+1146	 80000	55.0	84.2	2200	very high noise
+1147	 80000	56.9	82.8	2157	very high noise
+1148	 80000	53.4	82.0	2205	very high noise
+1149	 80000	58.8	86.0	2217	very high noise
+1150	 80000	57.3	81.9	2226	very high noise
+1151	 80000	57.9	82.1	2335	very high noise
+1152	 80000	59.9	85.8	2101	very high noise
+1153	 80000	59.2	84.1	2111	very high noise
+1154	 80000	58.7	83.6	2105	very high noise
+1155	 80000	59.5	84.1	2084	very high noise
+1156	 80000	56.2	82.5	2069	very high noise
+1157	 80000	55.0	79.8	2123	very high noise
+1158	 80000	59.8	84.2	2136	very high noise
+1159	 80000	58.2	85.3	2073	very high noise
+1160	 80000	57.8	87.0	2126	very high noise
+1161	 80000	56.5	83.0	2132	very high noise
+1162	 80000	60.3	88.1	2089	very high noise
+1163	 80000	57.9	82.8	2089	very high noise
+1164	 80000	58.6	85.3	2109	very high noise
+1165	 80000	55.6	84.1	2115	very high noise
+1166	 80000	59.0	82.8	2079	very high noise
+1167	 80000	58.1	87.1	2085	very high noise
+1168	 80000	52.4	68.2	2054	very high noise
+1169	 80000	57.2	85.9	2061	very high noise
+1170	 80000	56.5	86.8	2139	very high noise
+1171	 80000	57.3	82.9	2086	very high noise
+1172	 80000	57.4	80.9	2128	very high noise
+1173	 80000	58.0	83.0	2122	very high noise
+1174	 80000	56.7	84.6	2110	very high noise
+1175	 80000	57.6	81.9	2096	very high noise
+1176	 80000	57.6	82.5	2078	very high noise
+1177	 80000	58.4	82.6	2118	very high noise
+1178	 80000	57.4	82.2	2103	very high noise
+1179	 80000	60.9	89.4	2103	very high noise
+1180	 80000	60.6	92.6	2108	very high noise
+1181	     0	59.3	133.5	1771	OK
+1182	 80000	56.6	82.5	2088	very high noise
+1183	 80000	56.0	82.2	2116	very high noise
+1184	 80000	59.7	87.4	2130	very high noise
+1185	 80000	57.8	83.5	2119	very high noise
+1186	 80000	57.9	88.9	2141	very high noise
+1187	 80000	59.7	86.5	2120	very high noise
+1188	 80000	55.2	82.6	2128	very high noise
+1189	 80000	56.8	84.2	2091	very high noise
+1190	 80000	57.7	82.3	2101	very high noise
+1191	 80000	59.8	87.2	2090	very high noise
+1192	 80000	56.1	81.3	2119	very high noise
+1193	 80000	58.4	86.0	2119	very high noise
+1194	 80000	58.5	89.6	2121	very high noise
+1195	 80000	56.5	85.3	2142	very high noise
+1196	 80000	57.3	82.9	2111	very high noise
+1197	 80000	57.5	81.1	2117	very high noise
+1198	 80000	58.1	85.6	2142	very high noise
+1199	 80000	56.5	80.9	2061	very high noise
+1200	 80000	58.4	86.3	2136	very high noise
+1201	 80000	58.6	84.4	2121	very high noise
+1202	 80000	58.1	83.5	2085	very high noise
+1203	 80000	61.0	89.1	2112	very high noise
+1204	 80000	57.3	79.4	2072	very high noise
+1205	 80000	58.4	82.9	2133	very high noise
+1206	 80000	56.5	84.0	2077	very high noise
+1207	 80000	58.5	84.3	2110	very high noise
+1208	 80000	59.1	82.7	2069	very high noise
+1209	 80000	59.6	85.1	2132	very high noise
+1210	 80000	61.1	87.5	2113	very high noise
+1211	 80000	59.0	85.3	2116	very high noise
+1212	 80000	60.7	89.2	2105	very high noise
+1213	 80000	61.1	85.7	2124	very high noise
+1214	 80000	61.9	87.7	2063	very high noise
+1215	 80000	63.3	89.1	2098	very high noise
+1216	 80000	61.0	88.6	2087	very high noise
+1217	 80000	61.4	85.4	2101	very high noise
+1218	 80000	58.9	85.0	2085	very high noise
+1219	 80000	57.5	82.8	2099	very high noise
+1220	 80000	58.1	91.0	2107	very high noise
+1221	 80000	55.7	82.1	2119	very high noise
+1222	 80000	59.3	85.5	2076	very high noise
+1223	 80000	59.2	86.8	2083	very high noise
+1224	 80000	56.7	82.9	2114	very high noise
+1225	 80000	59.1	84.5	2079	very high noise
+1226	 80000	57.9	85.4	2090	very high noise
+1227	 80000	56.0	81.0	2112	very high noise
+1228	 80000	56.8	82.8	2110	very high noise
+1229	 80000	59.3	82.2	2125	very high noise
+1230	 80000	59.2	84.8	2095	very high noise
+1231	 80000	61.3	89.1	2072	very high noise
+1232	 80000	57.9	86.9	2084	very high noise
+1233	 80000	61.8	90.3	2109	very high noise
+1234	 80000	58.4	86.6	2106	very high noise
+1235	 80000	58.5	84.7	2080	very high noise
+1236	 80000	59.8	83.2	2058	very high noise
+1237	 80000	59.0	87.8	2088	very high noise
+1238	 80000	58.3	84.8	2076	very high noise
+1239	 80000	58.5	84.9	2124	very high noise
+1240	 80000	62.6	87.0	2060	very high noise
+1241	 80000	58.1	85.8	2102	very high noise
+1242	 80000	58.4	81.1	2101	very high noise
+1243	 80000	58.3	87.4	2130	very high noise
+1244	 80000	58.1	83.1	2088	very high noise
+1245	 80000	57.9	83.8	2100	very high noise
+1246	 80000	55.9	85.0	2086	very high noise
+1247	 80000	58.9	83.6	2076	very high noise
+1248	 80000	56.8	84.1	2046	very high noise
+1249	 80000	59.3	89.0	2123	very high noise
+1250	 80000	56.6	81.9	2129	very high noise
+1251	 80000	57.7	84.3	2101	very high noise
+1252	 80000	57.0	81.6	2078	very high noise
+1253	 80000	56.7	82.8	2120	very high noise
+1254	 80000	56.6	81.7	2086	very high noise
+1255	 80000	59.4	86.7	2070	very high noise
+1256	 80000	56.8	83.4	2105	very high noise
+1257	 80000	58.1	87.2	2119	very high noise
+1258	 80000	58.5	86.3	2113	very high noise
+1259	 80000	58.6	86.5	2082	very high noise
+1260	 80000	58.7	83.0	2071	very high noise
+1261	 80000	57.7	84.2	2118	very high noise
+1262	 80000	57.7	84.6	2106	very high noise
+1263	 80000	58.0	81.9	2088	very high noise
+1264	 80000	57.0	82.5	2136	very high noise
+1265	 80000	57.7	92.7	2095	very high noise
+1266	 80000	57.9	85.6	2107	very high noise
+1267	 80000	58.1	85.1	2124	very high noise
+1268	 80000	58.5	82.1	2072	very high noise
+1269	 80000	56.6	82.5	2109	very high noise
+1270	 80000	57.7	82.6	2113	very high noise
+1271	 80000	56.7	85.7	2106	very high noise
+1272	 80000	57.3	86.0	2108	very high noise
+1273	 80000	57.3	85.7	2103	very high noise
+1274	 80000	59.4	85.8	2099	very high noise
+1275	 80000	58.2	82.8	2082	very high noise
+1276	 80000	58.9	82.4	2083	very high noise
+1277	 80000	62.5	93.1	2082	very high noise
+1278	 80000	60.7	88.7	2083	very high noise
+1279	 80000	63.1	94.5	2085	very high noise
+1280	 80000	61.3	90.3	2067	very high noise
+1281	 80000	62.9	90.3	2058	very high noise
+1282	 80000	58.1	83.2	2109	very high noise
+1283	 80000	55.6	79.3	2092	very high noise
+1284	 80000	57.6	82.8	2049	very high noise
+1285	     0	59.5	129.6	1694	OK
+1286	 80000	55.1	82.3	2099	very high noise
+1287	 80000	59.0	85.4	2073	very high noise
+1288	 80000	57.7	81.2	2055	very high noise
+1289	 80000	58.2	84.5	2006	very high noise
+1290	 80000	56.8	86.0	2082	very high noise
+1291	 80000	57.5	85.0	2100	very high noise
+1292	 80000	58.0	80.0	2067	very high noise
+1293	 80000	58.5	83.2	2037	very high noise
+1294	 80000	58.7	85.0	2077	very high noise
+1295	 80000	56.5	88.7	2073	very high noise
+1296	 80000	57.7	83.4	2061	very high noise
+1297	 80000	58.1	86.3	2050	very high noise
+1298	 80000	56.0	82.3	2099	very high noise
+1299	 80000	57.5	81.4	2062	very high noise
+1300	 80000	56.7	86.3	2086	very high noise
+1301	 80000	56.3	81.4	2091	very high noise
+1302	 80000	56.4	82.6	2100	very high noise
+1303	 80000	56.8	82.8	2088	very high noise
+1304	 80000	56.9	82.1	2046	very high noise
+1305	 80000	56.8	81.1	2065	very high noise
+1306	 80000	56.4	82.5	2086	very high noise
+1307	 80000	59.9	91.6	2042	very high noise
+1308	 80000	58.1	86.1	2087	very high noise
+1309	 80000	56.1	80.1	2051	very high noise
+1310	 80000	57.1	86.7	2120	very high noise
+1311	 80000	58.1	83.7	2098	very high noise
+1312	 80000	55.9	81.4	2082	very high noise
+1313	 80000	57.8	83.0	2076	very high noise
+1314	 80000	58.6	89.2	2066	very high noise
+1315	 80000	56.2	83.3	2093	very high noise
+1316	 80000	59.4	87.1	2063	very high noise
+1317	 80000	55.4	81.2	2090	very high noise
+1318	 80000	57.8	86.2	2081	very high noise
+1319	 80000	54.9	81.0	2076	very high noise
+1320	 80000	55.2	83.4	2112	very high noise
+1321	 80000	57.2	86.7	2080	very high noise
+1322	 80000	55.5	82.0	2065	very high noise
+1323	 80000	57.2	80.8	2076	very high noise
+1324	 80000	55.2	81.6	2084	very high noise
+1325	 80000	57.7	85.3	2083	very high noise
+1326	 80000	56.0	85.4	2074	very high noise
+1327	 80000	57.0	85.8	2116	very high noise
+1328	 80000	57.7	83.1	2059	very high noise
+1329	 80000	57.1	82.0	2080	very high noise
+1330	 80000	57.9	86.7	2088	very high noise
+1331	 80000	58.1	82.4	2089	very high noise
+1332	 80000	57.5	81.5	2090	very high noise
+1333	 80000	57.0	83.2	2089	very high noise
+1334	 80000	58.4	86.8	2093	very high noise
+1335	 80000	56.9	82.5	2103	very high noise
+1336	 80000	58.5	87.3	2097	very high noise
+1337	 80000	56.3	82.5	2092	very high noise
+1338	 80000	58.5	82.3	2049	very high noise
+1339	 80000	60.4	87.0	2061	very high noise
+1340	 80000	58.5	85.6	2093	very high noise
+1341	 80000	60.2	86.6	2070	very high noise
+1342	 80000	59.2	85.0	2055	very high noise
+1343	 80000	61.8	83.8	2019	very high noise
+1344	 80000	56.0	83.0	2087	very high noise
+1345	 80000	58.3	85.8	2099	very high noise
+1346	 80000	58.4	83.1	2081	very high noise
+1347	 80000	55.7	83.0	2103	very high noise
+1348	 80000	56.5	83.8	2081	very high noise
+1349	 80000	57.2	83.7	2079	very high noise
+1350	 80000	55.9	80.1	2062	very high noise
+1351	 80000	57.1	85.8	2076	very high noise
+1352	 80000	56.2	80.8	2106	very high noise
+1353	 80000	57.3	81.5	2074	very high noise
+1354	 80000	60.2	88.5	2057	very high noise
+1355	 80000	55.4	84.5	2064	very high noise
+1356	 80000	56.5	86.1	2079	very high noise
+1357	 80000	57.8	85.4	2071	very high noise
+1358	 80000	58.3	88.1	2070	very high noise
+1359	 80000	56.7	85.4	2086	very high noise
+1360	 80000	54.4	79.2	2109	very high noise
+1361	 80000	57.4	81.8	2060	very high noise
+1362	 80000	56.1	83.6	2116	very high noise
+1363	 80000	57.1	84.0	2072	very high noise
+1364	 80000	58.0	83.7	2062	very high noise
+1365	 80000	55.7	85.5	2093	very high noise
+1366	 80000	56.5	81.4	2084	very high noise
+1367	 80000	57.0	87.3	2076	very high noise
+1368	 80000	56.4	86.9	2086	very high noise
+1369	 80000	56.1	86.8	2092	very high noise
+1370	 80000	56.2	82.1	2082	very high noise
+1371	 80000	55.2	84.5	2061	very high noise
+1372	 80000	56.6	85.1	2115	very high noise
+1373	 80000	56.3	84.6	2120	very high noise
+1374	 80000	56.1	85.0	2090	very high noise
+1375	 80000	57.8	94.2	2045	very high noise
+1376	 80000	56.9	86.5	2092	very high noise
+1377	 80000	54.0	82.5	2091	very high noise
+1378	 80000	55.3	80.0	2082	very high noise
+1379	 80000	57.0	87.0	2099	very high noise
+1380	 80000	57.7	85.0	2092	very high noise
+1381	 80000	55.4	83.4	2072	very high noise
+1382	 80000	55.1	84.7	2123	very high noise
+1383	 80000	56.3	82.5	2088	very high noise
+1384	 80000	54.7	84.5	2083	very high noise
+1385	     0	57.7	105.7	1754	OK
+1386	 80000	58.6	87.6	2067	very high noise
+1387	 80000	55.4	85.4	2121	very high noise
+1388	 80000	55.1	82.4	2081	very high noise
+1389	 80000	55.3	81.7	2119	very high noise
+1390	 80000	54.5	82.1	2095	very high noise
+1391	 80000	54.7	83.4	2122	very high noise
+1392	 80000	55.5	82.9	2102	very high noise
+1393	 80000	54.9	84.5	2082	very high noise
+1394	 80000	54.0	78.3	2033	very high noise
+1395	 80000	54.8	82.7	2128	very high noise
+1396	 80000	51.8	78.9	2099	very high noise
+1397	 80000	55.9	88.2	2081	very high noise
+1398	 80000	56.2	82.8	2101	very high noise
+1399	 80000	55.4	86.0	2072	very high noise
+1400	 80000	54.4	84.2	2094	very high noise
+1401	 80000	55.6	82.8	2102	very high noise
+1402	 80000	56.5	84.4	2075	very high noise
+1403	 80000	56.5	87.0	2101	very high noise
+1404	 80000	55.1	83.8	2146	very high noise
+1405	 80000	56.6	82.3	2076	very high noise
+1406	 80000	56.5	84.4	2073	very high noise
+1407	 80000	58.7	84.4	2054	very high noise
+1408	 80000	57.9	80.9	2002	very high noise
+1409	 80000	56.8	82.6	2036	very high noise
+1410	     0	59.2	87.2	1994	OK
+1411	     0	59.3	86.7	1987	OK
+1412	 80000	56.8	83.8	2028	very high noise
+1413	 80000	58.2	85.0	2003	very high noise
+1414	 80000	56.0	79.7	2013	very high noise
+1415	 80000	56.8	84.0	2031	very high noise
+1416	     0	58.3	82.7	1999	OK
+1417	 80000	59.1	87.6	2013	very high noise
+1418	     0	58.2	82.4	1977	OK
+1419	     0	57.4	85.8	1995	OK
+1420	     0	58.3	91.0	1974	OK
+1421	 80000	56.2	82.8	2028	very high noise
+1422	     0	58.5	85.6	1995	OK
+1423	     0	60.4	90.2	1981	OK
+1424	 80000	56.6	81.7	2007	very high noise
+1425	 80000	58.3	85.0	2039	very high noise
+1426	     0	55.8	82.4	1980	OK
+1427	     0	59.4	87.7	1973	OK
+1428	 80000	58.8	84.2	2013	very high noise
+1429	     0	56.6	75.6	1952	OK
+1430	     0	59.5	89.0	1953	OK
+1431	 80000	59.8	87.0	2018	very high noise
+1432	     0	58.7	82.0	1996	OK
+1433	     0	60.7	85.8	1982	OK
+1434	     0	57.1	82.7	1991	OK
+1435	     0	58.6	82.1	1987	OK
+1436	 80000	59.2	86.2	2008	very high noise
+1437	     0	58.6	85.9	1985	OK
+1438	 80000	57.8	84.4	2002	very high noise
+1439	     0	58.6	86.4	1999	OK
+1440	 80000	58.4	86.2	2008	very high noise
+1441	     0	58.8	83.8	1992	OK
+1442	 80000	60.7	88.6	2009	very high noise
+1443	 80000	58.2	83.5	2016	very high noise
+1444	 80000	60.4	86.5	2018	very high noise
+1445	     0	59.4	87.8	1989	OK
+1446	 80000	56.5	84.1	2010	very high noise
+1447	     0	59.0	87.7	1990	OK
+1448	 80000	57.4	81.2	2009	very high noise
+1449	 80000	58.4	86.8	2015	very high noise
+1450	     0	56.9	80.9	1985	OK
+1451	 80000	61.3	87.6	2017	very high noise
+1452	     0	60.7	89.7	1997	OK
+1453	     0	57.6	83.4	1984	OK
+1454	     0	60.0	89.3	1980	OK
+1455	 80000	60.0	86.9	2011	very high noise
+1456	     0	58.6	81.9	1979	OK
+1457	 80000	59.9	89.1	2017	very high noise
+1458	 80000	58.8	85.9	2023	very high noise
+1459	 80000	59.2	84.8	2016	very high noise
+1460	 80000	58.4	85.2	2016	very high noise
+1461	 80000	59.3	87.6	2017	very high noise
+1462	     0	58.7	86.2	1999	OK
+1463	     0	59.2	96.4	1890	OK
+1464	     0	59.9	85.0	1990	OK
+1465	 80000	58.7	85.5	2015	very high noise
+1466	 80000	60.7	86.0	2009	very high noise
+1467	     0	60.8	87.7	2000	OK
+1468	     0	62.9	88.6	1998	OK
+1469	 80000	61.0	83.6	2002	very high noise
+1470	     0	62.7	88.0	1984	OK
+1471	     0	63.4	86.0	1982	OK
+1472	     0	61.1	84.8	1999	OK
+1473	     0	60.1	85.9	1981	OK
+1474	 80000	58.5	85.3	2018	very high noise
+1475	     0	61.6	87.7	1970	OK
+1476	 80000	57.7	86.6	2003	very high noise
+1477	     0	57.7	81.3	1997	OK
+1478	 80000	58.6	87.4	2020	very high noise
+1479	     0	60.2	85.0	1979	OK
+1480	 80000	57.4	83.0	2017	very high noise
+1481	     0	59.4	84.1	1979	OK
+1482	 80000	57.7	85.6	2004	very high noise
+1483	     0	60.5	88.0	1981	OK
+1484	 80000	57.7	83.0	2010	very high noise
+1485	     0	57.4	81.3	1996	OK
+1486	 80000	57.2	84.6	2024	very high noise
+1487	     0	58.9	86.6	1997	OK
+1488	 80000	58.0	83.8	2021	very high noise
+1489	 80000	58.6	87.7	2008	very high noise
+1490	     0	59.6	84.1	1983	OK
+1491	     0	59.4	82.9	1980	OK
+1492	     0	58.5	88.1	1988	OK
+1493	     0	59.4	86.0	1993	OK
+1494	     0	58.0	81.4	1970	OK
+1495	 80000	58.3	81.9	2019	very high noise
+1496	     0	59.1	87.6	1992	OK
+1497	     0	58.3	84.7	1983	OK
+1498	 80000	61.0	89.7	2015	very high noise
+1499	     0	59.1	87.9	1996	OK
+1500	     0	58.4	85.7	1972	OK
+1501	     0	60.1	87.5	2000	OK
+1502	     0	59.7	86.9	1992	OK
+1503	 80000	58.1	85.9	2002	very high noise
+1504	     0	58.4	83.5	1938	OK
+1505	 80000	57.1	87.9	2013	very high noise
+1506	 80000	58.7	82.6	2004	very high noise
+1507	     0	61.0	86.1	1972	OK
+1508	 80000	61.2	85.5	2002	very high noise
+1509	     0	58.7	84.7	1998	OK
+1510	 80000	59.3	85.9	2016	very high noise
+1511	 80000	60.9	89.1	2001	very high noise
+1512	     0	60.3	83.5	1981	OK
+1513	     0	61.3	85.1	1971	OK
+1514	     0	61.9	86.4	1973	OK
+1515	     0	63.1	88.0	1958	OK
+1516	     0	59.1	83.4	1982	OK
+1517	     0	55.3	64.7	1953	OK
+1518	     0	61.2	87.7	1997	OK
+1519	     0	59.6	86.1	1979	OK
+1520	     0	63.0	89.4	1933	OK
+1521	     0	62.8	86.6	1974	OK
+1522	     0	60.9	86.5	1975	OK
+1523	     0	64.6	91.1	1953	OK
+1524	     0	62.4	85.9	1948	OK
+1525	     0	59.6	83.6	1991	OK
+1526	     0	61.7	85.8	1974	OK
+1527	     0	61.8	88.4	1970	OK
+1528	     0	60.6	86.7	1974	OK
+1529	     0	62.1	87.0	1996	OK
+1530	     0	62.4	87.9	1983	OK
+1531	     0	61.9	86.4	1980	OK
+1532	     0	62.8	85.3	1976	OK
+1533	     0	64.4	90.8	1967	OK
+1534	     0	64.3	88.5	1977	OK
+1535	     0	62.1	86.9	1976	OK
+1536	 80000	57.0	85.2	2074	very high noise
+1537	 80000	59.6	87.5	2014	very high noise
+1538	 80000	57.5	83.3	2025	very high noise
+1539	 80000	59.8	83.1	2042	very high noise
+1540	 80000	56.8	83.2	2059	very high noise
+1541	 80000	59.1	86.5	2021	very high noise
+1542	 80000	57.8	82.9	2038	very high noise
+1543	 80000	59.1	89.5	2062	very high noise
+1544	 80000	58.4	86.5	2031	very high noise
+1545	 80000	56.5	84.5	2051	very high noise
+1546	 80000	56.7	84.6	2040	very high noise
+1547	 80000	58.3	87.2	2084	very high noise
+1548	 80000	56.5	80.5	2048	very high noise
+1549	 80000	58.7	87.5	2048	very high noise
+1550	 80000	59.6	85.8	2041	very high noise
+1551	 80000	59.6	89.3	2034	very high noise
+1552	 80000	57.3	81.9	2085	very high noise
+1553	 80000	56.9	82.1	2048	very high noise
+1554	 80000	57.9	82.7	2054	very high noise
+1555	 80000	59.1	84.9	2050	very high noise
+1556	 80000	58.3	83.8	2052	very high noise
+1557	 80000	59.7	86.9	2060	very high noise
+1558	 80000	57.3	84.1	2051	very high noise
+1559	 80000	58.7	84.9	2054	very high noise
+1560	 80000	60.4	87.7	2041	very high noise
+1561	 80000	61.4	85.8	2044	very high noise
+1562	 80000	58.3	83.6	2074	very high noise
+1563	 80000	58.7	86.0	2056	very high noise
+1564	 80000	58.7	87.0	2066	very high noise
+1565	 80000	58.3	88.4	2071	very high noise
+1566	 80000	58.5	87.2	2062	very high noise
+1567	 80000	57.2	85.5	2054	very high noise
+1568	     0	58.5	95.2	1989	OK
+1569	 80000	54.3	78.9	2077	very high noise
+1570	 80000	56.7	84.9	2065	very high noise
+1571	 80000	57.5	87.1	2069	very high noise
+1572	 80000	57.2	86.4	2088	very high noise
+1573	 80000	58.4	83.7	2063	very high noise
+1574	 80000	58.4	86.4	2105	very high noise
+1575	 80000	56.8	80.9	2081	very high noise
+1576	 80000	56.9	85.6	2042	very high noise
+1577	 80000	56.4	82.9	2091	very high noise
+1578	 80000	57.3	83.6	2060	very high noise
+1579	 80000	56.6	81.5	2085	very high noise
+1580	 80000	57.0	86.7	2060	very high noise
+1581	 80000	58.1	86.3	2048	very high noise
+1582	 80000	56.0	84.2	2084	very high noise
+1583	 80000	58.3	88.8	2062	very high noise
+1584	 80000	59.0	86.1	2040	very high noise
+1585	 80000	59.2	85.5	2061	very high noise
+1586	 80000	59.5	84.4	2068	very high noise
+1587	 80000	58.0	83.4	2066	very high noise
+1588	 80000	59.9	87.3	2042	very high noise
+1589	 80000	60.1	85.1	2069	very high noise
+1590	 80000	59.2	84.9	2031	very high noise
+1591	 80000	57.7	85.6	2086	very high noise
+1592	 80000	59.6	86.4	2056	very high noise
+1593	 80000	58.0	85.7	2058	very high noise
+1594	     0	60.2	95.2	1995	OK
+1595	 80000	60.7	92.1	2008	very high noise
+1596	 80000	60.2	84.3	2052	very high noise
+1597	 80000	59.1	86.7	2065	very high noise
+1598	 80000	61.5	86.8	2041	very high noise
+1599	 80000	64.0	87.9	2022	very high noise
+1600	 80000	57.1	80.6	2065	very high noise
+1601	 80000	59.1	87.9	2074	very high noise
+1602	 80000	58.0	82.0	2038	very high noise
+1603	 80000	60.9	91.1	2048	very high noise
+1604	 80000	58.8	83.8	2109	very high noise
+1605	 80000	58.7	85.7	2059	very high noise
+1606	 80000	59.3	85.6	2085	very high noise
+1607	 80000	55.8	81.7	2074	very high noise
+1608	 80000	59.0	88.8	2080	very high noise
+1609	 80000	57.2	86.2	2087	very high noise
+1610	 80000	56.3	82.0	2092	very high noise
+1611	 80000	56.3	84.1	2095	very high noise
+1612	 80000	58.8	87.4	2063	very high noise
+1613	 80000	57.1	85.4	2081	very high noise
+1614	 80000	60.4	87.5	2061	very high noise
+1615	 80000	59.8	87.4	2089	very high noise
+1616	 80000	57.2	81.9	2055	very high noise
+1617	 80000	57.7	87.3	2067	very high noise
+1618	 80000	58.4	86.1	2107	very high noise
+1619	 80000	61.2	89.0	2060	very high noise
+1620	 80000	57.1	84.8	2049	very high noise
+1621	 80000	57.5	85.0	2109	very high noise
+1622	 80000	57.8	85.2	2032	very high noise
+1623	 80000	57.0	84.1	2084	very high noise
+1624	 80000	57.2	82.8	2080	very high noise
+1625	 80000	57.1	84.3	2069	very high noise
+1626	 80000	57.6	84.5	2079	very high noise
+1627	 80000	58.6	84.1	2065	very high noise
+1628	     0	59.6	117.1	1680	OK
+1629	 80000	58.6	84.7	2053	very high noise
+1630	 80000	56.1	81.4	2071	very high noise
+1631	 80000	57.0	83.0	2089	very high noise
+1632	 80000	57.4	83.8	2079	very high noise
+1633	 80000	59.8	91.6	2050	very high noise
+1634	 80000	56.4	82.5	2092	very high noise
+1635	 80000	59.2	85.3	2118	very high noise
+1636	 80000	57.1	81.7	2065	very high noise
+1637	 80000	57.7	86.9	2095	very high noise
+1638	 80000	57.5	86.2	2083	very high noise
+1639	 80000	58.7	83.5	2059	very high noise
+1640	 80000	58.5	85.7	2060	very high noise
+1641	     0	61.2	108.1	1773	OK
+1642	 80000	58.0	93.0	2034	very high noise
+1643	 80000	59.2	85.8	2052	very high noise
+1644	 80000	57.8	85.9	2114	very high noise
+1645	 80000	57.3	83.7	2064	very high noise
+1646	 80000	56.5	80.9	2083	very high noise
+1647	 80000	57.5	82.7	2086	very high noise
+1648	 80000	56.7	83.0	2065	very high noise
+1649	 80000	55.5	81.7	2093	very high noise
+1650	 80000	54.9	80.6	2080	very high noise
+1651	 80000	58.1	86.8	2058	very high noise
+1652	 80000	57.6	85.1	2086	very high noise
+1653	 80000	57.7	86.4	2106	very high noise
+1654	 80000	57.2	84.3	2077	very high noise
+1655	 80000	57.2	82.1	2065	very high noise
+1656	 80000	56.8	81.6	2088	very high noise
+1657	 80000	57.9	84.6	2117	very high noise
+1658	 80000	58.3	84.2	2067	very high noise
+1659	 80000	59.5	86.1	2084	very high noise
+1660	 80000	57.1	80.8	2039	very high noise
+1661	 80000	57.6	80.7	2049	very high noise
+1662	 80000	63.3	91.6	2043	very high noise
+1663	 80000	61.3	86.4	2071	very high noise
+1664	 80000	63.0	91.4	2014	very high noise
+1665	 80000	61.3	86.4	2043	very high noise
+1666	 80000	59.9	85.8	2032	very high noise
+1667	 80000	60.0	86.5	2087	very high noise
+1668	 80000	56.7	80.3	2053	very high noise
+1669	 80000	57.7	83.6	2027	very high noise
+1670	 80000	57.4	84.2	2037	very high noise
+1671	 80000	58.1	83.8	2073	very high noise
+1672	 80000	57.3	85.3	2080	very high noise
+1673	 80000	57.7	84.4	2041	very high noise
+1674	 80000	57.9	82.9	2030	very high noise
+1675	 80000	58.2	84.6	2060	very high noise
+1676	 80000	55.3	79.9	2062	very high noise
+1677	 80000	57.4	86.5	2067	very high noise
+1678	 80000	59.1	83.4	2047	very high noise
+1679	 80000	59.4	87.4	2058	very high noise
+1680	 80000	57.9	84.8	2061	very high noise
+1681	 80000	55.8	82.7	2086	very high noise
+1682	 80000	56.1	80.9	2062	very high noise
+1683	 80000	58.6	84.7	2073	very high noise
+1684	 80000	56.0	81.2	2060	very high noise
+1685	 80000	58.6	83.2	2058	very high noise
+1686	 80000	57.0	83.2	2074	very high noise
+1687	 80000	57.6	83.1	2059	very high noise
+1688	 80000	57.1	83.6	2076	very high noise
+1689	 80000	55.0	80.7	2089	very high noise
+1690	 80000	57.5	83.9	2072	very high noise
+1691	 80000	58.3	85.7	2053	very high noise
+1692	 80000	59.2	86.5	2051	very high noise
+1693	 80000	58.4	83.7	2101	very high noise
+1694	 80000	59.2	87.0	2059	very high noise
+1695	 80000	59.5	87.0	2063	very high noise
+1696	 80000	60.2	87.3	2021	very high noise
+1697	 80000	59.3	85.8	2067	very high noise
+1698	 80000	57.1	85.6	2056	very high noise
+1699	 80000	57.3	85.1	2078	very high noise
+1700	 80000	61.7	85.9	2062	very high noise
+1701	 80000	58.3	86.0	2049	very high noise
+1702	 80000	57.7	80.9	2051	very high noise
+1703	 80000	58.8	85.3	2097	very high noise
+1704	 80000	57.5	84.3	2067	very high noise
+1705	 80000	59.4	86.1	2029	very high noise
+1706	 80000	57.7	82.2	2076	very high noise
+1707	 80000	59.0	84.2	2082	very high noise
+1708	 80000	57.6	84.8	2048	very high noise
+1709	 80000	59.7	90.1	2050	very high noise
+1710	 80000	57.3	84.2	2038	very high noise
+1711	     0	57.4	137.6	1719	OK
+1712	 80000	57.5	84.9	2049	very high noise
+1713	 80000	58.6	83.8	2030	very high noise
+1714	 80000	59.2	86.7	2072	very high noise
+1715	 80000	59.3	83.7	2043	very high noise
+1716	 80000	58.0	86.8	2048	very high noise
+1717	 80000	59.0	85.2	2064	very high noise
+1718	 80000	58.9	81.6	2043	very high noise
+1719	 80000	57.5	84.5	2046	very high noise
+1720	 80000	58.5	84.6	2067	very high noise
+1721	 80000	58.6	86.4	2046	very high noise
+1722	 80000	58.6	83.1	2069	very high noise
+1723	 80000	59.1	88.6	2033	very high noise
+1724	 80000	60.0	83.9	2071	very high noise
+1725	 80000	61.2	84.0	2019	very high noise
+1726	 80000	65.4	92.4	2036	very high noise
+1727	 80000	59.8	73.6	2021	very high noise
+1728	 80000	58.0	85.2	2079	very high noise
+1729	 80000	60.5	88.1	2093	very high noise
+1730	 80000	57.6	82.5	2060	very high noise
+1731	 80000	59.6	84.6	2068	very high noise
+1732	 80000	59.9	91.5	2029	very high noise
+1733	 80000	56.9	83.9	2116	very high noise
+1734	 80000	59.7	85.0	2068	very high noise
+1735	 80000	56.9	84.6	2098	very high noise
+1736	 80000	57.2	85.5	2052	very high noise
+1737	 80000	60.0	87.5	2078	very high noise
+1738	 80000	58.7	85.5	2087	very high noise
+1739	 80000	59.1	83.2	2039	very high noise
+1740	 80000	57.4	82.5	2095	very high noise
+1741	 80000	58.2	85.0	2081	very high noise
+1742	 80000	61.6	88.4	2066	very high noise
+1743	 80000	55.9	83.1	2092	very high noise
+1744	 80000	57.3	80.1	2098	very high noise
+1745	 80000	53.8	78.2	2031	very high noise
+1746	 80000	57.8	87.6	2068	very high noise
+1747	 80000	57.7	81.7	2088	very high noise
+1748	 80000	57.1	87.4	2070	very high noise
+1749	 80000	57.3	84.9	2066	very high noise
+1750	 80000	57.8	86.0	2106	very high noise
+1751	 80000	55.8	79.9	2054	very high noise
+1752	 80000	57.5	82.6	2046	very high noise
+1753	 80000	58.8	86.2	2065	very high noise
+1754	 80000	57.4	83.9	2102	very high noise
+1755	 80000	56.2	83.7	2080	very high noise
+1756	 80000	56.8	85.3	2091	very high noise
+1757	 80000	59.1	86.5	2052	very high noise
+1758	 80000	57.3	83.6	2089	very high noise
+1759	 80000	58.0	83.3	2070	very high noise
+1760	 80000	56.4	75.3	2059	very high noise
+1761	 80000	59.4	84.9	2067	very high noise
+1762	 80000	60.4	91.6	2047	very high noise
+1763	 80000	59.5	88.5	2087	very high noise
+1764	 80000	58.1	88.3	2089	very high noise
+1765	 80000	59.3	83.4	2043	very high noise
+1766	 80000	60.8	91.0	2077	very high noise
+1767	 80000	59.4	85.8	2077	very high noise
+1768	 80000	60.5	90.4	2084	very high noise
+1769	 80000	57.6	84.3	2095	very high noise
+1770	 80000	57.2	84.4	2081	very high noise
+1771	 80000	61.8	90.1	2077	very high noise
+1772	 80000	60.3	86.1	2056	very high noise
+1773	 80000	60.0	91.4	2073	very high noise
+1774	 80000	59.3	86.7	2031	very high noise
+1775	 80000	59.4	86.9	2093	very high noise
+1776	 80000	56.8	83.4	2061	very high noise
+1777	 80000	57.2	82.9	2085	very high noise
+1778	 80000	56.1	81.8	2110	very high noise
+1779	 80000	58.3	84.5	2092	very high noise
+1780	 80000	56.9	82.3	2069	very high noise
+1781	 80000	57.7	81.6	2070	very high noise
+1782	 80000	59.5	85.0	2075	very high noise
+1783	 80000	59.7	86.9	2099	very high noise
+1784	 80000	59.8	84.9	2079	very high noise
+1785	 80000	62.4	86.9	2073	very high noise
+1786	 80000	60.9	86.4	2041	very high noise
+1787	 80000	61.7	87.2	2079	very high noise
+1788	 80000	60.0	86.3	2078	very high noise
+1789	 80000	60.4	86.6	2055	very high noise
+1790	 80000	60.0	84.7	2103	very high noise
+1791	 80000	60.2	83.6	2049	very high noise
+1792	 80000	61.1	87.4	2030	very high noise
+1793	 80000	61.1	90.4	2044	very high noise
+1794	     0	55.4	75.3	1992	OK
+1795	 80000	59.5	84.3	2035	very high noise
+1796	 80000	59.3	87.9	2044	very high noise
+1797	 80000	60.0	86.8	2040	very high noise
+1798	     0	59.5	91.1	2000	OK
+1799	 80000	61.3	89.5	2024	very high noise
+1800	 80000	58.1	83.6	2029	very high noise
+1801	 80000	58.8	84.2	2015	very high noise
+1802	 80000	60.4	86.7	2032	very high noise
+1803	 80000	59.5	85.2	2041	very high noise
+1804	 80000	60.7	89.2	2037	very high noise
+1805	 80000	60.6	82.9	2035	very high noise
+1806	 80000	61.1	85.3	2006	very high noise
+1807	 80000	60.8	86.4	2028	very high noise
+1808	 80000	59.5	86.8	2014	very high noise
+1809	 80000	61.6	90.1	2014	very high noise
+1810	 80000	59.9	83.5	2011	very high noise
+1811	     0	61.4	87.5	2000	OK
+1812	 80000	56.9	85.7	2037	very high noise
+1813	 80000	60.5	90.2	2008	very high noise
+1814	     0	60.7	89.0	1996	OK
+1815	 80000	59.3	85.5	2046	very high noise
+1816	 80000	61.8	89.4	2005	very high noise
+1817	 80000	61.4	87.2	2028	very high noise
+1818	 80000	60.9	86.9	2024	very high noise
+1819	 80000	60.1	88.0	2002	very high noise
+1820	 80000	59.1	84.9	2014	very high noise
+1821	 80000	61.0	85.3	2023	very high noise
+1822	 80000	59.9	85.5	2015	very high noise
+1823	 80000	63.0	89.6	2026	very high noise
+1824	 80000	57.3	80.1	2012	very high noise
+1825	 80000	59.2	85.7	2029	very high noise
+1826	     0	60.1	88.8	1989	OK
+1827	 80000	60.6	87.0	2026	very high noise
+1828	 80000	60.2	85.2	2015	very high noise
+1829	 80000	62.3	87.5	2003	very high noise
+1830	 80000	60.4	89.5	2007	very high noise
+1831	 80000	63.2	92.5	2019	very high noise
+1832	 80000	60.2	88.2	2034	very high noise
+1833	 80000	61.4	87.0	2007	very high noise
+1834	 80000	58.6	83.3	2056	very high noise
+1835	 80000	60.1	83.3	2049	very high noise
+1836	 80000	60.3	86.0	2030	very high noise
+1837	 80000	63.5	90.6	2009	very high noise
+1838	 80000	62.4	89.7	2015	very high noise
+1839	 80000	60.5	87.0	2035	very high noise
+1840	     0	62.6	166.7	1737	OK
+1841	 80000	64.0	91.7	2036	very high noise
+1842	 80000	61.5	86.4	2003	very high noise
+1843	     0	63.9	94.5	1988	OK
+1844	 80000	61.5	89.9	2004	very high noise
+1845	 80000	61.6	87.6	2027	very high noise
+1846	 80000	63.0	89.2	2017	very high noise
+1847	 80000	63.0	86.6	2029	very high noise
+1848	 80000	62.8	88.2	2022	very high noise
+1849	 80000	61.4	89.6	2015	very high noise
+1850	     0	61.0	86.6	1999	OK
+1851	 80000	61.0	86.5	2027	very high noise
+1852	 80000	61.9	88.6	2025	very high noise
+1853	     0	63.4	87.4	1998	OK
+1854	 80000	63.4	87.1	2023	very high noise
+1855	     0	65.8	88.9	1997	OK
+1856	 80000	64.3	90.5	2017	very high noise
+1857	 80000	63.0	88.9	2013	very high noise
+1858	 80000	62.8	85.8	2024	very high noise
+1859	 80000	64.3	87.8	2008	very high noise
+1860	     0	62.2	85.6	2000	OK
+1861	 80000	61.0	84.9	2023	very high noise
+1862	 80000	63.1	88.7	2013	very high noise
+1863	 80000	60.3	86.4	2009	very high noise
+1864	 80000	61.3	89.3	2007	very high noise
+1865	     0	61.9	86.6	1994	OK
+1866	     0	61.1	89.0	1988	OK
+1867	 80000	60.5	86.6	2013	very high noise
+1868	 80000	60.9	90.3	2012	very high noise
+1869	 80000	61.5	88.0	2013	very high noise
+1870	 80000	57.5	84.9	2028	very high noise
+1871	 80000	60.8	84.2	2016	very high noise
+1872	 80000	60.6	88.4	2028	very high noise
+1873	 80000	59.8	87.8	2015	very high noise
+1874	 80000	61.8	86.2	2011	very high noise
+1875	 80000	61.9	89.2	2009	very high noise
+1876	 80000	59.8	88.2	2027	very high noise
+1877	 80000	61.0	83.5	2024	very high noise
+1878	     0	62.9	93.8	1984	OK
+1879	     0	59.1	75.6	1996	OK
+1880	 80000	61.3	86.8	2032	very high noise
+1881	     0	59.9	84.1	1976	OK
+1882	 80000	59.3	86.2	2037	very high noise
+1883	 80000	60.1	86.1	2030	very high noise
+1884	 80000	62.3	91.3	2005	very high noise
+1885	 80000	60.1	84.0	2035	very high noise
+1886	 80000	58.7	83.6	2033	very high noise
+1887	 80000	59.2	85.1	2021	very high noise
+1888	 80000	62.9	87.5	2009	very high noise
+1889	     0	62.2	86.0	1993	OK
+1890	     0	61.0	91.4	1973	OK
+1891	 80000	61.5	86.0	2023	very high noise
+1892	 80000	62.3	93.6	2013	very high noise
+1893	 80000	60.2	85.0	2022	very high noise
+1894	 80000	60.9	87.3	2010	very high noise
+1895	     0	62.9	91.1	1981	OK
+1896	 80000	61.8	89.2	2010	very high noise
+1897	     0	61.7	88.2	1994	OK
+1898	 80000	62.2	87.9	2035	very high noise
+1899	 80000	60.3	89.6	2030	very high noise
+1900	 80000	62.2	88.6	2032	very high noise
+1901	     0	64.7	89.2	1975	OK
+1902	 80000	60.3	85.3	2037	very high noise
+1903	 80000	62.0	87.1	2029	very high noise
+1904	     0	63.6	91.1	1960	OK
+1905	     0	63.3	96.2	1963	OK
+1906	 80000	61.5	88.5	2000	very high noise
+1907	 80000	61.8	86.7	2012	very high noise
+1908	 80000	60.4	88.8	2032	very high noise
+1909	     0	62.3	93.8	1987	OK
+1910	 80000	61.5	86.8	2029	very high noise
+1911	     0	62.7	89.0	1985	OK
+1912	 80000	62.2	85.6	2006	very high noise
+1913	 80000	58.7	82.5	2014	very high noise
+1914	 80000	62.9	87.9	2034	very high noise
+1915	     0	64.0	88.4	1982	OK
+1916	 80000	63.9	88.3	2016	very high noise
+1917	 80000	65.1	90.6	2009	very high noise
+1918	 80000	64.6	90.0	2006	very high noise
+1919	 80000	62.1	90.3	2017	very high noise
+1920	 80000	59.7	79.8	2056	very high noise
+1921	 80000	61.1	85.3	2015	very high noise
+1922	     0	60.3	85.1	1965	OK
+1923	     0	61.0	85.1	1935	OK
+1924	     0	60.4	88.6	1936	OK
+1925	     0	60.5	87.3	1922	OK
+1926	     0	60.1	85.0	1915	OK
+1927	     0	59.7	86.0	1934	OK
+1928	     0	60.5	89.9	1920	OK
+1929	     0	58.9	86.3	1944	OK
+1930	     0	60.0	86.0	1933	OK
+1931	     0	59.6	86.3	1921	OK
+1932	     0	57.3	81.3	1958	OK
+1933	     0	59.9	86.9	1930	OK
+1934	     0	58.6	84.6	1902	OK
+1935	     0	59.8	85.2	1939	OK
+1936	     0	58.2	84.3	1944	OK
+1937	     0	59.9	82.9	1927	OK
+1938	     0	57.5	81.1	1942	OK
+1939	     0	58.8	86.2	1942	OK
+1940	     0	59.0	84.0	1949	OK
+1941	     0	61.1	83.7	1923	OK
+1942	     0	60.8	90.2	1915	OK
+1943	     0	59.4	82.9	1933	OK
+1944	     0	59.0	82.7	1918	OK
+1945	     0	61.0	87.1	1939	OK
+1946	     0	60.9	87.7	1899	OK
+1947	     0	63.1	89.1	1906	OK
+1948	     0	59.6	86.6	1927	OK
+1949	     0	61.0	88.0	1933	OK
+1950	     0	59.5	85.8	1935	OK
+1951	     0	59.5	88.3	1897	OK
+1952	     0	61.8	85.7	1924	OK
+1953	     0	63.5	92.1	1891	OK
+1954	     0	62.3	84.8	1918	OK
+1955	     0	59.9	85.9	1953	OK
+1956	     0	60.8	89.5	1894	OK
+1957	     0	59.7	85.3	1910	OK
+1958	     0	59.0	83.0	1921	OK
+1959	     0	59.2	86.3	1947	OK
+1960	     0	60.3	86.8	1919	OK
+1961	     0	57.6	83.0	1933	OK
+1962	     0	62.0	87.3	1870	OK
+1963	     0	59.6	84.5	1927	OK
+1964	     0	58.8	84.6	1915	OK
+1965	     0	61.1	85.8	1916	OK
+1966	     0	61.9	90.7	1899	OK
+1967	     0	60.2	86.5	1903	OK
+1968	     0	59.0	88.0	1933	OK
+1969	     0	59.0	86.6	1933	OK
+1970	     0	60.0	86.6	1924	OK
+1971	     0	60.0	84.7	1966	OK
+1972	     0	58.0	82.0	1942	OK
+1973	     0	59.4	83.7	1956	OK
+1974	     0	60.6	89.2	1922	OK
+1975	     0	60.4	85.6	1911	OK
+1976	     0	59.0	82.4	1921	OK
+1977	     0	59.4	86.0	1945	OK
+1978	     0	62.2	87.9	1925	OK
+1979	     0	64.0	91.9	1903	OK
+1980	     0	62.3	86.2	1917	OK
+1981	     0	61.7	88.7	1915	OK
+1982	     0	62.9	91.4	1911	OK
+1983	     0	62.6	91.0	1879	OK
+1984	     0	63.4	89.7	1881	OK
+1985	     0	63.1	88.8	1904	OK
+1986	     0	62.0	87.3	1941	OK
+1987	     0	61.4	89.7	1911	OK
+1988	     0	60.5	82.7	1953	OK
+1989	     0	59.7	86.4	1948	OK
+1990	     0	59.6	84.0	1945	OK
+1991	     0	62.1	90.5	1888	OK
+1992	     0	60.2	88.7	1926	OK
+1993	     0	61.6	90.3	1914	OK
+1994	     0	59.3	84.8	1954	OK
+1995	     0	60.4	89.1	1919	OK
+1996	     0	58.6	83.6	1936	OK
+1997	     0	59.9	90.8	1887	OK
+1998	     0	60.6	85.1	1931	OK
+1999	     0	59.3	85.2	1924	OK
+2000	     0	59.0	86.9	1973	OK
+2001	     0	59.1	84.9	1941	OK
+2002	     0	61.5	89.2	1928	OK
+2003	     0	61.6	88.5	1932	OK
+2004	     0	62.0	91.4	1904	OK
+2005	     0	60.4	86.0	1915	OK
+2006	     0	61.3	87.8	1925	OK
+2007	     0	59.8	82.8	1914	OK
+2008	     0	58.3	83.7	1919	OK
+2009	     0	58.4	83.4	1960	OK
+2010	     0	59.7	83.0	1965	OK
+2011	     0	61.3	86.1	1913	OK
+2012	     0	58.2	83.5	1961	OK
+2013	     0	57.7	84.1	1951	OK
+2014	     0	58.1	83.5	1953	OK
+2015	     0	61.8	88.9	1916	OK
+2016	     0	57.8	83.2	1945	OK
+2017	     0	58.9	86.0	1966	OK
+2018	     0	58.4	82.1	1912	OK
+2019	     0	61.5	91.3	1922	OK
+2020	     0	57.8	83.7	1946	OK
+2021	     0	58.4	82.2	1917	OK
+2022	     0	57.0	82.8	1974	OK
+2023	     0	59.3	87.9	1966	OK
+2024	     0	57.1	82.0	1928	OK
+2025	     0	59.5	88.6	1946	OK
+2026	     0	58.1	81.9	1942	OK
+2027	     0	58.7	86.6	1934	OK
+2028	     0	60.0	88.1	1948	OK
+2029	     0	57.7	84.8	1933	OK
+2030	     0	58.3	83.9	1959	OK
+2031	     0	58.9	85.4	1935	OK
+2032	     0	61.5	85.6	1917	OK
+2033	     0	57.3	82.3	1910	OK
+2034	     0	59.5	83.5	1938	OK
+2035	     0	60.5	93.1	1879	OK
+2036	     0	58.8	88.9	1952	OK
+2037	     0	59.5	84.5	1978	OK
+2038	     0	58.7	86.6	1944	OK
+2039	     0	58.4	85.2	1952	OK
+2040	     0	59.4	87.9	1946	OK
+2041	     0	57.7	85.7	1941	OK
+2042	     0	58.3	83.2	1964	OK
+2043	     0	60.1	88.5	1956	OK
+2044	     0	58.0	84.3	1960	OK
+2045	     0	58.1	83.4	1943	OK
+2046	     0	58.2	83.7	1960	OK
+2047	     0	61.6	91.4	1927	OK

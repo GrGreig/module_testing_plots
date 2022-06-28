@@ -1,0 +1,126 @@
+{
+    "date": "2022-05-31T22:52:38.000Z",
+    "defects": [
+        {
+            "description": "High SD width: 17.4 (module average 13.6)",
+            "name": "SD_HIGH_WIDTH",
+            "properties": {
+                "chip_bank": "away",
+                "chip_in_histo": 2
+            }
+        }
+    ],
+    "passed": true,
+    "problems": true,
+    "properties": {
+        "DCS": {
+            "ABC_temp_raw_0": 2533.0,
+            "ABC_temp_raw_1": 2580.0,
+            "ABC_temp_raw_2": 2458.0,
+            "ABC_temp_raw_3": 2620.0,
+            "ABC_temp_raw_4": 2598.0,
+            "ABC_temp_raw_5": 2543.0,
+            "ABC_temp_raw_6": 2443.0,
+            "ABC_temp_raw_7": 2448.0,
+            "ABC_temp_raw_8": 2424.0,
+            "HCC_temp_raw": 386.0
+        },
+        "FRACTION": 0.57,
+        "det_info": {
+            "ABC_Fuse": [
+                "89406941",
+                "89406942",
+                "89406944",
+                "8940689e",
+                "8940689f",
+                "894068a0",
+                "894068a1",
+                "894068a2",
+                "894068a3"
+            ],
+            "Address": [
+                10,
+                9,
+                8,
+                7,
+                6,
+                5,
+                4,
+                3,
+                2
+            ],
+            "Channel": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "DUT_type": "ABCStar_Test",
+            "HCC_Fuse": "4000724c",
+            "name": "ABCStar_R5H1_Hybrid2"
+        },
+        "scan_info": {
+            "event_count": 32
+        },
+        "system_info": {
+            "Analysis_time": "2022-05-31T22:52:38.000Z",
+            "Firmware revision": "0xb60f",
+            "GIT URL": "https://gitlab.cern.ch/atlas-itk-strips-daq/itsdaq-sw.git/-/tree/a8e59c51b7d473b4aa721f1605323e5c16333150",
+            "GIT branch": "",
+            "GIT build date": "2022-04-22 21:02:07 +0000 (Fri, 22 Apr 2022)",
+            "GIT commit date": "2022-04-22 15:57:32 +0000 (Fri, 22 Apr 2022)",
+            "GIT describe": "itsdaq_24_1_2022-386-ga8e59c5",
+            "GIT revision": "a8e59c51b7d473b4aa721f1605323e5c16333150",
+            "Location": "TRIUMF",
+            "User": "LP",
+            "analysis_version": "3.43",
+            "dedication": "New dedication as we're going for PPA",
+            "host": "rockbiter"
+        }
+    },
+    "results": {
+        "StrobeDelay_away": [
+            22,
+            19,
+            27,
+            22,
+            19,
+            24,
+            21,
+            22,
+            21,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "StrobeDelay_under": [
+            22,
+            19,
+            27,
+            22,
+            19,
+            24,
+            21,
+            22,
+            21,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ]
+    },
+    "runNumber": "1309-5",
+    "testType": "STROBE_DELAY_PPA"
+}

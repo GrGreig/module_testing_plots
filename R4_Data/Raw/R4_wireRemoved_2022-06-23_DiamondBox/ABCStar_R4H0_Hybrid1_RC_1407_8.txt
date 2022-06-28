@@ -1,0 +1,2049 @@
+#chan	code	gain	vt50	innse	comment
+   0	 40000	66.5	23.7	  13	very low noise
+   1	 40000	69.0	23.7	  12	very low noise
+   2	 40000	63.7	23.8	  38	very low noise
+   3	 40000	64.7	23.7	  27	very low noise
+   4	 40000	64.8	23.7	  13	very low noise
+   5	 40000	64.0	23.7	  28	very low noise
+   6	 40000	65.0	23.7	  13	very low noise
+   7	 40000	64.7	23.7	  13	very low noise
+   8	 40000	64.1	23.7	  13	very low noise
+   9	 40000	64.5	23.7	  13	very low noise
+  10	 40000	65.3	23.7	  13	very low noise
+  11	 40000	66.6	23.7	  13	very low noise
+  12	 40000	67.2	23.7	  12	very low noise
+  13	 40000	66.1	23.7	  13	very low noise
+  14	 40000	66.3	23.7	  27	very low noise
+  15	 40000	64.3	23.7	  13	very low noise
+  16	 40000	62.7	23.7	  13	very low noise
+  17	 40000	64.6	23.7	  13	very low noise
+  18	 40000	63.5	23.7	  13	very low noise
+  19	 40000	66.5	23.7	  13	very low noise
+  20	 40000	65.6	23.7	  13	very low noise
+  21	 40000	65.0	23.7	  13	very low noise
+  22	 40000	64.5	23.7	  13	very low noise
+  23	 40000	65.6	23.7	  13	very low noise
+  24	 40000	65.2	23.7	  13	very low noise
+  25	 40000	66.8	23.7	  13	very low noise
+  26	 40000	64.0	23.7	  13	very low noise
+  27	 40000	65.4	23.7	  13	very low noise
+  28	 40000	65.2	23.7	  13	very low noise
+  29	 40000	64.9	23.7	  13	very low noise
+  30	 40000	63.9	23.7	  13	very low noise
+  31	 40000	65.4	23.7	  13	very low noise
+  32	 40000	63.2	23.7	  13	very low noise
+  33	 40000	66.9	23.7	  12	very low noise
+  34	 40000	65.3	23.7	  13	very low noise
+  35	 40000	68.0	23.7	  12	very low noise
+  36	 40000	66.2	23.7	  13	very low noise
+  37	 40000	65.6	23.7	  27	very low noise
+  38	 40000	64.3	23.7	  13	very low noise
+  39	 40000	64.7	23.7	  13	very low noise
+  40	 40000	64.9	23.7	  13	very low noise
+  41	 40000	64.1	23.7	  13	very low noise
+  42	 40000	64.6	23.7	  13	very low noise
+  43	 40000	64.3	23.7	  13	very low noise
+  44	 40000	64.3	23.7	  13	very low noise
+  45	 40000	64.9	23.7	  13	very low noise
+  46	 40000	64.2	23.7	  13	very low noise
+  47	 40000	65.2	23.7	  13	very low noise
+  48	 40000	66.1	23.7	  13	very low noise
+  49	 40000	64.9	23.7	  13	very low noise
+  50	 40000	65.3	23.7	  13	very low noise
+  51	 40000	65.1	23.7	  13	very low noise
+  52	 40000	67.7	23.7	  12	very low noise
+  53	 40000	65.3	23.7	  13	very low noise
+  54	 40000	63.6	23.7	  13	very low noise
+  55	 40000	65.1	23.7	  13	very low noise
+  56	 40000	64.5	23.7	  13	very low noise
+  57	 40000	66.3	23.7	  13	very low noise
+  58	 40000	64.7	23.7	  13	very low noise
+  59	 40000	66.1	23.7	  13	very low noise
+  60	 40000	65.7	23.7	  13	very low noise
+  61	 40000	64.8	23.7	  13	very low noise
+  62	 40000	68.0	23.7	  12	very low noise
+  63	 40000	68.7	24.0	  33	very low noise
+  64	 40000	66.7	23.7	  13	very low noise
+  65	 40000	68.1	23.7	  12	very low noise
+  66	 40000	63.7	23.7	  13	very low noise
+  67	 50000	39.4	23.7	  21	very low gain
+  68	 50000	36.9	23.7	  23	very low gain
+  69	 50000	36.9	23.7	  23	very low gain
+  70	 50000	36.9	23.7	  23	very low gain
+  71	 50000	36.9	23.7	  23	very low gain
+  72	 40000	64.5	23.7	  13	very low noise
+  73	 40000	63.3	23.7	  28	very low noise
+  74	 40000	64.3	23.7	  13	very low noise
+  75	 40000	65.3	23.7	  13	very low noise
+  76	 40000	64.9	23.7	  13	very low noise
+  77	 40000	64.4	23.7	  13	very low noise
+  78	 40000	65.3	23.7	  13	very low noise
+  79	 40000	66.6	23.7	  13	very low noise
+  80	 40000	64.8	23.7	  27	very low noise
+  81	 40000	65.6	23.7	  13	very low noise
+  82	 40000	65.6	23.7	  13	very low noise
+  83	 40000	64.2	23.7	  13	very low noise
+  84	 40000	66.0	23.7	  13	very low noise
+  85	 40000	63.5	23.7	  13	very low noise
+  86	 40000	65.9	23.7	  13	very low noise
+  87	 40000	63.9	23.7	  13	very low noise
+  88	 40000	64.3	23.7	  13	very low noise
+  89	 40000	64.1	23.7	  13	very low noise
+  90	 40000	64.8	23.7	  13	very low noise
+  91	 40000	65.1	23.7	  13	very low noise
+  92	 40000	65.5	23.7	  13	very low noise
+  93	 40000	63.8	23.7	  13	very low noise
+  94	 40000	63.5	23.7	  13	very low noise
+  95	 40000	63.4	23.7	  13	very low noise
+  96	 40000	66.0	23.7	  13	very low noise
+  97	 40000	64.2	23.7	  13	very low noise
+  98	 40000	66.7	23.7	  13	very low noise
+  99	 40000	65.5	23.7	  13	very low noise
+ 100	 40000	64.5	23.7	  13	very low noise
+ 101	 40000	63.1	23.7	  13	very low noise
+ 102	 40000	65.0	23.7	  13	very low noise
+ 103	 40000	64.9	23.7	  13	very low noise
+ 104	 40000	64.9	23.7	  13	very low noise
+ 105	 40000	64.4	23.7	  13	very low noise
+ 106	 40000	64.0	23.7	  13	very low noise
+ 107	 40000	65.0	23.7	  13	very low noise
+ 108	 40000	65.3	23.7	  13	very low noise
+ 109	 40000	64.0	23.7	  13	very low noise
+ 110	 40000	65.1	23.7	  13	very low noise
+ 111	 40000	64.8	23.7	  13	very low noise
+ 112	 40000	64.6	23.7	  13	very low noise
+ 113	 40000	66.2	23.7	  13	very low noise
+ 114	 40000	64.1	23.7	  13	very low noise
+ 115	 40000	65.3	23.7	  13	very low noise
+ 116	 40000	65.1	23.7	  13	very low noise
+ 117	 40000	64.6	23.7	  13	very low noise
+ 118	 40000	64.5	23.7	  13	very low noise
+ 119	 40000	64.2	23.7	  13	very low noise
+ 120	 40000	65.9	23.7	  13	very low noise
+ 121	 40000	66.9	23.7	  12	very low noise
+ 122	 40000	65.0	23.7	  13	very low noise
+ 123	 40000	64.2	23.7	  13	very low noise
+ 124	 40000	67.0	23.7	  12	very low noise
+ 125	 40000	65.5	23.7	  13	very low noise
+ 126	 40000	66.0	23.7	  13	very low noise
+ 127	 40000	67.3	23.7	  12	very low noise
+ 128	 40000	64.7	23.7	  27	very low noise
+ 129	 40000	64.0	23.7	  13	very low noise
+ 130	 40000	62.6	23.7	  13	very low noise
+ 131	 40000	64.4	23.7	  13	very low noise
+ 132	 50000	36.9	23.7	  23	very low gain
+ 133	 50000	36.9	23.7	  23	very low gain
+ 134	 40000	62.4	23.7	  13	very low noise
+ 135	 40000	64.5	23.7	  13	very low noise
+ 136	 40000	62.6	23.7	  13	very low noise
+ 137	 40000	64.0	23.7	  13	very low noise
+ 138	 40000	62.2	23.7	  13	very low noise
+ 139	 40000	62.3	23.7	  13	very low noise
+ 140	 40000	62.9	23.7	  13	very low noise
+ 141	 40000	62.3	23.7	  13	very low noise
+ 142	 40000	61.3	23.7	  14	very low noise
+ 143	 40000	61.4	23.7	  14	very low noise
+ 144	 40000	63.0	23.7	  13	very low noise
+ 145	 40000	63.1	23.7	  13	very low noise
+ 146	 40000	62.6	23.7	  13	very low noise
+ 147	 40000	64.2	23.7	  13	very low noise
+ 148	 40000	64.1	23.7	  13	very low noise
+ 149	 40000	63.6	23.7	  13	very low noise
+ 150	 40000	63.3	23.7	  13	very low noise
+ 151	 40000	61.5	23.7	  14	very low noise
+ 152	 40000	61.7	23.7	  14	very low noise
+ 153	 40000	64.1	23.7	  13	very low noise
+ 154	 40000	64.7	23.7	  13	very low noise
+ 155	 40000	62.7	23.7	  13	very low noise
+ 156	 40000	61.3	23.7	  29	very low noise
+ 157	 40000	62.0	23.7	  13	very low noise
+ 158	 40000	63.5	23.7	  13	very low noise
+ 159	 40000	63.6	23.7	  13	very low noise
+ 160	 40000	60.9	23.7	  14	very low noise
+ 161	 40000	65.1	23.7	  13	very low noise
+ 162	 40000	62.8	23.7	  13	very low noise
+ 163	 40000	62.6	23.7	  13	very low noise
+ 164	 40000	62.7	23.7	  13	very low noise
+ 165	 40000	62.2	23.7	  13	very low noise
+ 166	 40000	62.2	23.7	  13	very low noise
+ 167	 40000	62.1	23.7	  13	very low noise
+ 168	 40000	63.6	23.7	  13	very low noise
+ 169	 40000	64.2	23.7	  13	very low noise
+ 170	 40000	62.9	23.7	  13	very low noise
+ 171	 40000	64.0	23.7	  13	very low noise
+ 172	 40000	62.4	23.7	  13	very low noise
+ 173	 40000	64.5	23.7	  13	very low noise
+ 174	 40000	63.7	23.7	  13	very low noise
+ 175	 40000	64.1	23.7	  13	very low noise
+ 176	 40000	62.1	23.7	  13	very low noise
+ 177	 40000	63.6	23.7	  13	very low noise
+ 178	 40000	63.2	23.7	  13	very low noise
+ 179	 40000	66.1	23.7	  13	very low noise
+ 180	 40000	64.7	23.7	  13	very low noise
+ 181	 40000	64.0	23.7	  13	very low noise
+ 182	 40000	61.5	23.7	  14	very low noise
+ 183	 40000	63.9	23.7	  28	very low noise
+ 184	 40000	65.4	23.7	  13	very low noise
+ 185	 40000	64.5	23.7	  13	very low noise
+ 186	 40000	63.4	23.7	  13	very low noise
+ 187	 40000	63.7	23.7	  13	very low noise
+ 188	 40000	63.7	23.7	  13	very low noise
+ 189	 40000	64.5	23.7	  13	very low noise
+ 190	 40000	63.5	23.7	  13	very low noise
+ 191	 40000	63.8	23.7	  28	very low noise
+ 192	 40000	62.2	23.7	  13	very low noise
+ 193	 40000	64.1	23.7	  13	very low noise
+ 194	 40000	62.5	23.7	  13	very low noise
+ 195	 40000	65.1	23.7	  13	very low noise
+ 196	 40000	63.3	23.7	  13	very low noise
+ 197	 40000	63.5	23.7	  13	very low noise
+ 198	 40000	60.9	23.7	  14	very low noise
+ 199	 40000	64.8	23.7	  13	very low noise
+ 200	 40000	61.6	23.7	  14	very low noise
+ 201	 40000	63.8	23.7	  13	very low noise
+ 202	 40000	60.8	24.0	  15	very low noise
+ 203	 40000	63.5	23.7	  13	very low noise
+ 204	 40000	61.3	23.7	  14	very low noise
+ 205	 40000	62.5	23.7	  13	very low noise
+ 206	 40000	60.9	23.7	  14	very low noise
+ 207	 40000	60.8	23.7	  29	very low noise
+ 208	 40000	63.3	23.7	  13	very low noise
+ 209	 40000	60.9	23.7	  14	very low noise
+ 210	 40000	60.0	23.7	  14	very low noise
+ 211	 40000	62.9	23.7	  28	very low noise
+ 212	 40000	61.9	23.7	  13	very low noise
+ 213	 40000	61.1	23.7	  14	very low noise
+ 214	 40000	61.9	23.7	  14	very low noise
+ 215	 40000	60.1	23.7	  14	very low noise
+ 216	 40000	62.1	23.7	  13	very low noise
+ 217	 40000	64.2	23.7	  13	very low noise
+ 218	 40000	62.5	23.7	  13	very low noise
+ 219	 40000	62.2	23.7	  13	very low noise
+ 220	 40000	61.7	23.7	  14	very low noise
+ 221	 40000	62.9	23.7	  13	very low noise
+ 222	 50000	36.9	23.7	  23	very low gain
+ 223	 50000	36.9	23.7	  23	very low gain
+ 224	 40000	63.3	23.7	  13	very low noise
+ 225	 40000	62.6	23.7	  13	very low noise
+ 226	 40000	62.4	23.7	  13	very low noise
+ 227	 40000	63.0	23.7	  13	very low noise
+ 228	 40000	63.0	23.7	  13	very low noise
+ 229	 40000	64.5	23.7	  13	very low noise
+ 230	 40000	60.2	23.7	  14	very low noise
+ 231	 40000	62.5	23.7	  13	very low noise
+ 232	 40000	61.3	23.7	  14	very low noise
+ 233	 40000	61.7	23.7	  14	very low noise
+ 234	 40000	61.4	23.7	  29	very low noise
+ 235	 40000	63.3	23.7	  13	very low noise
+ 236	 40000	63.3	23.7	  13	very low noise
+ 237	 40000	63.4	23.7	  13	very low noise
+ 238	 40000	62.4	23.7	  13	very low noise
+ 239	 40000	63.0	23.7	  13	very low noise
+ 240	 40000	63.0	23.7	  13	very low noise
+ 241	 40000	60.7	23.7	  14	very low noise
+ 242	 40000	60.0	23.7	  14	very low noise
+ 243	 40000	62.4	23.7	  13	very low noise
+ 244	 40000	65.0	23.7	  13	very low noise
+ 245	 40000	61.1	23.7	  14	very low noise
+ 246	 40000	62.2	23.7	  13	very low noise
+ 247	 40000	62.9	23.7	  13	very low noise
+ 248	 40000	61.6	23.7	  14	very low noise
+ 249	 40000	59.4	23.7	  14	very low noise
+ 250	 40000	62.9	23.7	  13	very low noise
+ 251	 40000	61.5	23.7	  14	very low noise
+ 252	 40000	62.5	23.7	  13	very low noise
+ 253	 40000	62.8	23.7	  13	very low noise
+ 254	 40000	62.3	23.7	  13	very low noise
+ 255	 40000	61.5	23.7	  14	very low noise
+ 256	 40000	68.9	23.7	  12	very low noise
+ 257	 40000	67.3	23.7	  26	very low noise
+ 258	 40000	66.6	23.7	  29	very low noise
+ 259	 40000	69.0	23.7	  12	very low noise
+ 260	 40000	69.3	23.7	  12	very low noise
+ 261	 40000	70.5	23.8	  34	very low noise
+ 262	 40000	68.6	23.8	  33	very low noise
+ 263	 40000	65.7	23.7	  13	very low noise
+ 264	 40000	64.9	23.7	  27	very low noise
+ 265	 40000	67.9	23.7	  12	very low noise
+ 266	 40000	69.7	23.7	  12	very low noise
+ 267	 40000	68.0	23.7	  12	very low noise
+ 268	 40000	68.9	23.7	  12	very low noise
+ 269	 40000	69.0	23.8	  34	very low noise
+ 270	 40000	70.8	23.6	  36	very low noise
+ 271	 40000	69.9	23.7	  30	very low noise
+ 272	 40000	67.8	23.7	  12	very low noise
+ 273	 40000	67.0	23.7	  26	very low noise
+ 274	 40000	65.9	23.7	  27	very low noise
+ 275	 40000	66.8	23.7	  29	very low noise
+ 276	 40000	66.1	23.7	  13	very low noise
+ 277	 40000	66.9	23.8	  34	very low noise
+ 278	 40000	65.7	23.7	  13	very low noise
+ 279	 40000	66.0	23.7	  13	very low noise
+ 280	 40000	65.9	23.7	  13	very low noise
+ 281	 40000	68.7	23.7	  12	very low noise
+ 282	 40000	66.3	23.7	  13	very low noise
+ 283	 40000	65.0	23.7	  13	very low noise
+ 284	 40000	67.1	23.7	  26	very low noise
+ 285	 40000	64.9	23.7	  13	very low noise
+ 286	 40000	65.4	23.7	  13	very low noise
+ 287	 40000	64.1	23.7	  13	very low noise
+ 288	 40000	65.8	23.7	  13	very low noise
+ 289	 40000	65.8	23.7	  13	very low noise
+ 290	 40000	67.6	23.7	  12	very low noise
+ 291	 40000	64.6	23.7	  13	very low noise
+ 292	 40000	65.5	23.7	  13	very low noise
+ 293	 40000	66.2	23.7	  27	very low noise
+ 294	 40000	66.0	23.7	  13	very low noise
+ 295	 40000	64.9	23.7	  13	very low noise
+ 296	 40000	64.4	23.7	  13	very low noise
+ 297	 40000	66.1	23.7	  31	very low noise
+ 298	 40000	65.1	23.7	  27	very low noise
+ 299	 40000	65.0	23.7	  13	very low noise
+ 300	 40000	65.1	23.7	  30	very low noise
+ 301	 40000	65.8	24.3	  14	very low noise
+ 302	 40000	65.5	23.7	  13	very low noise
+ 303	 40000	65.1	23.7	  33	very low noise
+ 304	 40000	63.9	24.0	  15	very low noise
+ 305	 40000	64.0	23.8	  36	very low noise
+ 306	 40000	65.2	23.7	  32	very low noise
+ 307	 40000	63.6	23.8	  37	very low noise
+ 308	 40000	64.4	23.7	  13	very low noise
+ 309	 40000	64.8	23.7	  30	very low noise
+ 310	 40000	64.1	23.8	  36	very low noise
+ 311	 50000	36.9	23.8	  61	very low gain
+ 312	 50000	36.9	23.7	  55	very low gain
+ 313	 40000	64.4	23.3	  14	very low noise
+ 314	 50000	36.9	23.9	  61	very low gain
+ 315	 40000	64.6	24.0	  23	very low noise
+ 316	 50000	36.9	23.7	  60	very low gain
+ 317	 50000	36.9	23.7	  23	very low gain
+ 318	 40000	65.0	23.7	  33	very low noise
+ 319	 40000	66.8	23.9	  34	very low noise
+ 320	 40000	67.8	23.9	  34	very low noise
+ 321	 40000	68.8	23.7	  26	very low noise
+ 322	 40000	65.8	23.8	  34	very low noise
+ 323	 40000	65.8	23.7	  31	very low noise
+ 324	 40000	67.2	23.7	  31	very low noise
+ 325	 40000	65.1	23.9	  35	very low noise
+ 326	 40000	64.8	23.8	  35	very low noise
+ 327	 40000	67.1	24.0	  33	very low noise
+ 328	 40000	64.7	23.8	  35	very low noise
+ 329	 50000	36.9	23.7	  55	very low gain
+ 330	 40000	65.0	23.8	  36	very low noise
+ 331	 40000	61.2	24.0	  37	very low noise
+ 332	 40000	64.0	23.8	  36	very low noise
+ 333	 40000	63.0	23.7	  34	very low noise
+ 334	 40000	62.8	24.0	  36	very low noise
+ 335	 40000	64.4	23.9	  36	very low noise
+ 336	 40000	64.6	23.9	  34	very low noise
+ 337	 40000	64.1	23.8	  37	very low noise
+ 338	 40000	63.1	24.6	   2	very low noise
+ 339	 40000	64.0	24.7	  14	very low noise
+ 340	 40000	64.3	23.9	  35	very low noise
+ 341	 40000	64.6	22.9	   1	very low noise
+ 342	 40000	63.5	23.7	  37	very low noise
+ 343	 40000	61.6	22.9	   2	very low noise
+ 344	 40000	63.1	23.7	  39	very low noise
+ 345	 40000	63.1	23.5	  28	very low noise
+ 346	 40000	61.5	23.7	  40	very low noise
+ 347	 40000	61.5	23.6	  41	very low noise
+ 348	     4	60.6	23.3	  25	inefficient
+ 349	     4	61.4	23.2	 148	inefficient
+ 350	 50000	36.9	23.6	  70	very low gain
+ 351	     4	61.3	23.2	 149	inefficient
+ 352	 50000	36.9	23.5	  73	very low gain
+ 353	 40000	60.6	23.6	  44	very low noise
+ 354	     4	59.7	23.1	 154	inefficient
+ 355	 40000	59.9	23.6	  43	very low noise
+ 356	 50000	36.9	23.6	  72	very low gain
+ 357	 50000	36.9	23.6	  72	very low gain
+ 358	 40000	62.0	23.1	  12	very low noise
+ 359	 40000	61.5	23.7	  40	very low noise
+ 360	 50000	36.9	23.7	  67	very low gain
+ 361	 50000	36.9	23.7	  67	very low gain
+ 362	 40000	60.5	23.6	  44	very low noise
+ 363	 40000	62.5	23.6	  37	very low noise
+ 364	     4	62.0	23.7	  39	inefficient
+ 365	 40000	63.3	23.6	  38	very low noise
+ 366	 40000	61.3	23.5	  30	very low noise
+ 367	 40000	62.8	23.5	  31	very low noise
+ 368	 40000	62.0	23.7	  41	very low noise
+ 369	     4	62.9	23.7	  39	inefficient
+ 370	 40000	60.9	23.8	  40	very low noise
+ 371	 40000	64.4	23.6	  38	very low noise
+ 372	 40000	63.9	23.7	  28	very low noise
+ 373	 40000	64.6	23.8	  35	very low noise
+ 374	 40000	63.6	23.7	  28	very low noise
+ 375	 40000	64.8	23.8	  36	very low noise
+ 376	 40000	66.3	23.7	  13	very low noise
+ 377	 40000	63.1	23.7	  28	very low noise
+ 378	 40000	65.6	23.7	  13	very low noise
+ 379	 40000	66.5	23.7	  13	very low noise
+ 380	 40000	66.2	23.7	  13	very low noise
+ 381	 40000	66.1	23.7	  13	very low noise
+ 382	 40000	66.9	23.7	  12	very low noise
+ 383	 40000	66.9	23.7	  12	very low noise
+ 384	 40000	67.8	23.7	  36	very low noise
+ 385	 40000	68.2	23.7	  36	very low noise
+ 386	 40000	68.0	23.7	  26	very low noise
+ 387	 40000	66.1	23.8	  35	very low noise
+ 388	 40000	62.9	23.7	  35	very low noise
+ 389	 40000	65.7	23.9	  34	very low noise
+ 390	 40000	63.4	23.8	  37	very low noise
+ 391	 40000	64.8	23.8	  37	very low noise
+ 392	 40000	64.5	23.7	  30	very low noise
+ 393	 40000	65.5	23.9	  35	very low noise
+ 394	 40000	65.2	23.7	  37	very low noise
+ 395	 40000	68.3	23.8	  35	very low noise
+ 396	 40000	64.6	23.7	  39	very low noise
+ 397	 40000	64.6	24.0	  35	very low noise
+ 398	 40000	67.3	23.7	  36	very low noise
+ 399	 40000	64.7	23.7	  13	very low noise
+ 400	 40000	68.0	23.7	  32	very low noise
+ 401	 40000	66.8	23.7	  27	very low noise
+ 402	 40000	67.0	23.7	  26	very low noise
+ 403	 40000	65.3	23.7	  27	very low noise
+ 404	 40000	66.7	24.0	  14	very low noise
+ 405	 40000	65.5	23.9	  34	very low noise
+ 406	 40000	67.4	24.0	  33	very low noise
+ 407	 40000	66.0	23.7	  29	very low noise
+ 408	 40000	66.0	23.7	  27	very low noise
+ 409	 40000	66.0	24.0	  14	very low noise
+ 410	 40000	64.0	23.7	  30	very low noise
+ 411	 40000	65.5	23.7	  13	very low noise
+ 412	 40000	66.2	24.0	  22	very low noise
+ 413	 40000	66.1	23.7	  13	very low noise
+ 414	 40000	66.4	23.7	  13	very low noise
+ 415	 40000	64.4	23.7	  13	very low noise
+ 416	 40000	64.4	23.7	  13	very low noise
+ 417	 40000	64.0	23.7	  13	very low noise
+ 418	 40000	65.5	23.7	  13	very low noise
+ 419	 40000	64.0	23.7	  13	very low noise
+ 420	 40000	63.7	23.7	  13	very low noise
+ 421	 40000	65.0	23.7	  27	very low noise
+ 422	 40000	64.1	23.7	  13	very low noise
+ 423	 40000	64.3	23.7	  13	very low noise
+ 424	 40000	67.0	23.7	  12	very low noise
+ 425	 40000	65.5	23.7	  13	very low noise
+ 426	 40000	65.4	23.7	  13	very low noise
+ 427	 40000	64.3	23.7	  13	very low noise
+ 428	 40000	65.7	23.7	  13	very low noise
+ 429	 40000	65.1	23.7	  13	very low noise
+ 430	 40000	66.2	23.7	  13	very low noise
+ 431	 50000	36.9	23.7	  23	very low gain
+ 432	 50000	36.9	23.7	  23	very low gain
+ 433	 40000	64.6	23.7	  13	very low noise
+ 434	 50000	36.9	23.7	  23	very low gain
+ 435	 50000	36.9	23.7	  23	very low gain
+ 436	 40000	65.6	23.7	  13	very low noise
+ 437	 40000	64.7	23.7	  13	very low noise
+ 438	 40000	64.0	23.7	  13	very low noise
+ 439	 40000	64.8	23.7	  13	very low noise
+ 440	 40000	66.0	23.7	  13	very low noise
+ 441	 40000	68.2	23.7	  12	very low noise
+ 442	 40000	64.0	23.7	  13	very low noise
+ 443	 40000	63.8	23.7	  13	very low noise
+ 444	 40000	67.6	23.7	  12	very low noise
+ 445	 40000	68.0	24.0	  33	very low noise
+ 446	 40000	66.4	23.7	  13	very low noise
+ 447	 40000	68.3	23.7	  26	very low noise
+ 448	 40000	66.2	23.7	  13	very low noise
+ 449	 40000	65.4	24.0	  14	very low noise
+ 450	 40000	64.2	23.7	  13	very low noise
+ 451	 40000	63.9	23.7	  13	very low noise
+ 452	 40000	62.2	23.8	  37	very low noise
+ 453	 40000	66.0	23.7	  32	very low noise
+ 454	 40000	63.4	23.7	  38	very low noise
+ 455	 40000	63.4	23.9	  36	very low noise
+ 456	 40000	65.9	23.7	  37	very low noise
+ 457	 40000	64.4	23.8	  37	very low noise
+ 458	 40000	63.2	23.7	  39	very low noise
+ 459	  1000	63.9	23.2	 147	unbonded
+ 460	 40000	64.9	23.7	  39	very low noise
+ 461	 40000	62.8	23.5	  39	very low noise
+ 462	 40000	61.9	23.3	  24	very low noise
+ 463	 40000	61.7	23.2	  29	very low noise
+ 464	 40000	63.1	23.6	  42	very low noise
+ 465	  1000	62.2	23.1	 159	unbonded
+ 466	  1000	59.7	22.7	 289	unbonded
+ 467	  1000	60.3	22.9	 227	unbonded
+ 468	  1000	59.3	23.0	 178	unbonded
+ 469	  1000	58.9	22.5	 318	unbonded
+ 470	  1000	58.7	22.9	 198	unbonded
+ 471	  1000	58.2	22.9	 202	unbonded
+ 472	  1000	56.6	22.4	 346	unbonded
+ 473	  1000	57.1	22.0	 405	unbonded
+ 474	  1000	57.8	22.5	 329	unbonded
+ 475	  1000	57.4	22.0	 392	unbonded
+ 476	     4	55.6	21.7	 467	inefficient
+ 477	  1000	59.0	21.9	 404	unbonded
+ 478	     4	36.9	21.6	 730	inefficient
+ 479	 10000	36.9	22.7	 468	very low gain
+ 480	  1000	63.6	23.2	 144	unbonded
+ 481	  1000	58.9	22.5	 317	unbonded
+ 482	  1000	58.0	22.5	 329	unbonded
+ 483	  1000	58.6	23.1	 165	unbonded
+ 484	  1000	58.5	23.0	 180	unbonded
+ 485	     4	57.0	22.3	 354	inefficient
+ 486	  1000	60.0	23.0	 180	unbonded
+ 487	  1000	58.8	22.9	 202	unbonded
+ 488	  1000	62.0	23.2	 153	unbonded
+ 489	 40000	61.7	23.6	  42	very low noise
+ 490	  1000	60.9	23.0	 171	unbonded
+ 491	 40000	61.9	23.6	  43	very low noise
+ 492	 40000	59.4	23.6	  42	very low noise
+ 493	 40000	62.4	23.5	  40	very low noise
+ 494	 40000	61.6	23.6	  43	very low noise
+ 495	 40000	62.5	23.7	  41	very low noise
+ 496	 40000	64.7	23.3	  18	very low noise
+ 497	 40000	63.0	23.7	  40	very low noise
+ 498	 40000	63.8	23.8	  36	very low noise
+ 499	 40000	63.1	23.7	  35	very low noise
+ 500	 40000	61.8	23.7	  29	very low noise
+ 501	 40000	62.2	23.7	  31	very low noise
+ 502	 40000	63.1	23.7	  13	very low noise
+ 503	 40000	63.2	23.7	  13	very low noise
+ 504	 40000	62.8	23.7	  13	very low noise
+ 505	 40000	63.5	23.7	  13	very low noise
+ 506	 40000	63.9	23.7	  28	very low noise
+ 507	 40000	63.1	23.7	  13	very low noise
+ 508	 40000	63.9	23.7	  13	very low noise
+ 509	 40000	63.5	23.7	  13	very low noise
+ 510	 40000	63.4	23.7	  13	very low noise
+ 511	 40000	65.9	23.7	  13	very low noise
+ 512	 40000	67.1	23.7	  12	very low noise
+ 513	 40000	66.6	23.7	  27	very low noise
+ 514	 40000	65.9	23.7	  13	very low noise
+ 515	 40000	64.6	23.7	  13	very low noise
+ 516	 40000	65.0	23.7	  13	very low noise
+ 517	 40000	64.3	23.7	  28	very low noise
+ 518	 40000	63.9	23.7	  13	very low noise
+ 519	 40000	64.8	23.7	  13	very low noise
+ 520	 40000	65.2	23.7	  13	very low noise
+ 521	 40000	64.1	23.7	  13	very low noise
+ 522	 40000	66.4	23.7	  13	very low noise
+ 523	 40000	64.9	23.7	  13	very low noise
+ 524	 50000	36.9	23.7	  23	very low gain
+ 525	 50000	36.9	23.7	  23	very low gain
+ 526	 40000	63.1	23.7	  13	very low noise
+ 527	 40000	64.2	23.7	  13	very low noise
+ 528	 40000	64.7	23.7	  13	very low noise
+ 529	 40000	64.8	23.7	  13	very low noise
+ 530	 40000	65.5	23.7	  13	very low noise
+ 531	 40000	63.4	23.7	  13	very low noise
+ 532	 40000	63.8	23.7	  13	very low noise
+ 533	 40000	65.4	23.7	  13	very low noise
+ 534	 40000	63.9	23.7	  13	very low noise
+ 535	 40000	63.5	23.7	  13	very low noise
+ 536	 40000	66.0	23.7	  13	very low noise
+ 537	 40000	65.0	23.7	  13	very low noise
+ 538	 40000	64.2	23.7	  13	very low noise
+ 539	 40000	65.7	23.7	  13	very low noise
+ 540	 40000	64.4	23.7	  13	very low noise
+ 541	 40000	63.8	23.7	  13	very low noise
+ 542	 40000	65.7	23.7	  13	very low noise
+ 543	 40000	64.1	23.7	  13	very low noise
+ 544	 50000	0.0	23.7	   0	very low gain
+ 545	 40000	63.1	24.0	  15	very low noise
+ 546	 40000	63.4	23.7	  13	very low noise
+ 547	 40000	63.4	23.7	  28	very low noise
+ 548	 40000	64.1	23.7	  13	very low noise
+ 549	 40000	63.8	23.7	  13	very low noise
+ 550	 40000	64.0	23.7	  13	very low noise
+ 551	 40000	62.4	23.7	  13	very low noise
+ 552	 40000	66.2	23.7	  27	very low noise
+ 553	 40000	65.0	23.7	  13	very low noise
+ 554	 40000	64.4	23.7	  13	very low noise
+ 555	 40000	65.5	23.7	  13	very low noise
+ 556	 40000	62.8	23.7	  13	very low noise
+ 557	 40000	64.8	23.7	  13	very low noise
+ 558	 40000	66.0	23.7	  13	very low noise
+ 559	 40000	65.5	23.7	  27	very low noise
+ 560	 40000	64.6	23.7	  13	very low noise
+ 561	 40000	64.9	23.7	  13	very low noise
+ 562	 40000	65.3	23.7	  13	very low noise
+ 563	 40000	64.7	23.7	  13	very low noise
+ 564	 40000	66.4	23.7	  27	very low noise
+ 565	 40000	65.0	23.7	  27	very low noise
+ 566	 40000	66.2	23.7	  27	very low noise
+ 567	 40000	64.0	23.7	  28	very low noise
+ 568	 40000	66.9	23.7	  12	very low noise
+ 569	 40000	64.9	23.7	  13	very low noise
+ 570	 40000	64.8	23.7	  13	very low noise
+ 571	 40000	67.2	24.0	  14	very low noise
+ 572	 40000	65.2	23.7	  27	very low noise
+ 573	 40000	66.7	23.7	  27	very low noise
+ 574	 40000	66.4	24.0	  34	very low noise
+ 575	 40000	68.2	23.7	  12	very low noise
+ 576	 40000	65.6	23.9	  34	very low noise
+ 577	 40000	63.8	23.7	  13	very low noise
+ 578	 40000	64.3	23.7	  13	very low noise
+ 579	 40000	65.7	23.7	  13	very low noise
+ 580	 40000	66.3	23.7	  13	very low noise
+ 581	 40000	65.9	23.7	  13	very low noise
+ 582	 40000	63.9	23.7	  28	very low noise
+ 583	 40000	65.1	23.7	  27	very low noise
+ 584	 40000	62.2	23.7	  31	very low noise
+ 585	 40000	63.5	23.7	  13	very low noise
+ 586	 40000	64.7	23.7	  27	very low noise
+ 587	 40000	64.2	23.7	  13	very low noise
+ 588	 40000	62.1	23.7	  13	very low noise
+ 589	 40000	62.1	23.7	  13	very low noise
+ 590	 40000	63.6	23.7	  28	very low noise
+ 591	 40000	64.0	23.7	  13	very low noise
+ 592	 40000	64.5	23.7	  13	very low noise
+ 593	 40000	64.0	23.7	  28	very low noise
+ 594	 40000	63.4	23.7	  13	very low noise
+ 595	 40000	66.1	23.7	  27	very low noise
+ 596	 40000	64.7	23.7	  13	very low noise
+ 597	 40000	64.1	23.7	  13	very low noise
+ 598	 40000	62.7	23.7	  28	very low noise
+ 599	 40000	64.7	23.7	  13	very low noise
+ 600	 40000	63.9	23.7	  13	very low noise
+ 601	 40000	66.0	23.7	  13	very low noise
+ 602	 40000	63.8	23.7	  13	very low noise
+ 603	 40000	63.4	23.7	  13	very low noise
+ 604	 40000	65.1	23.7	  13	very low noise
+ 605	 40000	64.1	23.7	  13	very low noise
+ 606	 40000	60.8	23.7	  14	very low noise
+ 607	 40000	65.1	23.7	  13	very low noise
+ 608	 40000	63.5	23.7	  13	very low noise
+ 609	 40000	62.4	23.7	  13	very low noise
+ 610	 40000	63.6	23.7	  13	very low noise
+ 611	 40000	63.8	23.7	  13	very low noise
+ 612	 40000	65.1	23.7	  13	very low noise
+ 613	 40000	64.4	23.7	  13	very low noise
+ 614	 40000	64.3	23.8	  36	very low noise
+ 615	 40000	66.4	23.7	  27	very low noise
+ 616	 40000	63.9	24.0	  23	very low noise
+ 617	 40000	65.3	24.3	  14	very low noise
+ 618	 40000	65.3	23.7	  32	very low noise
+ 619	 40000	66.8	23.7	  13	very low noise
+ 620	 40000	64.0	23.8	  37	very low noise
+ 621	 40000	67.0	24.3	  13	very low noise
+ 622	 40000	64.7	23.9	  34	very low noise
+ 623	 40000	64.2	23.7	  13	very low noise
+ 624	 40000	62.9	23.7	  32	very low noise
+ 625	 40000	65.9	23.7	  13	very low noise
+ 626	 40000	63.3	23.7	  35	very low noise
+ 627	 40000	64.3	23.8	  37	very low noise
+ 628	 40000	64.8	23.7	  13	very low noise
+ 629	 40000	63.8	23.7	  37	very low noise
+ 630	 40000	65.7	23.6	  37	very low noise
+ 631	 40000	64.2	23.7	  30	very low noise
+ 632	 40000	63.3	23.8	  37	very low noise
+ 633	 40000	65.1	23.5	  28	very low noise
+ 634	 40000	64.3	23.8	  37	very low noise
+ 635	 40000	63.1	23.4	  25	very low noise
+ 636	 40000	68.8	23.4	  32	very low noise
+ 637	 40000	65.7	23.7	  39	very low noise
+ 638	 40000	65.1	23.7	  37	very low noise
+ 639	 40000	66.8	23.8	  35	very low noise
+ 640	 40000	65.9	23.7	  13	very low noise
+ 641	 40000	64.5	23.7	  13	very low noise
+ 642	 40000	65.0	23.7	  13	very low noise
+ 643	 40000	64.8	23.7	  13	very low noise
+ 644	 40000	65.5	23.7	  13	very low noise
+ 645	 40000	64.7	23.7	  13	very low noise
+ 646	 40000	63.7	23.7	  13	very low noise
+ 647	 40000	64.3	23.7	  13	very low noise
+ 648	 40000	64.3	23.7	  13	very low noise
+ 649	 40000	64.9	23.7	  13	very low noise
+ 650	 40000	63.0	23.7	  13	very low noise
+ 651	 40000	65.0	23.7	  13	very low noise
+ 652	 40000	64.4	23.7	  13	very low noise
+ 653	 40000	67.1	23.7	  12	very low noise
+ 654	 40000	66.1	23.7	  13	very low noise
+ 655	 40000	65.1	23.7	  13	very low noise
+ 656	 40000	65.6	23.7	  13	very low noise
+ 657	 40000	65.1	23.7	  13	very low noise
+ 658	 40000	67.1	23.7	  12	very low noise
+ 659	 40000	64.0	23.7	  13	very low noise
+ 660	 40000	67.0	23.7	  12	very low noise
+ 661	 40000	65.7	23.7	  13	very low noise
+ 662	 40000	67.3	23.7	  12	very low noise
+ 663	 40000	66.6	23.7	  13	very low noise
+ 664	 40000	64.4	23.7	  13	very low noise
+ 665	 40000	65.1	23.7	  13	very low noise
+ 666	 40000	64.0	23.7	  13	very low noise
+ 667	 40000	67.4	23.7	  12	very low noise
+ 668	 40000	67.3	23.7	  12	very low noise
+ 669	 40000	64.9	23.7	  13	very low noise
+ 670	 40000	65.3	23.7	  13	very low noise
+ 671	 40000	66.5	23.7	  13	very low noise
+ 672	 40000	63.3	24.0	  15	very low noise
+ 673	 40000	66.1	23.7	  13	very low noise
+ 674	 40000	63.7	23.7	  13	very low noise
+ 675	 40000	63.7	23.7	  13	very low noise
+ 676	 40000	64.3	23.7	  13	very low noise
+ 677	 40000	63.5	23.7	  13	very low noise
+ 678	 40000	63.8	23.7	  13	very low noise
+ 679	 40000	65.1	23.7	  13	very low noise
+ 680	 40000	66.8	23.7	  12	very low noise
+ 681	 40000	65.9	23.7	  13	very low noise
+ 682	 40000	64.2	23.7	  13	very low noise
+ 683	 40000	65.6	23.7	  13	very low noise
+ 684	 40000	66.3	23.7	  13	very low noise
+ 685	 40000	65.7	23.7	  13	very low noise
+ 686	 40000	65.3	23.7	  13	very low noise
+ 687	 40000	66.2	23.7	  13	very low noise
+ 688	 40000	63.7	23.7	  13	very low noise
+ 689	 40000	64.2	23.7	  13	very low noise
+ 690	 40000	66.2	23.7	  13	very low noise
+ 691	 40000	65.5	23.7	  13	very low noise
+ 692	 40000	64.1	23.7	  13	very low noise
+ 693	 40000	65.0	23.7	  13	very low noise
+ 694	 40000	64.7	23.7	  13	very low noise
+ 695	 40000	65.3	23.7	  13	very low noise
+ 696	 40000	65.4	23.7	  13	very low noise
+ 697	 40000	64.3	23.7	  13	very low noise
+ 698	 40000	64.8	23.7	  13	very low noise
+ 699	 40000	65.4	23.7	  13	very low noise
+ 700	 40000	66.6	23.7	  13	very low noise
+ 701	 40000	64.2	23.7	  13	very low noise
+ 702	 40000	67.3	23.7	  12	very low noise
+ 703	 40000	66.7	23.7	  13	very low noise
+ 704	 40000	69.3	23.7	  12	very low noise
+ 705	 40000	67.3	23.7	  12	very low noise
+ 706	 40000	66.1	23.7	  13	very low noise
+ 707	 40000	65.2	23.7	  13	very low noise
+ 708	 40000	67.4	23.7	  12	very low noise
+ 709	 40000	66.7	23.7	  13	very low noise
+ 710	 40000	66.0	23.7	  13	very low noise
+ 711	 40000	68.6	23.7	  12	very low noise
+ 712	 40000	67.9	23.7	  12	very low noise
+ 713	 40000	66.5	23.7	  13	very low noise
+ 714	 40000	65.3	23.7	  13	very low noise
+ 715	 40000	64.4	23.7	  13	very low noise
+ 716	 40000	66.9	23.7	  27	very low noise
+ 717	 40000	65.9	23.7	  13	very low noise
+ 718	 40000	67.4	23.7	  12	very low noise
+ 719	 40000	64.1	23.7	  13	very low noise
+ 720	 40000	66.4	23.7	  13	very low noise
+ 721	 40000	64.9	23.7	  13	very low noise
+ 722	 40000	66.9	23.7	  12	very low noise
+ 723	 40000	66.9	23.7	  12	very low noise
+ 724	 40000	66.7	23.7	  13	very low noise
+ 725	 40000	65.6	23.7	  13	very low noise
+ 726	 40000	64.7	23.7	  13	very low noise
+ 727	 40000	64.5	23.7	  13	very low noise
+ 728	 40000	64.3	23.7	  13	very low noise
+ 729	 40000	65.7	23.7	  13	very low noise
+ 730	 40000	63.2	23.7	  13	very low noise
+ 731	 40000	63.9	23.7	  13	very low noise
+ 732	 40000	66.0	23.7	  13	very low noise
+ 733	 40000	64.3	23.7	  13	very low noise
+ 734	 40000	64.8	23.7	  13	very low noise
+ 735	 40000	65.1	23.7	  13	very low noise
+ 736	 40000	64.3	23.7	  13	very low noise
+ 737	 40000	63.9	23.7	  13	very low noise
+ 738	 40000	64.4	23.7	  13	very low noise
+ 739	 40000	63.4	23.7	  13	very low noise
+ 740	 40000	66.5	23.7	  13	very low noise
+ 741	 40000	66.1	23.7	  13	very low noise
+ 742	 40000	66.8	23.7	  12	very low noise
+ 743	 40000	64.7	23.7	  13	very low noise
+ 744	 40000	65.4	23.7	  13	very low noise
+ 745	 40000	64.1	23.7	  13	very low noise
+ 746	 40000	65.8	23.7	  13	very low noise
+ 747	 40000	66.2	23.7	  13	very low noise
+ 748	 40000	65.0	23.7	  13	very low noise
+ 749	 40000	64.0	23.7	  13	very low noise
+ 750	 40000	63.8	23.7	  13	very low noise
+ 751	 40000	63.9	23.7	  13	very low noise
+ 752	 40000	66.2	23.7	  13	very low noise
+ 753	 40000	64.0	23.7	  13	very low noise
+ 754	 40000	65.4	23.7	  13	very low noise
+ 755	 40000	68.2	23.7	  12	very low noise
+ 756	 40000	66.5	23.7	  13	very low noise
+ 757	 40000	64.0	23.7	  13	very low noise
+ 758	 40000	64.5	23.7	  13	very low noise
+ 759	 40000	66.0	23.7	  13	very low noise
+ 760	 40000	66.4	23.7	  13	very low noise
+ 761	 40000	66.3	23.7	  13	very low noise
+ 762	 40000	65.8	23.7	  13	very low noise
+ 763	 40000	65.1	23.7	  13	very low noise
+ 764	 40000	65.2	23.7	  13	very low noise
+ 765	 40000	67.8	23.7	  12	very low noise
+ 766	 40000	68.6	23.7	  12	very low noise
+ 767	 40000	65.4	23.7	  13	very low noise
+ 768	 40000	67.3	23.7	  12	very low noise
+ 769	 40000	68.7	23.7	  12	very low noise
+ 770	 40000	69.3	23.7	  12	very low noise
+ 771	 40000	68.0	23.7	  12	very low noise
+ 772	 40000	66.3	23.7	  13	very low noise
+ 773	 40000	66.8	23.7	  13	very low noise
+ 774	 40000	66.9	23.7	  12	very low noise
+ 775	 40000	64.8	23.7	  13	very low noise
+ 776	 40000	66.2	23.7	  13	very low noise
+ 777	 40000	65.5	23.7	  13	very low noise
+ 778	 40000	65.2	23.7	  13	very low noise
+ 779	 40000	68.8	23.7	  12	very low noise
+ 780	 40000	65.5	23.7	  13	very low noise
+ 781	 40000	68.8	23.7	  12	very low noise
+ 782	 40000	66.4	23.7	  13	very low noise
+ 783	 40000	67.3	23.7	  12	very low noise
+ 784	 40000	68.0	23.7	  12	very low noise
+ 785	 40000	64.5	23.7	  13	very low noise
+ 786	 40000	65.7	23.7	  13	very low noise
+ 787	 40000	66.7	23.7	  13	very low noise
+ 788	 40000	67.7	23.7	  12	very low noise
+ 789	 40000	67.5	23.7	  12	very low noise
+ 790	 40000	66.1	23.7	  13	very low noise
+ 791	 40000	66.3	23.7	  13	very low noise
+ 792	 40000	66.9	23.7	  12	very low noise
+ 793	 40000	67.3	23.7	  12	very low noise
+ 794	 40000	66.1	23.7	  13	very low noise
+ 795	 40000	66.2	23.7	  13	very low noise
+ 796	 40000	66.8	23.8	  34	very low noise
+ 797	 40000	66.6	23.7	  13	very low noise
+ 798	 40000	66.2	23.7	  13	very low noise
+ 799	 40000	67.0	23.7	  12	very low noise
+ 800	 40000	66.6	23.7	  13	very low noise
+ 801	 40000	66.6	23.7	  13	very low noise
+ 802	 40000	66.5	23.7	  13	very low noise
+ 803	 40000	68.1	23.7	  26	very low noise
+ 804	 40000	65.6	23.7	  13	very low noise
+ 805	 40000	68.1	23.7	  12	very low noise
+ 806	 40000	67.2	23.7	  12	very low noise
+ 807	 40000	65.0	23.7	  27	very low noise
+ 808	 40000	65.1	23.7	  13	very low noise
+ 809	 40000	65.3	23.7	  13	very low noise
+ 810	 40000	65.2	23.7	  13	very low noise
+ 811	 40000	64.8	23.7	  13	very low noise
+ 812	 40000	66.0	23.7	  13	very low noise
+ 813	 40000	64.5	23.7	  13	very low noise
+ 814	 40000	68.2	23.7	  12	very low noise
+ 815	 40000	67.5	23.7	  26	very low noise
+ 816	 40000	64.8	23.7	  13	very low noise
+ 817	 40000	67.0	23.7	  12	very low noise
+ 818	 40000	67.0	23.7	  12	very low noise
+ 819	 40000	66.1	23.7	  13	very low noise
+ 820	 40000	67.0	23.7	  12	very low noise
+ 821	 40000	65.9	23.7	  13	very low noise
+ 822	 40000	64.2	23.7	  13	very low noise
+ 823	 40000	66.7	23.7	  13	very low noise
+ 824	 40000	64.9	23.7	  13	very low noise
+ 825	 40000	65.8	23.7	  13	very low noise
+ 826	 40000	68.1	23.7	  12	very low noise
+ 827	 40000	67.0	23.7	  12	very low noise
+ 828	 40000	68.6	23.7	  12	very low noise
+ 829	 40000	68.4	23.7	  12	very low noise
+ 830	 40000	67.9	23.7	  12	very low noise
+ 831	 40000	67.1	23.7	  12	very low noise
+ 832	 40000	66.0	23.7	  13	very low noise
+ 833	 40000	65.9	23.7	  13	very low noise
+ 834	 40000	66.3	23.7	  13	very low noise
+ 835	 40000	64.5	23.7	  13	very low noise
+ 836	 40000	66.0	24.3	  14	very low noise
+ 837	 40000	65.7	23.7	  13	very low noise
+ 838	 40000	65.4	23.7	  13	very low noise
+ 839	 40000	64.8	23.7	  13	very low noise
+ 840	 40000	63.7	23.7	  13	very low noise
+ 841	 40000	65.2	23.7	  13	very low noise
+ 842	 40000	65.5	23.7	  13	very low noise
+ 843	 40000	63.8	23.7	  13	very low noise
+ 844	 40000	64.4	23.7	  13	very low noise
+ 845	 40000	64.2	23.7	  13	very low noise
+ 846	 40000	64.4	23.7	  13	very low noise
+ 847	 40000	64.9	23.7	  13	very low noise
+ 848	 40000	66.7	23.7	  13	very low noise
+ 849	 40000	66.2	23.7	  13	very low noise
+ 850	 40000	63.5	23.7	  13	very low noise
+ 851	 40000	63.6	23.7	  13	very low noise
+ 852	 40000	65.7	23.7	  13	very low noise
+ 853	 40000	64.0	23.7	  13	very low noise
+ 854	 40000	64.7	23.7	  13	very low noise
+ 855	 40000	65.3	23.7	  13	very low noise
+ 856	 40000	64.6	23.7	  13	very low noise
+ 857	 40000	64.7	23.7	  13	very low noise
+ 858	 40000	65.1	23.7	  13	very low noise
+ 859	 40000	67.1	23.7	  12	very low noise
+ 860	 40000	64.3	23.7	  13	very low noise
+ 861	 40000	64.8	23.7	  27	very low noise
+ 862	 40000	63.1	23.7	  13	very low noise
+ 863	 40000	65.8	23.7	  13	very low noise
+ 864	 40000	64.6	23.7	  13	very low noise
+ 865	 40000	63.5	23.7	  13	very low noise
+ 866	 40000	66.5	23.7	  13	very low noise
+ 867	 40000	65.3	23.7	  13	very low noise
+ 868	 40000	65.2	23.7	  13	very low noise
+ 869	 40000	66.7	23.7	  13	very low noise
+ 870	 40000	66.9	23.7	  12	very low noise
+ 871	 40000	64.8	23.7	  13	very low noise
+ 872	 40000	63.5	23.7	  13	very low noise
+ 873	 40000	65.0	23.7	  13	very low noise
+ 874	 40000	65.7	23.7	  13	very low noise
+ 875	 40000	65.7	23.7	  13	very low noise
+ 876	 40000	66.1	23.7	  13	very low noise
+ 877	 40000	66.1	23.7	  13	very low noise
+ 878	 40000	65.4	23.7	  13	very low noise
+ 879	 40000	65.2	23.7	  13	very low noise
+ 880	 40000	65.0	23.7	  13	very low noise
+ 881	 40000	64.4	23.7	  13	very low noise
+ 882	 40000	63.3	23.7	  13	very low noise
+ 883	 40000	66.8	23.7	  13	very low noise
+ 884	 40000	64.3	23.7	  13	very low noise
+ 885	 40000	64.1	23.7	  13	very low noise
+ 886	 40000	66.0	23.7	  13	very low noise
+ 887	 40000	64.5	23.7	  13	very low noise
+ 888	 40000	66.3	23.7	  13	very low noise
+ 889	 40000	66.1	23.7	  13	very low noise
+ 890	 40000	63.8	23.7	  13	very low noise
+ 891	 40000	66.3	23.7	  13	very low noise
+ 892	 40000	65.7	23.7	  13	very low noise
+ 893	 40000	66.0	23.7	  13	very low noise
+ 894	 40000	67.3	23.7	  12	very low noise
+ 895	 40000	66.4	23.7	  13	very low noise
+ 896	 40000	67.8	23.7	  12	very low noise
+ 897	 40000	66.3	23.7	  13	very low noise
+ 898	 40000	65.7	23.7	  13	very low noise
+ 899	 40000	66.1	23.7	  13	very low noise
+ 900	 40000	65.8	23.7	  13	very low noise
+ 901	 40000	64.1	23.7	  13	very low noise
+ 902	 40000	63.6	23.7	  13	very low noise
+ 903	 40000	62.5	23.7	  13	very low noise
+ 904	 40000	64.2	23.7	  13	very low noise
+ 905	 40000	64.3	23.7	  13	very low noise
+ 906	 40000	64.3	23.7	  13	very low noise
+ 907	 40000	64.5	23.7	  13	very low noise
+ 908	 40000	63.2	23.7	  13	very low noise
+ 909	 40000	65.4	23.7	  13	very low noise
+ 910	 40000	65.1	23.7	  13	very low noise
+ 911	 40000	63.2	23.7	  13	very low noise
+ 912	 40000	63.6	23.7	  13	very low noise
+ 913	 40000	63.9	23.7	  13	very low noise
+ 914	 40000	64.2	23.7	  13	very low noise
+ 915	 40000	65.8	23.7	  13	very low noise
+ 916	 40000	65.1	23.7	  13	very low noise
+ 917	 40000	65.0	23.7	  13	very low noise
+ 918	 40000	63.3	23.7	  13	very low noise
+ 919	 40000	64.2	23.7	  13	very low noise
+ 920	 40000	63.0	23.7	  13	very low noise
+ 921	 40000	65.3	23.7	  13	very low noise
+ 922	 40000	62.9	23.7	  13	very low noise
+ 923	 40000	64.9	23.7	  13	very low noise
+ 924	 40000	64.7	23.7	  13	very low noise
+ 925	 40000	65.6	23.7	  27	very low noise
+ 926	 40000	65.0	23.7	  13	very low noise
+ 927	 40000	61.6	23.7	  14	very low noise
+ 928	 40000	63.5	23.7	  13	very low noise
+ 929	 40000	63.6	23.7	  13	very low noise
+ 930	 40000	63.7	23.7	  13	very low noise
+ 931	 40000	64.1	23.7	  13	very low noise
+ 932	 40000	63.5	23.7	  13	very low noise
+ 933	 40000	65.9	23.7	  13	very low noise
+ 934	 40000	64.4	23.7	  13	very low noise
+ 935	 40000	64.7	23.7	  13	very low noise
+ 936	 40000	63.8	23.7	  13	very low noise
+ 937	 40000	64.1	23.7	  13	very low noise
+ 938	 40000	65.5	23.7	  13	very low noise
+ 939	 40000	63.7	23.7	  13	very low noise
+ 940	 40000	63.8	23.7	  13	very low noise
+ 941	 40000	65.3	23.7	  13	very low noise
+ 942	 40000	64.3	23.7	  13	very low noise
+ 943	 40000	65.4	23.7	  13	very low noise
+ 944	 40000	64.0	23.7	  13	very low noise
+ 945	 40000	64.0	23.7	  13	very low noise
+ 946	 40000	64.0	23.7	  13	very low noise
+ 947	 40000	66.2	23.7	  13	very low noise
+ 948	 40000	65.2	23.7	  13	very low noise
+ 949	 40000	65.8	23.7	  13	very low noise
+ 950	 40000	64.6	23.7	  13	very low noise
+ 951	 40000	65.1	23.7	  13	very low noise
+ 952	 40000	63.5	23.7	  13	very low noise
+ 953	 40000	64.5	23.7	  13	very low noise
+ 954	 40000	67.0	23.7	  12	very low noise
+ 955	 40000	64.6	23.7	  13	very low noise
+ 956	 40000	64.9	23.7	  13	very low noise
+ 957	 40000	65.6	23.7	  13	very low noise
+ 958	 40000	66.3	23.7	  13	very low noise
+ 959	 40000	67.4	23.7	  12	very low noise
+ 960	 40000	67.9	23.7	  12	very low noise
+ 961	 40000	64.1	23.7	  13	very low noise
+ 962	 40000	66.3	23.7	  13	very low noise
+ 963	 40000	64.3	23.7	  13	very low noise
+ 964	 40000	64.9	23.7	  13	very low noise
+ 965	 40000	65.1	23.7	  13	very low noise
+ 966	 40000	65.7	23.7	  13	very low noise
+ 967	 40000	63.7	23.7	  13	very low noise
+ 968	 40000	64.7	23.7	  13	very low noise
+ 969	 40000	64.4	23.7	  13	very low noise
+ 970	 40000	62.7	23.7	  13	very low noise
+ 971	 40000	65.0	23.7	  13	very low noise
+ 972	 40000	63.5	23.7	  13	very low noise
+ 973	 40000	63.7	23.7	  13	very low noise
+ 974	 40000	64.2	23.7	  13	very low noise
+ 975	 40000	64.4	23.7	  13	very low noise
+ 976	 40000	64.9	23.7	  13	very low noise
+ 977	 40000	65.2	23.7	  13	very low noise
+ 978	 40000	66.2	23.7	  13	very low noise
+ 979	 40000	64.1	23.7	  13	very low noise
+ 980	 40000	63.4	23.7	  13	very low noise
+ 981	 40000	62.8	23.7	  13	very low noise
+ 982	 40000	65.7	23.7	  13	very low noise
+ 983	 40000	64.0	23.7	  13	very low noise
+ 984	 40000	63.8	23.7	  13	very low noise
+ 985	 40000	66.0	23.7	  13	very low noise
+ 986	 40000	63.7	23.7	  13	very low noise
+ 987	 40000	63.9	23.7	  13	very low noise
+ 988	 40000	66.6	23.7	  13	very low noise
+ 989	 40000	64.8	23.7	  13	very low noise
+ 990	 40000	64.7	23.7	  13	very low noise
+ 991	 40000	64.9	23.7	  13	very low noise
+ 992	 40000	64.8	23.7	  13	very low noise
+ 993	 40000	65.0	23.7	  13	very low noise
+ 994	 40000	65.9	23.7	  13	very low noise
+ 995	 40000	64.7	23.7	  13	very low noise
+ 996	 40000	67.2	23.7	  12	very low noise
+ 997	 40000	65.4	23.7	  13	very low noise
+ 998	 40000	64.9	23.7	  13	very low noise
+ 999	 40000	65.1	23.7	  13	very low noise
+1000	 40000	64.4	23.7	  13	very low noise
+1001	 40000	65.1	23.7	  13	very low noise
+1002	 40000	64.3	23.7	  13	very low noise
+1003	 40000	66.1	23.7	  13	very low noise
+1004	 40000	64.8	23.7	  13	very low noise
+1005	 40000	63.0	23.7	  13	very low noise
+1006	 40000	65.2	23.7	  13	very low noise
+1007	 40000	64.3	23.7	  13	very low noise
+1008	 40000	67.4	23.7	  12	very low noise
+1009	 40000	63.1	23.7	  13	very low noise
+1010	 40000	64.4	23.7	  13	very low noise
+1011	 40000	66.0	23.7	  13	very low noise
+1012	 40000	68.5	23.7	  12	very low noise
+1013	 40000	65.7	23.7	  13	very low noise
+1014	 40000	65.6	23.7	  13	very low noise
+1015	 40000	65.6	23.7	  13	very low noise
+1016	 40000	65.3	23.7	  13	very low noise
+1017	 40000	65.3	23.7	  13	very low noise
+1018	 40000	65.3	23.7	  13	very low noise
+1019	 40000	65.4	23.7	  13	very low noise
+1020	 40000	65.8	23.7	  13	very low noise
+1021	 40000	66.2	23.7	  13	very low noise
+1022	 40000	65.5	23.7	  13	very low noise
+1023	 40000	67.3	23.7	  12	very low noise
+1024	 40000	66.3	23.7	  13	very low noise
+1025	 40000	65.6	23.7	  13	very low noise
+1026	 40000	63.2	23.7	  13	very low noise
+1027	 40000	65.8	23.7	  13	very low noise
+1028	 40000	63.8	23.7	  13	very low noise
+1029	 40000	64.4	23.7	  13	very low noise
+1030	 40000	66.8	23.7	  13	very low noise
+1031	 40000	66.6	23.7	  13	very low noise
+1032	 40000	64.7	23.7	  13	very low noise
+1033	 40000	67.3	23.7	  12	very low noise
+1034	 40000	66.6	23.7	  27	very low noise
+1035	 40000	64.3	23.7	  13	very low noise
+1036	 40000	66.5	23.7	  13	very low noise
+1037	 40000	65.3	23.7	  13	very low noise
+1038	 40000	67.2	23.7	  12	very low noise
+1039	 40000	64.6	23.7	  13	very low noise
+1040	 40000	64.9	23.7	  13	very low noise
+1041	 40000	65.2	23.7	  13	very low noise
+1042	 40000	63.3	23.7	  13	very low noise
+1043	 40000	65.5	23.7	  13	very low noise
+1044	 40000	65.3	23.7	  13	very low noise
+1045	 40000	64.6	23.7	  13	very low noise
+1046	 40000	65.9	23.7	  13	very low noise
+1047	 40000	66.0	23.7	  13	very low noise
+1048	 40000	65.5	23.7	  13	very low noise
+1049	 40000	65.4	23.7	  13	very low noise
+1050	 40000	64.5	23.7	  13	very low noise
+1051	 40000	65.6	23.7	  13	very low noise
+1052	 40000	62.5	23.7	  13	very low noise
+1053	 40000	65.3	23.7	  13	very low noise
+1054	 40000	66.4	23.7	  13	very low noise
+1055	 40000	67.4	23.7	  12	very low noise
+1056	 40000	66.2	23.7	  13	very low noise
+1057	 40000	66.2	23.7	  13	very low noise
+1058	 50000	36.9	23.7	  23	very low gain
+1059	 40000	66.1	23.7	  13	very low noise
+1060	 50000	36.9	23.7	  23	very low gain
+1061	 40000	64.9	23.7	  13	very low noise
+1062	 40000	65.4	23.7	  13	very low noise
+1063	 40000	65.4	23.7	  13	very low noise
+1064	 40000	64.8	23.7	  13	very low noise
+1065	 40000	64.1	23.7	  13	very low noise
+1066	 40000	64.6	23.7	  13	very low noise
+1067	 40000	67.6	23.7	  12	very low noise
+1068	 40000	65.1	23.7	  13	very low noise
+1069	 40000	64.1	23.7	  13	very low noise
+1070	 40000	64.3	23.7	  13	very low noise
+1071	 40000	64.3	23.7	  13	very low noise
+1072	 40000	65.6	23.7	  13	very low noise
+1073	 40000	65.6	23.7	  13	very low noise
+1074	 40000	65.3	23.7	  13	very low noise
+1075	 40000	64.9	23.7	  13	very low noise
+1076	 40000	63.9	23.7	  13	very low noise
+1077	 40000	64.8	23.7	  13	very low noise
+1078	 40000	65.1	23.7	  13	very low noise
+1079	 40000	64.7	23.7	  13	very low noise
+1080	 40000	65.5	23.7	  13	very low noise
+1081	 40000	64.4	23.7	  13	very low noise
+1082	 40000	67.0	23.7	  12	very low noise
+1083	 40000	67.4	23.7	  12	very low noise
+1084	 40000	66.0	23.7	  13	very low noise
+1085	 40000	67.4	23.7	  12	very low noise
+1086	 40000	68.2	23.7	  12	very low noise
+1087	 40000	67.2	23.7	  12	very low noise
+1088	 40000	67.6	23.7	  12	very low noise
+1089	 40000	66.7	23.7	  13	very low noise
+1090	 40000	66.0	23.7	  13	very low noise
+1091	 40000	66.5	23.7	  13	very low noise
+1092	 40000	64.4	23.7	  13	very low noise
+1093	 40000	64.3	23.7	  13	very low noise
+1094	 40000	66.2	23.7	  13	very low noise
+1095	 40000	65.7	23.7	  13	very low noise
+1096	 40000	64.3	23.7	  13	very low noise
+1097	 40000	65.0	23.7	  13	very low noise
+1098	 40000	65.9	23.7	  13	very low noise
+1099	 40000	65.1	23.7	  13	very low noise
+1100	 40000	65.0	23.7	  13	very low noise
+1101	 40000	64.5	23.7	  13	very low noise
+1102	 40000	64.4	23.7	  28	very low noise
+1103	 40000	63.9	23.7	  13	very low noise
+1104	 40000	64.4	23.7	  13	very low noise
+1105	 40000	63.7	23.7	  13	very low noise
+1106	 40000	65.7	23.7	  13	very low noise
+1107	 40000	62.4	23.7	  13	very low noise
+1108	 40000	66.3	23.7	  13	very low noise
+1109	 40000	65.3	23.7	  13	very low noise
+1110	 40000	63.6	23.7	  13	very low noise
+1111	 40000	66.3	23.7	  13	very low noise
+1112	 40000	64.7	23.7	  13	very low noise
+1113	 40000	65.0	23.7	  13	very low noise
+1114	 40000	65.5	23.7	  13	very low noise
+1115	 40000	66.1	23.7	  13	very low noise
+1116	 40000	65.4	23.7	  13	very low noise
+1117	 40000	64.1	23.7	  13	very low noise
+1118	 40000	66.2	23.7	  13	very low noise
+1119	 40000	67.2	23.7	  12	very low noise
+1120	 40000	65.7	23.7	  13	very low noise
+1121	 40000	66.3	23.7	  13	very low noise
+1122	 40000	65.3	23.7	  13	very low noise
+1123	 40000	65.6	23.7	  13	very low noise
+1124	 40000	63.9	23.7	  13	very low noise
+1125	 40000	65.6	23.7	  13	very low noise
+1126	 40000	64.7	23.7	  13	very low noise
+1127	 40000	65.3	23.7	  13	very low noise
+1128	 40000	65.9	23.7	  13	very low noise
+1129	 40000	65.8	23.7	  13	very low noise
+1130	 40000	64.3	23.7	  13	very low noise
+1131	 40000	67.0	23.7	  12	very low noise
+1132	 40000	65.9	23.7	  13	very low noise
+1133	 40000	65.9	23.7	  13	very low noise
+1134	 40000	65.4	23.7	  13	very low noise
+1135	 40000	65.3	23.7	  13	very low noise
+1136	 40000	66.5	23.7	  13	very low noise
+1137	 40000	65.3	23.7	  13	very low noise
+1138	 40000	62.7	23.7	  13	very low noise
+1139	 40000	65.7	23.7	  13	very low noise
+1140	 40000	66.5	23.7	  13	very low noise
+1141	 40000	66.4	23.7	  13	very low noise
+1142	 40000	64.5	23.7	  13	very low noise
+1143	 40000	65.0	23.7	  13	very low noise
+1144	 40000	65.5	23.7	  27	very low noise
+1145	 40000	66.4	23.7	  13	very low noise
+1146	 40000	66.0	23.7	  13	very low noise
+1147	 40000	65.3	23.7	  13	very low noise
+1148	 40000	66.9	23.7	  12	very low noise
+1149	 40000	65.7	23.7	  13	very low noise
+1150	 40000	68.8	23.7	  12	very low noise
+1151	 40000	65.5	23.7	  13	very low noise
+1152	 40000	63.6	23.7	  13	very low noise
+1153	 40000	66.0	23.7	  13	very low noise
+1154	 40000	64.2	23.7	  13	very low noise
+1155	 40000	62.1	23.7	  13	very low noise
+1156	 40000	62.6	23.7	  13	very low noise
+1157	 40000	64.7	23.7	  13	very low noise
+1158	 40000	62.9	23.7	  13	very low noise
+1159	 40000	61.1	23.7	  14	very low noise
+1160	 40000	63.7	23.7	  13	very low noise
+1161	 40000	66.7	23.7	  13	very low noise
+1162	 40000	62.2	23.7	  13	very low noise
+1163	 40000	62.0	23.7	  13	very low noise
+1164	 40000	62.4	23.7	  13	very low noise
+1165	 40000	62.2	23.7	  13	very low noise
+1166	 40000	61.8	23.7	  14	very low noise
+1167	 40000	62.2	23.7	  13	very low noise
+1168	 40000	63.9	23.7	  13	very low noise
+1169	 40000	61.7	23.7	  14	very low noise
+1170	 40000	63.4	23.7	  13	very low noise
+1171	 40000	63.9	23.7	  13	very low noise
+1172	 40000	64.0	23.7	  13	very low noise
+1173	 40000	63.6	23.7	  13	very low noise
+1174	 40000	63.3	23.7	  13	very low noise
+1175	 40000	63.8	23.7	  13	very low noise
+1176	 40000	61.5	23.7	  14	very low noise
+1177	 40000	66.8	23.7	  13	very low noise
+1178	 40000	64.2	23.7	  13	very low noise
+1179	 40000	61.8	23.7	  14	very low noise
+1180	 40000	63.1	23.7	  13	very low noise
+1181	 40000	64.1	23.7	  13	very low noise
+1182	 40000	62.9	23.7	  13	very low noise
+1183	 40000	64.7	23.7	  13	very low noise
+1184	 40000	64.2	23.7	  13	very low noise
+1185	 40000	61.9	23.7	  29	very low noise
+1186	 40000	61.8	23.7	  14	very low noise
+1187	 40000	62.2	23.7	  13	very low noise
+1188	 40000	63.7	23.7	  13	very low noise
+1189	 40000	64.5	23.7	  13	very low noise
+1190	 40000	62.6	23.7	  13	very low noise
+1191	 40000	64.2	23.7	  13	very low noise
+1192	 40000	63.9	23.7	  13	very low noise
+1193	 40000	62.5	23.7	  13	very low noise
+1194	 40000	63.5	23.7	  13	very low noise
+1195	 40000	65.2	23.7	  13	very low noise
+1196	 40000	64.1	23.7	  13	very low noise
+1197	 40000	63.7	23.7	  13	very low noise
+1198	 40000	64.2	23.7	  13	very low noise
+1199	 40000	63.8	23.7	  13	very low noise
+1200	 40000	63.0	23.7	  13	very low noise
+1201	 40000	64.0	23.7	  13	very low noise
+1202	 40000	63.0	23.7	  13	very low noise
+1203	 40000	64.0	23.7	  13	very low noise
+1204	 40000	63.7	23.7	  13	very low noise
+1205	 40000	65.4	23.7	  13	very low noise
+1206	 40000	64.6	23.7	  13	very low noise
+1207	 40000	63.6	23.7	  13	very low noise
+1208	 40000	62.9	23.7	  13	very low noise
+1209	 40000	64.6	23.7	  13	very low noise
+1210	 40000	64.6	23.7	  13	very low noise
+1211	 40000	63.3	23.7	  13	very low noise
+1212	 40000	63.5	23.7	  13	very low noise
+1213	 40000	63.7	23.7	  13	very low noise
+1214	 40000	66.0	23.7	  13	very low noise
+1215	 40000	66.4	23.7	  13	very low noise
+1216	 40000	62.9	23.7	  13	very low noise
+1217	 40000	63.7	23.7	  13	very low noise
+1218	 40000	62.9	23.7	  13	very low noise
+1219	 40000	62.9	23.7	  13	very low noise
+1220	 40000	63.2	23.7	  13	very low noise
+1221	 40000	64.2	23.7	  13	very low noise
+1222	 40000	61.8	23.7	  14	very low noise
+1223	 40000	61.1	23.7	  14	very low noise
+1224	 40000	63.2	23.7	  13	very low noise
+1225	 40000	62.2	23.7	  13	very low noise
+1226	 40000	62.7	23.7	  13	very low noise
+1227	 40000	63.4	23.7	  13	very low noise
+1228	 40000	61.8	23.7	  14	very low noise
+1229	 40000	62.3	23.7	  13	very low noise
+1230	 40000	61.7	23.7	  14	very low noise
+1231	 40000	61.6	23.7	  14	very low noise
+1232	 40000	60.9	23.7	  14	very low noise
+1233	 40000	63.6	23.7	  13	very low noise
+1234	 40000	63.1	23.7	  13	very low noise
+1235	 40000	62.8	23.7	  13	very low noise
+1236	 40000	61.0	23.7	  14	very low noise
+1237	 40000	62.9	23.7	  13	very low noise
+1238	 40000	61.6	23.7	  14	very low noise
+1239	 40000	61.4	23.7	  14	very low noise
+1240	 40000	64.0	23.7	  13	very low noise
+1241	 40000	63.7	23.7	  13	very low noise
+1242	 40000	62.0	23.7	  13	very low noise
+1243	 40000	60.9	23.7	  14	very low noise
+1244	 40000	62.4	23.7	  13	very low noise
+1245	 40000	62.5	23.7	  13	very low noise
+1246	 40000	62.0	23.7	  13	very low noise
+1247	 40000	61.2	23.7	  14	very low noise
+1248	 40000	62.8	23.7	  13	very low noise
+1249	 40000	62.5	23.7	  13	very low noise
+1250	 40000	64.9	23.7	  13	very low noise
+1251	 40000	63.6	23.7	  13	very low noise
+1252	 40000	63.4	23.7	  13	very low noise
+1253	 40000	62.9	23.7	  13	very low noise
+1254	 40000	63.1	23.7	  13	very low noise
+1255	 40000	63.1	23.7	  13	very low noise
+1256	 40000	61.8	23.7	  14	very low noise
+1257	 40000	64.1	23.7	  13	very low noise
+1258	 40000	63.6	23.7	  13	very low noise
+1259	 40000	63.4	23.7	  13	very low noise
+1260	 40000	63.9	23.7	  13	very low noise
+1261	 40000	62.2	23.7	  13	very low noise
+1262	 40000	62.4	23.7	  13	very low noise
+1263	 40000	62.4	23.7	  13	very low noise
+1264	 40000	62.2	23.7	  13	very low noise
+1265	 40000	61.5	23.7	  14	very low noise
+1266	 40000	62.7	23.7	  13	very low noise
+1267	 40000	61.0	23.7	  14	very low noise
+1268	 40000	63.3	23.7	  13	very low noise
+1269	 40000	63.4	23.7	  13	very low noise
+1270	 40000	63.9	23.7	  13	very low noise
+1271	 40000	61.2	23.7	  14	very low noise
+1272	 40000	63.5	23.7	  13	very low noise
+1273	 40000	64.4	23.7	  13	very low noise
+1274	 40000	62.3	23.7	  13	very low noise
+1275	 40000	62.4	23.7	  13	very low noise
+1276	 40000	62.8	23.7	  13	very low noise
+1277	 40000	64.3	23.7	  13	very low noise
+1278	 40000	64.8	23.7	  13	very low noise
+1279	 40000	63.9	23.7	  13	very low noise
+1280	 40000	67.4	23.7	  12	very low noise
+1281	 40000	67.0	23.7	  12	very low noise
+1282	 40000	67.1	23.7	  12	very low noise
+1283	 40000	66.6	23.7	  27	very low noise
+1284	 40000	66.8	23.7	  13	very low noise
+1285	 40000	66.0	23.7	  13	very low noise
+1286	 40000	66.1	23.7	  13	very low noise
+1287	 40000	65.7	23.7	  13	very low noise
+1288	 40000	65.7	23.7	  13	very low noise
+1289	 40000	64.5	23.7	  13	very low noise
+1290	 40000	66.2	23.7	  13	very low noise
+1291	 40000	65.9	23.7	  13	very low noise
+1292	 40000	66.1	23.7	  13	very low noise
+1293	 40000	65.1	23.7	  13	very low noise
+1294	 40000	66.0	23.7	  13	very low noise
+1295	 40000	67.4	23.7	  12	very low noise
+1296	 40000	65.8	23.7	  13	very low noise
+1297	 40000	65.2	23.7	  13	very low noise
+1298	 40000	65.6	23.7	  13	very low noise
+1299	 40000	66.7	23.7	  13	very low noise
+1300	 40000	64.7	23.7	  13	very low noise
+1301	 40000	67.1	23.7	  12	very low noise
+1302	 40000	67.5	23.7	  12	very low noise
+1303	 40000	65.9	23.7	  13	very low noise
+1304	 40000	66.4	23.7	  13	very low noise
+1305	 40000	67.6	23.7	  12	very low noise
+1306	 40000	66.3	23.7	  13	very low noise
+1307	 40000	65.0	23.7	  13	very low noise
+1308	 40000	65.5	23.7	  13	very low noise
+1309	 40000	65.4	23.7	  13	very low noise
+1310	 40000	64.5	23.7	  13	very low noise
+1311	 40000	63.5	23.7	  13	very low noise
+1312	 40000	67.0	23.7	  12	very low noise
+1313	 40000	66.4	23.7	  13	very low noise
+1314	 40000	64.0	23.7	  13	very low noise
+1315	 40000	65.7	23.7	  13	very low noise
+1316	 40000	65.6	23.7	  13	very low noise
+1317	 40000	65.4	23.7	  13	very low noise
+1318	 40000	66.6	23.7	  13	very low noise
+1319	 40000	66.6	23.7	  13	very low noise
+1320	 40000	65.4	23.7	  13	very low noise
+1321	 40000	64.4	23.7	  13	very low noise
+1322	 40000	67.1	23.7	  12	very low noise
+1323	 40000	66.1	23.7	  13	very low noise
+1324	 40000	66.7	23.7	  13	very low noise
+1325	 40000	66.6	23.7	  13	very low noise
+1326	 40000	67.2	23.7	  12	very low noise
+1327	 40000	69.3	23.7	  12	very low noise
+1328	 40000	65.9	23.7	  13	very low noise
+1329	 40000	66.2	23.7	  13	very low noise
+1330	 40000	66.0	23.7	  13	very low noise
+1331	 40000	66.1	23.7	  13	very low noise
+1332	 40000	67.2	23.7	  12	very low noise
+1333	 40000	65.8	23.7	  13	very low noise
+1334	 40000	68.1	23.7	  12	very low noise
+1335	 40000	67.5	23.7	  12	very low noise
+1336	 40000	67.3	23.7	  12	very low noise
+1337	 40000	68.2	23.7	  12	very low noise
+1338	 40000	67.9	23.7	  12	very low noise
+1339	 40000	67.3	23.7	  12	very low noise
+1340	 40000	67.2	23.7	  12	very low noise
+1341	 40000	66.2	23.7	  13	very low noise
+1342	 40000	67.7	23.7	  12	very low noise
+1343	 40000	68.7	23.7	  12	very low noise
+1344	 40000	67.7	23.7	  12	very low noise
+1345	 40000	67.8	23.7	  12	very low noise
+1346	 40000	66.3	23.7	  13	very low noise
+1347	 40000	66.9	23.7	  12	very low noise
+1348	 40000	66.1	23.7	  13	very low noise
+1349	 40000	64.6	23.7	  13	very low noise
+1350	 40000	65.9	23.7	  13	very low noise
+1351	 40000	67.3	23.7	  12	very low noise
+1352	 40000	66.7	23.7	  13	very low noise
+1353	 40000	66.5	23.7	  13	very low noise
+1354	 40000	66.6	23.7	  13	very low noise
+1355	 40000	66.7	23.7	  13	very low noise
+1356	 40000	65.7	23.7	  13	very low noise
+1357	 40000	66.1	23.7	  13	very low noise
+1358	 40000	63.7	23.7	  13	very low noise
+1359	 40000	65.0	23.7	  13	very low noise
+1360	 40000	66.8	23.7	  13	very low noise
+1361	 40000	64.1	23.7	  13	very low noise
+1362	 40000	65.9	23.7	  13	very low noise
+1363	 40000	65.1	23.7	  13	very low noise
+1364	 40000	64.3	23.7	  13	very low noise
+1365	 40000	67.1	23.7	  12	very low noise
+1366	 40000	65.8	23.7	  13	very low noise
+1367	 40000	64.7	23.7	  13	very low noise
+1368	 40000	65.9	23.7	  13	very low noise
+1369	 40000	66.3	23.7	  13	very low noise
+1370	 40000	65.7	23.7	  13	very low noise
+1371	 40000	63.8	23.7	  13	very low noise
+1372	 40000	64.5	23.7	  13	very low noise
+1373	 40000	64.4	23.7	  13	very low noise
+1374	 40000	65.8	23.7	  13	very low noise
+1375	 40000	64.8	23.7	  13	very low noise
+1376	 40000	65.9	23.7	  13	very low noise
+1377	 40000	64.7	23.7	  13	very low noise
+1378	 40000	66.3	23.7	  13	very low noise
+1379	 40000	65.6	23.7	  13	very low noise
+1380	 40000	66.6	23.7	  13	very low noise
+1381	 40000	65.9	23.7	  13	very low noise
+1382	 40000	63.0	23.7	  13	very low noise
+1383	 40000	65.5	23.7	  13	very low noise
+1384	 40000	64.2	23.7	  13	very low noise
+1385	 40000	64.6	23.7	  13	very low noise
+1386	 40000	62.9	23.7	  13	very low noise
+1387	 40000	65.9	23.7	  13	very low noise
+1388	 40000	63.7	23.7	  13	very low noise
+1389	 40000	65.0	23.7	  13	very low noise
+1390	 40000	65.1	23.7	  13	very low noise
+1391	 40000	63.9	23.7	  13	very low noise
+1392	 40000	65.5	23.7	  13	very low noise
+1393	 40000	66.4	23.7	  13	very low noise
+1394	 40000	65.2	23.7	  13	very low noise
+1395	 40000	65.5	23.7	  13	very low noise
+1396	 40000	65.9	23.7	  13	very low noise
+1397	 40000	65.0	23.7	  13	very low noise
+1398	 40000	65.6	23.7	  13	very low noise
+1399	 40000	64.5	23.7	  13	very low noise
+1400	 40000	64.4	23.7	  13	very low noise
+1401	 40000	64.6	23.7	  13	very low noise
+1402	 40000	66.7	23.7	  13	very low noise
+1403	 40000	68.3	23.7	  12	very low noise
+1404	 40000	65.8	23.7	  13	very low noise
+1405	 40000	67.8	23.7	  12	very low noise
+1406	 40000	68.6	23.7	  12	very low noise
+1407	 40000	68.7	23.7	  12	very low noise
+1408	 40000	64.3	23.7	  13	very low noise
+1409	 40000	67.0	23.7	  12	very low noise
+1410	 40000	65.2	23.7	  13	very low noise
+1411	 40000	67.5	23.7	  12	very low noise
+1412	 40000	65.6	23.7	  13	very low noise
+1413	 40000	65.2	23.7	  13	very low noise
+1414	 40000	66.9	23.7	  12	very low noise
+1415	 40000	66.5	23.7	  13	very low noise
+1416	 40000	66.1	23.7	  13	very low noise
+1417	 40000	67.1	23.7	  12	very low noise
+1418	 40000	63.3	23.7	  13	very low noise
+1419	 40000	66.6	23.7	  13	very low noise
+1420	 40000	68.1	23.7	  12	very low noise
+1421	 40000	64.3	23.7	  13	very low noise
+1422	 40000	66.3	23.7	  13	very low noise
+1423	 40000	64.2	23.7	  13	very low noise
+1424	 40000	65.8	23.7	  13	very low noise
+1425	 40000	65.5	23.7	  13	very low noise
+1426	 40000	63.1	23.7	  13	very low noise
+1427	 40000	65.1	23.7	  13	very low noise
+1428	 40000	66.6	23.7	  13	very low noise
+1429	 40000	66.9	23.7	  12	very low noise
+1430	 40000	65.4	23.7	  13	very low noise
+1431	 40000	67.3	23.7	  12	very low noise
+1432	 40000	65.0	23.7	  13	very low noise
+1433	 40000	65.7	23.7	  13	very low noise
+1434	 40000	64.1	23.7	  13	very low noise
+1435	 40000	64.9	23.7	  13	very low noise
+1436	 40000	67.6	23.7	  12	very low noise
+1437	 40000	65.1	23.7	  13	very low noise
+1438	 40000	64.7	23.7	  13	very low noise
+1439	 40000	66.1	23.7	  13	very low noise
+1440	 40000	63.8	23.7	  13	very low noise
+1441	 40000	65.3	23.7	  13	very low noise
+1442	 40000	63.9	23.7	  13	very low noise
+1443	 40000	66.3	23.7	  13	very low noise
+1444	 40000	64.4	23.7	  13	very low noise
+1445	 40000	65.7	23.7	  13	very low noise
+1446	 40000	64.3	23.7	  13	very low noise
+1447	 40000	64.7	23.7	  13	very low noise
+1448	 40000	64.4	23.7	  13	very low noise
+1449	 40000	64.7	23.7	  13	very low noise
+1450	 40000	64.4	23.7	  13	very low noise
+1451	 40000	65.7	23.7	  13	very low noise
+1452	 40000	65.0	23.7	  13	very low noise
+1453	 40000	66.4	23.7	  13	very low noise
+1454	 40000	64.7	23.7	  13	very low noise
+1455	 40000	64.9	23.7	  13	very low noise
+1456	 40000	64.4	23.7	  13	very low noise
+1457	 40000	64.6	23.7	  13	very low noise
+1458	 40000	66.3	23.7	  13	very low noise
+1459	 40000	65.3	23.7	  13	very low noise
+1460	 40000	62.9	23.7	  13	very low noise
+1461	 40000	67.1	23.7	  12	very low noise
+1462	 40000	66.7	23.7	  13	very low noise
+1463	 40000	66.2	23.7	  13	very low noise
+1464	 40000	67.1	23.7	  12	very low noise
+1465	 40000	65.5	23.7	  13	very low noise
+1466	 40000	65.3	23.7	  13	very low noise
+1467	 40000	67.1	23.7	  12	very low noise
+1468	 40000	68.2	23.7	  12	very low noise
+1469	 40000	66.7	23.7	  13	very low noise
+1470	 40000	67.6	23.7	  12	very low noise
+1471	 40000	67.9	23.7	  12	very low noise
+1472	 40000	65.6	23.7	  13	very low noise
+1473	 40000	64.4	23.7	  13	very low noise
+1474	 40000	63.3	23.7	  13	very low noise
+1475	 40000	65.8	23.7	  13	very low noise
+1476	 40000	64.2	23.7	  13	very low noise
+1477	 40000	66.7	23.7	  13	very low noise
+1478	 40000	65.2	23.7	  13	very low noise
+1479	 40000	64.8	23.7	  13	very low noise
+1480	 40000	65.1	23.7	  13	very low noise
+1481	 40000	65.6	23.7	  13	very low noise
+1482	 40000	64.8	23.7	  13	very low noise
+1483	 40000	63.0	23.7	  13	very low noise
+1484	 40000	62.0	23.7	  13	very low noise
+1485	 40000	64.7	23.7	  13	very low noise
+1486	 40000	64.4	23.7	  13	very low noise
+1487	 40000	64.0	23.7	  13	very low noise
+1488	 40000	64.9	23.7	  13	very low noise
+1489	 40000	64.0	23.7	  13	very low noise
+1490	 40000	64.0	23.7	  13	very low noise
+1491	 40000	64.9	23.7	  13	very low noise
+1492	 40000	63.6	23.7	  13	very low noise
+1493	 40000	65.4	23.7	  13	very low noise
+1494	 40000	64.1	23.7	  13	very low noise
+1495	 40000	62.9	23.7	  28	very low noise
+1496	 40000	63.9	23.7	  13	very low noise
+1497	 40000	63.6	23.7	  13	very low noise
+1498	 40000	64.6	23.7	  13	very low noise
+1499	 40000	63.2	23.7	  13	very low noise
+1500	 40000	63.4	23.7	  13	very low noise
+1501	 40000	63.0	23.7	  13	very low noise
+1502	 40000	61.6	23.7	  14	very low noise
+1503	 40000	65.3	23.7	  13	very low noise
+1504	 40000	63.9	23.7	  13	very low noise
+1505	 40000	63.5	23.7	  13	very low noise
+1506	 40000	63.4	23.7	  13	very low noise
+1507	 40000	64.8	23.7	  13	very low noise
+1508	 40000	63.4	23.7	  13	very low noise
+1509	 40000	63.4	23.7	  13	very low noise
+1510	 40000	61.7	23.7	  14	very low noise
+1511	 50000	36.9	23.7	  23	very low gain
+1512	 50000	36.9	23.7	  23	very low gain
+1513	 40000	63.0	23.7	  13	very low noise
+1514	 40000	61.0	23.7	  14	very low noise
+1515	 40000	61.6	23.7	  14	very low noise
+1516	 40000	63.3	23.7	  13	very low noise
+1517	 40000	63.8	23.7	  13	very low noise
+1518	 40000	62.0	23.7	  13	very low noise
+1519	 40000	63.2	23.7	  13	very low noise
+1520	 40000	62.3	23.7	  13	very low noise
+1521	 40000	63.6	23.7	  13	very low noise
+1522	 40000	63.4	23.7	  13	very low noise
+1523	 40000	63.9	23.7	  13	very low noise
+1524	 40000	63.4	23.7	  13	very low noise
+1525	 40000	62.8	23.7	  13	very low noise
+1526	 40000	63.5	23.7	  13	very low noise
+1527	 40000	63.4	23.7	  13	very low noise
+1528	 40000	62.3	23.7	  13	very low noise
+1529	 40000	63.7	23.7	  13	very low noise
+1530	 40000	62.7	23.7	  13	very low noise
+1531	 40000	62.6	23.7	  13	very low noise
+1532	 40000	62.5	23.7	  13	very low noise
+1533	 40000	63.3	23.7	  13	very low noise
+1534	 40000	65.0	23.7	  13	very low noise
+1535	 40000	66.3	23.7	  13	very low noise
+1536	 40000	65.3	23.7	  13	very low noise
+1537	 40000	67.3	23.7	  12	very low noise
+1538	 40000	64.8	23.7	  13	very low noise
+1539	 40000	67.2	23.7	  12	very low noise
+1540	 40000	64.4	23.7	  13	very low noise
+1541	 40000	65.1	23.7	  13	very low noise
+1542	 40000	64.7	23.7	  13	very low noise
+1543	 40000	65.1	23.7	  13	very low noise
+1544	 40000	65.2	23.7	  13	very low noise
+1545	 40000	64.8	23.7	  13	very low noise
+1546	 40000	63.1	23.7	  13	very low noise
+1547	 40000	64.5	23.7	  13	very low noise
+1548	 40000	62.2	23.7	  13	very low noise
+1549	 40000	65.1	23.7	  13	very low noise
+1550	 40000	64.2	23.7	  13	very low noise
+1551	 40000	63.2	23.7	  13	very low noise
+1552	 40000	63.3	23.7	  13	very low noise
+1553	 40000	64.5	23.7	  13	very low noise
+1554	 40000	64.2	23.7	  13	very low noise
+1555	 40000	64.8	23.7	  13	very low noise
+1556	 40000	64.6	23.7	  13	very low noise
+1557	 40000	64.7	23.7	  13	very low noise
+1558	 40000	64.9	23.7	  13	very low noise
+1559	 40000	64.8	23.7	  13	very low noise
+1560	 40000	65.2	23.7	  13	very low noise
+1561	 40000	66.0	23.7	  13	very low noise
+1562	 50000	36.9	23.7	  23	very low gain
+1563	 40000	65.2	23.7	  13	very low noise
+1564	 40000	64.3	23.7	  13	very low noise
+1565	 40000	65.4	23.7	  13	very low noise
+1566	 40000	64.8	23.7	  13	very low noise
+1567	 40000	64.9	23.7	  13	very low noise
+1568	 40000	65.1	23.7	  13	very low noise
+1569	 50000	36.9	23.7	  23	very low gain
+1570	 50000	36.9	23.7	  23	very low gain
+1571	 40000	63.4	23.7	  13	very low noise
+1572	 40000	65.5	23.7	  13	very low noise
+1573	 40000	65.1	23.7	  13	very low noise
+1574	 40000	64.7	23.7	  13	very low noise
+1575	 40000	66.2	23.7	  13	very low noise
+1576	 40000	65.5	23.7	  13	very low noise
+1577	 40000	64.9	23.7	  13	very low noise
+1578	 40000	64.2	23.7	  13	very low noise
+1579	 40000	66.0	23.7	  13	very low noise
+1580	 40000	64.4	23.7	  13	very low noise
+1581	 40000	64.0	23.7	  13	very low noise
+1582	 40000	64.0	23.7	  13	very low noise
+1583	 40000	64.2	23.7	  13	very low noise
+1584	 40000	65.0	23.7	  13	very low noise
+1585	 40000	65.1	23.7	  13	very low noise
+1586	 40000	65.3	23.7	  13	very low noise
+1587	 40000	66.8	23.7	  13	very low noise
+1588	 40000	65.6	23.7	  13	very low noise
+1589	 40000	65.5	23.7	  13	very low noise
+1590	 40000	61.4	23.7	  14	very low noise
+1591	 40000	63.9	23.7	  13	very low noise
+1592	 40000	64.4	23.7	  13	very low noise
+1593	 40000	64.3	23.7	  13	very low noise
+1594	 40000	67.7	23.7	  12	very low noise
+1595	 40000	67.1	23.7	  12	very low noise
+1596	 40000	67.4	23.7	  12	very low noise
+1597	 40000	65.6	23.7	  13	very low noise
+1598	 40000	68.6	23.7	  12	very low noise
+1599	 40000	68.1	23.7	  12	very low noise
+1600	 40000	65.0	23.7	  13	very low noise
+1601	 40000	68.2	23.7	  12	very low noise
+1602	 40000	64.2	23.7	  13	very low noise
+1603	 40000	64.4	23.7	  13	very low noise
+1604	 40000	62.7	23.7	  13	very low noise
+1605	 40000	64.2	23.7	  13	very low noise
+1606	 40000	64.5	23.7	  13	very low noise
+1607	 40000	64.1	23.7	  13	very low noise
+1608	 40000	64.4	23.7	  13	very low noise
+1609	 40000	64.3	23.7	  13	very low noise
+1610	 40000	63.3	23.7	  13	very low noise
+1611	 40000	64.5	23.7	  13	very low noise
+1612	 40000	65.8	23.7	  13	very low noise
+1613	 40000	63.4	23.7	  13	very low noise
+1614	 40000	64.8	23.7	  13	very low noise
+1615	 40000	65.1	23.7	  13	very low noise
+1616	 40000	65.9	23.7	  13	very low noise
+1617	 40000	63.9	23.7	  13	very low noise
+1618	 40000	65.5	23.7	  13	very low noise
+1619	 40000	64.6	23.7	  30	very low noise
+1620	 40000	62.1	23.7	  13	very low noise
+1621	 40000	65.1	23.7	  13	very low noise
+1622	 40000	64.9	23.7	  13	very low noise
+1623	 40000	65.9	23.7	  13	very low noise
+1624	 40000	63.0	23.7	  13	very low noise
+1625	 40000	64.0	23.7	  13	very low noise
+1626	 40000	63.9	23.7	  13	very low noise
+1627	 40000	64.4	23.7	  13	very low noise
+1628	 40000	63.5	23.7	  13	very low noise
+1629	 40000	65.2	23.7	  13	very low noise
+1630	 40000	64.4	23.7	  13	very low noise
+1631	 40000	65.0	23.7	  13	very low noise
+1632	 40000	64.0	23.7	  13	very low noise
+1633	 40000	66.0	23.7	  13	very low noise
+1634	 40000	64.1	23.7	  13	very low noise
+1635	 40000	65.9	23.7	  13	very low noise
+1636	 40000	66.2	23.7	  13	very low noise
+1637	 40000	65.6	23.7	  13	very low noise
+1638	 40000	64.9	23.7	  13	very low noise
+1639	 40000	65.6	23.7	  13	very low noise
+1640	 40000	65.2	23.7	  13	very low noise
+1641	 40000	66.2	23.7	  13	very low noise
+1642	 40000	64.1	23.7	  13	very low noise
+1643	 40000	64.5	23.7	  13	very low noise
+1644	 40000	64.9	23.7	  13	very low noise
+1645	 40000	64.4	23.7	  13	very low noise
+1646	 40000	64.1	23.7	  13	very low noise
+1647	 40000	64.7	23.7	  13	very low noise
+1648	 40000	61.8	23.7	  14	very low noise
+1649	 40000	64.5	23.7	  13	very low noise
+1650	 40000	63.6	23.7	  13	very low noise
+1651	 40000	65.0	23.7	  13	very low noise
+1652	 40000	63.5	23.7	  13	very low noise
+1653	 40000	65.0	23.7	  13	very low noise
+1654	 40000	64.8	23.7	  13	very low noise
+1655	 40000	63.2	23.7	  13	very low noise
+1656	 40000	62.9	23.7	  13	very low noise
+1657	 40000	66.0	23.7	  13	very low noise
+1658	 40000	64.7	23.7	  13	very low noise
+1659	 40000	67.1	23.7	  12	very low noise
+1660	 40000	64.7	23.7	  13	very low noise
+1661	 40000	65.4	23.7	  13	very low noise
+1662	 40000	67.6	23.7	  12	very low noise
+1663	 40000	67.0	23.7	  12	very low noise
+1664	 40000	64.8	23.7	  13	very low noise
+1665	 40000	65.8	23.7	  13	very low noise
+1666	 40000	64.7	23.7	  13	very low noise
+1667	 40000	64.2	23.7	  13	very low noise
+1668	 40000	65.5	23.7	  13	very low noise
+1669	 40000	64.4	23.7	  13	very low noise
+1670	 40000	68.3	23.7	  12	very low noise
+1671	 40000	64.5	23.7	  13	very low noise
+1672	 40000	64.3	23.7	  13	very low noise
+1673	 40000	65.4	23.7	  13	very low noise
+1674	 40000	63.6	23.7	  13	very low noise
+1675	 40000	65.4	23.7	  13	very low noise
+1676	 40000	67.0	23.7	  12	very low noise
+1677	 40000	66.1	23.7	  13	very low noise
+1678	 40000	65.6	23.7	  13	very low noise
+1679	 40000	65.4	23.7	  13	very low noise
+1680	 40000	63.5	23.7	  13	very low noise
+1681	 40000	63.0	23.7	  13	very low noise
+1682	 40000	65.0	23.7	  13	very low noise
+1683	 40000	63.8	23.7	  13	very low noise
+1684	 40000	64.9	23.7	  13	very low noise
+1685	 40000	66.5	23.7	  13	very low noise
+1686	 40000	64.9	23.7	  13	very low noise
+1687	 40000	65.6	23.7	  13	very low noise
+1688	 40000	65.7	23.7	  13	very low noise
+1689	 40000	66.6	23.7	  13	very low noise
+1690	 40000	65.2	23.7	  13	very low noise
+1691	 40000	64.0	23.7	  13	very low noise
+1692	 40000	64.1	23.7	  13	very low noise
+1693	 40000	65.1	23.7	  13	very low noise
+1694	 40000	66.0	23.7	  13	very low noise
+1695	 40000	65.6	23.7	  13	very low noise
+1696	 40000	63.6	24.0	  15	very low noise
+1697	 40000	65.2	23.7	  13	very low noise
+1698	 40000	64.9	23.7	  13	very low noise
+1699	 40000	66.1	23.7	  13	very low noise
+1700	 40000	66.9	23.7	  12	very low noise
+1701	 40000	65.7	23.7	  13	very low noise
+1702	 40000	64.3	23.7	  13	very low noise
+1703	 40000	64.7	23.7	  13	very low noise
+1704	 40000	63.5	23.7	  13	very low noise
+1705	 40000	67.1	23.7	  12	very low noise
+1706	 40000	64.5	23.7	  13	very low noise
+1707	 40000	66.1	23.7	  13	very low noise
+1708	 40000	66.3	23.7	  13	very low noise
+1709	 40000	63.8	23.7	  13	very low noise
+1710	 40000	63.4	23.7	  13	very low noise
+1711	 40000	65.2	23.7	  13	very low noise
+1712	 40000	63.4	23.7	  13	very low noise
+1713	 40000	65.6	23.7	  13	very low noise
+1714	 40000	65.3	23.7	  13	very low noise
+1715	 40000	65.9	23.7	  13	very low noise
+1716	 40000	64.8	23.7	  13	very low noise
+1717	 40000	64.2	23.7	  13	very low noise
+1718	 40000	64.3	23.7	  13	very low noise
+1719	 40000	64.7	23.7	  13	very low noise
+1720	 40000	64.1	23.7	  13	very low noise
+1721	 40000	66.5	23.7	  13	very low noise
+1722	 40000	65.2	23.7	  13	very low noise
+1723	 40000	65.4	23.7	  13	very low noise
+1724	 40000	66.2	23.7	  13	very low noise
+1725	 40000	66.2	23.7	  13	very low noise
+1726	 40000	67.3	23.7	  12	very low noise
+1727	 40000	67.8	23.7	  12	very low noise
+1728	 40000	65.7	23.7	  13	very low noise
+1729	 40000	66.2	23.7	  13	very low noise
+1730	 40000	63.6	23.7	  13	very low noise
+1731	 40000	67.9	23.7	  12	very low noise
+1732	 40000	67.4	23.7	  12	very low noise
+1733	 40000	65.9	23.7	  13	very low noise
+1734	 40000	66.2	23.7	  13	very low noise
+1735	 40000	67.2	23.7	  12	very low noise
+1736	 40000	65.1	23.7	  13	very low noise
+1737	 40000	65.2	23.7	  13	very low noise
+1738	 40000	66.2	23.7	  13	very low noise
+1739	 40000	68.0	23.7	  12	very low noise
+1740	 40000	66.5	23.7	  13	very low noise
+1741	 40000	66.4	23.7	  13	very low noise
+1742	 40000	65.9	23.7	  13	very low noise
+1743	 40000	67.1	23.7	  26	very low noise
+1744	 40000	68.7	23.7	  12	very low noise
+1745	 40000	66.7	23.7	  13	very low noise
+1746	 40000	67.0	23.7	  12	very low noise
+1747	 40000	66.4	23.7	  13	very low noise
+1748	 40000	66.4	23.7	  13	very low noise
+1749	 40000	66.5	23.7	  13	very low noise
+1750	 40000	64.6	23.7	  13	very low noise
+1751	 40000	63.7	23.7	  13	very low noise
+1752	 40000	66.9	23.7	  12	very low noise
+1753	 40000	64.7	23.7	  13	very low noise
+1754	 40000	63.6	23.7	  13	very low noise
+1755	 40000	63.5	23.7	  13	very low noise
+1756	 40000	62.9	23.7	  13	very low noise
+1757	 40000	64.7	23.7	  13	very low noise
+1758	 40000	63.7	23.7	  13	very low noise
+1759	 40000	65.4	23.7	  13	very low noise
+1760	 40000	64.0	23.7	  13	very low noise
+1761	 40000	65.4	23.7	  13	very low noise
+1762	 40000	63.7	23.7	  13	very low noise
+1763	 40000	65.1	23.7	  13	very low noise
+1764	 40000	64.5	23.7	  13	very low noise
+1765	 40000	64.9	23.7	  13	very low noise
+1766	 40000	65.4	23.7	  13	very low noise
+1767	 40000	64.9	23.7	  13	very low noise
+1768	 40000	65.0	23.7	  13	very low noise
+1769	 40000	64.4	23.7	  13	very low noise
+1770	 40000	65.3	23.7	  13	very low noise
+1771	 40000	65.5	23.7	  13	very low noise
+1772	 40000	64.0	23.7	  13	very low noise
+1773	 40000	65.4	23.7	  13	very low noise
+1774	 40000	64.2	23.7	  13	very low noise
+1775	 40000	64.3	23.7	  13	very low noise
+1776	 40000	62.4	23.7	  13	very low noise
+1777	 40000	66.3	23.7	  13	very low noise
+1778	 40000	64.1	23.7	  13	very low noise
+1779	 40000	63.5	23.7	  13	very low noise
+1780	 40000	65.2	23.7	  13	very low noise
+1781	 40000	65.6	23.7	  13	very low noise
+1782	 40000	65.5	23.7	  13	very low noise
+1783	 40000	65.6	23.7	  13	very low noise
+1784	 40000	66.7	23.7	  13	very low noise
+1785	 40000	65.5	23.7	  13	very low noise
+1786	 40000	66.5	23.7	  13	very low noise
+1787	 40000	64.5	23.7	  13	very low noise
+1788	 40000	68.7	23.7	  12	very low noise
+1789	 40000	64.4	23.7	  13	very low noise
+1790	 40000	67.5	23.7	  12	very low noise
+1791	 40000	66.5	23.7	  13	very low noise
+1792	 40000	67.4	23.7	  12	very low noise
+1793	 40000	68.2	23.7	  12	very low noise
+1794	 40000	67.8	23.7	  12	very low noise
+1795	 40000	68.5	23.7	  12	very low noise
+1796	 50000	36.9	23.7	  23	very low gain
+1797	 40000	66.3	23.7	  13	very low noise
+1798	 40000	66.1	23.7	  13	very low noise
+1799	 40000	66.0	23.7	  13	very low noise
+1800	 40000	67.9	23.7	  12	very low noise
+1801	 40000	67.4	23.7	  12	very low noise
+1802	 40000	66.1	23.7	  13	very low noise
+1803	 40000	66.2	23.7	  13	very low noise
+1804	 40000	66.4	23.7	  13	very low noise
+1805	 40000	65.3	23.7	  13	very low noise
+1806	 40000	67.2	23.7	  12	very low noise
+1807	 40000	66.4	23.7	  13	very low noise
+1808	 40000	65.0	23.7	  13	very low noise
+1809	 40000	66.1	23.7	  13	very low noise
+1810	 40000	68.1	23.7	  12	very low noise
+1811	 40000	67.3	23.7	  12	very low noise
+1812	 40000	66.4	23.7	  13	very low noise
+1813	 40000	65.6	23.7	  13	very low noise
+1814	 40000	65.4	23.7	  13	very low noise
+1815	 40000	65.8	23.7	  13	very low noise
+1816	 40000	64.8	23.7	  13	very low noise
+1817	 40000	65.3	23.7	  13	very low noise
+1818	 40000	64.4	23.7	  13	very low noise
+1819	 40000	66.8	23.7	  13	very low noise
+1820	 40000	65.1	23.7	  13	very low noise
+1821	 40000	68.0	23.7	  12	very low noise
+1822	 40000	68.8	23.7	  12	very low noise
+1823	 40000	67.1	23.7	  12	very low noise
+1824	 40000	67.3	23.7	  12	very low noise
+1825	 40000	68.4	23.7	  12	very low noise
+1826	 40000	68.0	23.7	  12	very low noise
+1827	 40000	66.4	23.7	  13	very low noise
+1828	 40000	64.2	23.7	  13	very low noise
+1829	 40000	65.6	23.7	  13	very low noise
+1830	 40000	65.2	23.7	  13	very low noise
+1831	 40000	68.3	23.7	  12	very low noise
+1832	 40000	66.8	23.7	  13	very low noise
+1833	 40000	68.1	23.7	  12	very low noise
+1834	 40000	62.9	23.7	  13	very low noise
+1835	 40000	65.2	23.7	  13	very low noise
+1836	 40000	64.4	23.7	  13	very low noise
+1837	 40000	67.3	23.7	  12	very low noise
+1838	 40000	64.7	23.7	  13	very low noise
+1839	 40000	66.3	23.7	  13	very low noise
+1840	 40000	67.1	23.7	  12	very low noise
+1841	 40000	67.7	23.7	  12	very low noise
+1842	 40000	66.9	23.7	  12	very low noise
+1843	 40000	65.1	23.7	  13	very low noise
+1844	 40000	65.1	23.7	  13	very low noise
+1845	 40000	67.7	23.7	  12	very low noise
+1846	 40000	65.5	23.7	  13	very low noise
+1847	 40000	66.5	23.7	  13	very low noise
+1848	 40000	66.2	23.7	  13	very low noise
+1849	 40000	66.8	23.7	  13	very low noise
+1850	 40000	68.5	23.7	  12	very low noise
+1851	 40000	67.1	23.7	  12	very low noise
+1852	 40000	66.8	23.7	  13	very low noise
+1853	 40000	70.1	23.7	  12	very low noise
+1854	 40000	68.7	23.7	  12	very low noise
+1855	 40000	68.1	23.7	  12	very low noise
+1856	 40000	68.6	23.7	  12	very low noise
+1857	 40000	67.3	23.7	  12	very low noise
+1858	 40000	67.1	23.7	  12	very low noise
+1859	 40000	67.1	23.7	  12	very low noise
+1860	 40000	64.5	23.7	  13	very low noise
+1861	 40000	66.0	23.7	  13	very low noise
+1862	 40000	65.3	23.7	  13	very low noise
+1863	 40000	64.5	23.7	  13	very low noise
+1864	 40000	65.2	23.7	  13	very low noise
+1865	 40000	65.9	23.7	  13	very low noise
+1866	 40000	65.0	23.7	  13	very low noise
+1867	 40000	65.4	23.7	  13	very low noise
+1868	 40000	65.5	23.7	  13	very low noise
+1869	 40000	65.5	23.7	  13	very low noise
+1870	 40000	63.6	23.7	  13	very low noise
+1871	 40000	66.5	23.7	  13	very low noise
+1872	 40000	66.1	23.7	  13	very low noise
+1873	 40000	65.3	23.7	  13	very low noise
+1874	 40000	66.1	23.7	  13	very low noise
+1875	 40000	64.2	23.7	  13	very low noise
+1876	 40000	64.4	23.7	  13	very low noise
+1877	 40000	64.9	23.7	  13	very low noise
+1878	 40000	68.0	23.7	  12	very low noise
+1879	 40000	66.2	23.7	  13	very low noise
+1880	 40000	65.0	23.7	  13	very low noise
+1881	 40000	64.8	23.7	  13	very low noise
+1882	 40000	66.1	23.7	  13	very low noise
+1883	 40000	66.9	23.7	  12	very low noise
+1884	 40000	65.2	23.7	  13	very low noise
+1885	 40000	65.1	23.7	  13	very low noise
+1886	 40000	65.5	23.7	  13	very low noise
+1887	 40000	64.9	23.7	  13	very low noise
+1888	 40000	64.7	23.7	  13	very low noise
+1889	 40000	66.2	23.7	  13	very low noise
+1890	 40000	64.0	23.7	  13	very low noise
+1891	 40000	65.4	23.7	  13	very low noise
+1892	 40000	65.9	23.7	  13	very low noise
+1893	 40000	64.2	23.7	  13	very low noise
+1894	 40000	64.1	23.7	  13	very low noise
+1895	 40000	66.2	23.7	  13	very low noise
+1896	 40000	66.2	23.7	  13	very low noise
+1897	 40000	65.8	23.7	  13	very low noise
+1898	 40000	65.2	23.7	  13	very low noise
+1899	 40000	67.9	23.7	  12	very low noise
+1900	 40000	67.0	23.7	  12	very low noise
+1901	 40000	66.3	23.7	  13	very low noise
+1902	 40000	65.2	23.7	  13	very low noise
+1903	 40000	65.8	23.7	  13	very low noise
+1904	 40000	63.9	23.7	  13	very low noise
+1905	 40000	63.2	23.7	  13	very low noise
+1906	 40000	66.0	23.7	  13	very low noise
+1907	 40000	65.1	23.7	  13	very low noise
+1908	 40000	66.2	23.7	  13	very low noise
+1909	 40000	66.9	23.7	  12	very low noise
+1910	 40000	65.1	23.7	  13	very low noise
+1911	 40000	66.7	23.7	  13	very low noise
+1912	 40000	65.9	23.7	  13	very low noise
+1913	 40000	66.4	23.7	  13	very low noise
+1914	 40000	66.3	23.7	  13	very low noise
+1915	 40000	65.7	23.7	  13	very low noise
+1916	 40000	63.0	23.7	  13	very low noise
+1917	 40000	66.2	23.7	  13	very low noise
+1918	 40000	67.6	23.7	  12	very low noise
+1919	 40000	68.3	23.7	  12	very low noise
+1920	 40000	64.5	23.7	  13	very low noise
+1921	 40000	67.9	23.7	  12	very low noise
+1922	 40000	65.6	23.7	  13	very low noise
+1923	 40000	65.4	23.7	  13	very low noise
+1924	 40000	67.2	23.7	  12	very low noise
+1925	 40000	64.9	23.7	  13	very low noise
+1926	 40000	63.7	23.7	  13	very low noise
+1927	 40000	64.0	23.7	  13	very low noise
+1928	 40000	64.5	23.7	  13	very low noise
+1929	 40000	64.0	23.7	  13	very low noise
+1930	 40000	62.6	23.7	  13	very low noise
+1931	 40000	63.7	23.7	  13	very low noise
+1932	 40000	64.2	23.7	  28	very low noise
+1933	 40000	64.0	23.7	  13	very low noise
+1934	 40000	64.2	23.7	  13	very low noise
+1935	 40000	64.0	23.7	  13	very low noise
+1936	 40000	62.5	23.7	  13	very low noise
+1937	 40000	64.4	23.7	  13	very low noise
+1938	 40000	63.9	23.7	  13	very low noise
+1939	 40000	65.2	23.7	  13	very low noise
+1940	 40000	63.7	23.7	  13	very low noise
+1941	 40000	64.8	23.7	  13	very low noise
+1942	 40000	64.8	23.7	  13	very low noise
+1943	 40000	64.0	23.7	  13	very low noise
+1944	 40000	66.9	23.7	  12	very low noise
+1945	 40000	64.4	23.7	  13	very low noise
+1946	 40000	64.0	23.7	  13	very low noise
+1947	 40000	65.5	23.7	  13	very low noise
+1948	 40000	64.5	23.7	  13	very low noise
+1949	 40000	64.3	23.7	  13	very low noise
+1950	 40000	63.0	23.7	  13	very low noise
+1951	 40000	65.1	23.7	  13	very low noise
+1952	 40000	63.2	23.7	  13	very low noise
+1953	 40000	64.0	23.7	  13	very low noise
+1954	 50000	36.9	23.7	  23	very low gain
+1955	 40000	66.0	23.7	  13	very low noise
+1956	 50000	36.9	23.7	  23	very low gain
+1957	 50000	36.9	23.7	  23	very low gain
+1958	 40000	63.0	23.7	  13	very low noise
+1959	 40000	65.0	23.7	  13	very low noise
+1960	 40000	64.3	23.7	  13	very low noise
+1961	 40000	63.7	23.7	  13	very low noise
+1962	 40000	64.5	23.7	  13	very low noise
+1963	 40000	64.4	23.7	  13	very low noise
+1964	 40000	64.3	23.7	  13	very low noise
+1965	 40000	65.5	23.7	  13	very low noise
+1966	 40000	63.4	23.7	  13	very low noise
+1967	 40000	66.7	23.7	  13	very low noise
+1968	 40000	66.7	23.7	  13	very low noise
+1969	 40000	66.0	23.7	  13	very low noise
+1970	 40000	65.7	23.7	  13	very low noise
+1971	 40000	63.7	23.7	  13	very low noise
+1972	 40000	67.0	23.7	  12	very low noise
+1973	 40000	66.3	23.7	  13	very low noise
+1974	 40000	64.0	23.7	  13	very low noise
+1975	 40000	66.7	23.7	  13	very low noise
+1976	 40000	66.4	23.7	  13	very low noise
+1977	 40000	67.0	23.7	  12	very low noise
+1978	 40000	64.5	23.7	  13	very low noise
+1979	 40000	64.1	23.7	  13	very low noise
+1980	 40000	68.8	23.7	  12	very low noise
+1981	 40000	67.5	23.7	  12	very low noise
+1982	 40000	66.2	23.7	  13	very low noise
+1983	 40000	66.1	23.7	  13	very low noise
+1984	 40000	66.6	23.7	  13	very low noise
+1985	 40000	68.1	23.7	  12	very low noise
+1986	 40000	65.4	23.7	  13	very low noise
+1987	 40000	64.4	23.7	  13	very low noise
+1988	 40000	63.4	23.7	  13	very low noise
+1989	 40000	65.7	23.7	  13	very low noise
+1990	 40000	64.1	23.7	  13	very low noise
+1991	 40000	64.6	23.7	  13	very low noise
+1992	 40000	64.9	23.7	  13	very low noise
+1993	 40000	67.1	23.7	  12	very low noise
+1994	 40000	64.4	23.7	  13	very low noise
+1995	 40000	62.7	23.7	  13	very low noise
+1996	 40000	65.0	23.7	  13	very low noise
+1997	 40000	64.5	23.7	  13	very low noise
+1998	 40000	64.8	23.7	  13	very low noise
+1999	 40000	65.6	23.7	  13	very low noise
+2000	 40000	65.2	23.7	  13	very low noise
+2001	 40000	63.6	23.7	  13	very low noise
+2002	 40000	64.7	23.7	  13	very low noise
+2003	 40000	64.8	23.7	  13	very low noise
+2004	 40000	63.7	23.7	  13	very low noise
+2005	 40000	65.2	23.7	  13	very low noise
+2006	 40000	65.2	23.7	  13	very low noise
+2007	 40000	64.9	23.7	  13	very low noise
+2008	 40000	64.8	23.7	  13	very low noise
+2009	 40000	66.1	23.7	  13	very low noise
+2010	 40000	64.9	23.7	  13	very low noise
+2011	 40000	65.4	23.7	  13	very low noise
+2012	 40000	64.6	23.7	  13	very low noise
+2013	 40000	65.2	23.7	  13	very low noise
+2014	 40000	64.3	23.7	  13	very low noise
+2015	 40000	64.7	23.7	  13	very low noise
+2016	 40000	65.9	23.7	  13	very low noise
+2017	 40000	65.0	23.7	  13	very low noise
+2018	 40000	66.3	23.7	  13	very low noise
+2019	 40000	66.6	23.7	  13	very low noise
+2020	 40000	66.0	23.7	  13	very low noise
+2021	 40000	66.6	23.7	  13	very low noise
+2022	 40000	66.1	23.7	  13	very low noise
+2023	 40000	66.9	23.7	  12	very low noise
+2024	 40000	65.6	23.7	  13	very low noise
+2025	 40000	65.5	23.7	  13	very low noise
+2026	 40000	66.5	23.7	  13	very low noise
+2027	 40000	65.1	23.7	  13	very low noise
+2028	 40000	65.3	23.7	  13	very low noise
+2029	 40000	63.8	23.7	  13	very low noise
+2030	 40000	65.0	23.7	  13	very low noise
+2031	 40000	66.3	23.7	  13	very low noise
+2032	 40000	63.1	23.7	  13	very low noise
+2033	 40000	65.3	23.7	  13	very low noise
+2034	 40000	66.6	23.7	  13	very low noise
+2035	 40000	65.4	23.7	  13	very low noise
+2036	 40000	66.9	23.7	  12	very low noise
+2037	 40000	65.2	23.7	  13	very low noise
+2038	 40000	64.8	23.7	  13	very low noise
+2039	 40000	67.5	23.7	  12	very low noise
+2040	 40000	66.3	23.7	  13	very low noise
+2041	 40000	67.6	23.7	  12	very low noise
+2042	 40000	66.0	23.7	  13	very low noise
+2043	 40000	66.3	23.7	  13	very low noise
+2044	 40000	65.5	23.7	  13	very low noise
+2045	 40000	65.7	23.7	  13	very low noise
+2046	 40000	68.5	23.7	  12	very low noise
+2047	 40000	67.6	23.7	  12	very low noise

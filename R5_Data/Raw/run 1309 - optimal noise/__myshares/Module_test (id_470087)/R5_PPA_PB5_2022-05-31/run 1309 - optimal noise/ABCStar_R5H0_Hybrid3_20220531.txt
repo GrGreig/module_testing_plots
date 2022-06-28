@@ -1,0 +1,6289 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1299-6
+TEST_DATE      : 31/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"13:44:14"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+20 20 21 19 22 21 21 16 21 -1 -1 -1 -1 -1 -1 -1 
+#
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+21 20 22 19 22 21 21 16 21 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1299-7
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"13:45:56"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	4 	24.46 	68.04 	0.00
+#S03
+	4 	23.64 	75.99 	0.00
+#S04
+	4 	23.97 	73.75 	0.00
+#S05
+	4 	24.53 	76.12 	0.00
+#S06
+	4 	23.58 	77.35 	0.00
+#S07
+	4 	24.13 	76.13 	0.00
+#S08
+	4 	24.17 	78.19 	0.00
+#S09
+	4 	24.60 	77.24 	0.00
+#M10
+	4 	24.13 	80.72 	0.00
+#E02
+	4 	24.68 	72.60 	0.00
+#S03
+	4 	23.94 	79.73 	0.00
+#S04
+	4 	24.26 	77.14 	0.00
+#S05
+	4 	24.86 	79.34 	0.00
+#S06
+	4 	24.90 	79.95 	0.00
+#S07
+	4 	25.10 	78.26 	0.00
+#S08
+	4 	25.32 	80.24 	0.00
+#S09
+	4 	26.03 	78.65 	0.00
+#M10
+	4 	26.30 	82.38 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	 89.4 	 4.44 	67.9 	1.93 	 67.7 	 2.09 	18.53 	 1718 	  73
+#S03
+	 98.0 	 4.09 	76.0 	1.76 	 75.9 	 1.80 	17.68 	 1455 	  59
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	 99.7 	 3.97 	76.1 	1.46 	 76.0 	 1.54 	16.30 	 1338 	  38
+#S06
+	100.4 	 2.68 	77.4 	2.05 	 77.3 	 2.04 	16.21 	 1310 	  34
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	101.9 	 3.10 	78.2 	1.47 	 78.1 	 1.48 	16.04 	 1282 	  34
+#S09
+	101.9 	 3.03 	77.2 	1.73 	 77.2 	 1.73 	15.42 	 1248 	  30
+#M10
+	105.0 	 2.64 	80.7 	1.53 	 80.7 	 1.53 	16.72 	 1295 	  34
+#E02
+	 96.9 	 2.36 	72.6 	2.05 	 72.6 	 2.05 	11.74 	 1011 	  23
+#S03
+	103.9 	 2.45 	79.7 	1.93 	 79.7 	 1.93 	11.94 	  936 	  15
+#S04
+	101.6 	 1.95 	77.1 	1.76 	 77.1 	 1.76 	11.11 	  901 	  16
+#S05
+	104.6 	 1.83 	79.3 	1.40 	 79.3 	 1.40 	11.21 	  883 	  15
+#S06
+	105.3 	 2.22 	79.9 	1.98 	 79.9 	 1.98 	11.17 	  874 	  13
+#S07
+	103.8 	 2.08 	78.3 	1.47 	 78.3 	 1.47 	11.24 	  898 	  15
+#S08
+	106.1 	 1.91 	80.2 	1.51 	 80.2 	 1.51 	11.13 	  867 	  12
+#S09
+	105.2 	 2.09 	78.6 	1.71 	 78.6 	 1.71 	10.73 	  853 	  13
+#M10
+	108.8 	 2.20 	82.4 	1.59 	 82.4 	 1.59 	11.65 	  884 	  13
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"bad noise sigma" 	"bad noise sigma" 	"bad noise sigma" 	"bad noise sigma" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  1	  4	  0	  0	  0	  1	  1	  0	  0	  0	  0	  4	  0	  0	  0	  1
+#Chip S03:	  0	 10	  0	  0	  0	  0	  1	  0	  0	  0	  0	 10	  0	  0	  0	  0
+#Chip S04:	  0	 13	  0	  0	  0	  0	  0	  0	  0	  0	  0	 13	  0	  0	  0	  0
+#Chip S05:	  0	 11	  0	  0	  0	  0	  0	  0	  0	  0	  0	 11	  0	  0	  0	  0
+#Chip S06:	  0	  9	  0	  0	  0	  0	  1	  0	  0	  0	  0	  9	  0	  0	  0	  0
+#Chip S07:	  0	 15	  0	  0	  0	  0	  0	  0	  0	  0	  0	 15	  0	  0	  0	  0
+#Chip S08:	  0	 11	  0	  0	  0	  0	  1	  0	  0	  0	  0	 11	  0	  0	  0	  0
+#Chip S09:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2	  0	  0	  0	  0
+#Chip M10:	  0	  2	  0	  0	  0	  0	  0	  1	  0	  0	  0	  2	  0	  0	  0	  0
+#Chip E02:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  1	 77	  0	  0	  0	  1	  4	  1	  0	  0	  0	 77	  0	  0	  0	  1
+#Link 1:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2	  0	  0	  0	  0
+#Link 2:	  1	 79	  0	  0	  0	  1	  4	  1	  0	  0	  0	 79	  0	  0	  0	  1
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 94
+LAST CHANNEL   : 94
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 108
+LAST CHANNEL   : 108
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 125
+LAST CHANNEL   : 125
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 126
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 144
+LAST CHANNEL   : 144
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 146
+LAST CHANNEL   : 146
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 162
+LAST CHANNEL   : 162
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 183
+LAST CHANNEL   : 183
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 188
+LAST CHANNEL   : 188
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 227
+LAST CHANNEL   : 227
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 232
+LAST CHANNEL   : 232
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 237
+LAST CHANNEL   : 237
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 251
+LAST CHANNEL   : 251
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 253
+LAST CHANNEL   : 253
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 256
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 262
+LAST CHANNEL   : 262
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 265
+LAST CHANNEL   : 265
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 267
+LAST CHANNEL   : 267
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 274
+LAST CHANNEL   : 274
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 286
+LAST CHANNEL   : 286
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 288
+LAST CHANNEL   : 288
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 291
+LAST CHANNEL   : 291
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 312
+LAST CHANNEL   : 312
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 316
+LAST CHANNEL   : 317
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 357
+LAST CHANNEL   : 357
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 367
+LAST CHANNEL   : 367
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 405
+LAST CHANNEL   : 405
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 443
+LAST CHANNEL   : 443
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 445
+LAST CHANNEL   : 445
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 453
+LAST CHANNEL   : 453
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 470
+LAST CHANNEL   : 470
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 474
+LAST CHANNEL   : 474
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 476
+LAST CHANNEL   : 476
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 482
+LAST CHANNEL   : 482
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 487
+LAST CHANNEL   : 487
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 498
+LAST CHANNEL   : 498
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 500
+LAST CHANNEL   : 500
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 513
+LAST CHANNEL   : 513
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 518
+LAST CHANNEL   : 519
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 532
+LAST CHANNEL   : 532
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 540
+LAST CHANNEL   : 540
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 561
+LAST CHANNEL   : 562
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 599
+LAST CHANNEL   : 599
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 628
+LAST CHANNEL   : 628
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 643
+LAST CHANNEL   : 643
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 648
+LAST CHANNEL   : 648
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 661
+LAST CHANNEL   : 661
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 670
+LAST CHANNEL   : 670
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 672
+LAST CHANNEL   : 672
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 674
+LAST CHANNEL   : 674
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 693
+LAST CHANNEL   : 693
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 700
+LAST CHANNEL   : 700
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 703
+LAST CHANNEL   : 703
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 719
+LAST CHANNEL   : 719
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 721
+LAST CHANNEL   : 721
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 727
+LAST CHANNEL   : 727
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 737
+LAST CHANNEL   : 737
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 745
+LAST CHANNEL   : 745
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 749
+LAST CHANNEL   : 749
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 775
+LAST CHANNEL   : 775
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 814
+LAST CHANNEL   : 814
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 818
+LAST CHANNEL   : 819
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 821
+LAST CHANNEL   : 821
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 841
+LAST CHANNEL   : 841
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 846
+LAST CHANNEL   : 846
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 848
+LAST CHANNEL   : 848
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 865
+LAST CHANNEL   : 865
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 885
+LAST CHANNEL   : 885
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 894
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 947
+LAST CHANNEL   : 947
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 956
+LAST CHANNEL   : 956
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1024
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1143
+LAST CHANNEL   : 1143
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1147
+LAST CHANNEL   : 1147
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1279
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1492
+LAST CHANNEL   : 1492
+#
+#78 defects found affecting 83 strips
+#3 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to chip 0 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to 83 bad strips (more than 15)
+#
+%Comment
+COMMENT        : Channel 1 of bank under masked: VERY HIGH NOISE
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1299_7.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1299-10
+TEST_DATE      : 31/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"13:52:11"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	3 	1688.03 	5.90 	-819.64
+#S03
+	3 	1513.31 	4.86 	-731.97
+#S04
+	3 	1365.73 	4.46 	-658.64
+#S05
+	3 	1384.33 	4.42 	-666.73
+#S06
+	3 	1481.78 	4.71 	-715.94
+#S07
+	3 	1480.03 	4.77 	-714.57
+#S08
+	3 	1384.25 	4.36 	-666.42
+#S09
+	3 	1279.92 	4.07 	-613.63
+#M10
+	3 	1377.02 	4.23 	-662.01
+#E02
+	3 	1520.19 	5.14 	-733.93
+#S03
+	3 	1436.97 	4.50 	-691.74
+#S04
+	3 	1298.53 	4.13 	-623.49
+#S05
+	3 	1313.63 	4.09 	-629.93
+#S06
+	3 	1412.41 	4.40 	-678.79
+#S07
+	3 	1432.57 	4.54 	-688.96
+#S08
+	3 	1343.58 	4.16 	-644.12
+#S09
+	3 	1253.84 	3.94 	-598.98
+#M10
+	3 	1355.93 	4.11 	-648.99
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	127.5 	 4.21 	69.8 	1.64 	 70.8 	 1.74 	16.37 	 1475 	  20
+#S03
+	137.7 	 4.63 	75.4 	1.42 	 77.0 	 1.54 	16.70 	 1385 	  21
+#S04
+	134.8 	 3.10 	73.7 	1.54 	 75.5 	 1.64 	15.60 	 1324 	  22
+#S05
+	138.7 	 4.13 	75.4 	1.33 	 77.4 	 1.40 	15.82 	 1311 	  17
+#S06
+	139.2 	 4.43 	76.2 	2.01 	 78.1 	 2.06 	15.72 	 1289 	  14
+#S07
+	138.2 	 2.71 	75.0 	1.33 	 76.7 	 1.42 	15.88 	 1322 	  19
+#S08
+	141.1 	 4.26 	76.5 	1.30 	 78.6 	 1.41 	15.67 	 1281 	  18
+#S09
+	140.5 	 3.57 	75.4 	1.50 	 77.8 	 1.59 	15.18 	 1259 	  18
+#M10
+	145.4 	 3.12 	78.4 	1.37 	 80.7 	 1.51 	16.41 	 1308 	  19
+#E02
+	133.8 	 3.00 	72.0 	1.74 	 73.4 	 1.83 	11.72 	 1018 	  13
+#S03
+	143.4 	 3.11 	77.3 	1.60 	 79.3 	 1.72 	12.10 	  979 	  12
+#S04
+	139.9 	 2.67 	75.6 	1.53 	 77.9 	 1.64 	11.21 	  927 	  12
+#S05
+	143.6 	 2.16 	77.2 	1.23 	 79.7 	 1.31 	11.35 	  919 	  13
+#S06
+	144.5 	 3.00 	77.8 	1.95 	 80.0 	 1.96 	11.36 	  914 	  13
+#S07
+	142.3 	 2.52 	76.3 	1.29 	 78.3 	 1.40 	11.42 	  935 	  15
+#S08
+	145.3 	 2.42 	77.7 	1.33 	 80.1 	 1.42 	11.27 	  906 	  12
+#S09
+	143.7 	 2.71 	76.3 	1.49 	 79.0 	 1.60 	10.91 	  893 	  12
+#M10
+	149.2 	 2.75 	79.4 	1.37 	 82.0 	 1.51 	11.80 	  928 	  12
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  1	  3	  0	  0	  0	  1	  0	  0	  0	  0	  0	  3	  0	  0	  0	  0
+#Chip S03:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E02:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  1	  4	  0	  0	  0	  1	  0	  0	  0	  0	  0	  4	  0	  0	  0	  0
+#Link 1:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Link 2:	  1	  5	  0	  0	  0	  1	  0	  0	  0	  0	  0	  5	  0	  0	  0	  0
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1
+LAST CHANNEL   : 1
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 126
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1279
+LAST CHANNEL   : 1279
+#
+#5 defects found affecting 6 strips
+#2 maximum consecutive defects
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1299_10.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1299-20
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"13:54:26"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E02
+	16.0 	5.4e-01 	4.6e-02 	1647
+#S03
+	17.0 	5.5e-01 	3.7e-02 	1494
+#S04
+	15.5 	5.5e-01 	2.4e-02 	1552
+#S05
+	15.8 	5.5e-01 	2.8e-02 	1497
+#S06
+	15.1 	5.4e-01 	3.9e-02 	1507
+#S07
+	15.1 	5.5e-01 	2.5e-02 	1521
+#S08
+	14.9 	5.4e-01 	4.1e-02 	1489
+#S09
+	14.5 	5.5e-01 	3.0e-02 	1502
+#M10
+	15.7 	5.4e-01 	2.5e-02 	1427
+#E02
+	12.0 	5.3e-01 	2.4e-02 	1593
+#S03
+	11.7 	5.4e-01 	2.4e-02 	1499
+#S04
+	12.2 	5.3e-01 	2.8e-02 	1482
+#S05
+	12.1 	5.3e-01 	2.5e-02 	1452
+#S06
+	12.1 	5.3e-01 	2.4e-02 	1438
+#S07
+	12.1 	5.3e-01 	2.5e-02 	1455
+#S08
+	12.0 	5.3e-01 	2.4e-02 	1417
+#S09
+	12.4 	5.3e-01 	2.2e-02 	1395
+#M10
+	12.2 	5.3e-01 	4.8e-02 	1410
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+#18 defects found
+%Comment
+COMMENT        : FAIL due to 2304 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1152 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1302-4
+TEST_DATE      : 31/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"14:15:17"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+21 20 22 19 22 21 21 16 21 -1 -1 -1 -1 -1 -1 -1 
+#
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+21 20 22 19 22 21 21 16 21 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1302-5
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"14:16:53"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	4 	24.94 	68.87 	0.00
+#S03
+	4 	23.79 	76.72 	0.00
+#S04
+	4 	24.30 	74.05 	0.00
+#S05
+	4 	24.76 	76.47 	0.00
+#S06
+	4 	24.50 	77.85 	0.00
+#S07
+	4 	25.05 	76.52 	0.00
+#S08
+	4 	24.48 	78.51 	0.00
+#S09
+	4 	25.53 	77.61 	0.00
+#M10
+	4 	25.34 	81.03 	0.00
+#E02
+	4 	25.32 	72.76 	0.00
+#S03
+	4 	24.92 	79.65 	0.00
+#S04
+	4 	25.29 	77.00 	0.00
+#S05
+	4 	25.63 	79.14 	0.00
+#S06
+	4 	26.30 	79.87 	0.00
+#S07
+	4 	26.17 	78.25 	0.00
+#S08
+	4 	26.73 	80.11 	0.00
+#S09
+	4 	27.15 	78.57 	0.00
+#M10
+	4 	27.11 	82.35 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	 91.4 	 3.08 	68.7 	1.93 	 68.7 	 1.93 	17.93 	 1642 	  70
+#S03
+	 99.4 	 2.53 	76.7 	1.63 	 76.6 	 1.65 	17.34 	 1413 	  40
+#S04
+	 97.1 	 2.49 	74.0 	1.78 	 74.0 	 1.77 	16.11 	 1360 	  41
+#S05
+	100.7 	 2.47 	76.5 	1.49 	 76.5 	 1.49 	16.08 	 1314 	  32
+#S06
+	102.1 	 3.09 	77.9 	2.05 	 77.9 	 2.05 	16.02 	 1287 	  28
+#S07
+	101.0 	 2.79 	76.5 	1.59 	 76.5 	 1.61 	16.24 	 1327 	  34
+#S08
+	102.8 	 2.42 	78.5 	1.47 	 78.5 	 1.47 	15.97 	 1272 	  26
+#S09
+	103.1 	 2.72 	77.6 	1.73 	 77.6 	 1.73 	15.38 	 1239 	  26
+#M10
+	106.4 	 2.48 	81.0 	1.47 	 81.0 	 1.47 	16.70 	 1288 	  25
+#E02
+	 97.6 	 2.91 	72.8 	2.05 	 72.8 	 2.05 	11.63 	  999 	  20
+#S03
+	104.7 	 2.33 	79.6 	1.91 	 79.6 	 1.91 	11.94 	  937 	  14
+#S04
+	102.3 	 2.28 	77.0 	1.73 	 77.0 	 1.73 	11.03 	  895 	  15
+#S05
+	105.0 	 2.06 	79.1 	1.38 	 79.1 	 1.38 	11.22 	  886 	  16
+#S06
+	106.5 	 2.43 	79.9 	1.92 	 79.9 	 1.92 	11.22 	  878 	  10
+#S07
+	104.7 	 1.95 	78.3 	1.49 	 78.3 	 1.49 	11.25 	  898 	  14
+#S08
+	107.2 	 4.00 	80.1 	1.44 	 80.1 	 1.44 	11.17 	  872 	  12
+#S09
+	106.0 	 2.88 	78.6 	1.73 	 78.6 	 1.73 	10.77 	  857 	  12
+#M10
+	109.8 	 2.29 	82.3 	1.50 	 82.3 	 1.50 	11.72 	  890 	  11
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"bad noise sigma" 	"bad noise sigma" 	"bad noise sigma" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  1	  4	  0	  0	  0	  1	  0	  0	  0	  0	  0	  4	  0	  0	  0	  0
+#Chip S03:	  0	  8	  0	  0	  0	  0	  0	  0	  0	  0	  0	  8	  0	  0	  0	  0
+#Chip S04:	  0	 11	  0	  0	  0	  0	  0	  0	  0	  0	  0	 11	  0	  0	  0	  0
+#Chip S05:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2	  0	  0	  0	  0
+#Chip S06:	  0	  6	  0	  0	  0	  0	  0	  0	  0	  0	  0	  6	  0	  0	  0	  0
+#Chip S07:	  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4	  0	  0	  0	  0
+#Chip S08:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2	  0	  0	  0	  0
+#Chip S09:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2	  0	  0	  0	  0
+#Chip M10:	  0	  2	  0	  0	  0	  0	  0	  1	  0	  0	  0	  2	  0	  0	  0	  0
+#Chip E02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  1	 41	  0	  0	  0	  1	  0	  1	  0	  0	  0	 41	  0	  0	  0	  0
+#Link 1:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 2:	  1	 41	  0	  0	  0	  1	  0	  1	  0	  0	  0	 41	  0	  0	  0	  0
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1
+LAST CHANNEL   : 1
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 14
+LAST CHANNEL   : 14
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 126
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 134
+LAST CHANNEL   : 134
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 158
+LAST CHANNEL   : 158
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 165
+LAST CHANNEL   : 165
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 199
+LAST CHANNEL   : 199
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 203
+LAST CHANNEL   : 203
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 245
+LAST CHANNEL   : 245
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 254
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 257
+LAST CHANNEL   : 257
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 261
+LAST CHANNEL   : 261
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 274
+LAST CHANNEL   : 274
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 282
+LAST CHANNEL   : 282
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 285
+LAST CHANNEL   : 287
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 297
+LAST CHANNEL   : 297
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 300
+LAST CHANNEL   : 300
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 316
+LAST CHANNEL   : 316
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 346
+LAST CHANNEL   : 346
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 390
+LAST CHANNEL   : 390
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 446
+LAST CHANNEL   : 446
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 552
+LAST CHANNEL   : 552
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 583
+LAST CHANNEL   : 583
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 588
+LAST CHANNEL   : 588
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 602
+LAST CHANNEL   : 602
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 621
+LAST CHANNEL   : 621
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 624
+LAST CHANNEL   : 624
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 652
+LAST CHANNEL   : 652
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 682
+LAST CHANNEL   : 682
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 710
+LAST CHANNEL   : 710
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 736
+LAST CHANNEL   : 736
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 812
+LAST CHANNEL   : 812
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 857
+LAST CHANNEL   : 857
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 982
+LAST CHANNEL   : 982
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1006
+LAST CHANNEL   : 1006
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1024
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1085
+LAST CHANNEL   : 1085
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1145
+LAST CHANNEL   : 1145
+#
+#39 defects found affecting 43 strips
+#3 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to chip 0 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to 43 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1302_5.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1302-8
+TEST_DATE      : 31/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"14:22:45"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	3 	1617.07 	5.60 	-783.94
+#S03
+	3 	1469.16 	4.68 	-709.77
+#S04
+	3 	1346.61 	4.38 	-649.10
+#S05
+	3 	1358.20 	4.32 	-653.64
+#S06
+	3 	1452.64 	4.60 	-700.61
+#S07
+	3 	1451.08 	4.66 	-699.47
+#S08
+	3 	1356.14 	4.25 	-652.19
+#S09
+	3 	1266.84 	4.02 	-606.60
+#M10
+	3 	1351.87 	4.13 	-648.82
+#E02
+	3 	1496.61 	5.05 	-721.71
+#S03
+	3 	1415.09 	4.42 	-680.39
+#S04
+	3 	1289.25 	4.10 	-618.20
+#S05
+	3 	1301.68 	4.05 	-623.75
+#S06
+	3 	1395.40 	4.33 	-669.52
+#S07
+	3 	1413.96 	4.47 	-679.12
+#S08
+	3 	1327.47 	4.10 	-635.22
+#S09
+	3 	1243.29 	3.90 	-593.15
+#M10
+	3 	1340.06 	4.05 	-640.90
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	128.9 	 3.18 	70.3 	1.64 	 71.4 	 1.74 	15.89 	 1421 	  19
+#S03
+	138.9 	 2.94 	75.8 	1.41 	 77.6 	 1.53 	16.31 	 1344 	  16
+#S04
+	135.3 	 2.81 	73.9 	1.51 	 75.9 	 1.61 	15.19 	 1284 	  20
+#S05
+	139.4 	 2.90 	75.7 	1.34 	 77.8 	 1.42 	15.45 	 1276 	  15
+#S06
+	140.6 	 4.54 	76.5 	2.04 	 78.5 	 2.10 	15.45 	 1262 	  13
+#S07
+	139.4 	 3.83 	75.4 	1.35 	 77.2 	 1.46 	15.61 	 1294 	  19
+#S08
+	142.0 	 2.96 	76.8 	1.29 	 79.0 	 1.41 	15.42 	 1255 	  15
+#S09
+	141.4 	 3.90 	75.6 	1.51 	 78.1 	 1.62 	14.98 	 1238 	  16
+#M10
+	146.5 	 2.95 	78.6 	1.26 	 81.1 	 1.38 	16.19 	 1287 	  17
+#E02
+	134.5 	 3.41 	72.1 	1.75 	 73.7 	 1.85 	11.56 	 1002 	  13
+#S03
+	144.0 	 2.97 	77.4 	1.59 	 79.6 	 1.71 	11.92 	  962 	  13
+#S04
+	140.5 	 2.82 	75.6 	1.54 	 78.0 	 1.67 	11.05 	  914 	  13
+#S05
+	143.9 	 2.44 	77.3 	1.24 	 79.8 	 1.33 	11.18 	  905 	  13
+#S06
+	145.6 	 3.10 	77.9 	1.96 	 80.2 	 1.98 	11.25 	  902 	  11
+#S07
+	143.1 	 2.39 	76.5 	1.28 	 78.5 	 1.39 	11.29 	  923 	  16
+#S08
+	146.4 	 4.30 	77.9 	1.31 	 80.4 	 1.39 	11.13 	  894 	  12
+#S09
+	144.5 	 3.34 	76.4 	1.50 	 79.2 	 1.63 	10.83 	  886 	  12
+#M10
+	150.1 	 2.77 	79.6 	1.37 	 82.2 	 1.50 	11.63 	  913 	  13
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  1	  1	  0	  0	  0	  1	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S03:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  1	  2	  0	  0	  0	  1	  0	  1	  0	  0	  0	  2	  0	  0	  0	  0
+#Link 1:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 2:	  1	  2	  0	  0	  0	  1	  0	  1	  0	  0	  0	  2	  0	  0	  0	  0
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1
+LAST CHANNEL   : 1
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1024
+#
+#4 defects found affecting 4 strips
+#2 maximum consecutive defects
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1302_8.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1302-18
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"14:24:48"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E02
+	15.1 	4.5e-01 	3.3e-02 	1643
+#S03
+	16.1 	4.5e-01 	2.5e-02 	1493
+#S04
+	14.3 	4.6e-01 	2.6e-02 	1561
+#S05
+	14.7 	4.5e-01 	2.7e-02 	1502
+#S06
+	14.3 	4.5e-01 	3.7e-02 	1497
+#S07
+	14.2 	4.5e-01 	3.5e-02 	1514
+#S08
+	13.7 	4.4e-01 	2.8e-02 	1488
+#S09
+	13.4 	4.5e-01 	3.4e-02 	1499
+#M10
+	14.9 	4.4e-01 	2.8e-02 	1419
+#E02
+	10.6 	4.3e-01 	3.7e-02 	1601
+#S03
+	10.2 	4.4e-01 	2.7e-02 	1516
+#S04
+	11.0 	4.5e-01 	3.2e-02 	1489
+#S05
+	10.6 	4.4e-01 	3.3e-02 	1467
+#S06
+	10.9 	4.4e-01 	2.7e-02 	1446
+#S07
+	11.0 	4.4e-01 	2.8e-02 	1462
+#S08
+	11.2 	4.4e-01 	4.6e-02 	1416
+#S09
+	11.5 	4.4e-01 	3.7e-02 	1393
+#M10
+	10.3 	4.4e-01 	2.9e-02 	1439
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+#18 defects found
+%Comment
+COMMENT        : FAIL due to 2304 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1152 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1304-5
+TEST_DATE      : 31/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"14:44:10"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+21 20 22 19 22 21 21 16 21 -1 -1 -1 -1 -1 -1 -1 
+#
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+21 20 22 19 22 21 21 16 21 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1304-6
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"14:45:52"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	4 	26.49 	68.52 	0.00
+#S03
+	4 	25.10 	76.50 	0.00
+#S04
+	4 	24.28 	73.86 	0.00
+#S05
+	4 	24.99 	76.17 	0.00
+#S06
+	4 	24.60 	77.62 	0.00
+#S07
+	4 	25.14 	76.46 	0.00
+#S08
+	4 	24.90 	78.68 	0.00
+#S09
+	4 	24.75 	77.95 	0.00
+#M10
+	4 	25.57 	81.11 	0.00
+#E02
+	4 	24.79 	72.99 	0.00
+#S03
+	4 	24.16 	80.10 	0.00
+#S04
+	4 	24.92 	77.19 	0.00
+#S05
+	4 	25.38 	79.38 	0.00
+#S06
+	4 	25.26 	80.23 	0.00
+#S07
+	4 	25.29 	78.59 	0.00
+#S08
+	4 	25.42 	80.55 	0.00
+#S09
+	4 	27.10 	79.02 	0.00
+#M10
+	4 	26.70 	82.64 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	 91.7 	 6.78 	68.4 	2.03 	 68.2 	 2.10 	15.70 	 1446 	  94
+#S03
+	100.7 	 7.43 	76.5 	1.90 	 76.5 	 1.89 	15.06 	 1231 	  35
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	100.4 	 2.80 	76.2 	1.58 	 76.2 	 1.58 	14.08 	 1155 	  25
+#S06
+	100.1 	 6.93 	77.6 	2.06 	 77.4 	 2.23 	14.12 	 1137 	  28
+#S07
+	101.4 	 5.22 	76.5 	1.61 	 76.5 	 1.61 	14.32 	 1170 	  27
+#S08
+	103.0 	 3.22 	78.7 	1.60 	 78.7 	 1.60 	14.20 	 1128 	  23
+#S09
+	102.9 	 2.42 	77.9 	1.71 	 77.9 	 1.71 	13.64 	 1094 	  23
+#M10
+	106.3 	 4.79 	81.1 	1.70 	 81.1 	 1.70 	14.95 	 1152 	  24
+#E02
+	 97.5 	 2.18 	73.0 	1.96 	 73.0 	 1.96 	10.42 	  892 	  16
+#S03
+	104.5 	 2.47 	80.1 	1.89 	 80.1 	 1.89 	10.83 	  845 	  11
+#S04
+	102.2 	 4.00 	77.2 	1.86 	 77.2 	 1.86 	9.99 	  809 	  14
+#S05
+	105.1 	 3.67 	79.4 	1.51 	 79.4 	 1.51 	10.21 	  804 	  12
+#S06
+	105.9 	 2.25 	80.2 	1.93 	 80.2 	 1.93 	10.24 	  798 	  11
+#S07
+	104.2 	 2.00 	78.6 	1.46 	 78.6 	 1.46 	10.24 	  815 	  14
+#S08
+	106.4 	 2.25 	80.5 	1.55 	 80.5 	 1.55 	10.26 	  796 	  10
+#S09
+	106.6 	 4.25 	79.0 	1.77 	 79.0 	 1.77 	9.84 	  779 	  13
+#M10
+	109.8 	 5.51 	82.6 	1.66 	 82.6 	 1.66 	10.81 	  818 	  14
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"bad noise sigma" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  1	  9	  0	  0	  0	  1	  1	  0	  0	  0	  0	  9	  0	  0	  0	  0
+#Chip S03:	  0	 12	  0	  0	  0	  0	  0	  0	  0	  0	  0	 12	  0	  0	  0	  0
+#Chip S04:	  0	 15	  0	  0	  0	  0	  0	  0	  0	  0	  0	 15	  0	  0	  0	  0
+#Chip S05:	  0	  3	  0	  0	  0	  0	  1	  0	  0	  0	  0	  3	  0	  0	  0	  0
+#Chip S06:	  0	  9	  0	  0	  0	  0	  0	  0	  0	  0	  0	  9	  0	  0	  0	  0
+#Chip S07:	  0	  6	  0	  0	  0	  0	  0	  0	  0	  0	  0	  6	  0	  0	  0	  0
+#Chip S08:	  0	  6	  0	  0	  0	  0	  0	  0	  0	  0	  0	  6	  0	  0	  0	  0
+#Chip S09:	  0	  5	  0	  0	  0	  0	  0	  0	  0	  0	  0	  5	  0	  0	  0	  0
+#Chip M10:	  0	  3	  0	  0	  0	  0	  0	  1	  0	  0	  0	  3	  0	  0	  0	  0
+#Chip E02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  1	 68	  0	  0	  0	  1	  2	  1	  0	  0	  0	 68	  0	  0	  0	  0
+#Link 1:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0	  0	  0
+#Link 2:	  1	 71	  0	  0	  0	  1	  2	  1	  0	  0	  0	 71	  0	  0	  0	  0
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1
+LAST CHANNEL   : 2
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 61
+LAST CHANNEL   : 61
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 72
+LAST CHANNEL   : 72
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 79
+LAST CHANNEL   : 79
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 84
+LAST CHANNEL   : 84
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 89
+LAST CHANNEL   : 89
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 93
+LAST CHANNEL   : 93
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 117
+LAST CHANNEL   : 117
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 152
+LAST CHANNEL   : 152
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 165
+LAST CHANNEL   : 165
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 180
+LAST CHANNEL   : 180
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 187
+LAST CHANNEL   : 187
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 205
+LAST CHANNEL   : 205
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 210
+LAST CHANNEL   : 210
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 227
+LAST CHANNEL   : 228
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 238
+LAST CHANNEL   : 238
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 247
+LAST CHANNEL   : 247
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 253
+LAST CHANNEL   : 253
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 257
+LAST CHANNEL   : 257
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 262
+LAST CHANNEL   : 262
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 265
+LAST CHANNEL   : 265
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 267
+LAST CHANNEL   : 267
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 272
+LAST CHANNEL   : 272
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 277
+LAST CHANNEL   : 277
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 282
+LAST CHANNEL   : 282
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 288
+LAST CHANNEL   : 289
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 291
+LAST CHANNEL   : 291
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 317
+LAST CHANNEL   : 317
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 326
+LAST CHANNEL   : 326
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 341
+LAST CHANNEL   : 341
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 359
+LAST CHANNEL   : 359
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 373
+LAST CHANNEL   : 373
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 416
+LAST CHANNEL   : 416
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 435
+LAST CHANNEL   : 435
+#
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 457
+LAST CHANNEL   : 457
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 463
+LAST CHANNEL   : 463
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 513
+LAST CHANNEL   : 513
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 522
+LAST CHANNEL   : 522
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 526
+LAST CHANNEL   : 526
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 538
+LAST CHANNEL   : 538
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 597
+LAST CHANNEL   : 597
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 600
+LAST CHANNEL   : 600
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 608
+LAST CHANNEL   : 608
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 612
+LAST CHANNEL   : 612
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 619
+LAST CHANNEL   : 619
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 670
+LAST CHANNEL   : 670
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 674
+LAST CHANNEL   : 674
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 705
+LAST CHANNEL   : 705
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 711
+LAST CHANNEL   : 711
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 742
+LAST CHANNEL   : 742
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 745
+LAST CHANNEL   : 745
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 813
+LAST CHANNEL   : 813
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 819
+LAST CHANNEL   : 819
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 853
+LAST CHANNEL   : 853
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 865
+LAST CHANNEL   : 865
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 872
+LAST CHANNEL   : 872
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 887
+LAST CHANNEL   : 887
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 900
+LAST CHANNEL   : 900
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 907
+LAST CHANNEL   : 907
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 944
+LAST CHANNEL   : 944
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1012
+LAST CHANNEL   : 1012
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1017
+LAST CHANNEL   : 1017
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1024
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1081
+LAST CHANNEL   : 1081
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1129
+LAST CHANNEL   : 1129
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1149
+LAST CHANNEL   : 1149
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1313
+LAST CHANNEL   : 1313
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1695
+LAST CHANNEL   : 1695
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1982
+LAST CHANNEL   : 1982
+#
+#72 defects found affecting 75 strips
+#3 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to chip 0 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to 75 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1304_6.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1304-9
+TEST_DATE      : 31/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"14:52:11"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	3 	1665.28 	5.83 	-806.09
+#S03
+	3 	1499.06 	4.82 	-723.37
+#S04
+	3 	1371.46 	4.50 	-661.30
+#S05
+	3 	1382.03 	4.42 	-664.36
+#S06
+	3 	1482.16 	4.73 	-715.10
+#S07
+	3 	1473.68 	4.76 	-710.13
+#S08
+	3 	1377.55 	4.34 	-661.93
+#S09
+	3 	1274.89 	4.05 	-610.75
+#M10
+	3 	1374.62 	4.23 	-659.14
+#E02
+	3 	1501.71 	5.08 	-724.10
+#S03
+	3 	1423.40 	4.46 	-683.95
+#S04
+	3 	1295.45 	4.13 	-620.90
+#S05
+	3 	1313.34 	4.09 	-628.93
+#S06
+	3 	1404.70 	4.37 	-674.08
+#S07
+	3 	1425.47 	4.52 	-684.86
+#S08
+	3 	1339.60 	4.15 	-641.77
+#S09
+	3 	1246.45 	3.91 	-593.93
+#M10
+	3 	1349.68 	4.09 	-645.26
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	129.0 	 6.14 	69.8 	1.63 	 70.9 	 1.73 	14.73 	 1325 	  15
+#S03
+	138.8 	 8.48 	75.4 	1.42 	 77.1 	 1.54 	15.18 	 1258 	  16
+#S04
+	134.2 	 5.21 	73.5 	1.55 	 75.4 	 1.67 	14.11 	 1200 	  19
+#S05
+	139.0 	 5.87 	75.3 	1.36 	 77.4 	 1.42 	14.42 	 1196 	  15
+#S06
+	139.3 	 6.46 	76.2 	1.96 	 78.1 	 2.00 	14.37 	 1179 	  12
+#S07
+	139.1 	 6.17 	75.1 	1.35 	 76.9 	 1.46 	14.52 	 1207 	  18
+#S08
+	141.6 	 4.60 	76.6 	1.30 	 78.7 	 1.42 	14.34 	 1170 	  15
+#S09
+	140.8 	 4.36 	75.5 	1.51 	 78.0 	 1.62 	13.89 	 1150 	  18
+#M10
+	146.2 	 5.52 	78.4 	1.27 	 80.8 	 1.40 	15.10 	 1203 	  20
+#E02
+	134.2 	 2.88 	72.0 	1.72 	 73.5 	 1.81 	10.82 	  940 	  14
+#S03
+	144.3 	 4.45 	77.3 	1.60 	 79.4 	 1.72 	11.11 	  898 	  13
+#S04
+	140.5 	 4.31 	75.5 	1.51 	 77.8 	 1.62 	10.26 	  850 	  14
+#S05
+	144.1 	 3.87 	77.1 	1.24 	 79.6 	 1.31 	10.41 	  844 	  13
+#S06
+	145.4 	 3.62 	77.8 	1.96 	 80.0 	 1.98 	10.46 	  841 	  11
+#S07
+	142.8 	 2.47 	76.4 	1.28 	 78.4 	 1.40 	10.49 	  859 	  15
+#S08
+	145.7 	 3.12 	77.8 	1.35 	 80.2 	 1.45 	10.38 	  835 	  12
+#S09
+	145.2 	 4.58 	76.4 	1.46 	 79.1 	 1.56 	10.04 	  821 	  12
+#M10
+	150.3 	 5.62 	79.5 	1.39 	 82.1 	 1.53 	10.86 	  854 	  12
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  1	  2	  0	  0	  0	  1	  0	  0	  0	  0	  0	  2	  0	  0	  0	  0
+#Chip S03:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  1	  4	  0	  0	  0	  1	  0	  1	  0	  0	  0	  4	  0	  0	  0	  0
+#Link 1:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 2:	  1	  4	  0	  0	  0	  1	  0	  1	  0	  0	  0	  4	  0	  0	  0	  0
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 0
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1
+LAST CHANNEL   : 1
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 79
+LAST CHANNEL   : 79
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 254
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1024
+#
+#5 defects found affecting 6 strips
+#2 maximum consecutive defects
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1304_9.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1304-19
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"14:54:14"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E02
+	13.0 	4.8e-01 	7.2e-02 	1534
+#S03
+	12.9 	4.8e-01 	7.0e-02 	1463
+#S04
+	12.7 	4.8e-01 	4.7e-02 	1410
+#S05
+	13.2 	4.8e-01 	6.0e-02 	1368
+#S06
+	12.8 	4.7e-01 	7.2e-02 	1362
+#S07
+	12.8 	4.8e-01 	5.6e-02 	1370
+#S08
+	12.8 	4.7e-01 	6.0e-02 	1323
+#S09
+	12.7 	4.7e-01 	4.2e-02 	1291
+#M10
+	12.8 	4.8e-01 	5.9e-02 	1323
+#E02
+	13.6 	4.6e-01 	2.8e-02 	1152
+#S03
+	13.8 	4.7e-01 	4.5e-02 	1111
+#S04
+	13.8 	4.8e-01 	5.0e-02 	1160
+#S05
+	13.7 	4.7e-01 	4.7e-02 	1102
+#S06
+	13.7 	4.7e-01 	3.8e-02 	1018
+#S07
+	13.6 	4.6e-01 	2.8e-02 	1041
+#S08
+	13.5 	4.6e-01 	3.7e-02 	1013
+#S09
+	13.9 	4.7e-01 	5.1e-02 	1093
+#M10
+	13.8 	4.7e-01 	5.8e-02 	1082
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+#18 defects found
+%Comment
+COMMENT        : FAIL due to 2304 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1152 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1307-4
+TEST_DATE      : 31/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"15:10:59"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+20 20 22 19 22 21 21 16 21 -1 -1 -1 -1 -1 -1 -1 
+#
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+20 20 21 19 22 21 21 16 21 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1307-5
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"15:13:11"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	4 	40.25 	68.74 	0.00
+#S03
+	4 	14.23 	-17.74 	0.00
+#S04
+	4 	14.38 	-18.07 	0.00
+#S05
+	4 	14.62 	-18.61 	0.00
+#S06
+	4 	14.83 	-19.07 	0.00
+#S07
+	4 	14.78 	-18.96 	0.00
+#S08
+	4 	15.12 	-19.75 	0.00
+#S09
+	4 	15.20 	-19.94 	0.00
+#M10
+	4 	15.29 	-20.15 	0.00
+#E02
+	4 	15.50 	-20.68 	0.00
+#S03
+	4 	15.87 	-21.59 	0.00
+#S04
+	4 	16.08 	-22.12 	0.00
+#S05
+	4 	16.10 	-22.19 	0.00
+#S06
+	4 	16.20 	-22.43 	0.00
+#S07
+	4 	16.17 	-22.37 	0.00
+#S08
+	4 	16.43 	-23.06 	0.00
+#S09
+	4 	16.49 	-23.24 	0.00
+#M10
+	4 	16.58 	-23.45 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#E02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  0	127	  0	  0	127	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E02:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	1151	  0	  0	1151	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 1:	  0	1152	  0	  0	1152	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 2:	  0	2303	  0	  0	2303	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : -1
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 254
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 382
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 383
+LAST CHANNEL   : 510
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 511
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 639
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 1022
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1023
+LAST CHANNEL   : 1150
+#
+#17 defects found affecting 2303 strips
+#1152 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to chip 1 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to 2303 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1152 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1307_5.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1307-8
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"15:21:14"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	3 	1681.24 	5.76 	-801.10
+#S03
+	3 	834.79 	7.26 	-433.91
+#S04
+	3 	850.01 	-13359.33 	-425.00
+#S05
+	3 	808.89 	-14.88 	-399.16
+#S06
+	3 	835.50 	7.24 	-433.48
+#S07
+	3 	835.48 	7.25 	-433.49
+#S08
+	3 	835.82 	7.26 	-433.28
+#S09
+	3 	835.93 	7.26 	-433.21
+#M10
+	3 	836.11 	7.25 	-433.11
+#E02
+	3 	863.59 	-3.82 	-412.69
+#S03
+	3 	836.89 	7.26 	-432.63
+#S04
+	3 	876.71 	-4.03 	-410.94
+#S05
+	3 	837.43 	7.26 	-432.31
+#S06
+	3 	837.43 	7.26 	-432.31
+#S07
+	3 	837.55 	7.27 	-432.24
+#S08
+	3 	837.78 	7.26 	-432.10
+#S09
+	3 	838.04 	7.26 	-431.94
+#M10
+	3 	837.81 	7.28 	-432.08
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#E02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  0	127	  0	  0	127	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E02:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	128	  0	  0	128	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	1151	  0	  0	1151	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 1:	  0	1152	  0	  0	1152	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 2:	  0	2303	  0	  0	2303	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : -1
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 254
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 382
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 383
+LAST CHANNEL   : 510
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 511
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 639
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 1022
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 1023
+LAST CHANNEL   : 1150
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 2303
+#
+#19 defects found affecting 2303 strips
+#1152 maximum consecutive defects
+%Comment
+COMMENT        : Chip 0 (away) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 1 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 2 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 3 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 4 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 5 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 6 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 7 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 8 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to 2303 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1152 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1307_8.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1307-18
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"15:22:02"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E02
+	26.0 	5.3e-01 	1.9e-02 	1313
+#S03
+	26.0 	5.4e-01 	1.8e-02 	6060
+#S04
+	26.0 	5.4e-01 	1.7e-02 	1552
+#S05
+	26.0 	5.4e-01 	1.9e-02 	-nan
+#S06
+	26.0 	5.4e-01 	1.8e-02 	6010
+#S07
+	26.0 	5.4e-01 	2.1e-02 	6021
+#S08
+	26.0 	5.4e-01 	1.8e-02 	6008
+#S09
+	26.0 	5.3e-01 	2.4e-02 	6001
+#M10
+	26.0 	5.5e-01 	2.1e-02 	5993
+#E02
+	26.1 	5.1e-01 	2.9e-02 	3472
+#S03
+	26.1 	5.1e-01 	2.2e-02 	5970
+#S04
+	26.1 	5.1e-01 	2.5e-02 	9017
+#S05
+	26.1 	5.1e-01 	2.7e-02 	5945
+#S06
+	26.1 	5.2e-01 	2.7e-02 	5953
+#S07
+	26.1 	5.2e-01 	3.0e-02 	5954
+#S08
+	26.1 	5.1e-01 	3.5e-02 	5935
+#S09
+	26.1 	5.1e-01 	3.4e-02 	5917
+#M10
+	26.1 	5.2e-01 	3.1e-02 	5952
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+#18 defects found
+%Comment
+COMMENT        : FAIL due to 2304 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1152 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1309-5
+TEST_DATE      : 31/05/2022
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"15:52:38"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+18 19 21 22 22 25 23 22 23 -1 -1 -1 -1 -1 -1 -1 
+#
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+18 20 21 22 22 25 23 22 23 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : S07 High SD width: 15.4 (module average 12.3)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1309-6
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"15:54:30"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	4 	45.46 	65.23 	0.00
+#S03
+	4 	91.27 	60.88 	0.00
+#S04
+	4 	35.79 	69.43 	0.00
+#S05
+	4 	40.38 	66.34 	0.00
+#S06
+	4 	27.50 	68.06 	0.00
+#S07
+	4 	29.73 	70.08 	0.00
+#S08
+	4 	27.34 	69.79 	0.00
+#S09
+	4 	27.07 	69.49 	0.00
+#M10
+	4 	27.70 	66.41 	0.00
+#E02
+	4 	27.00 	72.06 	0.00
+#S03
+	4 	27.17 	68.46 	0.00
+#S04
+	4 	25.79 	75.89 	0.00
+#S05
+	4 	27.48 	68.14 	0.00
+#S06
+	4 	26.87 	74.01 	0.00
+#S07
+	4 	26.45 	75.05 	0.00
+#S08
+	4 	26.74 	75.10 	0.00
+#S09
+	4 	26.79 	74.14 	0.00
+#M10
+	4 	27.94 	70.40 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	###    Too many defects in this chip!    ###
+#S03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	 92.4 	 3.68 	67.8 	1.52 	 67.8 	 1.52 	21.10 	 1947 	  50
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	 94.0 	 4.22 	69.3 	1.84 	 69.3 	 1.84 	21.11 	 1904 	  65
+#M10
+	###    Too many defects in this chip!    ###
+#E02
+	 97.8 	 4.81 	72.0 	1.58 	 72.0 	 1.58 	14.76 	 1281 	  46
+#S03
+	 93.9 	 3.65 	68.4 	1.53 	 68.3 	 1.57 	14.96 	 1368 	  52
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	 93.8 	 2.85 	68.1 	1.54 	 68.0 	 1.54 	15.36 	 1411 	  56
+#S06
+	 99.9 	 2.88 	74.0 	1.66 	 74.0 	 1.66 	13.97 	 1180 	  33
+#S07
+	100.0 	 2.86 	75.0 	1.99 	 74.8 	 2.14 	14.72 	 1227 	  34
+#S08
+	101.0 	 2.32 	75.1 	1.66 	 75.1 	 1.66 	14.36 	 1196 	  31
+#S09
+	100.2 	 2.70 	74.1 	1.84 	 74.1 	 1.88 	14.02 	 1182 	  35
+#M10
+	 97.1 	 3.63 	70.4 	1.92 	 70.3 	 1.92 	14.12 	 1255 	  40
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"bad noise sigma" 	"OK" 	"bad noise sigma" 	"OK" 	"bad noise sigma" 	"bad noise sigma" 	"bad noise sigma" 	"bad noise sigma" 	"OK" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"bad noise sigma" 	"bad noise sigma" 	"OK" 	"bad noise sigma" 	"OK" 	"OK" 	"OK" 	"OK" 	"bad noise sigma" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	123
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	127
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	104
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	127
+#Chip S06:	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  8
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 93
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 24
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 21
+#Chip E02:	  0	  5	  0	  0	  0	  0	  0	  0	  0	  0	  0	  5	  0	  0	  0	  1
+#Chip S03:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0	  0	  0
+#Chip S04:	  0	 17	  0	  0	  0	  0	  0	  0	  0	  0	  0	 17	  0	  0	  0	  0
+#Chip S05:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	 10	  0	  0	  0	  0	  0	  0	  0	  0	  0	 10	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0	  0	  0
+#Chip M10:	  0	  7	  0	  0	  0	  0	  0	  0	  0	  0	  0	  7	  0	  0	  0	  1
+#Link 0:	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	629
+#Link 1:	  0	 46	  0	  0	  0	  0	  0	  0	  0	  0	  0	 46	  0	  0	  0	  2
+#Link 2:	  0	 46	  0	  0	  0	  0	  1	  0	  0	  0	  0	 46	  0	  0	  0	631
+%Defect
+DEFECT NAME    : LO_GAIN
+FIRST CHANNEL  : 525
+LAST CHANNEL   : 525
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1203
+LAST CHANNEL   : 1203
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1243
+LAST CHANNEL   : 1243
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1262
+LAST CHANNEL   : 1262
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1277
+LAST CHANNEL   : 1278
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1363
+LAST CHANNEL   : 1363
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1385
+LAST CHANNEL   : 1385
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1402
+LAST CHANNEL   : 1402
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1411
+LAST CHANNEL   : 1411
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1422
+LAST CHANNEL   : 1422
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1426
+LAST CHANNEL   : 1426
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1428
+LAST CHANNEL   : 1428
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1438
+LAST CHANNEL   : 1438
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1448
+LAST CHANNEL   : 1449
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1453
+LAST CHANNEL   : 1454
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1458
+LAST CHANNEL   : 1458
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1462
+LAST CHANNEL   : 1463
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1486
+LAST CHANNEL   : 1486
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1491
+LAST CHANNEL   : 1492
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1501
+LAST CHANNEL   : 1501
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1508
+LAST CHANNEL   : 1508
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1643
+LAST CHANNEL   : 1643
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1809
+LAST CHANNEL   : 1809
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1845
+LAST CHANNEL   : 1845
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1885
+LAST CHANNEL   : 1885
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1888
+LAST CHANNEL   : 1888
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1896
+LAST CHANNEL   : 1896
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1903
+LAST CHANNEL   : 1903
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1905
+LAST CHANNEL   : 1906
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1908
+LAST CHANNEL   : 1908
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1910
+LAST CHANNEL   : 1910
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2071
+LAST CHANNEL   : 2071
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2133
+LAST CHANNEL   : 2133
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2149
+LAST CHANNEL   : 2149
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2177
+LAST CHANNEL   : 2178
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2190
+LAST CHANNEL   : 2190
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2207
+LAST CHANNEL   : 2207
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2216
+LAST CHANNEL   : 2216
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2260
+LAST CHANNEL   : 2260
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2302
+LAST CHANNEL   : 2302
+#
+#40 defects found affecting 47 strips
+#2 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to chip 0 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (away) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (away) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (away) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 8 (away) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to 47 bad strips (more than 15)
+#
+%Comment
+COMMENT        : Channel 0 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 2 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 3 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 4 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 5 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 6 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 7 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 8 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 9 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 10 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 11 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 12 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 13 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 14 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 15 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 16 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 17 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 19 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 20 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 21 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 22 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 23 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 24 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 25 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 26 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 29 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 30 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 31 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 32 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 33 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 34 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 35 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 36 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 37 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 38 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 39 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 40 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 41 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 42 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 43 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 44 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 45 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 46 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 47 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 48 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 49 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 50 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 51 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 52 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 53 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 54 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 55 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 56 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 57 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 58 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 59 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 60 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 61 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 62 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 63 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 64 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 65 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 66 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 67 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 68 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 69 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 70 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 71 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 72 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 73 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 74 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 75 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 76 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 77 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 78 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 79 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 80 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 82 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 83 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 84 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 85 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 86 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 87 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 88 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 89 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 90 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 91 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 92 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 93 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 94 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 95 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 96 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 97 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 98 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 99 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 100 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 101 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 102 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 103 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 104 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 105 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 106 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 107 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 108 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 109 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 110 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 111 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 112 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 113 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 114 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 115 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 116 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 117 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 119 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 120 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 121 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 122 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 123 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 124 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 125 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 126 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 127 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 128 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 129 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 130 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 131 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 132 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 133 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 134 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 135 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 136 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 137 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 138 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 139 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 140 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 141 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 142 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 143 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 144 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 145 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 146 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 147 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 148 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 149 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 150 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 151 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 152 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 153 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 154 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 155 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 156 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 157 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 158 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 159 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 160 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 161 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 162 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 163 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 164 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 165 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 166 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 167 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 168 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 169 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 170 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 171 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 172 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 173 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 174 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 175 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 176 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 177 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 178 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 179 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 180 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 181 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 182 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 183 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 184 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 185 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 186 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 187 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 188 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 189 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 190 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 191 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 192 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 193 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 194 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 195 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 196 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 197 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 198 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 199 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 200 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 201 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 202 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 203 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 204 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 206 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 207 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 208 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 209 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 210 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 211 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 212 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 213 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 214 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 215 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 216 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 217 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 218 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 219 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 220 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 221 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 222 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 223 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 224 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 225 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 226 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 227 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 228 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 229 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 230 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 231 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 232 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 233 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 234 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 235 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 236 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 237 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 238 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 239 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 240 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 241 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 242 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 243 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 244 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 245 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 246 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 247 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 248 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 249 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 250 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 251 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 252 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 253 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 254 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 255 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 256 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 257 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 259 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 260 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 261 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 262 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 264 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 265 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 266 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 269 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 270 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 271 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 272 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 274 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 275 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 276 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 278 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 279 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 280 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 281 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 282 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 283 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 284 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 285 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 286 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 287 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 288 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 289 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 290 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 292 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 293 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 295 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 296 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 297 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 299 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 301 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 302 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 303 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 304 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 305 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 306 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 307 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 308 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 309 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 310 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 311 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 312 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 313 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 316 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 317 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 318 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 321 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 322 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 323 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 324 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 325 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 326 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 327 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 328 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 329 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 330 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 332 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 333 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 334 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 335 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 336 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 337 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 339 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 340 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 341 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 342 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 343 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 344 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 345 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 346 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 347 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 348 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 350 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 352 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 353 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 354 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 355 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 356 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 357 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 358 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 360 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 361 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 363 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 364 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 366 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 368 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 369 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 370 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 371 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 372 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 373 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 374 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 375 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 376 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 377 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 379 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 380 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 381 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 383 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 384 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 385 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 386 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 387 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 388 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 389 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 390 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 391 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 392 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 393 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 394 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 395 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 396 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 397 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 398 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 399 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 400 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 401 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 402 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 403 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 404 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 405 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 406 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 407 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 408 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 410 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 411 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 412 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 413 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 414 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 415 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 416 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 417 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 418 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 419 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 420 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 421 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 422 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 423 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 424 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 425 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 426 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 427 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 428 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 429 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 430 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 431 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 432 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 433 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 434 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 435 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 436 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 437 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 438 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 439 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 440 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 441 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 442 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 443 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 444 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 445 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 446 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 447 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 448 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 449 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 450 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 451 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 452 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 453 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 454 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 455 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 456 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 457 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 458 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 459 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 460 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 461 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 462 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 463 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 464 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 465 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 466 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 467 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 468 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 469 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 470 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 471 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 472 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 473 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 474 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 475 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 476 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 477 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 478 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 479 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 480 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 481 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 482 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 483 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 484 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 485 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 486 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 487 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 488 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 489 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 490 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 491 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 492 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 493 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 494 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 495 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 496 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 497 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 498 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 499 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 500 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 501 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 502 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 503 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 504 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 505 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 506 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 507 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 508 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 509 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 510 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 511 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 512 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 514 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 519 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 550 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 556 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 558 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 562 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 572 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 640 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 651 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 654 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 657 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 658 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 659 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 661 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 662 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 665 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 666 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 670 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 672 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 673 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 674 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 675 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 677 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 678 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 679 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 680 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 682 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 683 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 684 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 686 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 687 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 689 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 690 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 691 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 692 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 693 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 694 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 696 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 698 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 699 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 700 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 701 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 702 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 703 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 705 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 706 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 709 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 710 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 711 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 712 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 713 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 715 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 717 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 718 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 719 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 720 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 721 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 722 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 723 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 724 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 725 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 727 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 728 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 729 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 731 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 732 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 733 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 734 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 735 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 736 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 737 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 738 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 739 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 740 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 741 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 742 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 743 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 744 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 745 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 746 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 747 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 748 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 749 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 750 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 751 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 752 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 753 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 754 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 755 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 756 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 757 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 758 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 759 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 761 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 762 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 763 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 764 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 765 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 766 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 767 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 774 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 778 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 779 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 785 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 787 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 788 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 793 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 794 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 796 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 799 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 803 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 805 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 806 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 807 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 810 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 816 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 820 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 824 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 827 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 828 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 843 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 863 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 873 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 892 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 903 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 904 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1024 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1025 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1026 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1027 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1066 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1088 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1096 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1101 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1107 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1110 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1112 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1114 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1115 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1117 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1127 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1131 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1132 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1135 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1138 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1143 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1150 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 127 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1024 of bank away masked: VERY HIGH NOISE
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1309_6.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1309-9
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"16:01:14"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E02
+	3 	1512.07 	5.31 	-730.85
+#S03
+	3 	1623.70 	5.88 	-786.38
+#S04
+	3 	1607.78 	5.37 	-778.36
+#S05
+	3 	1742.63 	6.34 	-846.42
+#S06
+	3 	1396.47 	4.68 	-674.10
+#S07
+	3 	1531.52 	5.12 	-741.11
+#S08
+	3 	1350.81 	4.49 	-650.91
+#S09
+	3 	1419.51 	4.76 	-684.85
+#M10
+	3 	1579.17 	5.56 	-764.20
+#E02
+	3 	1338.19 	4.44 	-642.91
+#S03
+	3 	1387.87 	4.76 	-668.45
+#S04
+	3 	1409.92 	4.46 	-680.23
+#S05
+	3 	1455.78 	5.02 	-702.23
+#S06
+	3 	1277.03 	4.08 	-613.16
+#S07
+	3 	1375.38 	4.39 	-662.50
+#S08
+	3 	1260.78 	4.01 	-604.67
+#S09
+	3 	1320.68 	4.26 	-634.76
+#M10
+	3 	1442.59 	4.91 	-694.40
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E02
+	126.8 	 5.55 	68.9 	1.31 	 70.1 	 1.38 	18.97 	 1720 	  23
+#S03
+	123.2 	 3.52 	67.1 	1.23 	 68.0 	 1.31 	18.68 	 1741 	  22
+#S04
+	132.8 	 7.26 	72.7 	1.22 	 74.0 	 1.30 	19.74 	 1697 	  19
+#S05
+	122.9 	 3.60 	66.9 	1.34 	 67.7 	 1.42 	19.13 	 1786 	  24
+#S06
+	130.6 	 3.68 	71.7 	1.30 	 73.3 	 1.40 	18.84 	 1643 	  19
+#S07
+	131.9 	 4.71 	72.5 	1.80 	 73.9 	 1.88 	19.76 	 1704 	  22
+#S08
+	132.5 	 3.81 	72.2 	1.50 	 74.0 	 1.61 	19.26 	 1667 	  16
+#S09
+	132.3 	 4.12 	72.1 	1.53 	 73.7 	 1.59 	18.73 	 1624 	  21
+#M10
+	127.9 	 3.24 	69.1 	1.44 	 70.2 	 1.55 	18.44 	 1668 	  21
+#E02
+	135.4 	 4.84 	72.7 	1.29 	 74.6 	 1.39 	14.77 	 1269 	  12
+#S03
+	130.6 	 2.80 	70.5 	1.24 	 72.0 	 1.33 	14.46 	 1282 	  14
+#S04
+	139.3 	 3.41 	76.2 	1.43 	 78.2 	 1.56 	15.33 	 1258 	  11
+#S05
+	130.3 	 3.00 	70.3 	1.27 	 71.7 	 1.37 	14.72 	 1309 	  11
+#S06
+	138.2 	 3.09 	74.9 	1.38 	 77.2 	 1.48 	14.56 	 1214 	  13
+#S07
+	138.6 	 3.83 	75.6 	1.80 	 77.7 	 1.91 	15.21 	 1257 	  14
+#S08
+	139.6 	 2.66 	75.3 	1.43 	 77.7 	 1.54 	14.83 	 1232 	  13
+#S09
+	137.8 	 3.56 	74.6 	1.60 	 76.8 	 1.67 	14.40 	 1207 	  14
+#M10
+	133.6 	 3.88 	71.4 	1.57 	 73.0 	 1.67 	14.13 	 1237 	  13
+#
+#Loop C - Comment
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  X11    E02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E02:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0	  0	  2
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  1
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S07:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2	  0	  0	  0	  0
+#Chip M10:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  2
+#Chip E02:	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	  0	  0	  1
+#Chip S03:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4	  0	  0	  0	  0
+#Link 0:	  0	  9	  0	  0	  0	  0	  0	  0	  0	  0	  0	  9	  0	  0	  0	  5
+#Link 1:	  0	  8	  0	  0	  0	  0	  0	  0	  0	  0	  0	  8	  0	  0	  0	  1
+#Link 2:	  0	 17	  0	  0	  0	  0	  0	  0	  0	  0	  0	 17	  0	  0	  0	  6
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 3
+LAST CHANNEL   : 3
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 89
+LAST CHANNEL   : 89
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 125
+LAST CHANNEL   : 125
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 305
+LAST CHANNEL   : 305
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 525
+LAST CHANNEL   : 525
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 650
+LAST CHANNEL   : 650
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 903
+LAST CHANNEL   : 904
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1026
+LAST CHANNEL   : 1026
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1276
+LAST CHANNEL   : 1278
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1320
+LAST CHANNEL   : 1320
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2176
+LAST CHANNEL   : 2179
+#
+#11 defects found affecting 17 strips
+#4 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to 17 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R5H0_Hybrid3_RC_1309_9.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R5H0_Hybrid3
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1309-19
+TEST_DATE      : 31/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test"
+#TIME
+"16:01:26"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E02
+	13.5 	4.3e-01 	4.7e-02 	2112
+#S03
+	13.0 	4.4e-01 	5.0e-02 	2136
+#S04
+	14.2 	4.4e-01 	6.0e-02 	2009
+#S05
+	12.7 	4.3e-01 	2.9e-02 	2153
+#S06
+	12.9 	4.4e-01 	3.7e-02 	1980
+#S07
+	13.1 	4.3e-01 	3.9e-02 	2007
+#S08
+	12.9 	4.4e-01 	3.1e-02 	1951
+#S09
+	13.0 	4.3e-01 	3.6e-02 	1879
+#M10
+	13.0 	4.3e-01 	2.9e-02 	1914
+#E02
+	13.1 	4.3e-01 	5.5e-02 	1543
+#S03
+	13.0 	4.3e-01 	3.8e-02 	1486
+#S04
+	13.0 	4.3e-01 	3.2e-02 	1419
+#S05
+	13.0 	4.3e-01 	2.8e-02 	1495
+#S06
+	13.2 	4.4e-01 	3.6e-02 	1368
+#S07
+	12.9 	4.3e-01 	3.4e-02 	1385
+#S08
+	13.0 	4.3e-01 	2.7e-02 	1349
+#S09
+	12.8 	4.2e-01 	3.6e-02 	1338
+#M10
+	13.0 	4.4e-01 	3.9e-02 	1492
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+#18 defects found
+%Comment
+COMMENT        : FAIL due to 2304 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1152 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#

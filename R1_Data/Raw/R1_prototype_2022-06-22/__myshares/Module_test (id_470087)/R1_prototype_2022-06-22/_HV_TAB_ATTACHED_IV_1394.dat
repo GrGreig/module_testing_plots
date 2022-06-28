@@ -1,0 +1,23 @@
+_HV_TAB_ATTACHED_IV_1394.dat
+Type: BARREL_LS_MODULE
+Wafer: 00000
+Module_SN: 
+Module_Stage: HV_TAB_ATTACHED
+Date: 22 Jun 2022
+Time: 21:22:47
+Institute: TRIUMF
+TestType: MODULE_IV_PS_V1
+Vbias_SMU: Keithley 2410
+Rseries: 1.0 MOhm
+Test_DMM: none
+Rshunt: 0.0 MOhm
+Software type and version, fw version: git url https://gitlab.cern.ch/atlas-itk-strips-daq/itsdaq-sw.git/-/tree/a4a2cb2960e34eb2644d6af62cce0755338b2e00, fw vb500
+RunNumber: 1394
+Temperature: 25.0
+Humidity: 30.0
+Comments: 
+Voltage[V]	Current[nA]	Shunt_voltage[mV]
+-000350.00	-038448.78	0000000.00
+-000350.00	-038469.40	0000000.00
+-000350.00	-038457.56	0000000.00
+-000350.00	-038456.22	0000000.00

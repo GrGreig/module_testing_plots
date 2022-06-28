@@ -1,0 +1,6621 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R4H0_Hybrid1
+TEST MADE BY   : gg
+LOCATION NAME  : TRIUMF
+Run number     : 1404-4
+TEST_DATE      : 23/06/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #3y"
+#TIME
+"11:59:20"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+24 19 23 24 25 23 24 23 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+24 19 23 24 25 24 24 23 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R4H0_Hybrid1
+TEST MADE BY   : gg
+LOCATION NAME  : TRIUMF
+Run number     : 1404-5
+TEST_DATE      : 23/06/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #3y"
+#TIME
+"12:01:30"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E03
+	4 	16.69 	-23.81 	0.00
+#S04
+	4 	16.57 	-23.48 	0.00
+#S05
+	4 	16.82 	-24.17 	0.00
+#S06
+	4 	16.68 	-23.77 	0.00
+#S07
+	4 	16.55 	-23.41 	0.00
+#S08
+	4 	16.46 	-23.18 	0.00
+#S09
+	4 	16.71 	-23.86 	0.00
+#M10
+	4 	16.80 	-24.12 	0.00
+#E03
+	4 	16.81 	-24.14 	0.00
+#S04
+	4 	16.57 	-23.48 	0.00
+#S05
+	4 	16.66 	-23.71 	0.00
+#S06
+	4 	16.78 	-24.07 	0.00
+#S07
+	4 	16.61 	-23.58 	0.00
+#S08
+	4 	16.56 	-23.44 	0.00
+#S09
+	4 	16.83 	-24.21 	0.00
+#M10
+	4 	16.67 	-23.75 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#E03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E03:	  0	 78	  0	  0	 78	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 50
+#Chip S04:	  0	 59	  0	  0	 59	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 69
+#Chip S05:	  0	126	  0	  0	126	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2
+#Chip S06:	  0	116	  0	  0	116	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 12
+#Chip S07:	  0	112	  0	  0	112	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 16
+#Chip S08:	  0	 66	  0	  0	 66	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 62
+#Chip S09:	  0	 90	  0	  0	 90	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 38
+#Chip M10:	  0	 89	  0	  0	 89	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 39
+#Chip E03:	  0	 57	  0	  0	 57	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 71
+#Chip S04:	  0	 26	  0	  0	 26	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	102
+#Chip S05:	  0	 27	  0	  0	 27	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	101
+#Chip S06:	  0	 24	  0	  0	 24	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	104
+#Chip S07:	  0	 62	  0	  0	 62	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 66
+#Chip S08:	  0	 39	  0	  0	 39	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 89
+#Chip S09:	  0	 75	  0	  0	 75	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 53
+#Chip M10:	  0	 47	  0	  0	 47	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 81
+#Link 0:	  0	736	  0	  0	736	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	288
+#Link 1:	  0	357	  0	  0	357	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	667
+#Link 2:	  0	1093	  0	  0	1093	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	955
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : -1
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 254
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 382
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 383
+LAST CHANNEL   : 510
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 511
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 639
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 1022
+#
+#16 defects found affecting 1093 strips
+#88 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to chip 0 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to 1093 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 88 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : Channel 6 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 7 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 8 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 10 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 16 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 18 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 20 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 21 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 22 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 23 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 26 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 27 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 28 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 29 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 37 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 38 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 42 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 44 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 46 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 48 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 54 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 56 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 57 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 59 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 62 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 65 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 66 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 67 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 68 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 70 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 71 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 75 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 80 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 82 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 83 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 86 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 88 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 93 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 94 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 95 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 96 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 99 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 100 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 104 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 105 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 106 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 114 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 117 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 123 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 124 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 130 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 131 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 132 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 134 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 135 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 138 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 142 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 144 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 146 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 147 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 149 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 151 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 153 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 154 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 155 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 156 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 157 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 158 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 159 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 160 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 161 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 162 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 164 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 165 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 167 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 168 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 170 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 171 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 174 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 175 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 178 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 182 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 183 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 187 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 188 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 192 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 196 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 199 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 200 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 201 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 203 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 204 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 205 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 206 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 208 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 209 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 214 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 215 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 216 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 217 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 218 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 221 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 222 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 223 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 225 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 227 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 229 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 231 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 232 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 237 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 240 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 241 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 242 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 244 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 248 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 249 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 250 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 252 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 255 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 283 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 308 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 397 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 404 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 406 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 413 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 415 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 419 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 420 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 440 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 442 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 445 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 449 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 511 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 517 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 518 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 524 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 540 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 549 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 556 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 557 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 558 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 562 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 568 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 573 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 579 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 585 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 589 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 598 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 623 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 640 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 641 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 646 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 655 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 658 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 663 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 664 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 666 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 667 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 668 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 669 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 670 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 674 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 675 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 676 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 677 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 678 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 679 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 680 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 682 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 684 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 689 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 690 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 692 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 694 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 696 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 698 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 699 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 700 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 702 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 703 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 706 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 707 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 708 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 711 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 714 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 715 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 716 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 718 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 721 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 722 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 725 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 726 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 727 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 728 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 730 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 732 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 733 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 734 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 736 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 738 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 740 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 744 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 745 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 746 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 748 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 751 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 754 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 757 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 762 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 765 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 767 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 774 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 775 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 776 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 779 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 781 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 783 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 788 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 789 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 790 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 791 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 794 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 795 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 798 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 800 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 805 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 808 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 809 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 818 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 819 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 821 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 822 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 825 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 828 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 835 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 842 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 843 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 845 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 847 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 849 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 858 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 861 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 867 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 868 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 873 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 875 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 883 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 884 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 889 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 902 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 903 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 904 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 915 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 917 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 918 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 924 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 930 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 931 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 937 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 941 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 943 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 948 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 952 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 953 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 957 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 962 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 964 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 966 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 968 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 973 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 974 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 975 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 978 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 980 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 984 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 985 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 987 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 988 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 989 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 990 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 991 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 999 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1005 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1010 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1011 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1016 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1021 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1023 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 0 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 2 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 3 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 6 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 7 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 8 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 9 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 12 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 14 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 15 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 16 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 17 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 18 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 20 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 21 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 22 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 23 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 24 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 25 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 28 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 29 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 30 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 31 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 32 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 34 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 40 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 41 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 43 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 45 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 46 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 47 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 51 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 52 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 54 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 57 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 60 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 63 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 64 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 66 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 67 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 68 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 70 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 72 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 73 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 77 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 79 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 80 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 81 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 82 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 83 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 84 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 85 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 87 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 88 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 89 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 90 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 91 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 98 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 99 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 102 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 103 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 110 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 115 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 117 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 118 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 119 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 121 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 123 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 124 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 127 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 128 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 129 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 131 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 132 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 134 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 135 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 138 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 139 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 141 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 142 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 143 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 144 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 145 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 146 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 147 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 148 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 149 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 150 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 151 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 152 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 153 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 154 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 155 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 156 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 157 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 158 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 159 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 160 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 161 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 162 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 163 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 165 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 166 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 167 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 168 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 169 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 170 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 171 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 172 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 173 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 174 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 175 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 176 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 177 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 179 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 181 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 183 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 184 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 185 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 188 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 189 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 190 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 191 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 192 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 194 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 195 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 196 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 197 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 198 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 199 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 200 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 204 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 205 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 206 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 207 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 208 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 209 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 210 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 211 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 212 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 213 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 214 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 215 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 216 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 218 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 220 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 223 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 224 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 225 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 226 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 227 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 229 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 230 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 231 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 232 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 233 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 234 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 236 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 237 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 239 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 242 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 243 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 244 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 245 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 247 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 248 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 249 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 250 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 251 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 253 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 254 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 255 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 257 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 259 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 261 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 262 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 263 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 264 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 265 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 266 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 267 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 268 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 269 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 270 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 272 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 273 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 274 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 275 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 276 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 277 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 278 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 279 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 280 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 282 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 283 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 285 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 287 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 288 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 289 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 291 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 292 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 294 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 295 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 296 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 297 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 298 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 299 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 300 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 302 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 303 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 304 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 305 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 306 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 308 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 309 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 310 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 311 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 312 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 314 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 316 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 321 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 323 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 324 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 325 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 326 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 327 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 328 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 329 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 330 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 333 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 334 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 335 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 336 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 337 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 338 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 339 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 341 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 342 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 343 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 344 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 345 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 346 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 347 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 348 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 349 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 350 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 351 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 352 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 353 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 354 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 355 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 356 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 357 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 358 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 359 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 360 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 361 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 362 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 364 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 366 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 367 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 368 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 369 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 370 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 371 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 372 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 374 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 375 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 377 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 378 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 380 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 381 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 382 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 384 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 385 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 388 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 389 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 390 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 391 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 392 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 395 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 396 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 397 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 398 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 399 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 401 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 402 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 403 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 405 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 406 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 407 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 408 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 410 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 411 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 412 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 413 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 414 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 416 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 417 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 419 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 421 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 423 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 424 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 425 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 426 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 427 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 428 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 429 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 430 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 431 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 432 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 433 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 434 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 435 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 436 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 440 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 441 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 442 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 443 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 444 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 445 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 446 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 447 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 448 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 449 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 450 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 451 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 452 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 453 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 454 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 455 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 457 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 459 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 460 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 462 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 463 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 464 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 465 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 466 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 468 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 469 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 471 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 472 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 474 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 475 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 476 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 477 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 478 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 480 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 481 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 483 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 484 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 485 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 486 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 487 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 488 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 489 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 490 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 491 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 492 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 493 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 495 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 496 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 497 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 498 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 499 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 501 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 502 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 503 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 504 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 505 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 506 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 507 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 508 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 509 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 510 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 511 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 512 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 514 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 516 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 517 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 518 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 522 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 523 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 527 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 528 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 530 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 533 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 535 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 536 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 537 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 538 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 540 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 543 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 544 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 545 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 546 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 547 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 548 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 549 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 553 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 555 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 556 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 557 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 558 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 559 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 560 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 561 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 562 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 568 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 578 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 581 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 583 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 584 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 585 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 586 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 588 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 589 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 590 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 591 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 592 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 593 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 595 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 596 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 597 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 598 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 602 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 604 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 606 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 607 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 608 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 610 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 611 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 614 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 620 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 622 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 623 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 624 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 626 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 630 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 631 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 634 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 638 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 642 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 643 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 644 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 646 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 647 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 648 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 649 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 650 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 651 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 652 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 654 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 657 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 658 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 659 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 662 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 663 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 664 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 666 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 667 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 668 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 669 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 670 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 671 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 672 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 673 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 674 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 675 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 676 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 677 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 678 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 679 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 680 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 681 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 682 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 684 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 686 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 687 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 688 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 691 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 693 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 694 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 695 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 696 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 697 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 700 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 703 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 704 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 705 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 708 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 709 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 710 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 714 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 715 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 716 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 718 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 719 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 720 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 721 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 722 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 726 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 727 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 729 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 730 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 731 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 732 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 733 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 734 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 735 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 736 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 738 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 739 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 741 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 743 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 746 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 747 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 748 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 749 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 750 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 753 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 754 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 755 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 757 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 758 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 759 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 761 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 763 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 765 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 766 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 767 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 768 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 772 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 773 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 774 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 775 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 778 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 781 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 784 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 785 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 789 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 791 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 792 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 794 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 796 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 804 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 806 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 807 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 808 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 809 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 815 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 816 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 821 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 828 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 830 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 832 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 833 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 836 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 838 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 839 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 840 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 845 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 846 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 847 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 849 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 850 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 851 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 854 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 855 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 858 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 859 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 862 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 864 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 865 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 867 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 868 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 869 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 870 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 878 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 884 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 888 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 891 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 892 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 893 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 899 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 901 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 902 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 903 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 905 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 907 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 908 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 909 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 910 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 911 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 913 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 914 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 915 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 917 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 919 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 921 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 924 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 925 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 926 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 927 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 928 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 932 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 933 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 934 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 935 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 936 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 937 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 938 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 942 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 943 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 945 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 947 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 948 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 949 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 951 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 954 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 955 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 957 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 958 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 960 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 962 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 964 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 965 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 966 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 967 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 968 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 970 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 971 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 973 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 975 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 976 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 977 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 978 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 980 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 981 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 983 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 985 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 987 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 988 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 989 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 990 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 991 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 993 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 995 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 996 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 997 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 998 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1000 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1002 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1004 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1005 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1006 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1007 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1010 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1012 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1016 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1018 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1019 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1020 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1022 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1023 of bank away masked: VERY HIGH NOISE
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R4H0_Hybrid1_RC_1404_5.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R4H0_Hybrid1
+TEST MADE BY   : gg
+LOCATION NAME  : TRIUMF
+Run number     : 1404-8
+TEST_DATE      : 23/06/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #3y"
+#TIME
+"12:09:17"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E03
+	3 	838.39 	7.27 	-431.73
+#S04
+	3 	838.29 	7.27 	-431.79
+#S05
+	3 	838.60 	7.27 	-431.61
+#S06
+	3 	838.30 	7.27 	-431.79
+#S07
+	3 	838.19 	7.26 	-431.85
+#S08
+	3 	838.14 	7.26 	-431.88
+#S09
+	3 	838.50 	7.27 	-431.67
+#M10
+	3 	838.57 	7.27 	-431.63
+#E03
+	3 	838.53 	7.27 	-431.65
+#S04
+	3 	838.28 	7.27 	-431.80
+#S05
+	3 	838.50 	7.27 	-431.67
+#S06
+	3 	838.73 	7.27 	-431.53
+#S07
+	3 	838.45 	7.27 	-431.70
+#S08
+	3 	838.30 	7.27 	-431.79
+#S09
+	3 	838.69 	7.27 	-431.55
+#M10
+	3 	838.42 	7.27 	-431.71
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#E03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E03:	  0	  3	  0	  0	  3	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	125
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S05:	  0	106	  0	  0	106	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 22
+#Chip S06:	  0	 67	  0	  0	 67	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 61
+#Chip S07:	  0	 20	  0	  0	 20	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	108
+#Chip S08:	  0	  1	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	127
+#Chip S09:	  0	  1	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	127
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip E03:	  0	  2	  0	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	126
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S06:	  0	  1	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	127
+#Chip S07:	  0	  1	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	127
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Chip S09:	  0	  1	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	127
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128
+#Link 0:	  0	198	  0	  0	198	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	826
+#Link 1:	  0	  5	  0	  0	  5	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	1019
+#Link 2:	  0	203	  0	  0	203	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	1845
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 2
+LAST CHANNEL   : 2
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 25
+LAST CHANNEL   : 25
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 90
+LAST CHANNEL   : 90
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 259
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 262
+LAST CHANNEL   : 262
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 264
+LAST CHANNEL   : 273
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 275
+LAST CHANNEL   : 275
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 277
+LAST CHANNEL   : 279
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 281
+LAST CHANNEL   : 281
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 291
+LAST CHANNEL   : 292
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 294
+LAST CHANNEL   : 307
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 309
+LAST CHANNEL   : 318
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 320
+LAST CHANNEL   : 379
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 387
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 389
+LAST CHANNEL   : 389
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 391
+LAST CHANNEL   : 391
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 393
+LAST CHANNEL   : 396
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 400
+LAST CHANNEL   : 400
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 403
+LAST CHANNEL   : 403
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 450
+LAST CHANNEL   : 450
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 453
+LAST CHANNEL   : 503
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 507
+LAST CHANNEL   : 509
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 513
+LAST CHANNEL   : 513
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 560
+LAST CHANNEL   : 560
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 576
+LAST CHANNEL   : 576
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 592
+LAST CHANNEL   : 592
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 604
+LAST CHANNEL   : 604
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 615
+LAST CHANNEL   : 615
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 618
+LAST CHANNEL   : 618
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 621
+LAST CHANNEL   : 621
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 624
+LAST CHANNEL   : 625
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 627
+LAST CHANNEL   : 627
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 630
+LAST CHANNEL   : 630
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 632
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 739
+LAST CHANNEL   : 739
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 836
+LAST CHANNEL   : 836
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : -1
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1120
+LAST CHANNEL   : 1120
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1136
+LAST CHANNEL   : 1136
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 254
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 382
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 383
+LAST CHANNEL   : 510
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1439
+LAST CHANNEL   : 1439
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 511
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1642
+LAST CHANNEL   : 1642
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 639
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 1842
+LAST CHANNEL   : 1842
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 1022
+#
+#57 defects found affecting 203 strips
+#60 maximum consecutive defects
+%Comment
+COMMENT        : Chip 0 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 1 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 2 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 3 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 4 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 5 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 6 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 7 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to 203 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 60 consecutive bad strips (more than 8)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R4H0_Hybrid1_RC_1404_8.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R4H0_Hybrid1
+TEST MADE BY   : gg
+LOCATION NAME  : TRIUMF
+Run number     : 1404-18
+TEST_DATE      : 23/06/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #3y"
+#TIME
+"12:10:34"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E03
+	21.4 	3.6e-01 	5.6e-02 	5885
+#S04
+	20.8 	3.4e-01 	5.5e-02 	5938
+#S05
+	23.0 	3.3e-01 	6.9e-02 	5902
+#S06
+	23.5 	3.6e-01 	8.1e-02 	5807
+#S07
+	22.8 	3.3e-01 	6.0e-02 	5697
+#S08
+	21.4 	3.0e-01 	9.5e-02 	5740
+#S09
+	21.5 	2.9e-01 	7.9e-02 	5793
+#M10
+	21.0 	2.8e-01 	6.3e-02 	5824
+#E03
+	21.1 	3.4e-01 	4.8e-02 	5904
+#S04
+	20.6 	3.2e-01 	6.7e-02 	5953
+#S05
+	21.1 	2.9e-01 	8.9e-02 	5890
+#S06
+	20.0 	2.5e-01 	4.1e-02 	5942
+#S07
+	20.7 	2.6e-01 	8.3e-02 	5834
+#S08
+	20.9 	2.9e-01 	9.0e-02 	5854
+#S09
+	21.2 	2.8e-01 	7.3e-02 	5805
+#M10
+	20.9 	2.9e-01 	8.4e-02 	5852
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+#16 defects found
+%Comment
+COMMENT        : FAIL due to 2048 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1024 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R4H0_Hybrid1
+TEST MADE BY   : gg
+LOCATION NAME  : TRIUMF
+Run number     : 1407-4
+TEST_DATE      : 23/06/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #3y"
+#TIME
+"13:05:15"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+23 19 23 24 24 23 23 23 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+23 19 23 24 24 23 24 23 -1 -1 -1 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R4H0_Hybrid1
+TEST MADE BY   : gg
+LOCATION NAME  : TRIUMF
+Run number     : 1407-5
+TEST_DATE      : 23/06/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #3y"
+#TIME
+"13:07:26"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E03
+	4 	16.36 	-22.90 	0.00
+#S04
+	4 	15.99 	-21.94 	0.00
+#S05
+	4 	16.58 	-23.50 	0.00
+#S06
+	4 	16.76 	-24.00 	0.00
+#S07
+	4 	16.13 	-22.31 	0.00
+#S08
+	4 	16.61 	-23.58 	0.00
+#S09
+	4 	16.59 	-23.54 	0.00
+#M10
+	4 	16.61 	-23.58 	0.00
+#E03
+	4 	16.56 	-23.44 	0.00
+#S04
+	4 	16.32 	-22.80 	0.00
+#S05
+	4 	16.46 	-23.19 	0.00
+#S06
+	4 	16.60 	-23.55 	0.00
+#S07
+	4 	16.43 	-23.09 	0.00
+#S08
+	4 	16.62 	-23.60 	0.00
+#S09
+	4 	16.76 	-23.99 	0.00
+#M10
+	4 	16.77 	-24.02 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#E03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E03:	  0	109	  0	  0	109	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 19
+#Chip S04:	  0	 81	  0	  0	 81	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 47
+#Chip S05:	  0	127	  0	  0	127	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1
+#Chip S06:	  0	122	  0	  0	122	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  6
+#Chip S07:	  0	118	  0	  0	118	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 10
+#Chip S08:	  0	 98	  0	  0	 98	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 30
+#Chip S09:	  0	111	  0	  0	111	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 17
+#Chip M10:	  0	103	  0	  0	103	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 25
+#Chip E03:	  0	 87	  0	  0	 87	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 41
+#Chip S04:	  0	 49	  0	  0	 49	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 79
+#Chip S05:	  0	 61	  0	  0	 61	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 67
+#Chip S06:	  0	 47	  0	  0	 47	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 81
+#Chip S07:	  0	 77	  0	  0	 77	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 51
+#Chip S08:	  0	 58	  0	  0	 58	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 70
+#Chip S09:	  0	 93	  0	  0	 93	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 35
+#Chip M10:	  0	 69	  0	  0	 69	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 59
+#Link 0:	  0	869	  0	  0	869	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	155
+#Link 1:	  0	541	  0	  0	541	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	483
+#Link 2:	  0	1410	  0	  0	1410	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	638
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : -1
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 254
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 382
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 383
+LAST CHANNEL   : 510
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 511
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 639
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 1022
+#
+#16 defects found affecting 1410 strips
+#122 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to chip 0 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to 1410 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 122 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : Channel 12 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 15 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 17 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 31 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 46 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 49 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 55 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 57 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 60 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 62 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 65 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 66 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 78 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 79 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 98 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 102 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 115 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 118 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 121 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 130 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 136 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 138 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 140 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 143 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 145 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 146 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 150 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 151 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 152 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 154 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 157 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 158 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 159 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 160 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 162 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 164 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 166 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 170 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 174 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 179 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 180 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 181 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 190 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 191 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 194 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 199 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 204 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 208 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 209 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 218 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 222 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 223 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 228 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 230 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 234 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 236 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 242 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 243 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 246 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 247 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 249 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 250 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 251 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 252 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 254 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 255 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 296 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 419 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 435 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 438 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 440 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 442 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 443 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 519 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 521 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 526 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 533 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 568 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 573 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 579 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 599 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 623 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 628 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 640 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 641 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 642 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 643 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 646 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 650 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 659 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 662 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 668 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 673 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 677 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 682 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 694 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 696 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 700 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 702 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 704 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 715 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 718 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 730 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 732 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 741 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 742 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 745 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 751 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 758 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 759 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 760 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 763 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 764 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 768 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 769 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 775 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 776 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 792 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 799 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 810 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 823 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 840 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 843 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 863 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 867 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 872 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 875 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 878 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 883 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 890 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 898 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 901 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 905 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 912 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 917 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 919 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 922 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 927 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 928 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 939 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 941 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 942 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 950 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 962 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 969 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 971 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 975 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 986 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 994 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1001 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1005 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1007 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1010 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1015 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1016 of bank under masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 0 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 2 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 3 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 6 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 8 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 9 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 12 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 14 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 21 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 23 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 24 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 25 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 28 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 29 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 37 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 40 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 42 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 45 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 50 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 53 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 54 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 55 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 57 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 58 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 60 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 62 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 63 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 65 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 70 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 77 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 78 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 79 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 80 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 88 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 95 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 103 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 104 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 106 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 114 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 117 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 127 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 130 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 131 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 132 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 133 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 134 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 135 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 136 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 139 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 140 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 141 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 142 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 143 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 144 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 145 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 146 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 147 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 148 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 149 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 150 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 151 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 152 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 153 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 154 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 156 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 157 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 158 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 160 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 162 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 163 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 166 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 167 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 168 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 171 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 173 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 175 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 176 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 177 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 180 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 181 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 186 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 187 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 188 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 191 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 194 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 195 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 198 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 199 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 200 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 201 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 202 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 204 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 205 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 207 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 208 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 209 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 212 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 213 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 214 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 215 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 216 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 217 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 218 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 219 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 221 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 222 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 225 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 228 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 230 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 233 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 234 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 236 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 238 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 240 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 241 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 243 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 247 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 248 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 251 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 252 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 256 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 258 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 259 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 262 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 263 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 264 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 265 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 267 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 268 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 269 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 270 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 273 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 274 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 275 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 278 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 286 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 290 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 291 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 292 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 294 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 296 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 297 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 299 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 301 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 304 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 306 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 308 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 314 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 315 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 317 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 324 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 325 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 326 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 327 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 331 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 335 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 337 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 338 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 340 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 341 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 342 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 343 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 345 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 347 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 348 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 351 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 353 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 354 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 356 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 357 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 358 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 359 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 360 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 361 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 367 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 369 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 370 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 371 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 372 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 373 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 374 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 375 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 376 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 377 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 379 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 380 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 383 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 387 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 390 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 392 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 393 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 394 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 395 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 397 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 399 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 402 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 403 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 404 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 408 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 409 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 411 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 414 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 415 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 419 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 421 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 422 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 423 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 425 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 426 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 427 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 428 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 429 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 430 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 431 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 432 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 434 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 441 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 442 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 444 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 445 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 446 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 448 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 450 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 451 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 453 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 456 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 457 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 458 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 460 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 463 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 464 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 466 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 470 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 471 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 472 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 473 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 474 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 475 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 477 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 478 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 479 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 480 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 481 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 483 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 484 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 485 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 486 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 487 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 488 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 489 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 490 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 491 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 492 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 493 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 494 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 495 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 496 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 498 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 499 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 500 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 501 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 502 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 503 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 504 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 505 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 506 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 508 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 509 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 512 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 515 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 517 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 518 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 522 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 523 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 524 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 526 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 530 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 532 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 535 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 536 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 539 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 540 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 543 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 545 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 546 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 547 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 551 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 553 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 557 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 558 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 561 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 568 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 573 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 576 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 577 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 580 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 581 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 583 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 587 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 590 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 593 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 597 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 602 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 606 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 610 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 612 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 613 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 615 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 616 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 621 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 623 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 624 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 626 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 627 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 628 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 630 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 631 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 635 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 638 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 640 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 641 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 642 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 643 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 644 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 647 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 648 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 650 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 651 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 653 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 654 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 656 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 662 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 666 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 667 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 668 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 671 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 672 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 674 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 678 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 679 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 680 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 681 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 683 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 684 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 685 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 686 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 688 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 694 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 698 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 699 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 700 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 701 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 702 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 704 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 706 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 707 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 708 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 709 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 711 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 712 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 719 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 721 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 722 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 728 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 731 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 732 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 734 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 735 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 736 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 738 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 739 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 740 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 741 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 742 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 746 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 747 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 748 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 749 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 752 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 753 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 754 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 755 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 757 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 758 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 759 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 761 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 762 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 765 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 766 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 779 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 780 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 781 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 788 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 789 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 792 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 794 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 797 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 800 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 808 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 816 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 819 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 822 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 823 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 833 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 838 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 841 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 843 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 844 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 846 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 851 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 853 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 860 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 864 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 865 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 866 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 867 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 870 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 874 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 875 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 876 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 877 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 884 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 888 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 891 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 900 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 902 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 903 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 904 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 905 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 906 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 909 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 912 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 913 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 919 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 922 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 924 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 927 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 928 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 929 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 932 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 934 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 936 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 938 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 939 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 941 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 942 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 944 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 945 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 948 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 949 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 954 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 955 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 959 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 963 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 965 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 966 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 970 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 971 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 972 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 974 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 975 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 977 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 978 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 982 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 985 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 992 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 993 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 996 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 997 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1003 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1004 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1007 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1010 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1011 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1012 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1013 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1014 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1016 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1017 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1018 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1020 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1022 of bank away masked: VERY HIGH NOISE
+#
+%Comment
+COMMENT        : Channel 1023 of bank away masked: VERY HIGH NOISE
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R4H0_Hybrid1_RC_1407_5.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R4H0_Hybrid1
+TEST MADE BY   : gg
+LOCATION NAME  : TRIUMF
+Run number     : 1407-8
+TEST_DATE      : 23/06/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #3y"
+#TIME
+"13:14:40"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E03
+	3 	838.04 	7.28 	-431.94
+#S04
+	3 	837.64 	7.29 	-432.18
+#S05
+	3 	838.54 	7.27 	-431.64
+#S06
+	3 	1575.75 	4.80 	-836.78
+#S07
+	3 	837.72 	7.28 	-432.13
+#S08
+	3 	838.39 	7.28 	-431.73
+#S09
+	3 	838.42 	7.29 	-431.71
+#M10
+	3 	880.75 	-2.45 	-405.25
+#E03
+	3 	838.30 	7.28 	-431.79
+#S04
+	3 	838.09 	7.28 	-431.91
+#S05
+	3 	838.35 	7.27 	-431.76
+#S06
+	3 	838.56 	7.28 	-431.63
+#S07
+	3 	838.25 	7.28 	-431.81
+#S08
+	3 	838.43 	7.28 	-431.71
+#S09
+	3 	838.65 	7.29 	-431.58
+#M10
+	3 	838.63 	7.27 	-431.59
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#E03
+	###    Too many defects in this chip!    ###
+#S04
+	###    Too many defects in this chip!    ###
+#S05
+	###    Too many defects in this chip!    ###
+#S06
+	###    Too many defects in this chip!    ###
+#S07
+	###    Too many defects in this chip!    ###
+#S08
+	###    Too many defects in this chip!    ###
+#S09
+	###    Too many defects in this chip!    ###
+#M10
+	###    Too many defects in this chip!    ###
+#
+#Loop C - Comment
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"bad noise sigma" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#  X12    X11    E03  S04  S05  S06  S07  S08  S09  M10
+"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	"very low gain" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  5	  0	128	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  4	  0	128	  0
+#Chip S05:	  0	  6	  0	  0	  6	  0	  0	  0	  0	  0	  0	  0	 12	  0	122	  0
+#Chip S06:	 22	  3	  0	  0	  3	 22	  0	  0	  0	  0	  0	  0	  5	  0	102	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	128	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128	  0
+#Chip E03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2	  0	128	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  2	  0	128	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	128	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	128	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	128	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  3	  0	128	  0
+#Link 0:	 22	  9	  0	  0	  9	 22	  0	  0	  0	  0	  0	  0	 29	  0	992	  0
+#Link 1:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	 11	  0	1024	  0
+#Link 2:	 22	  9	  0	  0	  9	 22	  0	  0	  0	  0	  0	  0	 40	  0	2016	  0
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 348
+LAST CHANNEL   : 349
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 351
+LAST CHANNEL   : 351
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 354
+LAST CHANNEL   : 354
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 364
+LAST CHANNEL   : 364
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 369
+LAST CHANNEL   : 369
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 476
+LAST CHANNEL   : 476
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 478
+LAST CHANNEL   : 478
+#
+%Defect
+DEFECT NAME    : INEFFICIENT
+FIRST CHANNEL  : 485
+LAST CHANNEL   : 485
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : -1
+LAST CHANNEL   : 126
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 254
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 255
+LAST CHANNEL   : 382
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 383
+LAST CHANNEL   : 510
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 511
+LAST CHANNEL   : 638
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 639
+LAST CHANNEL   : 766
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 767
+LAST CHANNEL   : 894
+#
+%Defect
+DEFECT NAME    : VLO_GAIN
+FIRST CHANNEL  : 895
+LAST CHANNEL   : 1022
+#
+#23 defects found affecting 9 strips
+#2 maximum consecutive defects
+%Comment
+COMMENT        : Chip 0 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 1 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 2 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 3 (away) fit range adjusted (0.0fC - 1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 4 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 5 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 6 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : Chip 7 fit range adjusted (0.0fC - 1.3fC/1.3fC) from 6.0fC
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (under) noise sigma (> 35.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (under) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 0 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 1 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 2 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 3 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 4 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 5 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 6 (away) very low gain (< 40.000000)
+#
+%Comment
+COMMENT        : FAIL due to chip 7 (away) very low gain (< 40.000000)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R4H0_Hybrid1_RC_1407_8.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R4H0_Hybrid1
+TEST MADE BY   : gg
+LOCATION NAME  : TRIUMF
+Run number     : 1407-18
+TEST_DATE      : 23/06/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #3y"
+#TIME
+"13:14:49"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+0.0 	0.00 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+0.00 	  0 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E03
+	16.6 	4.1e-01 	4.8e-02 	9923
+#S04
+	16.0 	3.9e-01 	7.5e-02 	9810
+#S05
+	18.2 	3.4e-01 	6.8e-02 	12071
+#S06
+	24.2 	3.9e-01 	4.9e-02 	5122
+#S07
+	20.0 	3.8e-01 	7.4e-02 	11223
+#S08
+	15.6 	3.1e-01 	6.0e-02 	9850
+#S09
+	16.2 	3.0e-01 	7.6e-02 	10043
+#M10
+	15.5 	3.0e-01 	6.3e-02 	-nan
+#E03
+	16.0 	4.0e-01 	3.7e-02 	9585
+#S04
+	15.0 	3.7e-01 	3.9e-02 	9389
+#S05
+	14.7 	3.3e-01 	6.2e-02 	9886
+#S06
+	13.4 	2.9e-01 	6.5e-02 	9308
+#S07
+	14.3 	2.9e-01 	8.2e-02 	9756
+#S08
+	14.6 	2.9e-01 	5.8e-02 	9494
+#S09
+	15.4 	2.9e-01 	5.6e-02 	9713
+#M10
+	14.9 	2.9e-01 	4.9e-02 	9353
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+#16 defects found
+%Comment
+COMMENT        : FAIL due to 2048 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1024 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#

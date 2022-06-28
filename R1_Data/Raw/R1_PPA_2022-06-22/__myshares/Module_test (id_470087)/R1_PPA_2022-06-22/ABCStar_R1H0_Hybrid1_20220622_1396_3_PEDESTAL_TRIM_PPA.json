@@ -1,0 +1,5211 @@
+{
+    "date": "2022-06-22T21:51:34.000Z",
+    "defects": [
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1280,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1281,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1282,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1283,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1284,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1285,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1286,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1287,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1288,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1289,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1290,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1291,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1292,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1293,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1294,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1295,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1296,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1297,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1298,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1299,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1300,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1301,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1302,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1303,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1304,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1305,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1306,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1307,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1308,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1309,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1310,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1311,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1312,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1313,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1314,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1315,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1316,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1317,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1318,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1319,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1320,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1321,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1322,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1323,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1324,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1325,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1326,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1327,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1328,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1329,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1330,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1331,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1332,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1333,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1334,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1335,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1336,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1337,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1338,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1339,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1340,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1341,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1342,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1343,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1344,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1345,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1346,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1347,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1348,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1349,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1350,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1351,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1352,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1353,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1354,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1355,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1356,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1357,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1358,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1359,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1360,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1361,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1362,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1363,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1364,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1365,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1366,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1367,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1368,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1369,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1370,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1371,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1372,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1373,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1374,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1375,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1376,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1377,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1378,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1379,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1380,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1381,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1382,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1383,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1384,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1385,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1386,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1387,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1388,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1389,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1390,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1391,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1392,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1393,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1394,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1395,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1396,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1397,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1398,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1399,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1400,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1401,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1402,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1403,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1404,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1405,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1406,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1407,
+                "chip_bank": "under",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1280,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1281,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1282,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1283,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1284,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1285,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1286,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1287,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1288,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1289,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1290,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1291,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1292,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1293,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1294,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1295,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1296,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1297,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1298,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1299,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1300,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1301,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1302,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1303,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1304,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1305,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1306,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1307,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1308,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1309,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1310,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1311,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1312,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1313,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1314,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1315,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1316,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1317,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1318,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1319,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1320,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1321,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1322,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1323,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1324,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1325,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1326,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1327,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1328,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1329,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1330,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1331,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1332,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1333,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1334,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1335,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1336,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1337,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1338,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1339,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1340,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1341,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1342,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1343,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1344,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1345,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1346,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1347,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1348,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1349,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1350,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1351,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1352,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1353,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1354,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1355,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1356,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1357,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1358,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1359,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1360,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1361,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1362,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1363,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1364,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1365,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1366,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1367,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1368,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1369,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1370,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1371,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1372,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1373,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1374,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1375,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1376,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1377,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1378,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1379,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1380,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1381,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1382,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1383,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1384,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1385,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1386,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1387,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1388,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1389,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1390,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1391,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1392,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1393,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1394,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1395,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1396,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1397,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1398,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1399,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1400,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1401,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1402,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1403,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1404,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1405,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1406,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        },
+        {
+            "description": "No trim value from pedestal",
+            "name": "TRIM_BAD",
+            "properties": {
+                "channel": 1407,
+                "chip_bank": "away",
+                "chip_in_histo": 10
+            }
+        }
+    ],
+    "passed": true,
+    "problems": false,
+    "properties": {
+        "DCS": {
+            "ABC_temp_raw_0": 2503.0,
+            "ABC_temp_raw_1": 2385.0,
+            "ABC_temp_raw_2": 2310.0,
+            "ABC_temp_raw_3": 2460.0,
+            "ABC_temp_raw_4": 2359.0,
+            "ABC_temp_raw_5": 2403.0,
+            "ABC_temp_raw_6": 2323.0,
+            "ABC_temp_raw_7": 2460.0,
+            "ABC_temp_raw_8": 2395.0,
+            "ABC_temp_raw_9": 2381.0,
+            "HCC_temp_raw": 389.0
+        },
+        "det_info": {
+            "ABC_Fuse": [
+                "894068e0",
+                "894068df",
+                "894068e7",
+                "894068e8",
+                "894068e9",
+                "894068ea",
+                "894068eb",
+                "894068ec",
+                "894068ed",
+                "894068ef"
+            ],
+            "Address": [
+                10,
+                9,
+                8,
+                7,
+                6,
+                5,
+                4,
+                3,
+                2,
+                1
+            ],
+            "Channel": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "DUT_type": "ABCStar_Test #0",
+            "HCC_Fuse": "4000721d",
+            "name": "ABCStar_R1H0_Hybrid1"
+        },
+        "scan_info": {
+            "event_count": 100
+        },
+        "system_info": {
+            "Analysis_time": "2022-06-22T21:51:35.000Z",
+            "Firmware revision": "0xb60f",
+            "GIT URL": "https://gitlab.cern.ch/atlas-itk-strips-daq/itsdaq-sw.git/-/tree/a8e59c51b7d473b4aa721f1605323e5c16333150",
+            "GIT branch": "",
+            "GIT build date": "2022-04-22 21:02:07 +0000 (Fri, 22 Apr 2022)",
+            "GIT commit date": "2022-04-22 15:57:32 +0000 (Fri, 22 Apr 2022)",
+            "GIT describe": "itsdaq_24_1_2022-386-ga8e59c5",
+            "GIT revision": "a8e59c51b7d473b4aa721f1605323e5c16333150",
+            "Location": "TRIUMF",
+            "User": "LP",
+            "analysis_version": "3.43",
+            "dedication": "New dedication as we're going for PPA",
+            "host": "rockbiter"
+        },
+        "trim_offset": 15,
+        "trim_range": 6
+    },
+    "results": {
+        "trim_away": [
+            15,
+            23,
+            15,
+            17,
+            9,
+            20,
+            9,
+            17,
+            22,
+            16,
+            15,
+            14,
+            15,
+            20,
+            13,
+            13,
+            16,
+            13,
+            14,
+            15,
+            20,
+            20,
+            22,
+            15,
+            18,
+            19,
+            15,
+            17,
+            15,
+            15,
+            23,
+            19,
+            18,
+            11,
+            19,
+            19,
+            15,
+            20,
+            17,
+            15,
+            14,
+            18,
+            25,
+            17,
+            21,
+            10,
+            9,
+            14,
+            14,
+            19,
+            10,
+            14,
+            11,
+            16,
+            23,
+            14,
+            17,
+            20,
+            18,
+            17,
+            15,
+            15,
+            3,
+            22,
+            19,
+            16,
+            12,
+            15,
+            16,
+            21,
+            16,
+            17,
+            23,
+            19,
+            13,
+            17,
+            13,
+            20,
+            13,
+            13,
+            14,
+            16,
+            14,
+            9,
+            15,
+            18,
+            12,
+            19,
+            14,
+            16,
+            14,
+            15,
+            18,
+            14,
+            18,
+            24,
+            20,
+            17,
+            10,
+            18,
+            19,
+            23,
+            13,
+            18,
+            15,
+            18,
+            18,
+            14,
+            18,
+            21,
+            16,
+            16,
+            22,
+            15,
+            24,
+            24,
+            18,
+            19,
+            21,
+            10,
+            16,
+            13,
+            14,
+            19,
+            15,
+            10,
+            12,
+            9,
+            21,
+            16,
+            17,
+            18,
+            16,
+            19,
+            15,
+            18,
+            16,
+            11,
+            17,
+            19,
+            12,
+            16,
+            16,
+            10,
+            14,
+            15,
+            24,
+            15,
+            15,
+            12,
+            16,
+            17,
+            18,
+            19,
+            19,
+            16,
+            16,
+            19,
+            11,
+            17,
+            17,
+            18,
+            17,
+            13,
+            17,
+            14,
+            20,
+            17,
+            17,
+            15,
+            18,
+            15,
+            17,
+            16,
+            13,
+            14,
+            15,
+            17,
+            13,
+            14,
+            18,
+            18,
+            9,
+            10,
+            16,
+            14,
+            16,
+            13,
+            21,
+            13,
+            13,
+            17,
+            15,
+            16,
+            14,
+            21,
+            9,
+            13,
+            13,
+            12,
+            15,
+            15,
+            15,
+            14,
+            13,
+            16,
+            21,
+            16,
+            14,
+            17,
+            13,
+            15,
+            13,
+            16,
+            16,
+            22,
+            13,
+            19,
+            16,
+            11,
+            14,
+            14,
+            20,
+            2,
+            10,
+            20,
+            20,
+            16,
+            16,
+            15,
+            15,
+            15,
+            18,
+            17,
+            14,
+            13,
+            17,
+            15,
+            23,
+            21,
+            9,
+            15,
+            12,
+            21,
+            18,
+            13,
+            11,
+            18,
+            16,
+            17,
+            17,
+            13,
+            16,
+            16,
+            10,
+            15,
+            19,
+            13,
+            18,
+            20,
+            18,
+            19,
+            16,
+            16,
+            13,
+            12,
+            13,
+            15,
+            17,
+            9,
+            16,
+            18,
+            16,
+            16,
+            21,
+            18,
+            16,
+            15,
+            14,
+            16,
+            21,
+            19,
+            18,
+            19,
+            22,
+            16,
+            23,
+            16,
+            19,
+            19,
+            18,
+            19,
+            14,
+            14,
+            18,
+            13,
+            22,
+            20,
+            12,
+            10,
+            15,
+            14,
+            16,
+            15,
+            16,
+            14,
+            14,
+            14,
+            16,
+            13,
+            16,
+            13,
+            18,
+            16,
+            16,
+            14,
+            16,
+            19,
+            15,
+            21,
+            19,
+            17,
+            18,
+            16,
+            17,
+            20,
+            18,
+            13,
+            14,
+            23,
+            19,
+            14,
+            14,
+            14,
+            10,
+            16,
+            21,
+            18,
+            14,
+            14,
+            19,
+            13,
+            21,
+            8,
+            20,
+            17,
+            18,
+            19,
+            20,
+            26,
+            23,
+            21,
+            18,
+            20,
+            15,
+            17,
+            15,
+            13,
+            20,
+            12,
+            17,
+            10,
+            14,
+            15,
+            15,
+            22,
+            18,
+            13,
+            14,
+            20,
+            19,
+            12,
+            19,
+            18,
+            17,
+            15,
+            14,
+            13,
+            17,
+            24,
+            16,
+            13,
+            14,
+            13,
+            14,
+            15,
+            15,
+            10,
+            18,
+            17,
+            19,
+            16,
+            17,
+            16,
+            20,
+            13,
+            13,
+            15,
+            13,
+            18,
+            23,
+            15,
+            20,
+            15,
+            16,
+            16,
+            16,
+            21,
+            15,
+            17,
+            18,
+            14,
+            13,
+            17,
+            19,
+            16,
+            11,
+            16,
+            18,
+            16,
+            17,
+            16,
+            16,
+            10,
+            17,
+            11,
+            12,
+            10,
+            16,
+            20,
+            19,
+            19,
+            12,
+            9,
+            20,
+            17,
+            20,
+            15,
+            15,
+            12,
+            15,
+            20,
+            17,
+            17,
+            7,
+            18,
+            15,
+            17,
+            17,
+            14,
+            7,
+            12,
+            20,
+            16,
+            18,
+            16,
+            16,
+            17,
+            19,
+            12,
+            16,
+            17,
+            16,
+            23,
+            19,
+            14,
+            19,
+            11,
+            14,
+            12,
+            16,
+            12,
+            21,
+            13,
+            12,
+            13,
+            19,
+            15,
+            12,
+            17,
+            13,
+            16,
+            21,
+            16,
+            12,
+            18,
+            12,
+            23,
+            14,
+            18,
+            23,
+            18,
+            15,
+            22,
+            15,
+            20,
+            16,
+            15,
+            16,
+            22,
+            14,
+            14,
+            16,
+            9,
+            17,
+            18,
+            14,
+            13,
+            16,
+            9,
+            12,
+            11,
+            22,
+            18,
+            20,
+            15,
+            13,
+            16,
+            22,
+            13,
+            15,
+            22,
+            19,
+            16,
+            18,
+            21,
+            17,
+            25,
+            13,
+            14,
+            14,
+            21,
+            11,
+            18,
+            15,
+            19,
+            14,
+            17,
+            14,
+            23,
+            20,
+            18,
+            15,
+            12,
+            15,
+            18,
+            11,
+            18,
+            18,
+            21,
+            24,
+            20,
+            19,
+            21,
+            19,
+            15,
+            22,
+            11,
+            18,
+            12,
+            19,
+            18,
+            12,
+            17,
+            19,
+            22,
+            19,
+            19,
+            18,
+            19,
+            8,
+            16,
+            16,
+            21,
+            17,
+            14,
+            19,
+            18,
+            16,
+            18,
+            15,
+            14,
+            18,
+            20,
+            14,
+            15,
+            20,
+            12,
+            21,
+            21,
+            25,
+            20,
+            13,
+            17,
+            15,
+            14,
+            19,
+            14,
+            23,
+            17,
+            15,
+            17,
+            17,
+            15,
+            19,
+            16,
+            9,
+            17,
+            16,
+            16,
+            16,
+            21,
+            20,
+            16,
+            16,
+            14,
+            12,
+            24,
+            18,
+            22,
+            19,
+            15,
+            14,
+            19,
+            17,
+            12,
+            15,
+            20,
+            20,
+            20,
+            15,
+            15,
+            15,
+            19,
+            18,
+            23,
+            15,
+            12,
+            14,
+            19,
+            6,
+            26,
+            11,
+            15,
+            21,
+            8,
+            15,
+            12,
+            13,
+            17,
+            14,
+            16,
+            18,
+            11,
+            11,
+            19,
+            11,
+            15,
+            14,
+            19,
+            17,
+            15,
+            12,
+            19,
+            12,
+            16,
+            8,
+            21,
+            17,
+            10,
+            16,
+            18,
+            12,
+            17,
+            24,
+            17,
+            15,
+            24,
+            12,
+            18,
+            18,
+            14,
+            14,
+            19,
+            10,
+            19,
+            15,
+            11,
+            16,
+            14,
+            13,
+            12,
+            7,
+            20,
+            19,
+            19,
+            18,
+            17,
+            14,
+            20,
+            15,
+            13,
+            18,
+            14,
+            11,
+            10,
+            18,
+            24,
+            14,
+            18,
+            14,
+            19,
+            18,
+            14,
+            19,
+            16,
+            20,
+            13,
+            24,
+            18,
+            18,
+            20,
+            18,
+            17,
+            17,
+            20,
+            14,
+            15,
+            9,
+            21,
+            14,
+            18,
+            21,
+            21,
+            16,
+            10,
+            12,
+            5,
+            15,
+            20,
+            12,
+            16,
+            13,
+            15,
+            13,
+            19,
+            19,
+            20,
+            19,
+            24,
+            12,
+            14,
+            11,
+            17,
+            19,
+            16,
+            12,
+            17,
+            19,
+            15,
+            17,
+            18,
+            12,
+            14,
+            13,
+            20,
+            26,
+            17,
+            18,
+            11,
+            16,
+            14,
+            20,
+            16,
+            14,
+            17,
+            14,
+            14,
+            11,
+            14,
+            12,
+            22,
+            12,
+            10,
+            16,
+            18,
+            11,
+            15,
+            19,
+            14,
+            16,
+            12,
+            16,
+            16,
+            17,
+            17,
+            16,
+            11,
+            21,
+            12,
+            14,
+            17,
+            15,
+            8,
+            13,
+            15,
+            17,
+            15,
+            14,
+            16,
+            17,
+            14,
+            20,
+            11,
+            20,
+            21,
+            22,
+            13,
+            18,
+            11,
+            21,
+            17,
+            14,
+            15,
+            17,
+            20,
+            20,
+            16,
+            11,
+            16,
+            9,
+            11,
+            14,
+            13,
+            18,
+            13,
+            14,
+            16,
+            17,
+            16,
+            18,
+            16,
+            17,
+            14,
+            22,
+            20,
+            17,
+            11,
+            18,
+            17,
+            17,
+            14,
+            10,
+            18,
+            11,
+            13,
+            16,
+            19,
+            17,
+            9,
+            20,
+            18,
+            13,
+            12,
+            15,
+            14,
+            12,
+            15,
+            11,
+            11,
+            11,
+            18,
+            14,
+            11,
+            15,
+            9,
+            16,
+            14,
+            13,
+            15,
+            13,
+            14,
+            13,
+            17,
+            16,
+            7,
+            14,
+            16,
+            9,
+            15,
+            14,
+            15,
+            19,
+            13,
+            18,
+            19,
+            20,
+            16,
+            15,
+            15,
+            12,
+            12,
+            18,
+            14,
+            19,
+            16,
+            17,
+            7,
+            13,
+            15,
+            17,
+            16,
+            17,
+            18,
+            12,
+            14,
+            17,
+            18,
+            14,
+            15,
+            18,
+            19,
+            17,
+            15,
+            22,
+            16,
+            18,
+            16,
+            14,
+            13,
+            12,
+            15,
+            12,
+            13,
+            16,
+            16,
+            12,
+            13,
+            15,
+            13,
+            16,
+            20,
+            19,
+            13,
+            17,
+            14,
+            20,
+            18,
+            12,
+            11,
+            21,
+            22,
+            16,
+            13,
+            18,
+            22,
+            15,
+            17,
+            16,
+            17,
+            24,
+            14,
+            19,
+            18,
+            16,
+            16,
+            20,
+            13,
+            13,
+            15,
+            14,
+            23,
+            14,
+            21,
+            16,
+            13,
+            18,
+            19,
+            16,
+            14,
+            18,
+            20,
+            13,
+            11,
+            12,
+            15,
+            15,
+            14,
+            19,
+            22,
+            13,
+            15,
+            16,
+            20,
+            8,
+            11,
+            15,
+            20,
+            16,
+            19,
+            15,
+            17,
+            17,
+            15,
+            19,
+            21,
+            18,
+            12,
+            16,
+            13,
+            17,
+            18,
+            9,
+            18,
+            19,
+            14,
+            19,
+            17,
+            13,
+            14,
+            14,
+            24,
+            17,
+            6,
+            14,
+            10,
+            16,
+            15,
+            21,
+            14,
+            11,
+            13,
+            15,
+            19,
+            14,
+            16,
+            13,
+            14,
+            11,
+            20,
+            15,
+            16,
+            15,
+            18,
+            12,
+            23,
+            20,
+            18,
+            15,
+            13,
+            13,
+            20,
+            13,
+            19,
+            13,
+            15,
+            14,
+            13,
+            8,
+            15,
+            16,
+            19,
+            16,
+            16,
+            19,
+            15,
+            18,
+            17,
+            15,
+            12,
+            16,
+            17,
+            12,
+            12,
+            14,
+            8,
+            15,
+            14,
+            12,
+            13,
+            14,
+            18,
+            18,
+            19,
+            14,
+            15,
+            13,
+            14,
+            18,
+            21,
+            17,
+            14,
+            16,
+            17,
+            14,
+            10,
+            16,
+            12,
+            15,
+            17,
+            13,
+            17,
+            18,
+            11,
+            16,
+            15,
+            19,
+            14,
+            16,
+            14,
+            15,
+            13,
+            17,
+            23,
+            15,
+            20,
+            17,
+            19,
+            11,
+            16,
+            11,
+            20,
+            16,
+            15,
+            12,
+            17,
+            14,
+            16,
+            20,
+            15,
+            19,
+            19,
+            19,
+            16,
+            22,
+            7,
+            16,
+            12,
+            14,
+            20,
+            22,
+            16,
+            20,
+            20,
+            19,
+            17,
+            16,
+            21,
+            17,
+            15,
+            15,
+            17,
+            19,
+            21,
+            12,
+            17,
+            13,
+            16,
+            17,
+            16,
+            17,
+            16,
+            10,
+            13,
+            16,
+            14,
+            17,
+            12,
+            8,
+            23,
+            18,
+            19,
+            11,
+            18,
+            19,
+            9,
+            15,
+            17,
+            16,
+            15,
+            17,
+            13,
+            12,
+            16,
+            17,
+            16,
+            14,
+            16,
+            20,
+            15,
+            16,
+            17,
+            14,
+            14,
+            15,
+            12,
+            10,
+            13,
+            14,
+            15,
+            12,
+            14,
+            15,
+            11,
+            11,
+            14,
+            16,
+            19,
+            18,
+            13,
+            15,
+            17,
+            18,
+            18,
+            15,
+            13,
+            15,
+            11,
+            14,
+            15,
+            15,
+            18,
+            16,
+            18,
+            16,
+            18,
+            12,
+            16,
+            17,
+            16,
+            12,
+            12,
+            8,
+            15,
+            18,
+            14,
+            14,
+            9,
+            13,
+            17,
+            21,
+            13,
+            13,
+            16,
+            15,
+            16,
+            19,
+            14,
+            23,
+            14,
+            15,
+            13,
+            18,
+            19,
+            16,
+            14,
+            12,
+            16,
+            17,
+            15,
+            22,
+            14,
+            16,
+            12,
+            16,
+            19,
+            14,
+            15,
+            13,
+            17,
+            19,
+            20,
+            22,
+            15,
+            24,
+            19,
+            15,
+            15,
+            15,
+            12,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "trim_under": [
+            13,
+            14,
+            16,
+            21,
+            20,
+            11,
+            11,
+            16,
+            10,
+            19,
+            13,
+            20,
+            17,
+            13,
+            17,
+            17,
+            21,
+            11,
+            13,
+            12,
+            15,
+            11,
+            9,
+            15,
+            15,
+            16,
+            16,
+            10,
+            9,
+            10,
+            14,
+            14,
+            17,
+            10,
+            18,
+            15,
+            14,
+            20,
+            11,
+            17,
+            20,
+            23,
+            15,
+            22,
+            15,
+            10,
+            12,
+            17,
+            20,
+            21,
+            15,
+            21,
+            18,
+            18,
+            16,
+            12,
+            10,
+            12,
+            20,
+            14,
+            13,
+            13,
+            13,
+            12,
+            18,
+            15,
+            7,
+            18,
+            6,
+            10,
+            14,
+            15,
+            13,
+            19,
+            12,
+            13,
+            18,
+            16,
+            15,
+            17,
+            22,
+            20,
+            16,
+            15,
+            14,
+            12,
+            16,
+            13,
+            15,
+            17,
+            14,
+            17,
+            15,
+            17,
+            19,
+            17,
+            13,
+            16,
+            18,
+            15,
+            15,
+            16,
+            19,
+            21,
+            11,
+            14,
+            12,
+            15,
+            15,
+            13,
+            17,
+            17,
+            17,
+            12,
+            18,
+            17,
+            25,
+            15,
+            14,
+            19,
+            19,
+            13,
+            12,
+            12,
+            18,
+            15,
+            10,
+            12,
+            12,
+            17,
+            19,
+            17,
+            24,
+            22,
+            19,
+            16,
+            23,
+            18,
+            9,
+            19,
+            20,
+            16,
+            18,
+            15,
+            20,
+            14,
+            14,
+            25,
+            11,
+            13,
+            17,
+            16,
+            12,
+            14,
+            22,
+            22,
+            18,
+            16,
+            8,
+            18,
+            14,
+            15,
+            12,
+            15,
+            16,
+            13,
+            21,
+            17,
+            17,
+            13,
+            16,
+            17,
+            14,
+            13,
+            8,
+            14,
+            17,
+            17,
+            13,
+            16,
+            13,
+            20,
+            20,
+            14,
+            22,
+            20,
+            19,
+            15,
+            19,
+            17,
+            16,
+            14,
+            13,
+            13,
+            13,
+            19,
+            10,
+            20,
+            14,
+            16,
+            13,
+            18,
+            11,
+            15,
+            19,
+            18,
+            22,
+            19,
+            15,
+            21,
+            16,
+            17,
+            19,
+            18,
+            21,
+            14,
+            17,
+            12,
+            11,
+            10,
+            17,
+            19,
+            19,
+            13,
+            13,
+            20,
+            18,
+            20,
+            16,
+            15,
+            14,
+            19,
+            16,
+            18,
+            10,
+            16,
+            17,
+            14,
+            12,
+            12,
+            10,
+            18,
+            14,
+            19,
+            19,
+            13,
+            16,
+            10,
+            11,
+            21,
+            14,
+            23,
+            20,
+            17,
+            19,
+            18,
+            12,
+            17,
+            14,
+            17,
+            13,
+            17,
+            11,
+            16,
+            10,
+            18,
+            15,
+            13,
+            17,
+            19,
+            14,
+            16,
+            17,
+            21,
+            15,
+            22,
+            21,
+            11,
+            10,
+            15,
+            18,
+            19,
+            19,
+            18,
+            17,
+            14,
+            16,
+            14,
+            16,
+            17,
+            16,
+            13,
+            15,
+            9,
+            18,
+            18,
+            13,
+            19,
+            9,
+            12,
+            19,
+            14,
+            13,
+            15,
+            21,
+            15,
+            13,
+            14,
+            13,
+            17,
+            19,
+            18,
+            18,
+            12,
+            22,
+            20,
+            16,
+            15,
+            15,
+            10,
+            17,
+            17,
+            15,
+            19,
+            13,
+            11,
+            12,
+            17,
+            17,
+            16,
+            18,
+            19,
+            15,
+            15,
+            17,
+            18,
+            15,
+            15,
+            16,
+            9,
+            16,
+            15,
+            14,
+            23,
+            17,
+            14,
+            13,
+            17,
+            12,
+            24,
+            18,
+            16,
+            16,
+            17,
+            14,
+            16,
+            17,
+            16,
+            15,
+            9,
+            14,
+            22,
+            20,
+            22,
+            20,
+            19,
+            14,
+            18,
+            17,
+            20,
+            15,
+            20,
+            17,
+            11,
+            19,
+            19,
+            15,
+            15,
+            8,
+            18,
+            17,
+            11,
+            12,
+            17,
+            15,
+            16,
+            17,
+            9,
+            20,
+            7,
+            12,
+            20,
+            17,
+            15,
+            17,
+            11,
+            14,
+            14,
+            21,
+            13,
+            21,
+            16,
+            21,
+            18,
+            22,
+            22,
+            17,
+            14,
+            13,
+            16,
+            14,
+            19,
+            17,
+            17,
+            16,
+            15,
+            21,
+            16,
+            20,
+            15,
+            12,
+            15,
+            16,
+            17,
+            16,
+            14,
+            19,
+            13,
+            17,
+            20,
+            19,
+            18,
+            16,
+            19,
+            12,
+            9,
+            21,
+            26,
+            18,
+            15,
+            17,
+            19,
+            12,
+            12,
+            15,
+            12,
+            13,
+            13,
+            9,
+            11,
+            16,
+            21,
+            18,
+            17,
+            16,
+            14,
+            13,
+            15,
+            11,
+            11,
+            17,
+            11,
+            15,
+            21,
+            11,
+            21,
+            10,
+            16,
+            14,
+            14,
+            20,
+            15,
+            17,
+            19,
+            21,
+            14,
+            18,
+            18,
+            16,
+            18,
+            19,
+            15,
+            13,
+            16,
+            8,
+            18,
+            14,
+            13,
+            14,
+            17,
+            10,
+            19,
+            13,
+            18,
+            12,
+            15,
+            14,
+            12,
+            17,
+            9,
+            8,
+            14,
+            15,
+            19,
+            20,
+            16,
+            19,
+            21,
+            13,
+            19,
+            15,
+            21,
+            22,
+            14,
+            20,
+            13,
+            25,
+            21,
+            22,
+            12,
+            20,
+            16,
+            13,
+            13,
+            18,
+            16,
+            13,
+            14,
+            15,
+            14,
+            24,
+            18,
+            13,
+            13,
+            21,
+            13,
+            17,
+            8,
+            11,
+            15,
+            10,
+            19,
+            14,
+            13,
+            21,
+            19,
+            14,
+            16,
+            16,
+            14,
+            13,
+            20,
+            15,
+            15,
+            17,
+            17,
+            19,
+            14,
+            14,
+            13,
+            17,
+            17,
+            17,
+            12,
+            22,
+            21,
+            14,
+            18,
+            24,
+            17,
+            17,
+            16,
+            15,
+            24,
+            15,
+            8,
+            15,
+            10,
+            19,
+            17,
+            18,
+            20,
+            17,
+            10,
+            13,
+            15,
+            9,
+            17,
+            19,
+            18,
+            13,
+            18,
+            16,
+            15,
+            16,
+            13,
+            13,
+            17,
+            15,
+            18,
+            19,
+            22,
+            15,
+            20,
+            15,
+            15,
+            15,
+            14,
+            16,
+            23,
+            21,
+            19,
+            14,
+            16,
+            9,
+            20,
+            16,
+            20,
+            13,
+            16,
+            20,
+            16,
+            17,
+            21,
+            20,
+            21,
+            18,
+            15,
+            19,
+            16,
+            19,
+            14,
+            17,
+            8,
+            17,
+            18,
+            19,
+            17,
+            18,
+            20,
+            16,
+            15,
+            14,
+            19,
+            14,
+            15,
+            13,
+            15,
+            17,
+            18,
+            15,
+            17,
+            19,
+            15,
+            14,
+            14,
+            16,
+            11,
+            16,
+            15,
+            14,
+            17,
+            13,
+            18,
+            10,
+            12,
+            21,
+            11,
+            14,
+            22,
+            15,
+            12,
+            13,
+            16,
+            18,
+            15,
+            17,
+            16,
+            11,
+            14,
+            14,
+            20,
+            14,
+            17,
+            15,
+            23,
+            17,
+            9,
+            14,
+            16,
+            15,
+            18,
+            17,
+            15,
+            15,
+            14,
+            23,
+            18,
+            10,
+            14,
+            15,
+            16,
+            16,
+            16,
+            18,
+            21,
+            20,
+            6,
+            13,
+            18,
+            17,
+            15,
+            11,
+            18,
+            19,
+            18,
+            21,
+            18,
+            13,
+            17,
+            18,
+            26,
+            16,
+            11,
+            13,
+            11,
+            16,
+            15,
+            22,
+            21,
+            17,
+            25,
+            16,
+            16,
+            15,
+            15,
+            20,
+            16,
+            13,
+            20,
+            14,
+            19,
+            14,
+            18,
+            17,
+            25,
+            16,
+            15,
+            16,
+            16,
+            19,
+            21,
+            16,
+            16,
+            11,
+            15,
+            16,
+            16,
+            23,
+            13,
+            18,
+            23,
+            18,
+            17,
+            20,
+            13,
+            20,
+            24,
+            7,
+            14,
+            14,
+            8,
+            15,
+            17,
+            11,
+            16,
+            14,
+            17,
+            15,
+            19,
+            12,
+            11,
+            10,
+            9,
+            11,
+            20,
+            9,
+            17,
+            18,
+            12,
+            16,
+            14,
+            12,
+            16,
+            17,
+            14,
+            15,
+            18,
+            13,
+            17,
+            13,
+            15,
+            10,
+            16,
+            19,
+            16,
+            16,
+            12,
+            18,
+            16,
+            13,
+            17,
+            8,
+            14,
+            16,
+            18,
+            15,
+            15,
+            16,
+            15,
+            20,
+            15,
+            16,
+            15,
+            13,
+            20,
+            18,
+            14,
+            11,
+            19,
+            16,
+            15,
+            9,
+            10,
+            16,
+            19,
+            15,
+            13,
+            9,
+            16,
+            15,
+            14,
+            15,
+            15,
+            16,
+            13,
+            16,
+            13,
+            17,
+            12,
+            15,
+            14,
+            22,
+            16,
+            12,
+            14,
+            17,
+            18,
+            14,
+            18,
+            17,
+            14,
+            20,
+            11,
+            18,
+            10,
+            13,
+            14,
+            19,
+            13,
+            17,
+            21,
+            14,
+            17,
+            18,
+            15,
+            14,
+            16,
+            12,
+            19,
+            12,
+            22,
+            19,
+            17,
+            14,
+            11,
+            19,
+            9,
+            18,
+            16,
+            19,
+            13,
+            6,
+            8,
+            16,
+            12,
+            17,
+            10,
+            16,
+            12,
+            15,
+            15,
+            16,
+            18,
+            18,
+            18,
+            14,
+            15,
+            14,
+            17,
+            15,
+            17,
+            16,
+            20,
+            17,
+            15,
+            16,
+            11,
+            15,
+            17,
+            14,
+            12,
+            21,
+            24,
+            19,
+            16,
+            13,
+            12,
+            5,
+            11,
+            20,
+            11,
+            16,
+            18,
+            16,
+            16,
+            20,
+            20,
+            16,
+            19,
+            20,
+            10,
+            20,
+            15,
+            14,
+            20,
+            17,
+            13,
+            12,
+            19,
+            14,
+            17,
+            20,
+            13,
+            18,
+            22,
+            17,
+            18,
+            20,
+            12,
+            10,
+            15,
+            8,
+            16,
+            22,
+            15,
+            19,
+            15,
+            18,
+            16,
+            15,
+            14,
+            12,
+            12,
+            12,
+            22,
+            20,
+            5,
+            13,
+            17,
+            15,
+            18,
+            18,
+            15,
+            10,
+            19,
+            18,
+            16,
+            15,
+            16,
+            13,
+            18,
+            15,
+            15,
+            22,
+            16,
+            16,
+            15,
+            14,
+            23,
+            17,
+            13,
+            14,
+            19,
+            19,
+            17,
+            17,
+            11,
+            17,
+            17,
+            18,
+            17,
+            14,
+            13,
+            18,
+            15,
+            10,
+            16,
+            14,
+            14,
+            17,
+            13,
+            15,
+            18,
+            18,
+            15,
+            18,
+            16,
+            14,
+            20,
+            15,
+            22,
+            19,
+            21,
+            18,
+            14,
+            13,
+            6,
+            9,
+            14,
+            15,
+            16,
+            16,
+            17,
+            14,
+            17,
+            19,
+            18,
+            22,
+            21,
+            18,
+            20,
+            15,
+            20,
+            17,
+            14,
+            16,
+            17,
+            18,
+            18,
+            19,
+            18,
+            16,
+            19,
+            11,
+            13,
+            15,
+            14,
+            24,
+            20,
+            17,
+            20,
+            15,
+            12,
+            13,
+            21,
+            12,
+            17,
+            15,
+            16,
+            19,
+            20,
+            15,
+            15,
+            17,
+            19,
+            13,
+            19,
+            9,
+            13,
+            18,
+            14,
+            18,
+            12,
+            19,
+            14,
+            18,
+            17,
+            15,
+            17,
+            15,
+            17,
+            14,
+            20,
+            19,
+            16,
+            13,
+            15,
+            7,
+            19,
+            16,
+            20,
+            13,
+            14,
+            15,
+            13,
+            18,
+            14,
+            17,
+            14,
+            11,
+            14,
+            14,
+            15,
+            13,
+            14,
+            12,
+            14,
+            13,
+            20,
+            10,
+            17,
+            11,
+            18,
+            15,
+            14,
+            15,
+            9,
+            16,
+            18,
+            14,
+            19,
+            17,
+            3,
+            12,
+            15,
+            10,
+            6,
+            14,
+            15,
+            10,
+            17,
+            19,
+            22,
+            15,
+            17,
+            18,
+            10,
+            13,
+            16,
+            15,
+            15,
+            11,
+            22,
+            15,
+            10,
+            17,
+            8,
+            14,
+            15,
+            12,
+            15,
+            7,
+            13,
+            19,
+            9,
+            14,
+            13,
+            14,
+            14,
+            18,
+            11,
+            15,
+            10,
+            18,
+            17,
+            13,
+            15,
+            13,
+            8,
+            12,
+            17,
+            16,
+            16,
+            15,
+            18,
+            12,
+            17,
+            9,
+            14,
+            10,
+            10,
+            19,
+            16,
+            14,
+            11,
+            15,
+            20,
+            18,
+            20,
+            13,
+            15,
+            17,
+            17,
+            6,
+            9,
+            15,
+            13,
+            11,
+            15,
+            11,
+            12,
+            16,
+            12,
+            25,
+            17,
+            15,
+            16,
+            22,
+            7,
+            14,
+            17,
+            11,
+            17,
+            12,
+            17,
+            17,
+            14,
+            13,
+            13,
+            16,
+            17,
+            16,
+            13,
+            14,
+            11,
+            13,
+            20,
+            20,
+            9,
+            14,
+            14,
+            20,
+            11,
+            15,
+            15,
+            13,
+            15,
+            14,
+            18,
+            11,
+            20,
+            17,
+            17,
+            12,
+            16,
+            11,
+            11,
+            11,
+            14,
+            11,
+            15,
+            15,
+            20,
+            16,
+            21,
+            12,
+            20,
+            16,
+            21,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ]
+    },
+    "runNumber": "1396-3",
+    "testType": "PEDESTAL_TRIM_PPA"
+}

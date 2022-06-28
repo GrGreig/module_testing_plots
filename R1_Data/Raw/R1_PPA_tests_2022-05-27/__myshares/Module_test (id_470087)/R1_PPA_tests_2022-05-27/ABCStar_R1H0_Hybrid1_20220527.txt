@@ -1,0 +1,3469 @@
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1280-6
+TEST_DATE      : 27/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"10:45:15"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+25 23 20 24 25 24 23 22 18 22 22 -1 -1 -1 -1 -1 
+#
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+25 23 20 24 25 24 23 22 18 22 22 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1280-7
+TEST_DATE      : 27/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"10:46:38"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E01
+	4 	23.35 	67.50 	0.00
+#S02
+	4 	22.80 	71.22 	0.00
+#S03
+	4 	23.30 	73.04 	0.00
+#S04
+	4 	24.05 	72.98 	0.00
+#S05
+	4 	24.74 	71.77 	0.00
+#S06
+	4 	25.45 	71.86 	0.00
+#S07
+	4 	25.58 	77.75 	0.00
+#S08
+	4 	25.76 	77.95 	0.00
+#S09
+	4 	25.78 	76.39 	0.00
+#M10
+	4 	25.20 	77.85 	0.00
+#E01
+	4 	25.88 	70.86 	0.00
+#S02
+	4 	25.74 	73.51 	0.00
+#S03
+	4 	26.97 	74.43 	0.00
+#S04
+	4 	27.04 	74.72 	0.00
+#S05
+	4 	27.63 	72.86 	0.00
+#S06
+	4 	28.69 	72.58 	0.00
+#S07
+	4 	28.83 	78.34 	0.00
+#S08
+	4 	28.86 	78.65 	0.00
+#S09
+	4 	29.07 	76.78 	0.00
+#M10
+	4 	28.83 	78.80 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E01
+	 89.9 	 2.05 	67.5 	2.01 	 67.5 	 2.01 	8.53 	  790 	  12
+#S02
+	 93.5 	 1.96 	71.2 	1.83 	 71.2 	 1.83 	8.70 	  764 	  12
+#S03
+	 96.0 	 1.65 	73.0 	1.41 	 73.0 	 1.41 	8.42 	  721 	  12
+#S04
+	 96.6 	 2.00 	73.0 	1.59 	 73.0 	 1.59 	8.55 	  733 	  11
+#S05
+	 96.2 	 1.76 	71.8 	1.52 	 71.8 	 1.52 	8.28 	  721 	  23
+#S06
+	 97.0 	 1.58 	71.9 	1.45 	 71.9 	 1.45 	8.33 	  725 	  20
+#S07
+	103.4 	 1.97 	77.8 	1.61 	 77.8 	 1.61 	8.79 	  707 	  18
+#S08
+	103.4 	 1.90 	78.0 	1.37 	 78.0 	 1.37 	8.93 	  716 	  11
+#S09
+	102.1 	 1.88 	76.4 	1.62 	 76.4 	 1.62 	8.69 	  711 	  13
+#M10
+	103.1 	 2.01 	77.8 	1.78 	 77.8 	 1.78 	9.11 	  731 	  13
+#E01
+	 96.2 	 2.09 	70.9 	1.73 	 70.9 	 1.73 	7.16 	  632 	  11
+#S02
+	 99.0 	 2.09 	73.5 	1.96 	 73.5 	 1.96 	7.18 	  610 	  10
+#S03
+	101.1 	 1.85 	74.4 	1.48 	 74.4 	 1.48 	6.98 	  586 	   9
+#S04
+	101.5 	 1.92 	74.7 	1.53 	 74.7 	 1.53 	7.08 	  592 	  11
+#S05
+	100.2 	 1.83 	72.9 	1.49 	 72.9 	 1.49 	6.81 	  584 	  10
+#S06
+	100.9 	 1.79 	72.6 	1.41 	 72.6 	 1.41 	6.81 	  586 	  12
+#S07
+	107.1 	 2.05 	78.3 	1.72 	 78.3 	 1.72 	7.15 	  570 	   9
+#S08
+	107.1 	 1.81 	78.7 	1.59 	 78.7 	 1.59 	7.19 	  572 	  10
+#S09
+	105.7 	 1.83 	76.8 	1.45 	 76.8 	 1.45 	7.05 	  574 	   8
+#M10
+	107.7 	 1.71 	78.8 	1.54 	 78.8 	 1.54 	7.34 	  582 	  10
+#
+#Loop C - Comment
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E01:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E01:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  4	  0	  0	  0	  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  3	  4	  0	  0	  0	  3	  0	  2	  0	  0	  0	  4	  1	  0	  0	  1
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Link 1:	  7	  5	  0	  0	  0	  7	  0	  2	  0	  0	  0	  5	  1	  0	  0	  1
+#Link 2:	  7	  6	  0	  0	  0	  7	  0	  2	  0	  0	  0	  6	  1	  0	  0	  1
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1464
+LAST CHANNEL   : 1464
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1978
+LAST CHANNEL   : 1978
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1991
+LAST CHANNEL   : 1991
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2002
+LAST CHANNEL   : 2002
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2022
+LAST CHANNEL   : 2022
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2099
+LAST CHANNEL   : 2099
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2100
+LAST CHANNEL   : 2100
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2102
+LAST CHANNEL   : 2102
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2103
+LAST CHANNEL   : 2103
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2116
+LAST CHANNEL   : 2116
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2133
+LAST CHANNEL   : 2133
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2164
+LAST CHANNEL   : 2164
+#
+#13 defects found affecting 13 strips
+#2 maximum consecutive defects
+%Comment
+COMMENT        : Channel 693 of bank away masked: VERY LOW GAIN
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R1H0_Hybrid1_RC_1280_7.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1280-10
+TEST_DATE      : 27/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"10:52:45"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E01
+	3 	1762.56 	6.18 	-859.31
+#S02
+	3 	1601.59 	5.40 	-778.69
+#S03
+	3 	1485.26 	4.89 	-720.16
+#S04
+	3 	1508.99 	4.95 	-731.67
+#S05
+	3 	1494.27 	4.99 	-723.66
+#S06
+	3 	1460.42 	4.87 	-706.20
+#S07
+	3 	1432.07 	4.44 	-691.77
+#S08
+	3 	1440.60 	4.39 	-696.92
+#S09
+	3 	1391.14 	4.36 	-671.59
+#M10
+	3 	1403.36 	4.34 	-677.81
+#E01
+	3 	1558.55 	5.28 	-754.48
+#S02
+	3 	1473.15 	4.84 	-711.71
+#S03
+	3 	1416.46 	4.57 	-682.79
+#S04
+	3 	1421.66 	4.56 	-685.41
+#S05
+	3 	1426.00 	4.69 	-687.14
+#S06
+	3 	1400.18 	4.62 	-673.02
+#S07
+	3 	1392.57 	4.27 	-669.40
+#S08
+	3 	1397.34 	4.22 	-672.61
+#S09
+	3 	1351.99 	4.19 	-649.47
+#M10
+	3 	1359.68 	4.13 	-653.21
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E01
+	124.5 	 2.89 	69.8 	1.76 	 70.8 	 1.87 	9.02 	  807 	  13
+#S02
+	129.4 	 2.71 	72.3 	1.60 	 73.6 	 1.71 	8.87 	  767 	  13
+#S03
+	132.5 	 2.20 	73.7 	1.27 	 75.3 	 1.37 	8.53 	  724 	  13
+#S04
+	133.2 	 2.62 	74.0 	1.40 	 75.5 	 1.51 	8.65 	  731 	  14
+#S05
+	132.1 	 2.29 	72.7 	1.29 	 74.2 	 1.40 	8.37 	  720 	  24
+#S06
+	132.9 	 2.12 	72.8 	1.38 	 74.4 	 1.43 	8.44 	  725 	  15
+#S07
+	141.7 	 2.60 	77.9 	1.45 	 80.0 	 1.57 	8.71 	  699 	  18
+#S08
+	142.3 	 2.46 	79.1 	1.23 	 81.2 	 1.35 	8.93 	  705 	  12
+#S09
+	139.9 	 2.48 	77.0 	1.39 	 79.1 	 1.52 	8.58 	  697 	  12
+#M10
+	141.4 	 2.68 	78.0 	1.53 	 80.2 	 1.65 	8.99 	  721 	  14
+#E01
+	132.0 	 2.82 	72.0 	1.56 	 73.4 	 1.67 	7.31 	  635 	  12
+#S02
+	135.7 	 2.94 	74.0 	1.81 	 75.7 	 1.93 	7.17 	  605 	  12
+#S03
+	138.4 	 2.51 	75.1 	1.40 	 77.0 	 1.52 	6.98 	  581 	  10
+#S04
+	138.8 	 2.58 	75.5 	1.45 	 77.4 	 1.56 	7.03 	  582 	  10
+#S05
+	136.7 	 2.41 	73.8 	1.35 	 75.6 	 1.45 	6.77 	  573 	  13
+#S06
+	137.4 	 2.36 	73.7 	1.39 	 75.7 	 1.45 	6.79 	  576 	   9
+#S07
+	146.0 	 2.76 	78.8 	1.57 	 81.1 	 1.71 	7.04 	  559 	  10
+#S08
+	146.6 	 2.45 	79.9 	1.38 	 82.3 	 1.50 	7.12 	  557 	  11
+#S09
+	144.0 	 2.41 	77.7 	1.27 	 80.1 	 1.38 	6.93 	  557 	  10
+#M10
+	146.7 	 2.32 	79.3 	1.34 	 81.8 	 1.44 	7.20 	  567 	  11
+#
+#Loop C - Comment
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  9	  0	  0	  0	  0	  9	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  5	  4	  0	  0	  0	  5	  0	  2	  0	  0	  0	  4	  1	  0	  1	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 1:	 14	  4	  0	  0	  0	 14	  0	  2	  0	  0	  0	  4	  1	  0	  1	  0
+#Link 2:	 14	  4	  0	  0	  0	 14	  0	  2	  0	  0	  0	  4	  1	  0	  1	  0
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1953
+LAST CHANNEL   : 1953
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1991
+LAST CHANNEL   : 1991
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1995
+LAST CHANNEL   : 1995
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2006
+LAST CHANNEL   : 2006
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2026
+LAST CHANNEL   : 2026
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2034
+LAST CHANNEL   : 2034
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2040
+LAST CHANNEL   : 2040
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2042
+LAST CHANNEL   : 2042
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2045
+LAST CHANNEL   : 2045
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2057
+LAST CHANNEL   : 2057
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2086
+LAST CHANNEL   : 2086
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2099
+LAST CHANNEL   : 2099
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2100
+LAST CHANNEL   : 2100
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2102
+LAST CHANNEL   : 2102
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2103
+LAST CHANNEL   : 2103
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2119
+LAST CHANNEL   : 2119
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2122
+LAST CHANNEL   : 2122
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2147
+LAST CHANNEL   : 2147
+#
+#18 defects found affecting 18 strips
+#2 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to 18 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R1H0_Hybrid1_RC_1280_10.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1280-20
+TEST_DATE      : 27/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"10:59:00"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+-350.0 	-52.77 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+4500.00 	293 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E01
+	12.5 	3.8e-01 	2.1e-02 	1000
+#S02
+	12.6 	3.8e-01 	2.1e-02 	 969
+#S03
+	12.7 	3.9e-01 	2.2e-02 	 883
+#S04
+	12.8 	3.9e-01 	2.0e-02 	 879
+#S05
+	13.0 	3.9e-01 	2.1e-02 	 861
+#S06
+	13.0 	4.0e-01 	2.4e-02 	 850
+#S07
+	12.8 	3.9e-01 	2.2e-02 	 795
+#S08
+	13.0 	4.0e-01 	2.2e-02 	 807
+#S09
+	13.1 	4.0e-01 	2.3e-02 	 819
+#M10
+	13.0 	4.0e-01 	2.5e-02 	 821
+#X11
+	0.0 	0.0e+00 	0.0e+00 	   0
+#E01
+	13.1 	3.8e-01 	2.8e-02 	 831
+#S02
+	13.1 	3.8e-01 	2.7e-02 	 740
+#S03
+	13.2 	3.8e-01 	2.3e-02 	 730
+#S04
+	13.2 	3.8e-01 	2.7e-02 	 717
+#S05
+	13.4 	3.9e-01 	2.8e-02 	 778
+#S06
+	13.4 	3.8e-01 	4.4e-02 	1096
+#S07
+	13.3 	3.8e-01 	2.6e-02 	 597
+#S08
+	13.4 	3.9e-01 	2.8e-02 	 678
+#S09
+	13.5 	3.9e-01 	2.7e-02 	 689
+#M10
+	13.4 	3.9e-01 	2.9e-02 	 608
+#X11
+	0.0 	0.0e+00 	0.0e+00 	   0
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3508
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3510
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3968
+LAST CHANNEL   : 4095
+#
+#21 defects found
+%Comment
+COMMENT        : FAIL due to chip X11 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to chip X11 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to 2559 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1280 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1282-4
+TEST_DATE      : 27/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"11:16:24"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+24 23 20 23 24 23 23 21 18 22 22 -1 -1 -1 -1 -1 
+#
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+24 23 20 23 24 23 23 21 18 22 22 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1282-5
+TEST_DATE      : 27/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"11:17:47"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E01
+	4 	22.53 	68.02 	0.00
+#S02
+	4 	22.34 	70.73 	0.00
+#S03
+	4 	22.50 	72.86 	0.00
+#S04
+	4 	23.05 	73.10 	0.00
+#S05
+	4 	23.80 	72.39 	0.00
+#S06
+	4 	24.56 	72.19 	0.00
+#S07
+	4 	24.16 	77.98 	0.00
+#S08
+	4 	24.71 	78.46 	0.00
+#S09
+	4 	23.97 	76.65 	0.00
+#M10
+	4 	23.93 	77.98 	0.00
+#E01
+	4 	25.22 	71.51 	0.00
+#S02
+	4 	24.97 	73.74 	0.00
+#S03
+	4 	25.82 	74.85 	0.00
+#S04
+	4 	25.95 	75.15 	0.00
+#S05
+	4 	27.01 	73.50 	0.00
+#S06
+	4 	28.07 	73.03 	0.00
+#S07
+	4 	27.41 	78.83 	0.00
+#S08
+	4 	27.90 	79.18 	0.00
+#S09
+	4 	27.66 	77.30 	0.00
+#M10
+	4 	27.12 	79.34 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E01
+	 89.1 	 2.10 	68.0 	2.08 	 68.0 	 2.08 	8.13 	  748 	  12
+#S02
+	 91.6 	 1.85 	70.7 	1.80 	 70.7 	 1.80 	8.36 	  739 	  13
+#S03
+	 94.2 	 1.51 	72.8 	1.44 	 72.8 	 1.44 	8.12 	  697 	  12
+#S04
+	 95.1 	 1.91 	73.1 	1.64 	 73.1 	 1.64 	8.24 	  705 	  11
+#S05
+	 95.3 	 1.66 	72.4 	1.51 	 72.4 	 1.51 	8.01 	  692 	  21
+#S06
+	 96.0 	 1.63 	72.2 	1.48 	 72.2 	 1.48 	8.05 	  697 	  16
+#S07
+	101.5 	 1.81 	78.0 	1.66 	 78.0 	 1.66 	8.57 	  687 	  18
+#S08
+	102.3 	 1.89 	78.5 	1.37 	 78.5 	 1.37 	8.61 	  686 	   9
+#S09
+	 99.9 	 1.91 	76.6 	1.59 	 76.6 	 1.59 	8.44 	  688 	  12
+#M10
+	101.3 	 1.93 	78.0 	1.79 	 78.0 	 1.79 	8.88 	  712 	  13
+#E01
+	 96.0 	 2.11 	71.5 	1.77 	 71.5 	 1.77 	6.97 	  610 	  12
+#S02
+	 97.9 	 2.02 	73.7 	1.99 	 73.7 	 1.99 	7.07 	  599 	  10
+#S03
+	100.0 	 1.82 	74.8 	1.51 	 74.8 	 1.51 	6.89 	  575 	  10
+#S04
+	100.5 	 1.81 	75.1 	1.59 	 75.1 	 1.59 	6.92 	  575 	  10
+#S05
+	 99.9 	 1.72 	73.5 	1.56 	 73.5 	 1.56 	6.63 	  564 	  11
+#S06
+	100.5 	 1.76 	73.1 	1.42 	 73.1 	 1.42 	6.65 	  569 	  11
+#S07
+	105.7 	 1.91 	78.8 	1.77 	 78.8 	 1.77 	7.03 	  557 	   9
+#S08
+	106.4 	 1.83 	79.2 	1.62 	 79.2 	 1.62 	7.02 	  554 	  10
+#S09
+	104.4 	 1.75 	77.3 	1.46 	 77.3 	 1.46 	6.88 	  557 	   9
+#M10
+	106.1 	 1.72 	79.3 	1.56 	 79.3 	 1.56 	7.21 	  568 	  11
+#
+#Loop C - Comment
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E01:	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  2	  0	  0	  0	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	 31	  0	  0	  0	  0	 31	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	 29	  4	  0	  0	  0	 29	  0	  2	  0	  0	  0	  4	  1	  0	  1	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  2	  0	  0	  0	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 1:	 66	  4	  0	  0	  0	 66	  0	  2	  0	  0	  0	  4	  1	  0	  1	  0
+#Link 2:	 66	  4	  0	  0	  0	 66	  0	  2	  0	  0	  0	  4	  1	  0	  1	  0
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1512
+LAST CHANNEL   : 1512
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1681
+LAST CHANNEL   : 1681
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1901
+LAST CHANNEL   : 1901
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1911
+LAST CHANNEL   : 1911
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1933
+LAST CHANNEL   : 1933
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1936
+LAST CHANNEL   : 1936
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1938
+LAST CHANNEL   : 1938
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1952
+LAST CHANNEL   : 1952
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1966
+LAST CHANNEL   : 1966
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1975
+LAST CHANNEL   : 1975
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1984
+LAST CHANNEL   : 1984
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1986
+LAST CHANNEL   : 1986
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1989
+LAST CHANNEL   : 1989
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1991
+LAST CHANNEL   : 1991
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1993
+LAST CHANNEL   : 1993
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1998
+LAST CHANNEL   : 1998
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2000
+LAST CHANNEL   : 2002
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2004
+LAST CHANNEL   : 2005
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2009
+LAST CHANNEL   : 2009
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2011
+LAST CHANNEL   : 2011
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2014
+LAST CHANNEL   : 2014
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2018
+LAST CHANNEL   : 2019
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2021
+LAST CHANNEL   : 2022
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2026
+LAST CHANNEL   : 2026
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2033
+LAST CHANNEL   : 2033
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2037
+LAST CHANNEL   : 2038
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2040
+LAST CHANNEL   : 2040
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2042
+LAST CHANNEL   : 2042
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2045
+LAST CHANNEL   : 2045
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2057
+LAST CHANNEL   : 2057
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2069
+LAST CHANNEL   : 2069
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2071
+LAST CHANNEL   : 2071
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2073
+LAST CHANNEL   : 2073
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2083
+LAST CHANNEL   : 2083
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2099
+LAST CHANNEL   : 2099
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2100
+LAST CHANNEL   : 2100
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2102
+LAST CHANNEL   : 2102
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2103
+LAST CHANNEL   : 2103
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2115
+LAST CHANNEL   : 2116
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2119
+LAST CHANNEL   : 2123
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2125
+LAST CHANNEL   : 2125
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2127
+LAST CHANNEL   : 2128
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2131
+LAST CHANNEL   : 2133
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2136
+LAST CHANNEL   : 2137
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2139
+LAST CHANNEL   : 2140
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2145
+LAST CHANNEL   : 2145
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2151
+LAST CHANNEL   : 2151
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2157
+LAST CHANNEL   : 2159
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2165
+LAST CHANNEL   : 2165
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2172
+LAST CHANNEL   : 2172
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2447
+LAST CHANNEL   : 2447
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2476
+LAST CHANNEL   : 2476
+#
+#52 defects found affecting 70 strips
+#5 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to 70 bad strips (more than 15)
+#
+%Comment
+COMMENT        : Channel 693 of bank away masked: VERY LOW GAIN
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R1H0_Hybrid1_RC_1282_5.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1282-8
+TEST_DATE      : 27/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"11:23:39"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E01
+	3 	1693.15 	5.90 	-824.84
+#S02
+	3 	1607.72 	5.41 	-782.20
+#S03
+	3 	1491.95 	4.90 	-723.96
+#S04
+	3 	1505.42 	4.93 	-730.13
+#S05
+	3 	1487.01 	4.96 	-719.82
+#S06
+	3 	1455.17 	4.85 	-703.42
+#S07
+	3 	1438.73 	4.46 	-695.48
+#S08
+	3 	1436.27 	4.38 	-694.50
+#S09
+	3 	1400.25 	4.39 	-676.78
+#M10
+	3 	1409.92 	4.36 	-681.33
+#E01
+	3 	1533.80 	5.18 	-741.92
+#S02
+	3 	1475.43 	4.84 	-712.94
+#S03
+	3 	1419.84 	4.57 	-684.79
+#S04
+	3 	1419.92 	4.55 	-684.71
+#S05
+	3 	1426.16 	4.68 	-686.77
+#S06
+	3 	1391.69 	4.59 	-668.57
+#S07
+	3 	1395.99 	4.27 	-671.52
+#S08
+	3 	1395.97 	4.21 	-671.80
+#S09
+	3 	1356.64 	4.20 	-652.11
+#M10
+	3 	1364.79 	4.14 	-656.35
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E01
+	124.9 	 2.92 	70.1 	1.79 	 71.1 	 1.91 	8.84 	  788 	  13
+#S02
+	128.8 	 2.60 	72.3 	1.61 	 73.6 	 1.71 	8.85 	  765 	  12
+#S03
+	132.0 	 2.08 	73.8 	1.27 	 75.3 	 1.37 	8.53 	  723 	  12
+#S04
+	132.9 	 2.56 	74.0 	1.40 	 75.6 	 1.51 	8.56 	  723 	  12
+#S05
+	132.4 	 2.26 	72.8 	1.31 	 74.4 	 1.41 	8.23 	  706 	  22
+#S06
+	132.8 	 2.21 	72.8 	1.42 	 74.4 	 1.46 	8.34 	  716 	  17
+#S07
+	141.1 	 2.52 	78.0 	1.47 	 80.1 	 1.59 	8.73 	  700 	  19
+#S08
+	142.4 	 2.45 	79.1 	1.25 	 81.3 	 1.37 	8.88 	  701 	  10
+#S09
+	139.0 	 2.59 	77.0 	1.39 	 79.1 	 1.52 	8.67 	  704 	  13
+#M10
+	140.9 	 2.64 	78.0 	1.55 	 80.2 	 1.67 	9.05 	  725 	  15
+#E01
+	132.5 	 2.84 	72.2 	1.56 	 73.6 	 1.67 	7.25 	  628 	  12
+#S02
+	135.6 	 2.90 	74.1 	1.80 	 75.8 	 1.91 	7.20 	  608 	  11
+#S03
+	138.1 	 2.51 	75.2 	1.40 	 77.2 	 1.52 	7.00 	  582 	  11
+#S04
+	138.7 	 2.51 	75.5 	1.44 	 77.5 	 1.55 	7.01 	  580 	  11
+#S05
+	137.2 	 2.35 	73.9 	1.36 	 75.7 	 1.45 	6.75 	  570 	  10
+#S06
+	137.6 	 2.37 	73.8 	1.44 	 75.7 	 1.50 	6.78 	  575 	  12
+#S07
+	145.5 	 2.63 	78.9 	1.55 	 81.3 	 1.69 	7.10 	  562 	  10
+#S08
+	146.6 	 2.54 	79.9 	1.38 	 82.3 	 1.50 	7.12 	  557 	  10
+#S09
+	143.5 	 2.34 	77.8 	1.27 	 80.2 	 1.37 	6.99 	  561 	   9
+#M10
+	146.0 	 2.34 	79.3 	1.34 	 81.8 	 1.45 	7.28 	  573 	  10
+#
+#Loop C - Comment
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  6	  0	  0	  0	  0	  6	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  9	  3	  0	  0	  0	  9	  0	  2	  0	  0	  0	  3	  1	  0	  1	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 1:	 16	  3	  0	  0	  0	 16	  0	  2	  0	  0	  0	  3	  1	  0	  1	  0
+#Link 2:	 16	  3	  0	  0	  0	 16	  0	  2	  0	  0	  0	  3	  1	  0	  1	  0
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1884
+LAST CHANNEL   : 1884
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1938
+LAST CHANNEL   : 1938
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2004
+LAST CHANNEL   : 2004
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2006
+LAST CHANNEL   : 2006
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2008
+LAST CHANNEL   : 2008
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2019
+LAST CHANNEL   : 2019
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2045
+LAST CHANNEL   : 2045
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2100
+LAST CHANNEL   : 2100
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2102
+LAST CHANNEL   : 2102
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2103
+LAST CHANNEL   : 2103
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2116
+LAST CHANNEL   : 2116
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2120
+LAST CHANNEL   : 2120
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2122
+LAST CHANNEL   : 2122
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2125
+LAST CHANNEL   : 2125
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2129
+LAST CHANNEL   : 2129
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2147
+LAST CHANNEL   : 2148
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2159
+LAST CHANNEL   : 2159
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2164
+LAST CHANNEL   : 2164
+#
+#18 defects found affecting 19 strips
+#2 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to 19 bad strips (more than 15)
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R1H0_Hybrid1_RC_1282_8.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1282-18
+TEST_DATE      : 27/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"11:30:01"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+-350.0 	-58.37 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+4500.00 	293 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E01
+	12.3 	3.6e-01 	2.0e-02 	 997
+#S02
+	12.5 	3.7e-01 	2.0e-02 	 974
+#S03
+	12.6 	3.7e-01 	1.9e-02 	 914
+#S04
+	12.7 	3.8e-01 	2.0e-02 	 891
+#S05
+	12.9 	3.8e-01 	2.1e-02 	 866
+#S06
+	13.0 	3.8e-01 	1.9e-02 	 860
+#S07
+	12.8 	3.8e-01 	1.9e-02 	 810
+#S08
+	13.0 	3.9e-01 	1.9e-02 	 794
+#S09
+	13.0 	3.9e-01 	2.3e-02 	 829
+#M10
+	13.0 	3.9e-01 	2.3e-02 	 853
+#X11
+	0.0 	0.0e+00 	0.0e+00 	   0
+#E01
+	13.0 	3.6e-01 	2.6e-02 	 804
+#S02
+	13.1 	3.7e-01 	2.5e-02 	 789
+#S03
+	13.2 	3.7e-01 	2.2e-02 	 693
+#S04
+	13.1 	3.6e-01 	2.6e-02 	 700
+#S05
+	13.3 	3.7e-01 	2.5e-02 	 708
+#S06
+	13.5 	3.8e-01 	4.3e-02 	 815
+#S07
+	13.2 	3.6e-01 	2.5e-02 	 621
+#S08
+	13.4 	3.7e-01 	2.7e-02 	 588
+#S09
+	13.5 	3.7e-01 	2.6e-02 	 697
+#M10
+	13.3 	3.7e-01 	3.0e-02 	 649
+#X11
+	0.0 	0.0e+00 	0.0e+00 	   0
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3968
+LAST CHANNEL   : 4095
+#
+#20 defects found
+%Comment
+COMMENT        : FAIL due to chip X11 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to chip X11 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to 2560 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1280 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1284-2
+TEST_DATE      : 27/05/2022
+PASSED         : YES
+PROBLEM        : YES
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"11:53:08"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+25 24 21 24 26 24 24 22 19 23 23 -1 -1 -1 -1 -1 
+#
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+25 24 21 24 26 25 24 22 19 23 23 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+%Comment
+COMMENT        : E01 Low SD width: 10.3 (module average 14.7)
+#
+%Comment
+COMMENT        : S02 Low SD width: 11.0 (module average 14.7)
+#
+%Comment
+COMMENT        : X11 High SD width: 19.2 (module average 14.7)
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1284-3
+TEST_DATE      : 27/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"11:54:19"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E01
+	4 	25.09 	61.78 	0.00
+#S02
+	4 	23.69 	64.96 	0.00
+#S03
+	4 	23.75 	67.46 	0.00
+#S04
+	4 	23.25 	68.34 	0.00
+#S05
+	4 	24.40 	66.40 	0.00
+#S06
+	4 	24.57 	66.58 	0.00
+#S07
+	4 	23.03 	73.41 	0.00
+#S08
+	4 	23.54 	74.12 	0.00
+#S09
+	4 	23.29 	72.03 	0.00
+#M10
+	4 	22.72 	73.37 	0.00
+#E01
+	4 	25.15 	67.67 	0.00
+#S02
+	4 	24.49 	70.16 	0.00
+#S03
+	4 	25.07 	71.64 	0.00
+#S04
+	4 	25.27 	72.16 	0.00
+#S05
+	4 	25.92 	69.92 	0.00
+#S06
+	4 	26.70 	69.73 	0.00
+#S07
+	4 	25.82 	75.69 	0.00
+#S08
+	4 	26.62 	76.14 	0.00
+#S09
+	4 	26.28 	74.31 	0.00
+#M10
+	4 	26.05 	76.31 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E01
+	 84.7 	 2.06 	61.6 	1.93 	 61.6 	 1.93 	7.75 	  787 	  12
+#S02
+	 86.5 	 1.66 	64.8 	1.72 	 64.8 	 1.72 	8.01 	  773 	  13
+#S03
+	 89.5 	 1.59 	67.4 	1.34 	 67.4 	 1.34 	7.82 	  726 	  12
+#S04
+	 90.0 	 1.58 	68.3 	1.57 	 68.3 	 1.57 	7.98 	  730 	  13
+#S05
+	 89.1 	 1.46 	66.3 	1.52 	 66.3 	 1.52 	7.84 	  739 	  25
+#S06
+	 89.6 	 1.45 	66.5 	1.38 	 66.5 	 1.38 	7.97 	  749 	  25
+#S07
+	 95.4 	 1.72 	73.4 	1.53 	 73.4 	 1.53 	8.42 	  717 	  19
+#S08
+	 96.5 	 1.73 	74.1 	1.37 	 74.1 	 1.37 	8.33 	  703 	  10
+#S09
+	 94.1 	 1.59 	72.0 	1.51 	 72.0 	 1.51 	8.24 	  715 	  14
+#M10
+	 94.9 	 1.83 	73.3 	1.71 	 73.3 	 1.71 	8.67 	  739 	  13
+#E01
+	 91.7 	 1.99 	67.6 	1.73 	 67.6 	 1.73 	6.84 	  632 	  10
+#S02
+	 93.6 	 1.72 	70.1 	1.93 	 70.1 	 1.93 	6.96 	  620 	  11
+#S03
+	 95.8 	 1.59 	71.6 	1.54 	 71.6 	 1.54 	6.76 	  590 	   9
+#S04
+	 96.7 	 1.71 	72.1 	1.50 	 72.1 	 1.50 	6.82 	  591 	  10
+#S05
+	 94.9 	 1.45 	69.9 	1.51 	 69.9 	 1.51 	6.58 	  588 	  12
+#S06
+	 95.6 	 1.78 	69.8 	1.46 	 69.8 	 1.46 	6.64 	  595 	  13
+#S07
+	100.9 	 1.78 	75.7 	1.64 	 75.7 	 1.64 	6.98 	  576 	  11
+#S08
+	102.0 	 1.75 	76.1 	1.53 	 76.1 	 1.53 	6.90 	  566 	   9
+#S09
+	 99.9 	 1.68 	74.3 	1.37 	 74.3 	 1.37 	6.83 	  575 	  10
+#M10
+	101.9 	 1.69 	76.3 	1.46 	 76.3 	 1.46 	7.13 	  584 	  11
+#
+#Loop C - Comment
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E01:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E01:	  7	  1	  0	  0	  0	  7	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S02:	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  9	  0	  0	  0	  0	  9	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  6	  0	  0	  0	  0	  6	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	 48	  0	  0	  0	  0	 48	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	 30	  0	  0	  0	  0	 30	  0	  0	  0	  0	  0	  0	  1	  0	  0	  1
+#Chip S07:	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  4	  0	  0	  0	  0	  4	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Link 1:	107	  1	  0	  0	  0	107	  0	  0	  0	  0	  0	  1	  1	  0	  0	  1
+#Link 2:	107	  2	  0	  0	  0	107	  0	  0	  0	  0	  0	  2	  1	  0	  0	  1
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1491
+LAST CHANNEL   : 1491
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1495
+LAST CHANNEL   : 1495
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1503
+LAST CHANNEL   : 1503
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1512
+LAST CHANNEL   : 1512
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1514
+LAST CHANNEL   : 1514
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1524
+LAST CHANNEL   : 1524
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1529
+LAST CHANNEL   : 1529
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1535
+LAST CHANNEL   : 1535
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1583
+LAST CHANNEL   : 1583
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1669
+LAST CHANNEL   : 1669
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1671
+LAST CHANNEL   : 1671
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1674
+LAST CHANNEL   : 1674
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1681
+LAST CHANNEL   : 1681
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1687
+LAST CHANNEL   : 1687
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1693
+LAST CHANNEL   : 1693
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1750
+LAST CHANNEL   : 1750
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1758
+LAST CHANNEL   : 1758
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1780
+LAST CHANNEL   : 1780
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1829
+LAST CHANNEL   : 1829
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1882
+LAST CHANNEL   : 1882
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1884
+LAST CHANNEL   : 1885
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1893
+LAST CHANNEL   : 1893
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1914
+LAST CHANNEL   : 1914
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1930
+LAST CHANNEL   : 1931
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1933
+LAST CHANNEL   : 1933
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1936
+LAST CHANNEL   : 1939
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1948
+LAST CHANNEL   : 1949
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1951
+LAST CHANNEL   : 1951
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1953
+LAST CHANNEL   : 1953
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1957
+LAST CHANNEL   : 1958
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1961
+LAST CHANNEL   : 1962
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1966
+LAST CHANNEL   : 1966
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1985
+LAST CHANNEL   : 1986
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1989
+LAST CHANNEL   : 1989
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1991
+LAST CHANNEL   : 1991
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1996
+LAST CHANNEL   : 1996
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1999
+LAST CHANNEL   : 2007
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2009
+LAST CHANNEL   : 2009
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2014
+LAST CHANNEL   : 2014
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2016
+LAST CHANNEL   : 2016
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2018
+LAST CHANNEL   : 2019
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2021
+LAST CHANNEL   : 2021
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2024
+LAST CHANNEL   : 2026
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2029
+LAST CHANNEL   : 2030
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2034
+LAST CHANNEL   : 2034
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2037
+LAST CHANNEL   : 2039
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2042
+LAST CHANNEL   : 2042
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2045
+LAST CHANNEL   : 2046
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2049
+LAST CHANNEL   : 2050
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2052
+LAST CHANNEL   : 2052
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2057
+LAST CHANNEL   : 2057
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2065
+LAST CHANNEL   : 2065
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2071
+LAST CHANNEL   : 2071
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2076
+LAST CHANNEL   : 2076
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2084
+LAST CHANNEL   : 2084
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2105
+LAST CHANNEL   : 2105
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2107
+LAST CHANNEL   : 2107
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2117
+LAST CHANNEL   : 2119
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2121
+LAST CHANNEL   : 2123
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2125
+LAST CHANNEL   : 2125
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2133
+LAST CHANNEL   : 2133
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2137
+LAST CHANNEL   : 2137
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2139
+LAST CHANNEL   : 2140
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2142
+LAST CHANNEL   : 2142
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2144
+LAST CHANNEL   : 2144
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2147
+LAST CHANNEL   : 2147
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2150
+LAST CHANNEL   : 2151
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2158
+LAST CHANNEL   : 2159
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2173
+LAST CHANNEL   : 2174
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2260
+LAST CHANNEL   : 2260
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2399
+LAST CHANNEL   : 2399
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2444
+LAST CHANNEL   : 2444
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2453
+LAST CHANNEL   : 2453
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2457
+LAST CHANNEL   : 2457
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2542
+LAST CHANNEL   : 2542
+#
+#76 defects found affecting 109 strips
+#9 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to 109 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 9 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : Channel 693 of bank away masked: VERY LOW GAIN
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R1H0_Hybrid1_RC_1284_3.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1284-6
+TEST_DATE      : 27/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"11:59:53"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E01
+	3 	2260.33 	8.35 	-1108.37
+#S02
+	3 	1918.96 	6.82 	-938.51
+#S03
+	3 	1710.81 	5.93 	-833.77
+#S04
+	3 	1692.91 	5.84 	-824.77
+#S05
+	3 	1699.44 	5.98 	-827.41
+#S06
+	3 	1672.10 	5.89 	-813.40
+#S07
+	3 	1576.31 	5.15 	-765.80
+#S08
+	3 	1565.86 	5.02 	-760.75
+#S09
+	3 	1532.75 	5.04 	-744.45
+#M10
+	3 	1544.42 	5.02 	-750.45
+#E01
+	3 	1721.75 	6.07 	-836.75
+#S02
+	3 	1599.04 	5.47 	-775.71
+#S03
+	3 	1522.39 	5.11 	-736.86
+#S04
+	3 	1508.27 	5.04 	-729.47
+#S05
+	3 	1528.68 	5.24 	-739.38
+#S06
+	3 	1500.49 	5.16 	-724.27
+#S07
+	3 	1474.52 	4.72 	-711.98
+#S08
+	3 	1468.26 	4.62 	-708.90
+#S09
+	3 	1429.18 	4.61 	-689.52
+#M10
+	3 	1432.39 	4.52 	-690.98
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E01
+	118.2 	 2.91 	66.7 	1.69 	 67.2 	 1.79 	8.91 	  834 	  13
+#S02
+	121.6 	 2.37 	68.9 	1.52 	 69.6 	 1.61 	8.95 	  812 	  13
+#S03
+	125.2 	 2.11 	70.4 	1.20 	 71.4 	 1.28 	8.61 	  765 	  13
+#S04
+	126.0 	 2.20 	70.7 	1.34 	 71.7 	 1.43 	8.64 	  764 	  13
+#S05
+	124.3 	 2.01 	69.3 	1.22 	 70.3 	 1.31 	8.52 	  768 	  28
+#S06
+	124.7 	 1.98 	69.3 	1.28 	 70.3 	 1.32 	8.64 	  780 	  23
+#S07
+	133.1 	 2.36 	74.4 	1.39 	 75.9 	 1.49 	8.81 	  740 	  19
+#S08
+	134.7 	 2.28 	75.6 	1.19 	 77.2 	 1.30 	8.88 	  734 	  12
+#S09
+	131.4 	 2.20 	73.7 	1.31 	 75.1 	 1.42 	8.73 	  741 	  13
+#M10
+	132.8 	 2.49 	74.6 	1.47 	 76.2 	 1.57 	9.13 	  765 	  15
+#E01
+	126.7 	 2.70 	69.5 	1.52 	 70.5 	 1.61 	7.28 	  655 	  12
+#S02
+	129.8 	 2.55 	71.3 	1.72 	 72.6 	 1.82 	7.24 	  634 	  11
+#S03
+	132.4 	 2.25 	72.5 	1.35 	 73.9 	 1.45 	7.03 	  606 	  11
+#S04
+	133.4 	 2.36 	72.8 	1.39 	 74.3 	 1.48 	7.05 	  605 	  10
+#S05
+	130.8 	 2.02 	71.1 	1.29 	 72.4 	 1.38 	6.80 	  598 	  11
+#S06
+	131.3 	 2.37 	71.0 	1.40 	 72.4 	 1.46 	6.88 	  606 	  12
+#S07
+	139.1 	 2.43 	75.9 	1.49 	 77.7 	 1.60 	7.07 	  583 	   9
+#S08
+	140.7 	 2.37 	77.0 	1.31 	 78.9 	 1.42 	7.12 	  578 	  10
+#S09
+	137.6 	 2.18 	75.1 	1.21 	 76.9 	 1.30 	7.00 	  582 	  10
+#M10
+	140.3 	 2.18 	76.6 	1.27 	 78.6 	 1.36 	7.28 	  594 	  11
+#
+#Loop C - Comment
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E01:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E01:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  1	  0	  0	  0	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  4	  0	  0	  0	  0	  4	  0	  0	  0	  0	  0	  0	  1	  0	  1	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Link 1:	  5	  1	  0	  0	  0	  5	  0	  0	  0	  0	  0	  1	  1	  0	  1	  0
+#Link 2:	  5	  2	  0	  0	  0	  5	  0	  0	  0	  0	  0	  2	  1	  0	  1	  0
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1535
+LAST CHANNEL   : 1535
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1991
+LAST CHANNEL   : 1991
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2117
+LAST CHANNEL   : 2117
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2147
+LAST CHANNEL   : 2147
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2158
+LAST CHANNEL   : 2159
+#
+#6 defects found affecting 7 strips
+#2 maximum consecutive defects
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R1H0_Hybrid1_RC_1284_6.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1284-16
+TEST_DATE      : 27/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"12:06:12"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+-350.0 	-75.30 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+4500.00 	293 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E01
+	11.9 	3.5e-01 	2.6e-02 	1103
+#S02
+	12.0 	3.6e-01 	2.6e-02 	1075
+#S03
+	12.2 	3.7e-01 	2.6e-02 	 986
+#S04
+	12.2 	3.6e-01 	2.4e-02 	 979
+#S05
+	12.5 	3.7e-01 	2.5e-02 	 968
+#S06
+	12.5 	3.7e-01 	2.4e-02 	 962
+#S07
+	12.3 	3.7e-01 	2.4e-02 	 886
+#S08
+	12.5 	3.7e-01 	2.7e-02 	 872
+#S09
+	12.6 	3.8e-01 	2.7e-02 	 913
+#M10
+	12.4 	3.8e-01 	2.6e-02 	 947
+#X11
+	0.0 	0.0e+00 	0.0e+00 	   0
+#E01
+	12.6 	3.5e-01 	3.5e-02 	 825
+#S02
+	12.7 	3.5e-01 	2.9e-02 	 812
+#S03
+	12.8 	3.6e-01 	3.2e-02 	 806
+#S04
+	12.8 	3.5e-01 	3.3e-02 	 797
+#S05
+	13.0 	3.6e-01 	3.1e-02 	 836
+#S06
+	13.2 	3.7e-01 	4.1e-02 	 750
+#S07
+	12.9 	3.5e-01 	3.3e-02 	 667
+#S08
+	13.1 	3.5e-01 	3.3e-02 	 689
+#S09
+	13.2 	3.7e-01 	3.5e-02 	 680
+#M10
+	13.1 	3.7e-01 	3.8e-02 	 669
+#X11
+	0.0 	0.0e+00 	0.0e+00 	   0
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3968
+LAST CHANNEL   : 4095
+#
+#20 defects found
+%Comment
+COMMENT        : FAIL due to chip X11 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to chip X11 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to 2560 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1280 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1286-6
+TEST_DATE      : 27/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"14:31:32"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+%StrobeDelay
+#
+#DELAY
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+25 23 20 24 25 24 23 22 18 22 22 -1 -1 -1 -1 -1 
+#
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+25 23 20 24 25 24 24 22 18 22 22 -1 -1 -1 -1 -1 
+#
+#No defects found!
+%Comment
+COMMENT        : Strobe Delay Fraction 0.57
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1286-7
+TEST_DATE      : 27/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"14:32:47"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+3
+#POINTS
+0.50 	1.00 	1.50 	
+#
+#
+%ThreePointGain
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E01
+	4 	23.07 	70.46 	0.00
+#S02
+	4 	23.40 	73.56 	0.00
+#S03
+	4 	23.93 	74.91 	0.00
+#S04
+	4 	24.33 	74.90 	0.00
+#S05
+	4 	25.54 	73.35 	0.00
+#S06
+	4 	26.46 	73.12 	0.00
+#S07
+	4 	26.60 	78.47 	0.00
+#S08
+	4 	27.01 	78.95 	0.00
+#S09
+	4 	26.68 	77.31 	0.00
+#M10
+	4 	26.62 	78.71 	0.00
+#E01
+	4 	26.30 	72.26 	0.00
+#S02
+	4 	26.86 	74.46 	0.00
+#S03
+	4 	27.78 	75.14 	0.00
+#S04
+	4 	27.86 	75.39 	0.00
+#S05
+	4 	28.88 	73.35 	0.00
+#S06
+	4 	29.68 	72.98 	0.00
+#S07
+	4 	29.31 	78.61 	0.00
+#S08
+	4 	29.61 	79.02 	0.00
+#S09
+	4 	29.82 	77.13 	0.00
+#M10
+	4 	29.75 	79.08 	0.00
+#
+#Loop B - Gain, Offset, Noise at 1.00fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E01
+	 92.6 	 2.25 	70.4 	1.99 	 70.4 	 1.99 	8.55 	  759 	  11
+#S02
+	 96.3 	 1.85 	73.6 	1.77 	 73.6 	 1.77 	8.63 	  733 	  12
+#S03
+	 98.3 	 1.84 	74.9 	1.39 	 74.9 	 1.39 	8.39 	  700 	  13
+#S04
+	 98.7 	 1.96 	74.9 	1.55 	 74.9 	 1.55 	8.48 	  708 	  12
+#S05
+	 98.3 	 1.74 	73.3 	1.44 	 73.3 	 1.44 	8.23 	  701 	  23
+#S06
+	 99.1 	 1.46 	73.1 	1.48 	 73.1 	 1.48 	8.28 	  708 	  17
+#S07
+	104.7 	 1.91 	78.5 	1.62 	 78.5 	 1.62 	8.81 	  702 	  20
+#S08
+	105.3 	 1.85 	78.9 	1.34 	 78.9 	 1.34 	8.89 	  704 	  12
+#S09
+	103.6 	 1.83 	77.3 	1.58 	 77.3 	 1.58 	8.63 	  698 	  12
+#M10
+	105.1 	 2.02 	78.7 	1.72 	 78.7 	 1.72 	9.03 	  717 	  12
+#E01
+	 97.9 	 1.92 	72.2 	1.73 	 72.2 	 1.73 	7.17 	  620 	  10
+#S02
+	100.8 	 2.12 	74.5 	1.95 	 74.5 	 1.95 	7.16 	  601 	  11
+#S03
+	102.4 	 1.93 	75.1 	1.51 	 75.1 	 1.51 	6.97 	  580 	   9
+#S04
+	102.7 	 1.89 	75.4 	1.57 	 75.4 	 1.57 	7.03 	  583 	  10
+#S05
+	101.6 	 1.91 	73.3 	1.45 	 73.3 	 1.45 	6.76 	  576 	  11
+#S06
+	102.1 	 1.66 	73.0 	1.46 	 73.0 	 1.46 	6.76 	  578 	  10
+#S07
+	107.5 	 2.01 	78.6 	1.75 	 78.6 	 1.75 	7.15 	  568 	  10
+#S08
+	108.0 	 1.87 	79.0 	1.59 	 79.0 	 1.59 	7.18 	  568 	  10
+#S09
+	106.5 	 1.65 	77.1 	1.50 	 77.1 	 1.50 	7.01 	  568 	   9
+#M10
+	108.6 	 1.77 	79.1 	1.50 	 79.1 	 1.50 	7.29 	  576 	   9
+#
+#Loop C - Comment
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.00fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E01:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	 12	  0	  0	  0	  0	 12	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	 10	  2	  0	  0	  0	 10	  0	  1	  0	  0	  0	  2	  1	  0	  1	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 0:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Link 1:	 22	  2	  0	  0	  0	 22	  0	  1	  0	  0	  0	  2	  1	  0	  1	  0
+#Link 2:	 22	  3	  0	  0	  0	 22	  0	  1	  0	  0	  0	  3	  1	  0	  1	  0
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 127
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1935
+LAST CHANNEL   : 1935
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1953
+LAST CHANNEL   : 1953
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1957
+LAST CHANNEL   : 1957
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1991
+LAST CHANNEL   : 1991
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1994
+LAST CHANNEL   : 1994
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2001
+LAST CHANNEL   : 2002
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2009
+LAST CHANNEL   : 2009
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2025
+LAST CHANNEL   : 2026
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2029
+LAST CHANNEL   : 2029
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2034
+LAST CHANNEL   : 2034
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2057
+LAST CHANNEL   : 2057
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2065
+LAST CHANNEL   : 2065
+#
+%Defect
+DEFECT NAME    : HI_GAIN
+FIRST CHANNEL  : 2100
+LAST CHANNEL   : 2100
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2102
+LAST CHANNEL   : 2102
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2116
+LAST CHANNEL   : 2116
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2119
+LAST CHANNEL   : 2119
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2121
+LAST CHANNEL   : 2121
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2131
+LAST CHANNEL   : 2131
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2139
+LAST CHANNEL   : 2139
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2147
+LAST CHANNEL   : 2147
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2150
+LAST CHANNEL   : 2150
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2159
+LAST CHANNEL   : 2159
+#
+#23 defects found affecting 25 strips
+#2 maximum consecutive defects
+%Comment
+COMMENT        : FAIL due to 25 bad strips (more than 15)
+#
+%Comment
+COMMENT        : Channel 693 of bank away masked: VERY LOW GAIN
+#
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R1H0_Hybrid1_RC_1286_7.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1286-10
+TEST_DATE      : 27/05/2022
+PASSED         : YES
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"14:38:40"
+#
+%DCS_INFO
+#
+#T0	T1
+. 	. 	
+#VDET	IDET
+. 	. 	
+#VCC	ICC
+. 	. 	
+#VDD	IDD
+. 	. 	
+#TIME_POWERED
+. 
+#
+#
+%SCAN_INFO
+#
+#POINT_TYPE
+"QCAL (fC)"
+#N_POINTS
+10
+#POINTS
+0.19 	0.50 	0.81 	1.00 	1.27 	1.50 	2.00 	2.99 	3.99 	5.99 	
+#
+#
+%ResponseCurve
+#
+#Loop A - Fit
+#	func	p0	p1	p2
+#E01
+	3 	1629.76 	5.59 	-791.62
+#S02
+	3 	1512.98 	5.01 	-732.56
+#S03
+	3 	1427.09 	4.64 	-689.25
+#S04
+	3 	1450.58 	4.70 	-700.98
+#S05
+	3 	1444.24 	4.77 	-696.88
+#S06
+	3 	1417.73 	4.69 	-682.95
+#S07
+	3 	1406.65 	4.33 	-677.52
+#S08
+	3 	1404.28 	4.25 	-676.71
+#S09
+	3 	1359.58 	4.24 	-653.97
+#M10
+	3 	1369.84 	4.22 	-658.84
+#E01
+	3 	1510.03 	5.06 	-729.04
+#S02
+	3 	1437.01 	4.69 	-691.98
+#S03
+	3 	1390.97 	4.46 	-668.68
+#S04
+	3 	1395.63 	4.46 	-671.08
+#S05
+	3 	1404.61 	4.60 	-674.78
+#S06
+	3 	1368.27 	4.50 	-655.87
+#S07
+	3 	1380.84 	4.23 	-662.60
+#S08
+	3 	1379.99 	4.16 	-662.60
+#S09
+	3 	1336.19 	4.15 	-640.17
+#M10
+	3 	1345.17 	4.09 	-644.41
+#
+#Loop B - Gain, Offset, Noise at 1.50fC
+#	vt50 	rms  	gain	rms 	offset	rms  	outnse	innse	rms
+#E01
+	128.8 	 3.11 	71.2 	1.76 	 72.4 	 1.89 	9.16 	  803 	  12
+#S02
+	133.6 	 2.59 	73.4 	1.61 	 75.0 	 1.72 	8.99 	  765 	  14
+#S03
+	136.2 	 2.43 	74.5 	1.30 	 76.4 	 1.42 	8.69 	  729 	  13
+#S04
+	136.4 	 2.56 	74.8 	1.41 	 76.6 	 1.53 	8.77 	  732 	  14
+#S05
+	135.3 	 2.30 	73.5 	1.32 	 75.2 	 1.43 	8.45 	  718 	  22
+#S06
+	135.8 	 1.96 	73.3 	1.39 	 75.1 	 1.44 	8.59 	  732 	  18
+#S07
+	144.0 	 2.56 	78.4 	1.45 	 80.7 	 1.57 	8.99 	  717 	  16
+#S08
+	145.3 	 2.39 	79.6 	1.22 	 81.9 	 1.35 	9.21 	  723 	  10
+#S09
+	142.4 	 2.48 	77.3 	1.38 	 79.6 	 1.51 	8.87 	  717 	  14
+#M10
+	144.4 	 2.76 	78.3 	1.54 	 80.7 	 1.67 	9.22 	  735 	  14
+#E01
+	134.6 	 2.66 	72.7 	1.54 	 74.2 	 1.65 	7.44 	  640 	  11
+#S02
+	138.4 	 2.94 	74.5 	1.79 	 76.3 	 1.92 	7.30 	  612 	  11
+#S03
+	140.5 	 2.60 	75.4 	1.41 	 77.5 	 1.53 	7.11 	  589 	  11
+#S04
+	140.8 	 2.55 	75.8 	1.45 	 77.9 	 1.56 	7.14 	  589 	  10
+#S05
+	138.7 	 2.52 	74.1 	1.35 	 76.0 	 1.46 	6.88 	  581 	  12
+#S06
+	139.0 	 2.26 	73.8 	1.41 	 75.8 	 1.47 	6.96 	  590 	  11
+#S07
+	147.0 	 2.73 	78.9 	1.55 	 81.3 	 1.68 	7.24 	  574 	  11
+#S08
+	148.0 	 2.55 	79.9 	1.35 	 82.4 	 1.47 	7.31 	  571 	  10
+#S09
+	145.3 	 2.20 	77.7 	1.25 	 80.1 	 1.35 	7.12 	  573 	  10
+#M10
+	148.1 	 2.39 	79.2 	1.34 	 81.8 	 1.45 	7.36 	  581 	  11
+#
+#Loop C - Comment
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#  E01  S02  S03  S04  S05  S06  S07  S08  S09  M10
+"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	"OK" 	
+#BadChannelSummary - not for the database
+#  at 1.50fC
+#		lost	dodgy	dead	stuck	ineff	unbon	lo_gn	hi_gn	lo_off	hi_off	partbon	hi_nse	vlo_gn	vhi_gn	vlo_nse	vhi_nse
+#Chip E01:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip E01:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Chip S02:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S03:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S04:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S05:	  2	  0	  0	  0	  0	  2	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S06:	  1	  2	  0	  0	  0	  1	  0	  0	  0	  0	  0	  2	  1	  0	  1	  0
+#Chip S07:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S08:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip S09:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Chip M10:	  0	  1	  0	  0	  0	  0	  0	  0	  0	  0	  0	  1	  0	  0	  0	  0
+#Link 0:	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0	  0
+#Link 1:	  3	  4	  0	  0	  0	  3	  0	  0	  0	  0	  0	  4	  1	  0	  1	  0
+#Link 2:	  3	  4	  0	  0	  0	  3	  0	  0	  0	  0	  0	  4	  1	  0	  1	  0
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 1535
+LAST CHANNEL   : 1535
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 1986
+LAST CHANNEL   : 1986
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2021
+LAST CHANNEL   : 2021
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2100
+LAST CHANNEL   : 2100
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2102
+LAST CHANNEL   : 2102
+#
+%Defect
+DEFECT NAME    : UNBONDED
+FIRST CHANNEL  : 2156
+LAST CHANNEL   : 2156
+#
+%Defect
+DEFECT NAME    : NOISY
+FIRST CHANNEL  : 2560
+LAST CHANNEL   : 2560
+#
+#7 defects found affecting 7 strips
+#1 maximum consecutive defects
+#
+%TEST Rawdata
+FILENAME       : /home/canuck/itsdaq-sw/sctvar/results/ABCStar_R1H0_Hybrid1_RC_1286_10.txt
+#
+#
+%NewTest
+#
+SERIAL NUMBER  : ABCStar_R1H0_Hybrid1
+TEST MADE BY   : LP
+LOCATION NAME  : TRIUMF
+Run number     : 1286-20
+TEST_DATE      : 27/05/2022
+PASSED         : NO
+PROBLEM        : NO
+#
+%DAQ_INFO
+#
+#HOST
+"rockbiter"
+#VERSION
+"3.43"
+#DUT
+"ABCStar_Test #0"
+#TIME
+"14:45:06"
+#
+%DCS_INFO
+#
+#T0	T1
+-128.0 	-128.0 	
+#VDET	IDET
+-350.0 	-65.10 	
+#VCC	ICC
+0.00 	  0 	
+#VDD	IDD
+4500.00 	293 	
+#TIME_POWERED
+. 
+#
+#
+%NO
+#
+#	Offset	MeanOcc   	RMSOcc    	EstENC
+#E01
+	12.4 	4.3e-01 	2.1e-02 	1152
+#S02
+	12.6 	4.4e-01 	1.7e-02 	1109
+#S03
+	12.8 	4.4e-01 	2.0e-02 	1052
+#S04
+	12.7 	4.3e-01 	2.3e-02 	1035
+#S05
+	13.1 	4.4e-01 	2.1e-02 	1007
+#S06
+	13.1 	4.4e-01 	2.1e-02 	1002
+#S07
+	12.7 	4.4e-01 	2.1e-02 	 977
+#S08
+	12.8 	4.5e-01 	2.2e-02 	 978
+#S09
+	12.9 	4.5e-01 	2.1e-02 	 978
+#M10
+	12.7 	4.5e-01 	2.2e-02 	1019
+#X11
+	0.0 	0.0e+00 	0.0e+00 	   0
+#E01
+	13.3 	4.2e-01 	2.3e-02 	 807
+#S02
+	13.3 	4.2e-01 	2.7e-02 	 774
+#S03
+	13.3 	4.3e-01 	2.5e-02 	 746
+#S04
+	13.3 	4.2e-01 	2.6e-02 	 730
+#S05
+	13.5 	4.3e-01 	2.6e-02 	 736
+#S06
+	13.5 	4.3e-01 	4.6e-02 	 728
+#S07
+	13.3 	4.2e-01 	2.7e-02 	 689
+#S08
+	13.4 	4.3e-01 	2.8e-02 	 689
+#S09
+	13.5 	4.3e-01 	2.8e-02 	 688
+#M10
+	13.4 	4.3e-01 	2.8e-02 	 708
+#X11
+	0.0 	0.0e+00 	0.0e+00 	   0
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 0
+LAST CHANNEL   : 127
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 128
+LAST CHANNEL   : 255
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 256
+LAST CHANNEL   : 383
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 384
+LAST CHANNEL   : 511
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 512
+LAST CHANNEL   : 639
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 640
+LAST CHANNEL   : 767
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 768
+LAST CHANNEL   : 895
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 896
+LAST CHANNEL   : 1023
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1024
+LAST CHANNEL   : 1151
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 1152
+LAST CHANNEL   : 1279
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2816
+LAST CHANNEL   : 2943
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 2944
+LAST CHANNEL   : 3071
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3072
+LAST CHANNEL   : 3199
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3200
+LAST CHANNEL   : 3327
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3328
+LAST CHANNEL   : 3455
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3456
+LAST CHANNEL   : 3583
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3584
+LAST CHANNEL   : 3711
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3712
+LAST CHANNEL   : 3839
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3840
+LAST CHANNEL   : 3967
+#
+%Defect
+DEFECT NAME    : NO_HI
+FIRST CHANNEL  : 3968
+LAST CHANNEL   : 4095
+#
+#20 defects found
+%Comment
+COMMENT        : FAIL due to chip X11 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to chip X11 low ENC (0.0 < 400)
+#
+%Comment
+COMMENT        : FAIL due to 2560 bad strips (more than 15)
+#
+%Comment
+COMMENT        : FAIL due to 1280 consecutive bad strips (more than 8)
+#
+%Comment
+COMMENT        : No trim data found
+#

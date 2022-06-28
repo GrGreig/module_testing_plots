@@ -1,0 +1,2049 @@
+#chan	code	gain	vt50	innse	comment
+   0	     4	61.2	90.6	3938	inefficient
+   1	     4	63.4	98.1	3915	inefficient
+   2	     4	56.9	58.5	4009	inefficient
+   3	     4	56.9	82.7	3985	inefficient
+   4	     4	58.7	91.2	3904	inefficient
+   5	     4	56.2	87.0	3989	inefficient
+   6	     4	57.5	82.6	3935	inefficient
+   7	     4	58.2	88.9	3943	inefficient
+   8	     4	56.8	89.8	3943	inefficient
+   9	     4	57.8	84.4	3853	inefficient
+  10	     4	57.9	88.2	4015	inefficient
+  11	     4	59.1	89.4	3978	inefficient
+  12	 80000	59.5	97.9	3969	very high noise
+  13	     4	58.4	92.3	3991	inefficient
+  14	     4	59.3	88.0	4008	inefficient
+  15	 80000	57.7	93.4	3896	very high noise
+  16	     4	56.7	88.6	3974	inefficient
+  17	 80000	56.5	89.9	4013	very high noise
+  18	     4	55.1	85.7	3957	inefficient
+  19	     4	58.9	90.6	4003	inefficient
+  20	     4	57.7	89.9	4034	inefficient
+  21	     4	57.4	85.6	3955	inefficient
+  22	     4	56.8	86.3	3964	inefficient
+  23	     4	58.0	88.2	3950	inefficient
+  24	     4	57.3	89.4	3989	inefficient
+  25	     4	59.5	85.2	3975	inefficient
+  26	     4	57.3	86.7	3972	inefficient
+  27	     4	57.9	91.6	3901	inefficient
+  28	     4	58.6	89.2	3946	inefficient
+  29	     4	58.1	87.4	3965	inefficient
+  30	     4	56.3	84.3	3929	inefficient
+  31	 80000	57.7	90.6	3946	very high noise
+  32	     4	56.8	87.6	4068	inefficient
+  33	     4	60.2	88.5	4025	inefficient
+  34	     4	59.0	88.8	3941	inefficient
+  35	     4	61.0	94.9	3930	inefficient
+  36	     4	58.7	86.9	3983	inefficient
+  37	     4	58.0	88.7	4075	inefficient
+  38	     4	57.6	86.4	3925	inefficient
+  39	     4	57.9	91.3	3945	inefficient
+  40	     4	56.8	88.6	3956	inefficient
+  41	     4	57.2	88.6	3989	inefficient
+  42	     4	57.4	87.1	3925	inefficient
+  43	     4	56.1	83.3	3993	inefficient
+  44	     4	56.0	85.0	3989	inefficient
+  45	     4	58.1	92.2	3949	inefficient
+  46	 80000	55.8	86.9	3986	very high noise
+  47	     4	57.4	86.2	3943	inefficient
+  48	     4	58.9	85.5	4000	inefficient
+  49	 80000	59.5	90.5	3878	very high noise
+  50	     4	59.3	89.7	3965	inefficient
+  51	     4	58.4	86.6	3996	inefficient
+  52	     4	60.2	89.1	3984	inefficient
+  53	     4	58.0	86.3	3999	inefficient
+  54	     4	56.5	87.2	3921	inefficient
+  55	 80000	57.2	88.7	3865	very high noise
+  56	     4	57.7	90.6	3939	inefficient
+  57	 80000	61.5	112.6	3965	very high noise
+  58	     4	56.9	89.7	4025	inefficient
+  59	     4	59.6	88.7	3990	inefficient
+  60	 80000	58.5	95.3	3989	very high noise
+  61	     4	57.1	80.8	4043	inefficient
+  62	 80000	63.4	181.3	3758	very high noise
+  63	     4	62.4	87.0	4035	inefficient
+  64	     4	60.5	96.7	4012	inefficient
+  65	 80000	63.8	111.5	3906	very high noise
+  66	 80000	57.7	96.4	3995	very high noise
+  67	     4	59.3	91.9	3938	inefficient
+  68	     4	60.0	92.4	3940	inefficient
+  69	     4	59.1	87.6	3963	inefficient
+  70	     4	57.1	84.1	4056	inefficient
+  71	     4	59.3	90.5	3927	inefficient
+  72	     4	58.7	87.2	3957	inefficient
+  73	     4	56.5	87.0	4004	inefficient
+  74	     4	58.0	89.3	3958	inefficient
+  75	     4	59.7	88.0	3962	inefficient
+  76	     4	56.6	80.0	3922	inefficient
+  77	     4	57.5	86.1	3859	inefficient
+  78	 80000	59.2	94.4	3858	very high noise
+  79	 80000	59.2	91.0	3930	very high noise
+  80	     4	57.7	83.7	3925	inefficient
+  81	     4	58.7	91.5	3971	inefficient
+  82	     4	58.1	86.3	3969	inefficient
+  83	     4	57.0	85.5	3953	inefficient
+  84	     4	59.9	91.6	3908	inefficient
+  85	     4	56.6	87.1	3967	inefficient
+  86	     4	59.1	84.3	3938	inefficient
+  87	     4	56.5	86.7	4059	inefficient
+  88	     4	57.5	85.9	3944	inefficient
+  89	     4	56.7	88.9	4077	inefficient
+  90	     4	58.1	85.0	4143	inefficient
+  91	     4	58.6	93.6	4094	inefficient
+  92	     4	59.5	92.5	4012	inefficient
+  93	     4	55.9	89.0	3949	inefficient
+  94	     4	56.2	86.9	3897	inefficient
+  95	     4	57.0	87.3	3956	inefficient
+  96	     4	58.9	81.0	3960	inefficient
+  97	     4	57.0	90.7	3941	inefficient
+  98	 80000	60.6	94.9	3942	very high noise
+  99	     4	59.4	95.1	3884	inefficient
+ 100	     4	57.4	89.2	3937	inefficient
+ 101	     4	56.3	87.9	3910	inefficient
+ 102	 80000	58.7	91.7	3823	very high noise
+ 103	     4	58.4	93.3	3860	inefficient
+ 104	     4	58.5	85.7	3840	inefficient
+ 105	     4	56.9	89.7	3883	inefficient
+ 106	     4	57.0	85.8	3911	inefficient
+ 107	     4	58.4	89.2	3961	inefficient
+ 108	     4	58.9	87.4	4057	inefficient
+ 109	     4	56.2	87.8	4131	inefficient
+ 110	     4	58.7	90.0	4150	inefficient
+ 111	     4	59.0	87.8	4054	inefficient
+ 112	     4	58.8	93.8	3943	inefficient
+ 113	     4	59.8	88.8	3908	inefficient
+ 114	     4	57.2	82.9	3983	inefficient
+ 115	 80000	59.4	92.4	3910	very high noise
+ 116	     4	57.7	89.0	3967	inefficient
+ 117	     4	58.9	90.7	3887	inefficient
+ 118	 80000	58.1	91.6	3943	very high noise
+ 119	     4	57.5	92.1	3951	inefficient
+ 120	     4	57.5	83.5	3989	inefficient
+ 121	 80000	61.4	110.4	3855	very high noise
+ 122	     4	58.6	89.5	3895	inefficient
+ 123	     4	57.4	87.0	4042	inefficient
+ 124	     4	61.0	96.0	3919	inefficient
+ 125	     4	58.7	92.1	3969	inefficient
+ 126	     4	59.0	91.4	3974	inefficient
+ 127	     4	56.9	91.1	4318	inefficient
+ 128	     4	57.9	88.1	3963	inefficient
+ 129	     4	57.3	84.3	3925	inefficient
+ 130	 80000	55.7	93.1	3865	very high noise
+ 131	     4	58.8	89.2	3713	inefficient
+ 132	     4	55.4	90.5	3778	inefficient
+ 133	     4	57.9	87.2	3805	inefficient
+ 134	     4	55.5	85.6	3808	inefficient
+ 135	     4	58.1	85.2	3886	inefficient
+ 136	 80000	56.0	90.7	3780	very high noise
+ 137	     4	57.4	87.2	3750	inefficient
+ 138	 80000	55.3	88.9	3750	very high noise
+ 139	     4	54.7	85.0	3811	inefficient
+ 140	 80000	56.0	94.1	3777	very high noise
+ 141	     4	56.1	86.0	3815	inefficient
+ 142	     4	54.2	86.1	3790	inefficient
+ 143	 80000	57.1	146.2	3704	very high noise
+ 144	     4	56.1	90.7	3805	inefficient
+ 145	 80000	55.4	85.9	3777	very high noise
+ 146	 80000	55.8	92.0	3812	very high noise
+ 147	     4	58.0	89.8	3817	inefficient
+ 148	     4	57.1	90.6	3887	inefficient
+ 149	     4	57.4	86.4	3791	inefficient
+ 150	 80000	56.1	92.8	3860	very high noise
+ 151	 80000	54.8	90.8	3786	very high noise
+ 152	 80000	54.4	88.8	3909	very high noise
+ 153	     4	56.9	87.0	3784	inefficient
+ 154	 80000	58.7	95.2	3869	very high noise
+ 155	     4	55.6	75.1	3850	inefficient
+ 156	     4	53.6	70.3	3846	inefficient
+ 157	 80000	56.0	104.6	3794	very high noise
+ 158	 80000	56.6	89.0	3811	very high noise
+ 159	 80000	56.2	86.8	3763	very high noise
+ 160	 80000	54.4	96.9	3872	very high noise
+ 161	     4	57.9	90.7	3875	inefficient
+ 162	 80000	54.8	88.1	3850	very high noise
+ 163	     4	54.8	84.4	3839	inefficient
+ 164	 80000	56.2	91.6	3824	very high noise
+ 165	     4	55.2	84.9	3867	inefficient
+ 166	 80000	55.2	88.1	3798	very high noise
+ 167	     4	55.3	84.7	3867	inefficient
+ 168	     4	56.0	85.8	3776	inefficient
+ 169	     4	57.4	87.6	3905	inefficient
+ 170	 80000	56.6	86.0	3781	very high noise
+ 171	     4	57.2	86.6	3844	inefficient
+ 172	     4	54.2	79.4	3867	inefficient
+ 173	     4	56.7	78.7	3878	inefficient
+ 174	 80000	57.4	91.1	3828	very high noise
+ 175	     4	57.8	93.1	3861	inefficient
+ 176	     4	54.6	83.0	3929	inefficient
+ 177	     4	57.8	88.0	3825	inefficient
+ 178	     4	56.1	93.1	3889	inefficient
+ 179	 80000	59.0	95.2	3875	very high noise
+ 180	 80000	57.5	87.4	3862	very high noise
+ 181	 80000	57.0	89.1	3831	very high noise
+ 182	     4	54.6	86.4	3825	inefficient
+ 183	     4	57.1	84.4	3915	inefficient
+ 184	     4	59.4	91.7	3929	inefficient
+ 185	     4	57.5	88.7	3863	inefficient
+ 186	     4	56.6	86.1	3855	inefficient
+ 187	     4	56.6	88.9	3909	inefficient
+ 188	     4	55.9	90.4	3955	inefficient
+ 189	     4	57.3	85.3	3852	inefficient
+ 190	 80000	56.2	85.7	3788	very high noise
+ 191	 80000	57.1	85.6	3837	very high noise
+ 192	     4	57.0	86.0	3808	inefficient
+ 193	     4	57.3	88.0	3852	inefficient
+ 194	 80000	57.2	168.7	3781	very high noise
+ 195	     4	58.3	87.9	3945	inefficient
+ 196	     4	56.1	87.8	3930	inefficient
+ 197	     4	56.5	86.7	3883	inefficient
+ 198	     4	54.3	87.9	3880	inefficient
+ 199	 80000	60.3	141.2	3801	very high noise
+ 200	     4	54.7	83.5	3861	inefficient
+ 201	     4	56.7	86.5	3908	inefficient
+ 202	     4	53.2	80.1	3885	inefficient
+ 203	     4	56.4	85.5	3855	inefficient
+ 204	 80000	56.5	119.9	3864	very high noise
+ 205	     4	55.2	91.8	3931	inefficient
+ 206	     4	53.9	81.9	4027	inefficient
+ 207	     4	52.7	79.0	3964	inefficient
+ 208	 80000	56.0	93.0	3913	very high noise
+ 209	 80000	54.3	85.4	3829	very high noise
+ 210	     4	53.4	82.8	3958	inefficient
+ 211	     4	56.1	86.3	3902	inefficient
+ 212	     4	56.0	90.0	3859	inefficient
+ 213	     4	54.5	86.5	3890	inefficient
+ 214	     4	53.7	80.8	3921	inefficient
+ 215	     4	53.3	82.3	3875	inefficient
+ 216	     4	55.2	82.9	3889	inefficient
+ 217	     4	57.0	90.1	3943	inefficient
+ 218	 80000	55.6	87.8	3819	very high noise
+ 219	     4	54.5	84.6	3844	inefficient
+ 220	     4	54.5	86.3	3869	inefficient
+ 221	     4	55.4	90.9	3878	inefficient
+ 222	 80000	52.9	86.6	3918	very high noise
+ 223	 80000	55.5	88.7	3837	very high noise
+ 224	     4	56.4	83.3	3904	inefficient
+ 225	     4	55.8	83.8	3912	inefficient
+ 226	     4	55.2	86.0	3984	inefficient
+ 227	     4	56.2	92.0	3972	inefficient
+ 228	 80000	57.1	90.8	3949	very high noise
+ 229	     4	56.8	86.4	4030	inefficient
+ 230	 80000	53.1	82.6	3841	very high noise
+ 231	     4	56.5	91.3	3875	inefficient
+ 232	     4	53.8	85.0	3998	inefficient
+ 233	     4	54.5	88.2	3920	inefficient
+ 234	 80000	54.9	89.7	3894	very high noise
+ 235	     4	56.0	85.6	3951	inefficient
+ 236	 80000	58.9	171.1	3748	very high noise
+ 237	     4	57.0	89.2	3930	inefficient
+ 238	     4	55.0	86.4	3932	inefficient
+ 239	     4	55.8	84.5	3950	inefficient
+ 240	     4	55.0	81.8	3955	inefficient
+ 241	     4	53.6	88.2	3983	inefficient
+ 242	 80000	53.3	87.4	4003	very high noise
+ 243	 80000	54.1	87.1	3922	very high noise
+ 244	     4	58.1	87.3	3989	inefficient
+ 245	     4	54.1	86.0	3941	inefficient
+ 246	 80000	56.3	108.7	3895	very high noise
+ 247	 80000	55.3	87.9	3943	very high noise
+ 248	     4	53.3	83.3	3958	inefficient
+ 249	 80000	51.0	82.2	3861	very high noise
+ 250	 80000	56.1	104.7	3864	very high noise
+ 251	 80000	54.1	85.9	4000	very high noise
+ 252	 80000	55.6	88.4	3851	very high noise
+ 253	     4	55.1	86.3	3993	inefficient
+ 254	 80000	53.8	84.1	3989	very high noise
+ 255	 80000	54.7	96.7	3980	very high noise
+ 256	     4	65.9	98.0	5775	inefficient
+ 257	     4	64.4	89.5	5886	inefficient
+ 258	     4	64.0	89.7	5787	inefficient
+ 259	     4	66.6	94.6	5938	inefficient
+ 260	     4	66.4	98.0	6033	inefficient
+ 261	     4	69.1	70.4	6366	inefficient
+ 262	     4	67.8	72.8	6586	inefficient
+ 263	     4	64.1	98.9	6347	inefficient
+ 264	     4	62.4	101.2	6652	inefficient
+ 265	     4	66.7	104.4	6639	inefficient
+ 266	     4	68.7	100.4	6887	inefficient
+ 267	     4	66.9	103.9	6888	inefficient
+ 268	     4	68.7	93.4	6863	inefficient
+ 269	     4	68.6	71.8	7198	inefficient
+ 270	     4	67.0	47.7	7935	inefficient
+ 271	     4	69.5	93.8	6844	inefficient
+ 272	     4	65.7	94.1	6726	inefficient
+ 273	     4	65.8	89.9	6554	inefficient
+ 274	     4	63.4	93.7	6408	inefficient
+ 275	     4	65.4	79.7	6348	inefficient
+ 276	     4	64.0	81.1	6147	inefficient
+ 277	     4	64.1	71.3	6168	inefficient
+ 278	     4	62.7	95.3	5792	inefficient
+ 279	     4	61.8	88.0	5815	inefficient
+ 280	     4	62.3	95.5	5587	inefficient
+ 281	     4	65.2	95.6	5278	inefficient
+ 282	     4	62.5	88.5	5108	inefficient
+ 283	     4	60.1	95.0	4980	inefficient
+ 284	     4	61.9	85.6	4902	inefficient
+ 285	     4	59.7	94.1	4725	inefficient
+ 286	     4	60.6	95.4	4593	inefficient
+ 287	     4	58.8	90.1	4613	inefficient
+ 288	     4	60.8	107.1	4570	inefficient
+ 289	     4	60.3	93.1	4651	inefficient
+ 290	     4	62.9	97.6	4495	inefficient
+ 291	     4	58.3	86.8	4558	inefficient
+ 292	     4	60.1	123.0	4515	inefficient
+ 293	     4	60.2	84.9	4632	inefficient
+ 294	     4	60.2	86.4	4689	inefficient
+ 295	     4	59.4	87.2	4829	inefficient
+ 296	 80000	58.4	165.7	4999	very high noise
+ 297	     4	59.6	83.2	5023	inefficient
+ 298	     4	59.0	84.1	5109	inefficient
+ 299	     4	58.1	89.2	5158	inefficient
+ 300	     4	58.8	81.5	5247	inefficient
+ 301	     4	59.6	84.1	5190	inefficient
+ 302	     4	59.3	83.4	5103	inefficient
+ 303	     4	58.7	86.9	5163	inefficient
+ 304	     4	58.5	87.2	5194	inefficient
+ 305	     4	56.1	76.4	5370	inefficient
+ 306	     4	57.6	83.0	5320	inefficient
+ 307	     4	56.3	76.9	5302	inefficient
+ 308	     4	58.1	139.9	5297	inefficient
+ 309	     4	57.2	86.3	5420	inefficient
+ 310	     4	56.9	77.1	5418	inefficient
+ 311	     4	57.2	82.1	5444	inefficient
+ 312	     4	57.5	88.2	5487	inefficient
+ 313	     4	57.5	85.8	5601	inefficient
+ 314	     4	59.8	87.5	5454	inefficient
+ 315	     4	57.6	85.5	5479	inefficient
+ 316	     4	59.0	87.7	5543	inefficient
+ 317	     4	60.5	100.4	5529	inefficient
+ 318	     4	59.2	84.4	5547	inefficient
+ 319	     4	60.0	87.4	5594	inefficient
+ 320	     4	62.0	85.5	5599	inefficient
+ 321	     4	62.6	93.7	5589	inefficient
+ 322	     4	58.8	86.5	5668	inefficient
+ 323	     4	59.7	84.2	5612	inefficient
+ 324	     4	61.2	83.8	5594	inefficient
+ 325	     4	58.8	80.6	5674	inefficient
+ 326	     4	58.4	82.0	5554	inefficient
+ 327	     4	60.8	89.5	5588	inefficient
+ 328	     4	58.7	82.2	5580	inefficient
+ 329	     4	57.6	79.9	5712	inefficient
+ 330	     4	57.3	76.9	5893	inefficient
+ 331	     4	53.9	85.3	5928	inefficient
+ 332	     4	57.2	80.5	5886	inefficient
+ 333	     4	55.8	83.3	5937	inefficient
+ 334	     4	55.6	83.9	5925	inefficient
+ 335	     4	58.0	86.0	5892	inefficient
+ 336	     4	57.3	82.5	5961	inefficient
+ 337	     4	55.5	77.0	6041	inefficient
+ 338	     4	53.7	77.4	6166	inefficient
+ 339	     4	56.3	80.6	6205	inefficient
+ 340	     4	55.8	87.9	6554	inefficient
+ 341	     4	55.3	85.8	6996	inefficient
+ 342	     4	53.9	90.0	7354	inefficient
+ 343	     4	51.0	87.5	7793	inefficient
+ 344	     4	50.9	82.3	8114	inefficient
+ 345	     4	51.0	95.7	8563	inefficient
+ 346	     4	49.0	94.7	8895	inefficient
+ 347	     4	48.1	87.0	9086	inefficient
+ 348	     4	46.8	77.3	9114	inefficient
+ 349	     4	47.0	72.9	9122	inefficient
+ 350	     4	45.6	84.4	9536	inefficient
+ 351	     4	46.9	72.8	9257	inefficient
+ 352	     4	46.9	81.5	9483	inefficient
+ 353	     4	47.3	93.8	9886	inefficient
+ 354	     4	45.5	73.8	9375	inefficient
+ 355	     4	46.5	92.8	9682	inefficient
+ 356	     4	47.3	86.1	9278	inefficient
+ 357	     4	46.5	80.6	9282	inefficient
+ 358	     4	49.4	79.2	8658	inefficient
+ 359	     4	49.2	94.8	8835	inefficient
+ 360	     4	50.4	98.5	8738	inefficient
+ 361	     4	50.2	87.2	8316	inefficient
+ 362	     4	47.7	74.9	8341	inefficient
+ 363	     4	51.0	89.1	7993	inefficient
+ 364	     4	50.0	80.9	7792	inefficient
+ 365	     4	52.0	78.4	7503	inefficient
+ 366	     4	51.3	76.9	7239	inefficient
+ 367	     4	53.1	79.4	7048	inefficient
+ 368	     4	50.7	67.4	6900	inefficient
+ 369	     4	53.5	71.7	6655	inefficient
+ 370	     4	52.1	74.9	6497	inefficient
+ 371	     4	54.7	63.3	6339	inefficient
+ 372	     4	56.2	88.6	6032	inefficient
+ 373	     4	57.3	81.7	5755	inefficient
+ 374	     4	57.8	90.0	5600	inefficient
+ 375	     4	57.0	73.1	5549	inefficient
+ 376	     4	59.5	89.5	5165	inefficient
+ 377	     4	57.6	83.6	4954	inefficient
+ 378	     4	59.7	93.7	4755	inefficient
+ 379	     4	60.5	84.7	4456	inefficient
+ 380	     4	61.1	104.5	4291	inefficient
+ 381	     4	61.1	96.9	4110	inefficient
+ 382	     4	62.9	89.1	3981	inefficient
+ 383	     4	62.8	94.9	3916	inefficient
+ 384	     4	60.5	89.9	5996	inefficient
+ 385	     4	60.9	81.6	6069	inefficient
+ 386	     4	62.3	90.5	5636	inefficient
+ 387	     4	59.0	88.8	5810	inefficient
+ 388	     4	55.9	73.7	5716	inefficient
+ 389	     4	58.4	82.1	5729	inefficient
+ 390	     4	56.5	81.1	5596	inefficient
+ 391	     4	58.3	85.3	5690	inefficient
+ 392	     4	57.3	89.3	5581	inefficient
+ 393	     4	57.9	84.2	5597	inefficient
+ 394	     4	57.8	79.4	5802	inefficient
+ 395	     4	61.9	82.8	5737	inefficient
+ 396	     4	58.0	67.8	5627	inefficient
+ 397	     4	57.8	89.6	5579	inefficient
+ 398	     4	61.4	82.0	5540	inefficient
+ 399	     4	58.1	89.4	5498	inefficient
+ 400	     4	60.9	85.8	5327	inefficient
+ 401	     4	61.0	86.5	5173	inefficient
+ 402	     4	59.6	91.3	5188	inefficient
+ 403	     4	59.2	86.4	5035	inefficient
+ 404	     4	59.7	90.8	4788	inefficient
+ 405	     4	59.2	81.2	4824	inefficient
+ 406	     4	60.4	93.3	4679	inefficient
+ 407	     4	59.8	85.9	4564	inefficient
+ 408	     4	60.2	92.6	4410	inefficient
+ 409	     4	60.5	90.3	4320	inefficient
+ 410	     4	57.9	86.3	4267	inefficient
+ 411	     4	59.5	89.1	4148	inefficient
+ 412	     4	60.8	89.0	4110	inefficient
+ 413	     4	60.8	87.1	3968	inefficient
+ 414	     4	61.6	93.1	3888	inefficient
+ 415	     4	58.7	86.1	3850	inefficient
+ 416	     4	59.1	86.9	3894	inefficient
+ 417	     4	59.6	88.1	3735	inefficient
+ 418	     4	60.6	84.1	3744	inefficient
+ 419	 80000	58.9	86.6	3625	very high noise
+ 420	     4	58.9	84.9	3667	inefficient
+ 421	     4	61.1	95.7	3672	inefficient
+ 422	     4	59.9	88.8	3626	inefficient
+ 423	     4	59.8	86.7	3697	inefficient
+ 424	     4	63.3	94.8	3685	inefficient
+ 425	     4	61.5	87.9	3618	inefficient
+ 426	     4	60.2	90.3	3747	inefficient
+ 427	     4	59.8	91.9	3610	inefficient
+ 428	     4	60.5	89.8	3591	inefficient
+ 429	     4	59.7	92.3	3647	inefficient
+ 430	     4	62.0	91.1	3569	inefficient
+ 431	     4	60.1	83.7	3593	inefficient
+ 432	     4	60.6	90.9	3593	inefficient
+ 433	     4	59.3	87.7	3583	inefficient
+ 434	     4	61.6	94.9	3538	inefficient
+ 435	 80000	60.5	92.6	3494	very high noise
+ 436	     4	60.4	89.7	3438	inefficient
+ 437	     4	60.0	90.3	3458	inefficient
+ 438	 80000	58.0	90.2	3494	very high noise
+ 439	     4	60.1	89.8	3466	inefficient
+ 440	 80000	61.4	155.8	3318	very high noise
+ 441	     4	62.2	90.2	3458	inefficient
+ 442	 80000	57.6	88.4	3597	very high noise
+ 443	 80000	57.9	89.0	3649	very high noise
+ 444	     4	61.7	93.2	3681	inefficient
+ 445	     4	61.8	87.1	3836	inefficient
+ 446	     4	60.2	90.3	3989	inefficient
+ 447	     4	62.0	88.0	4195	inefficient
+ 448	     4	60.5	90.1	4414	inefficient
+ 449	     4	58.9	91.9	4719	inefficient
+ 450	     4	57.9	86.2	4847	inefficient
+ 451	     4	57.7	84.7	5092	inefficient
+ 452	     4	55.7	76.0	5518	inefficient
+ 453	     4	60.7	79.0	5596	inefficient
+ 454	     4	55.3	67.4	6171	inefficient
+ 455	     4	56.7	76.3	6156	inefficient
+ 456	     4	58.8	72.7	6542	inefficient
+ 457	     4	57.3	80.6	6635	inefficient
+ 458	     4	54.9	71.8	7322	inefficient
+ 459	     4	52.8	55.4	8243	inefficient
+ 460	     4	56.0	74.0	8517	inefficient
+ 461	     4	50.8	64.9	9525	inefficient
+ 462	     4	53.2	78.7	9409	inefficient
+ 463	     4	47.8	64.5	10729	inefficient
+ 464	     4	50.8	78.0	11666	inefficient
+ 465	     4	46.2	66.8	13504	inefficient
+ 466	     4	40.2	57.2	15507	inefficient
+ 467	     4	41.7	63.0	17086	inefficient
+ 468	     4	42.6	70.2	18840	inefficient
+ 469	     4	39.8	63.2	22335	inefficient
+ 470	     4	41.5	72.5	25295	inefficient
+ 471	     4	42.7	74.3	26670	inefficient
+ 472	     4	38.9	66.4	28521	inefficient
+ 473	     4	39.6	62.3	29272	inefficient
+ 474	     4	42.4	65.5	30958	inefficient
+ 475	     4	40.4	60.1	29917	inefficient
+ 476	     4	38.0	55.8	29369	inefficient
+ 477	     4	41.2	55.6	31634	inefficient
+ 478	     4	40.3	53.2	29532	inefficient
+ 479	     4	43.2	61.8	28242	inefficient
+ 480	     4	51.8	79.9	27396	inefficient
+ 481	     4	41.0	57.8	26759	inefficient
+ 482	     4	39.7	55.6	24723	inefficient
+ 483	     4	45.4	70.8	23479	inefficient
+ 484	     4	43.5	64.3	20697	inefficient
+ 485	     4	37.1	53.4	19984	inefficient
+ 486	     4	44.3	62.2	17970	inefficient
+ 487	     4	40.6	56.9	17026	inefficient
+ 488	     4	47.4	66.5	14648	inefficient
+ 489	     4	50.3	74.1	12480	inefficient
+ 490	     4	45.3	57.9	12209	inefficient
+ 491	     4	50.3	71.0	10578	inefficient
+ 492	     4	49.1	72.6	9904	inefficient
+ 493	     4	53.4	68.7	9165	inefficient
+ 494	     4	53.3	67.3	8811	inefficient
+ 495	     4	55.2	69.0	8389	inefficient
+ 496	     4	59.1	72.6	8133	inefficient
+ 497	     4	58.4	70.4	7583	inefficient
+ 498	     4	59.8	80.6	7379	inefficient
+ 499	     4	58.7	85.5	6908	inefficient
+ 500	     4	57.8	88.1	6508	inefficient
+ 501	     4	56.6	89.1	6339	inefficient
+ 502	     4	57.6	90.8	6125	inefficient
+ 503	     4	58.9	91.5	5842	inefficient
+ 504	     4	57.8	97.5	5726	inefficient
+ 505	     4	59.5	89.5	5454	inefficient
+ 506	     4	59.3	82.1	5623	inefficient
+ 507	     4	57.9	88.2	5508	inefficient
+ 508	     4	59.2	83.9	5474	inefficient
+ 509	     4	58.7	83.1	5570	inefficient
+ 510	     4	57.6	107.6	5560	inefficient
+ 511	     4	61.3	89.9	5542	inefficient
+ 512	     4	62.4	92.8	3875	inefficient
+ 513	     4	59.5	92.4	3992	inefficient
+ 514	     4	58.2	95.6	4022	inefficient
+ 515	     4	59.4	86.1	3861	inefficient
+ 516	     4	58.1	89.1	3950	inefficient
+ 517	     4	57.0	79.1	3997	inefficient
+ 518	     4	58.2	87.3	3947	inefficient
+ 519	 80000	58.2	88.6	3894	very high noise
+ 520	     4	58.5	88.4	3949	inefficient
+ 521	 80000	57.7	96.6	3950	very high noise
+ 522	     4	59.6	88.6	3992	inefficient
+ 523	     4	59.1	87.7	3981	inefficient
+ 524	     4	55.4	84.2	4067	inefficient
+ 525	     4	57.7	91.0	3982	inefficient
+ 526	 80000	57.8	106.4	4025	very high noise
+ 527	     4	57.4	92.9	3997	inefficient
+ 528	     4	57.6	83.0	4013	inefficient
+ 529	     4	57.1	78.1	4040	inefficient
+ 530	     4	59.1	91.4	4119	inefficient
+ 531	     4	56.2	90.7	4099	inefficient
+ 532	     4	57.7	88.8	4124	inefficient
+ 533	 80000	60.9	156.9	3915	very high noise
+ 534	     4	56.6	87.0	4081	inefficient
+ 535	     4	56.0	84.9	4087	inefficient
+ 536	     4	59.4	87.4	4030	inefficient
+ 537	     4	58.0	89.0	4152	inefficient
+ 538	     4	58.4	89.4	4066	inefficient
+ 539	     4	59.2	91.6	4104	inefficient
+ 540	     4	56.7	86.2	4125	inefficient
+ 541	     4	56.3	90.7	4122	inefficient
+ 542	     4	58.9	90.6	4187	inefficient
+ 543	     4	57.2	85.4	4136	inefficient
+ 544	     4	56.5	91.1	4087	inefficient
+ 545	     4	54.9	75.6	4206	inefficient
+ 546	     4	56.2	86.6	4084	inefficient
+ 547	     4	55.3	82.7	4335	inefficient
+ 548	     4	57.1	90.4	4272	inefficient
+ 549	     4	55.4	85.9	4208	inefficient
+ 550	     4	55.6	83.7	4278	inefficient
+ 551	     4	54.5	81.9	4301	inefficient
+ 552	     4	59.2	90.1	4266	inefficient
+ 553	     4	58.7	94.1	4287	inefficient
+ 554	     4	55.7	89.6	4328	inefficient
+ 555	     4	57.7	88.4	4319	inefficient
+ 556	     4	54.9	84.0	4303	inefficient
+ 557	     4	56.6	81.5	4354	inefficient
+ 558	     4	57.7	88.5	4354	inefficient
+ 559	     4	57.3	84.5	4323	inefficient
+ 560	     4	55.2	85.1	4455	inefficient
+ 561	     4	56.1	88.1	4548	inefficient
+ 562	     4	55.6	82.0	4567	inefficient
+ 563	     4	56.0	92.6	4496	inefficient
+ 564	     4	58.2	88.3	4516	inefficient
+ 565	     4	56.7	88.8	4513	inefficient
+ 566	     4	57.8	83.5	4473	inefficient
+ 567	     4	53.8	82.8	4677	inefficient
+ 568	 80000	63.5	166.6	4114	very high noise
+ 569	     4	56.8	97.3	4549	inefficient
+ 570	     4	55.2	88.7	4700	inefficient
+ 571	     4	59.4	87.7	4553	inefficient
+ 572	     4	55.7	84.6	4723	inefficient
+ 573	 80000	59.8	110.0	4643	very high noise
+ 574	     4	57.5	89.3	4664	inefficient
+ 575	     4	60.2	92.5	4575	inefficient
+ 576	     4	56.0	85.3	4798	inefficient
+ 577	     4	54.6	87.4	4699	inefficient
+ 578	     4	55.2	91.3	4609	inefficient
+ 579	 80000	63.0	169.8	4172	very high noise
+ 580	     4	57.3	100.0	4624	inefficient
+ 581	     4	57.0	90.0	4591	inefficient
+ 582	     4	55.1	92.1	4548	inefficient
+ 583	     4	55.2	89.5	4737	inefficient
+ 584	     4	52.6	83.6	4742	inefficient
+ 585	     4	53.1	86.8	4732	inefficient
+ 586	     4	55.4	82.7	4694	inefficient
+ 587	     4	54.5	91.1	4676	inefficient
+ 588	     4	54.4	99.3	4653	inefficient
+ 589	     4	52.9	84.3	4707	inefficient
+ 590	     4	53.5	84.1	4688	inefficient
+ 591	     4	54.8	86.1	4630	inefficient
+ 592	     4	54.1	80.8	4675	inefficient
+ 593	     4	55.1	82.8	4561	inefficient
+ 594	     4	54.9	85.5	4565	inefficient
+ 595	     4	58.6	91.5	4547	inefficient
+ 596	     4	56.3	90.2	4554	inefficient
+ 597	     4	55.6	93.8	4458	inefficient
+ 598	     4	54.3	85.5	4535	inefficient
+ 599	 80000	58.4	94.9	4368	very high noise
+ 600	     4	56.7	89.9	4530	inefficient
+ 601	     4	59.8	95.8	4458	inefficient
+ 602	     4	56.4	84.4	4409	inefficient
+ 603	     4	55.9	77.6	4530	inefficient
+ 604	     4	58.1	84.4	4479	inefficient
+ 605	     4	58.3	89.1	4426	inefficient
+ 606	     4	54.7	84.3	4380	inefficient
+ 607	     4	59.4	91.1	4460	inefficient
+ 608	     4	57.9	92.5	4453	inefficient
+ 609	     4	56.8	85.6	4579	inefficient
+ 610	     4	57.9	86.0	4550	inefficient
+ 611	     4	58.5	83.4	4584	inefficient
+ 612	     4	60.2	89.6	4628	inefficient
+ 613	     4	57.9	91.6	4727	inefficient
+ 614	     4	59.1	78.5	4886	inefficient
+ 615	     4	60.7	90.4	4867	inefficient
+ 616	     4	57.2	80.9	5025	inefficient
+ 617	     4	58.4	83.1	5136	inefficient
+ 618	     4	60.0	83.8	5089	inefficient
+ 619	     4	59.8	105.7	5162	inefficient
+ 620	     4	57.7	76.3	5401	inefficient
+ 621	     4	60.5	85.8	5522	inefficient
+ 622	     4	57.5	83.6	5585	inefficient
+ 623	 80000	59.6	156.4	5299	very high noise
+ 624	     4	54.7	83.9	5684	inefficient
+ 625	     4	58.6	101.0	5522	inefficient
+ 626	     4	55.3	90.0	5694	inefficient
+ 627	     4	56.5	78.4	5894	inefficient
+ 628	 80000	60.0	148.6	5505	very high noise
+ 629	     4	55.3	81.7	5885	inefficient
+ 630	     4	58.2	75.2	6010	inefficient
+ 631	     4	56.1	85.6	5951	inefficient
+ 632	     4	55.7	85.6	6036	inefficient
+ 633	     4	56.3	77.5	6223	inefficient
+ 634	     4	55.5	80.8	6356	inefficient
+ 635	     4	54.7	78.0	6358	inefficient
+ 636	     4	59.9	74.1	6530	inefficient
+ 637	     4	56.7	74.8	6554	inefficient
+ 638	     4	57.4	83.7	6276	inefficient
+ 639	     4	59.0	82.0	6226	inefficient
+ 640	 80000	60.3	89.8	3782	very high noise
+ 641	 80000	59.4	92.1	3745	very high noise
+ 642	 80000	59.9	89.4	3735	very high noise
+ 643	 80000	60.0	101.6	3707	very high noise
+ 644	     4	60.1	95.7	3740	inefficient
+ 645	     4	59.6	93.8	3703	inefficient
+ 646	 80000	59.3	99.1	3774	very high noise
+ 647	     4	58.8	86.6	3715	inefficient
+ 648	     4	59.0	81.7	3715	inefficient
+ 649	     4	59.6	87.3	3697	inefficient
+ 650	 80000	57.1	90.0	3627	very high noise
+ 651	     4	60.3	89.8	3666	inefficient
+ 652	     4	59.9	92.3	3686	inefficient
+ 653	     4	62.0	89.5	3800	inefficient
+ 654	     4	61.7	95.9	3698	inefficient
+ 655	     4	58.5	79.1	3764	inefficient
+ 656	     4	60.4	89.3	3737	inefficient
+ 657	     4	59.1	80.7	3698	inefficient
+ 658	     4	61.7	89.9	3705	inefficient
+ 659	 80000	57.5	85.1	3688	very high noise
+ 660	     4	62.6	95.3	3691	inefficient
+ 661	     4	59.8	83.3	3797	inefficient
+ 662	 80000	62.6	103.2	3686	very high noise
+ 663	     4	60.9	89.0	3770	inefficient
+ 664	     4	59.5	85.8	3731	inefficient
+ 665	     4	59.4	89.5	3705	inefficient
+ 666	     4	59.1	91.1	3786	inefficient
+ 667	     4	61.8	91.9	3682	inefficient
+ 668	 80000	63.3	94.4	3638	very high noise
+ 669	     4	60.6	91.9	3761	inefficient
+ 670	     4	60.1	86.4	3728	inefficient
+ 671	     4	60.5	89.3	3749	inefficient
+ 672	     4	57.9	79.3	3650	inefficient
+ 673	 80000	60.3	95.3	3753	very high noise
+ 674	     4	57.8	86.3	3679	inefficient
+ 675	     4	58.1	86.0	3718	inefficient
+ 676	     4	59.1	91.8	3703	inefficient
+ 677	 80000	58.0	93.6	3714	very high noise
+ 678	     4	58.2	85.7	3752	inefficient
+ 679	     4	60.3	92.3	3725	inefficient
+ 680	     4	61.1	88.9	3647	inefficient
+ 681	     4	60.3	90.2	3664	inefficient
+ 682	 80000	59.2	111.9	3751	very high noise
+ 683	     4	59.6	84.9	3739	inefficient
+ 684	     4	60.4	82.7	3767	inefficient
+ 685	     4	59.7	87.5	3759	inefficient
+ 686	     4	59.5	87.0	3771	inefficient
+ 687	     4	61.2	90.2	3754	inefficient
+ 688	     4	58.2	86.1	3733	inefficient
+ 689	     4	58.5	86.5	3762	inefficient
+ 690	     4	60.6	90.9	3697	inefficient
+ 691	     4	59.8	84.2	3714	inefficient
+ 692	     4	57.8	80.8	3748	inefficient
+ 693	     4	59.0	90.2	3742	inefficient
+ 694	 80000	60.1	91.5	3639	very high noise
+ 695	     4	59.7	90.9	3760	inefficient
+ 696	 80000	59.3	88.5	3697	very high noise
+ 697	     4	58.5	90.6	3718	inefficient
+ 698	     4	59.6	89.8	3722	inefficient
+ 699	     4	59.4	88.8	3686	inefficient
+ 700	 80000	61.8	169.6	3627	very high noise
+ 701	     4	57.1	73.5	3800	inefficient
+ 702	 80000	62.8	108.0	3740	very high noise
+ 703	     4	62.2	94.3	3782	inefficient
+ 704	 80000	65.4	107.1	3665	very high noise
+ 705	     4	62.8	93.0	3799	inefficient
+ 706	     4	61.1	71.4	3793	inefficient
+ 707	     4	59.8	87.8	3703	inefficient
+ 708	     4	62.4	91.0	3754	inefficient
+ 709	     4	61.5	89.0	3744	inefficient
+ 710	     4	61.3	85.7	3707	inefficient
+ 711	     4	63.7	95.3	3742	inefficient
+ 712	     4	63.3	90.2	3730	inefficient
+ 713	     4	61.0	87.0	3711	inefficient
+ 714	     4	61.2	99.1	3744	inefficient
+ 715	 80000	59.1	97.6	3684	very high noise
+ 716	     4	62.8	90.5	3714	inefficient
+ 717	     4	60.5	90.3	3727	inefficient
+ 718	 80000	62.7	100.3	3740	very high noise
+ 719	     4	59.7	92.9	3761	inefficient
+ 720	     4	61.9	89.2	3719	inefficient
+ 721	     4	60.6	91.6	3754	inefficient
+ 722	     4	62.3	95.3	3717	inefficient
+ 723	     4	62.7	94.0	3729	inefficient
+ 724	     4	62.7	94.0	3713	inefficient
+ 725	     4	61.4	90.5	3757	inefficient
+ 726	     4	58.9	87.2	3787	inefficient
+ 727	     4	60.4	94.1	3746	inefficient
+ 728	     4	58.5	86.6	3738	inefficient
+ 729	     4	60.3	86.7	3730	inefficient
+ 730	 80000	57.6	84.4	3695	very high noise
+ 731	     4	59.2	84.0	3676	inefficient
+ 732	 80000	61.5	93.8	3730	very high noise
+ 733	     4	59.0	89.3	3782	inefficient
+ 734	     4	59.8	89.7	3756	inefficient
+ 735	     4	60.4	88.4	3766	inefficient
+ 736	     4	59.1	87.9	3739	inefficient
+ 737	     4	58.8	90.9	3749	inefficient
+ 738	     4	58.2	84.5	3725	inefficient
+ 739	     4	57.8	87.4	3761	inefficient
+ 740	     4	61.5	90.3	3756	inefficient
+ 741	 80000	61.1	94.0	3704	very high noise
+ 742	 80000	62.0	95.4	3681	very high noise
+ 743	     4	59.5	86.6	3759	inefficient
+ 744	     4	59.4	88.9	3819	inefficient
+ 745	 80000	59.2	92.0	3778	very high noise
+ 746	     4	61.5	87.4	3758	inefficient
+ 747	     4	60.8	88.7	3824	inefficient
+ 748	     4	58.9	86.6	3722	inefficient
+ 749	     4	57.7	84.5	3810	inefficient
+ 750	     4	58.9	86.7	3721	inefficient
+ 751	 80000	59.3	100.7	3825	very high noise
+ 752	     4	61.7	88.0	3696	inefficient
+ 753	     4	58.6	89.3	3801	inefficient
+ 754	     4	61.0	96.3	3798	inefficient
+ 755	     4	63.1	92.7	3733	inefficient
+ 756	     4	60.9	80.8	3717	inefficient
+ 757	     4	57.7	88.6	3848	inefficient
+ 758	 80000	58.5	88.0	3717	very high noise
+ 759	 80000	61.1	88.4	3692	very high noise
+ 760	 80000	61.2	93.5	3741	very high noise
+ 761	     4	61.1	88.4	3811	inefficient
+ 762	     4	60.9	91.7	3867	inefficient
+ 763	 80000	60.5	110.1	3892	very high noise
+ 764	 80000	59.2	95.0	3820	very high noise
+ 765	     4	62.1	91.0	3840	inefficient
+ 766	     4	62.5	90.7	3860	inefficient
+ 767	     4	59.6	90.5	3960	inefficient
+ 768	 80000	63.3	89.5	3720	very high noise
+ 769	 80000	66.5	140.1	3687	very high noise
+ 770	     4	66.4	98.1	3724	inefficient
+ 771	     4	65.4	95.6	3817	inefficient
+ 772	     4	63.1	108.5	3738	inefficient
+ 773	     4	62.6	88.4	3765	inefficient
+ 774	     4	63.3	91.1	3785	inefficient
+ 775	 80000	61.9	99.7	3711	very high noise
+ 776	 80000	62.4	169.5	3636	very high noise
+ 777	     4	61.4	92.5	3707	inefficient
+ 778	     4	61.0	89.3	3706	inefficient
+ 779	     4	64.9	95.9	3749	inefficient
+ 780	     4	61.9	91.5	3732	inefficient
+ 781	     4	65.4	95.5	3688	inefficient
+ 782	     4	62.2	91.0	3746	inefficient
+ 783	     4	63.7	92.7	3721	inefficient
+ 784	     4	63.8	94.0	3711	inefficient
+ 785	     4	60.0	86.6	3744	inefficient
+ 786	     4	61.4	92.6	3749	inefficient
+ 787	     4	62.8	93.2	3699	inefficient
+ 788	     4	64.3	96.6	3743	inefficient
+ 789	     4	63.5	94.1	3742	inefficient
+ 790	     4	62.7	90.9	3691	inefficient
+ 791	     4	62.5	90.7	3762	inefficient
+ 792	 80000	63.9	97.9	3724	very high noise
+ 793	     4	63.7	92.9	3754	inefficient
+ 794	     4	61.5	86.7	3683	inefficient
+ 795	     4	63.2	95.3	3730	inefficient
+ 796	     4	59.9	52.9	3851	inefficient
+ 797	     4	63.0	95.3	3659	inefficient
+ 798	     4	62.0	94.7	3755	inefficient
+ 799	 80000	63.2	93.9	3727	very high noise
+ 800	     4	62.7	87.6	3698	inefficient
+ 801	     4	62.9	92.0	3765	inefficient
+ 802	     4	62.7	89.8	3715	inefficient
+ 803	     4	63.5	78.7	3752	inefficient
+ 804	     4	62.0	86.3	3700	inefficient
+ 805	     4	63.5	88.0	3780	inefficient
+ 806	     4	64.0	94.4	3808	inefficient
+ 807	     4	61.3	92.4	3760	inefficient
+ 808	     4	61.0	82.9	3776	inefficient
+ 809	     4	61.8	101.9	3801	inefficient
+ 810	 80000	61.1	96.5	3723	very high noise
+ 811	     4	60.5	89.6	3744	inefficient
+ 812	     4	61.6	92.8	3775	inefficient
+ 813	     4	60.4	82.9	3815	inefficient
+ 814	     4	64.3	95.8	3813	inefficient
+ 815	     4	64.1	92.2	3828	inefficient
+ 816	     4	60.3	88.3	3798	inefficient
+ 817	     4	63.0	92.1	3811	inefficient
+ 818	     4	63.2	96.2	3799	inefficient
+ 819	     4	62.5	91.7	3833	inefficient
+ 820	     4	63.7	98.5	3735	inefficient
+ 821	     4	62.3	90.2	3745	inefficient
+ 822	     4	59.7	91.3	3825	inefficient
+ 823	 80000	62.9	95.5	3707	very high noise
+ 824	     4	61.0	94.1	3770	inefficient
+ 825	     4	62.3	107.1	3802	inefficient
+ 826	     4	64.5	92.6	3806	inefficient
+ 827	     4	63.4	90.1	3837	inefficient
+ 828	     4	64.6	95.5	3838	inefficient
+ 829	     4	65.4	94.6	3837	inefficient
+ 830	     4	64.4	96.1	3858	inefficient
+ 831	     4	63.3	94.2	3884	inefficient
+ 832	     4	62.6	89.8	3777	inefficient
+ 833	     4	62.0	88.8	3817	inefficient
+ 834	     4	62.5	93.1	3800	inefficient
+ 835	     4	60.8	93.7	3796	inefficient
+ 836	     4	61.0	68.2	3847	inefficient
+ 837	     4	61.5	88.0	3817	inefficient
+ 838	     4	60.3	80.6	3806	inefficient
+ 839	     4	60.8	88.8	3797	inefficient
+ 840	 80000	59.7	93.7	3771	very high noise
+ 841	     4	60.8	89.4	3850	inefficient
+ 842	     4	61.4	88.0	3879	inefficient
+ 843	 80000	60.5	91.8	3734	very high noise
+ 844	     4	59.6	88.6	3837	inefficient
+ 845	     4	60.5	88.6	3829	inefficient
+ 846	     4	59.8	86.6	3792	inefficient
+ 847	     4	61.5	88.6	3791	inefficient
+ 848	     4	62.1	87.2	3863	inefficient
+ 849	     4	61.9	89.6	3827	inefficient
+ 850	     4	60.3	93.5	3792	inefficient
+ 851	     4	58.9	89.2	3839	inefficient
+ 852	     4	62.4	93.4	3779	inefficient
+ 853	     4	59.9	87.8	3767	inefficient
+ 854	     4	60.7	89.7	3803	inefficient
+ 855	     4	60.8	89.1	3810	inefficient
+ 856	     4	60.7	97.0	3821	inefficient
+ 857	     4	60.7	86.7	3817	inefficient
+ 858	     4	61.1	87.6	3776	inefficient
+ 859	     4	64.1	88.6	3782	inefficient
+ 860	     4	61.1	94.3	3750	inefficient
+ 861	     4	59.8	90.9	3819	inefficient
+ 862	     4	59.2	85.8	3807	inefficient
+ 863	 80000	62.3	97.3	3776	very high noise
+ 864	     4	60.8	89.5	3802	inefficient
+ 865	     4	59.7	93.7	3846	inefficient
+ 866	     4	62.8	92.0	3780	inefficient
+ 867	 80000	61.3	175.0	3750	very high noise
+ 868	     4	61.4	91.6	3810	inefficient
+ 869	     4	63.6	88.3	3754	inefficient
+ 870	     4	63.4	92.3	3814	inefficient
+ 871	     4	61.2	92.1	3837	inefficient
+ 872	 80000	59.9	89.4	3724	very high noise
+ 873	     4	61.6	92.0	3797	inefficient
+ 874	     4	62.0	85.3	3802	inefficient
+ 875	 80000	63.2	109.2	3725	very high noise
+ 876	     4	63.5	91.5	3779	inefficient
+ 877	     4	62.6	90.9	3824	inefficient
+ 878	 80000	62.4	109.5	3724	very high noise
+ 879	     4	60.9	87.0	3819	inefficient
+ 880	     4	61.4	92.1	3773	inefficient
+ 881	     4	60.6	88.8	3696	inefficient
+ 882	     4	58.5	84.4	3773	inefficient
+ 883	 80000	62.9	112.9	3808	very high noise
+ 884	     4	61.5	92.4	3700	inefficient
+ 885	     4	59.6	86.8	3731	inefficient
+ 886	     4	62.6	96.3	3742	inefficient
+ 887	     4	59.5	83.9	3755	inefficient
+ 888	     4	62.1	90.3	3837	inefficient
+ 889	     4	61.7	83.4	3787	inefficient
+ 890	 80000	60.5	102.1	3820	very high noise
+ 891	     4	61.8	78.5	3788	inefficient
+ 892	     4	62.6	93.5	3763	inefficient
+ 893	     4	62.5	97.9	3774	inefficient
+ 894	     4	64.5	96.4	3769	inefficient
+ 895	     4	62.1	94.8	3786	inefficient
+ 896	     4	61.9	91.7	4234	inefficient
+ 897	     4	63.2	106.1	3884	inefficient
+ 898	 80000	61.1	90.3	3812	very high noise
+ 899	     4	62.0	84.1	3816	inefficient
+ 900	     4	60.7	87.2	3843	inefficient
+ 901	 80000	59.3	86.3	3717	very high noise
+ 902	     4	58.4	84.3	3737	inefficient
+ 903	     4	57.3	83.5	3739	inefficient
+ 904	     4	58.6	87.9	3757	inefficient
+ 905	 80000	60.9	137.0	3640	very high noise
+ 906	     4	59.9	93.1	3727	inefficient
+ 907	     4	59.3	85.7	3817	inefficient
+ 908	     4	57.8	86.1	3767	inefficient
+ 909	     4	61.0	87.6	3674	inefficient
+ 910	     4	59.9	92.9	3809	inefficient
+ 911	     4	58.0	86.5	3795	inefficient
+ 912	 80000	60.0	150.8	3643	very high noise
+ 913	     4	57.3	83.7	3738	inefficient
+ 914	     4	58.8	90.6	3821	inefficient
+ 915	     4	60.8	86.6	3780	inefficient
+ 916	     4	61.1	88.7	3744	inefficient
+ 917	 80000	60.0	89.6	3737	very high noise
+ 918	     4	58.1	90.0	3829	inefficient
+ 919	 80000	60.0	114.1	3730	very high noise
+ 920	     4	57.4	84.8	3765	inefficient
+ 921	     4	61.3	97.3	3784	inefficient
+ 922	 80000	59.1	98.5	3779	very high noise
+ 923	     4	59.5	81.7	3835	inefficient
+ 924	     4	59.4	87.9	3709	inefficient
+ 925	     4	60.0	86.8	3837	inefficient
+ 926	     4	60.2	89.9	3798	inefficient
+ 927	 80000	56.7	87.4	3744	very high noise
+ 928	 80000	59.1	90.8	3736	very high noise
+ 929	     4	58.5	88.2	3810	inefficient
+ 930	     4	57.2	74.3	3840	inefficient
+ 931	     4	59.9	87.0	3717	inefficient
+ 932	     4	57.4	80.7	3836	inefficient
+ 933	     4	61.5	92.6	3793	inefficient
+ 934	     4	59.3	89.3	3758	inefficient
+ 935	     4	59.7	88.9	3816	inefficient
+ 936	     4	58.9	88.8	3752	inefficient
+ 937	     4	58.7	89.5	3860	inefficient
+ 938	     4	61.3	92.0	3837	inefficient
+ 939	 80000	58.4	89.9	3783	very high noise
+ 940	     4	57.3	86.5	3876	inefficient
+ 941	 80000	60.1	90.9	3813	very high noise
+ 942	 80000	59.6	84.8	3701	very high noise
+ 943	     4	61.3	90.7	3842	inefficient
+ 944	     4	59.1	84.2	3779	inefficient
+ 945	     4	59.1	85.7	3814	inefficient
+ 946	     4	57.8	83.8	3888	inefficient
+ 947	     4	61.6	92.8	3796	inefficient
+ 948	     4	60.2	84.1	3836	inefficient
+ 949	     4	60.4	88.3	3765	inefficient
+ 950	 80000	60.8	114.2	3747	very high noise
+ 951	     4	60.6	92.5	3800	inefficient
+ 952	     4	58.7	86.3	3817	inefficient
+ 953	     4	60.6	88.4	3750	inefficient
+ 954	     4	62.8	89.9	3805	inefficient
+ 955	     4	60.5	94.9	3802	inefficient
+ 956	     4	60.0	87.9	3809	inefficient
+ 957	     4	59.7	87.0	3768	inefficient
+ 958	     4	62.2	93.5	3823	inefficient
+ 959	     4	63.8	97.0	3863	inefficient
+ 960	     4	64.8	90.6	3806	inefficient
+ 961	     4	60.0	90.8	3788	inefficient
+ 962	 80000	62.5	107.9	3789	very high noise
+ 963	     4	60.5	89.7	3715	inefficient
+ 964	     4	59.9	88.2	3729	inefficient
+ 965	     4	61.0	89.7	3821	inefficient
+ 966	     4	62.5	88.6	3674	inefficient
+ 967	     4	58.7	89.4	3778	inefficient
+ 968	     4	59.8	86.9	3732	inefficient
+ 969	 80000	58.9	93.8	3748	very high noise
+ 970	     4	58.7	89.3	3806	inefficient
+ 971	 80000	60.5	92.7	3671	very high noise
+ 972	     4	58.3	91.9	3700	inefficient
+ 973	     4	59.3	89.6	3803	inefficient
+ 974	     4	60.6	91.0	3703	inefficient
+ 975	 80000	60.3	92.1	3766	very high noise
+ 976	     4	60.6	86.8	3711	inefficient
+ 977	     4	60.9	87.8	3759	inefficient
+ 978	     4	62.4	92.3	3744	inefficient
+ 979	     4	59.9	88.4	3692	inefficient
+ 980	     4	58.4	83.0	3721	inefficient
+ 981	     4	58.3	87.9	3749	inefficient
+ 982	     4	62.1	92.4	3712	inefficient
+ 983	     4	60.0	81.2	3681	inefficient
+ 984	     4	60.2	89.1	3710	inefficient
+ 985	     4	61.0	86.4	3805	inefficient
+ 986	 80000	59.8	94.2	3647	very high noise
+ 987	     4	59.0	81.8	3778	inefficient
+ 988	     4	63.1	97.4	3721	inefficient
+ 989	     4	61.4	92.5	3687	inefficient
+ 990	     4	59.9	88.0	3744	inefficient
+ 991	     4	60.6	90.0	3715	inefficient
+ 992	     4	59.5	85.5	3716	inefficient
+ 993	     4	60.5	86.3	3797	inefficient
+ 994	 80000	63.1	113.5	3682	very high noise
+ 995	     4	60.5	86.1	3685	inefficient
+ 996	     4	63.3	93.5	3775	inefficient
+ 997	     4	61.9	94.7	3713	inefficient
+ 998	     4	60.9	80.6	3691	inefficient
+ 999	     4	60.0	92.4	3731	inefficient
+1000	     4	60.2	83.6	3749	inefficient
+1001	 80000	61.6	117.1	3701	very high noise
+1002	     4	59.3	90.7	3750	inefficient
+1003	     4	62.6	91.4	3719	inefficient
+1004	     4	60.7	94.0	3746	inefficient
+1005	 80000	59.7	91.7	3596	very high noise
+1006	     4	61.5	99.7	3720	inefficient
+1007	 80000	59.8	91.6	3689	very high noise
+1008	     4	64.1	90.4	3722	inefficient
+1009	     4	59.2	90.6	3696	inefficient
+1010	 80000	59.5	96.5	3713	very high noise
+1011	     4	62.7	91.3	3668	inefficient
+1012	     4	64.6	87.4	3715	inefficient
+1013	     4	61.6	87.6	3721	inefficient
+1014	     4	61.2	90.8	3671	inefficient
+1015	 80000	61.6	91.0	3655	very high noise
+1016	 80000	61.0	92.5	3661	very high noise
+1017	     4	60.5	84.9	3714	inefficient
+1018	     4	62.1	91.2	3619	inefficient
+1019	     4	61.1	88.1	3688	inefficient
+1020	     4	62.2	93.7	3676	inefficient
+1021	     4	61.7	88.3	3700	inefficient
+1022	     4	61.2	88.1	3724	inefficient
+1023	     4	64.3	94.5	3595	inefficient
+1024	 80000	60.9	89.4	3641	very high noise
+1025	     4	60.0	97.1	3815	inefficient
+1026	 80000	56.6	90.2	3764	very high noise
+1027	 80000	59.7	92.1	3791	very high noise
+1028	     4	56.9	88.0	3844	inefficient
+1029	     4	56.8	82.3	3801	inefficient
+1030	 80000	60.1	91.0	3759	very high noise
+1031	     4	59.4	86.2	3726	inefficient
+1032	 80000	57.9	88.3	3782	very high noise
+1033	 80000	61.1	90.8	3764	very high noise
+1034	     4	59.4	84.4	3792	inefficient
+1035	     4	58.0	85.3	3790	inefficient
+1036	 80000	60.3	91.2	3754	very high noise
+1037	     4	58.2	86.7	3875	inefficient
+1038	 80000	60.4	94.2	3739	very high noise
+1039	     4	57.9	86.4	3772	inefficient
+1040	     4	57.5	80.3	3745	inefficient
+1041	     4	58.1	86.9	3786	inefficient
+1042	     4	55.8	86.3	3739	inefficient
+1043	     4	59.2	80.3	3749	inefficient
+1044	     4	58.5	89.5	3788	inefficient
+1045	 80000	57.8	86.0	3742	very high noise
+1046	     4	59.5	93.8	3795	inefficient
+1047	 80000	58.3	89.0	3735	very high noise
+1048	 80000	59.6	98.5	3777	very high noise
+1049	 80000	60.0	96.5	3789	very high noise
+1050	     4	58.3	87.9	3786	inefficient
+1051	     4	58.6	86.2	3779	inefficient
+1052	 80000	55.7	84.5	3728	very high noise
+1053	 80000	58.7	88.2	3747	very high noise
+1054	     4	58.8	93.2	3803	inefficient
+1055	     4	61.0	87.8	3763	inefficient
+1056	     4	59.4	90.1	3844	inefficient
+1057	     4	60.0	87.7	3819	inefficient
+1058	     4	60.0	90.5	3812	inefficient
+1059	     4	60.3	91.2	3803	inefficient
+1060	     4	58.2	90.0	3791	inefficient
+1061	 80000	57.6	87.7	3788	very high noise
+1062	     4	59.4	88.6	3831	inefficient
+1063	     4	57.7	88.8	3835	inefficient
+1064	 80000	59.3	90.9	3720	very high noise
+1065	     4	57.3	82.6	3791	inefficient
+1066	 80000	60.8	132.2	3775	very high noise
+1067	     4	61.3	90.9	3763	inefficient
+1068	     4	59.1	92.0	3841	inefficient
+1069	 80000	56.5	85.1	3750	very high noise
+1070	     4	57.9	87.9	3816	inefficient
+1071	     4	56.7	79.2	3789	inefficient
+1072	     4	59.1	89.5	3796	inefficient
+1073	     4	58.8	91.0	3792	inefficient
+1074	 80000	59.3	93.4	3779	very high noise
+1075	     4	58.0	88.8	3894	inefficient
+1076	     4	56.8	84.8	3763	inefficient
+1077	 80000	58.7	96.6	3800	very high noise
+1078	 80000	58.4	85.0	3770	very high noise
+1079	 80000	58.3	91.8	3753	very high noise
+1080	     4	59.9	91.5	3857	inefficient
+1081	 80000	59.0	96.8	3818	very high noise
+1082	 80000	60.9	94.6	3757	very high noise
+1083	     4	61.6	89.3	3844	inefficient
+1084	 80000	60.1	94.1	3805	very high noise
+1085	     4	61.5	88.6	3828	inefficient
+1086	 80000	63.2	93.7	3792	very high noise
+1087	 80000	61.9	101.3	3847	very high noise
+1088	     4	62.8	91.6	3797	inefficient
+1089	 80000	62.0	98.5	3835	very high noise
+1090	     4	58.8	86.2	3784	inefficient
+1091	     4	60.7	91.5	3760	inefficient
+1092	     4	58.4	77.9	3802	inefficient
+1093	     4	57.8	86.4	3808	inefficient
+1094	 80000	60.1	86.3	3727	very high noise
+1095	     4	59.1	88.9	3752	inefficient
+1096	     4	58.1	88.7	3816	inefficient
+1097	     4	59.0	91.5	3767	inefficient
+1098	     4	59.7	87.3	3778	inefficient
+1099	     4	59.2	88.5	3800	inefficient
+1100	     4	58.3	84.7	3706	inefficient
+1101	 80000	61.0	109.3	3775	very high noise
+1102	 80000	58.4	87.9	3793	very high noise
+1103	 80000	58.7	91.1	3719	very high noise
+1104	 80000	57.7	90.6	3721	very high noise
+1105	     4	57.8	87.7	3821	inefficient
+1106	     4	60.7	91.2	3692	inefficient
+1107	     4	55.2	81.8	3717	inefficient
+1108	     4	60.3	93.2	3799	inefficient
+1109	     4	59.2	86.4	3811	inefficient
+1110	     4	57.3	88.1	3817	inefficient
+1111	     4	61.3	90.8	3715	inefficient
+1112	 80000	59.8	91.9	3657	very high noise
+1113	     4	58.9	92.0	3806	inefficient
+1114	     4	59.4	90.0	3724	inefficient
+1115	     4	60.4	88.8	3764	inefficient
+1116	     4	58.8	88.4	3892	inefficient
+1117	     4	59.3	88.6	3900	inefficient
+1118	     4	60.7	87.3	3864	inefficient
+1119	 80000	62.3	97.3	3782	very high noise
+1120	     4	59.7	86.8	3824	inefficient
+1121	     4	60.6	88.7	3766	inefficient
+1122	     4	59.5	89.2	3769	inefficient
+1123	     4	60.0	90.3	3760	inefficient
+1124	     4	58.9	92.8	3825	inefficient
+1125	     4	60.2	92.9	3778	inefficient
+1126	     4	58.9	90.4	3822	inefficient
+1127	 80000	59.3	89.2	3791	very high noise
+1128	 80000	59.5	86.7	3742	very high noise
+1129	     4	59.7	88.4	3763	inefficient
+1130	 80000	58.5	94.7	3720	very high noise
+1131	     4	61.4	91.0	3757	inefficient
+1132	     4	60.2	83.2	3787	inefficient
+1133	     4	60.9	95.0	3712	inefficient
+1134	     4	59.4	85.6	3813	inefficient
+1135	     4	59.2	89.7	3775	inefficient
+1136	     4	60.4	85.7	3810	inefficient
+1137	     4	59.7	90.8	3764	inefficient
+1138	 80000	56.1	86.4	3759	very high noise
+1139	     4	59.7	87.0	3688	inefficient
+1140	     4	60.7	93.6	3731	inefficient
+1141	 80000	61.2	93.1	3722	very high noise
+1142	     4	58.6	84.8	3743	inefficient
+1143	     4	60.3	93.0	3802	inefficient
+1144	     4	60.2	91.4	3785	inefficient
+1145	     4	61.9	91.8	3831	inefficient
+1146	     4	61.6	92.1	3783	inefficient
+1147	     4	60.0	85.6	3802	inefficient
+1148	     4	62.3	92.5	3815	inefficient
+1149	     4	60.0	87.7	3882	inefficient
+1150	     4	63.9	90.6	3754	inefficient
+1151	 80000	58.9	103.2	3911	very high noise
+1152	     4	56.5	83.8	3717	inefficient
+1153	     4	60.2	86.0	3673	inefficient
+1154	 80000	57.2	85.3	3677	very high noise
+1155	 80000	54.6	83.6	3662	very high noise
+1156	 80000	55.2	86.3	3660	very high noise
+1157	 80000	58.7	95.0	3667	very high noise
+1158	 80000	56.7	87.3	3592	very high noise
+1159	 80000	54.9	89.0	3628	very high noise
+1160	 80000	57.1	86.4	3695	very high noise
+1161	     4	60.1	81.7	3684	inefficient
+1162	     4	55.6	84.8	3651	inefficient
+1163	 80000	54.1	81.4	3699	very high noise
+1164	 80000	55.7	86.9	3700	very high noise
+1165	 80000	55.9	85.5	3667	very high noise
+1166	 80000	55.7	90.5	3591	very high noise
+1167	 80000	56.1	85.8	3642	very high noise
+1168	 80000	57.7	87.8	3619	very high noise
+1169	 80000	54.3	81.9	3651	very high noise
+1170	 80000	56.4	89.5	3644	very high noise
+1171	 80000	56.8	92.7	3685	very high noise
+1172	 80000	57.8	87.8	3648	very high noise
+1173	 80000	57.4	93.5	3660	very high noise
+1174	 80000	57.7	87.1	3697	very high noise
+1175	 80000	57.5	86.9	3597	very high noise
+1176	 80000	54.1	85.5	3674	very high noise
+1177	 80000	60.2	95.9	3656	very high noise
+1178	 80000	56.8	88.2	3666	very high noise
+1179	     4	54.6	84.6	3609	inefficient
+1180	 80000	56.4	105.4	3718	very high noise
+1181	 80000	57.6	88.4	3632	very high noise
+1182	 80000	57.2	94.0	3646	very high noise
+1183	     4	58.1	87.7	3640	inefficient
+1184	 80000	57.9	89.8	3653	very high noise
+1185	     4	54.4	79.1	3627	inefficient
+1186	 80000	55.1	87.0	3645	very high noise
+1187	 80000	55.1	86.5	3651	very high noise
+1188	     4	57.6	88.4	3616	inefficient
+1189	     4	56.9	81.6	3638	inefficient
+1190	 80000	56.7	90.7	3656	very high noise
+1191	 80000	58.1	101.9	3686	very high noise
+1192	 80000	56.8	92.1	3707	very high noise
+1193	     4	55.5	88.1	3718	inefficient
+1194	     4	57.2	86.7	3701	inefficient
+1195	 80000	58.4	88.3	3654	very high noise
+1196	     4	57.7	85.9	3647	inefficient
+1197	 80000	57.2	90.8	3656	very high noise
+1198	     4	57.1	92.1	3746	inefficient
+1199	 80000	57.5	89.6	3658	very high noise
+1200	 80000	56.7	91.2	3663	very high noise
+1201	 80000	57.3	89.4	3710	very high noise
+1202	     4	57.0	85.0	3640	inefficient
+1203	     4	58.2	88.8	3670	inefficient
+1204	 80000	57.2	91.0	3671	very high noise
+1205	 80000	58.4	90.4	3717	very high noise
+1206	     4	58.5	91.9	3685	inefficient
+1207	     4	56.6	86.5	3725	inefficient
+1208	     4	56.6	88.5	3709	inefficient
+1209	     4	59.3	90.0	3758	inefficient
+1210	 80000	58.6	91.1	3719	very high noise
+1211	 80000	56.4	90.1	3703	very high noise
+1212	 80000	57.7	90.8	3687	very high noise
+1213	     4	56.2	88.7	3742	inefficient
+1214	     4	59.1	91.0	3777	inefficient
+1215	 80000	61.1	99.4	3701	very high noise
+1216	     4	55.3	85.2	3754	inefficient
+1217	     4	57.4	86.9	3691	inefficient
+1218	 80000	55.9	86.6	3721	very high noise
+1219	 80000	56.2	91.6	3726	very high noise
+1220	     4	56.8	84.4	3682	inefficient
+1221	     4	57.2	90.2	3739	inefficient
+1222	 80000	54.2	86.3	3785	very high noise
+1223	 80000	57.3	133.7	3693	very high noise
+1224	 80000	55.2	84.6	3685	very high noise
+1225	 80000	55.5	91.2	3706	very high noise
+1226	 80000	56.1	90.1	3707	very high noise
+1227	     4	56.5	91.1	3811	inefficient
+1228	 80000	56.0	89.4	3658	very high noise
+1229	 80000	54.4	87.8	3716	very high noise
+1230	     4	55.1	86.5	3792	inefficient
+1231	 80000	54.2	86.5	3711	very high noise
+1232	 80000	53.6	80.0	3755	very high noise
+1233	 80000	57.6	91.1	3702	very high noise
+1234	     4	55.9	84.9	3770	inefficient
+1235	     4	56.4	85.3	3743	inefficient
+1236	 80000	53.9	85.6	3742	very high noise
+1237	 80000	55.9	85.5	3659	very high noise
+1238	 80000	55.2	84.8	3695	very high noise
+1239	 80000	55.1	89.8	3743	very high noise
+1240	 80000	57.3	91.6	3755	very high noise
+1241	 80000	57.6	100.4	3805	very high noise
+1242	 80000	54.8	88.4	3729	very high noise
+1243	 80000	54.1	86.8	3772	very high noise
+1244	     4	56.3	85.0	3685	inefficient
+1245	 80000	55.4	84.7	3716	very high noise
+1246	 80000	55.5	92.4	3746	very high noise
+1247	     4	54.3	83.1	3734	inefficient
+1248	     4	57.9	87.0	3725	inefficient
+1249	 80000	55.5	87.8	3779	very high noise
+1250	     4	58.7	92.6	3758	inefficient
+1251	     4	56.5	87.0	3776	inefficient
+1252	 80000	57.1	87.7	3708	very high noise
+1253	     4	56.8	90.7	3732	inefficient
+1254	 80000	56.8	89.6	3725	very high noise
+1255	     4	56.1	88.7	3744	inefficient
+1256	     4	54.6	82.3	3819	inefficient
+1257	 80000	58.7	117.1	3725	very high noise
+1258	 80000	57.8	90.0	3681	very high noise
+1259	     4	57.4	91.4	3748	inefficient
+1260	 80000	58.2	87.6	3709	very high noise
+1261	     4	55.6	85.7	3799	inefficient
+1262	 80000	56.2	89.1	3715	very high noise
+1263	     4	55.3	83.8	3730	inefficient
+1264	 80000	54.4	81.6	3694	very high noise
+1265	 80000	55.0	86.0	3721	very high noise
+1266	     4	56.1	88.6	3772	inefficient
+1267	 80000	53.6	86.1	3726	very high noise
+1268	     4	56.8	86.8	3787	inefficient
+1269	     4	56.8	84.7	3656	inefficient
+1270	     4	58.2	85.5	3667	inefficient
+1271	 80000	53.4	84.4	3689	very high noise
+1272	 80000	56.5	92.0	3842	very high noise
+1273	     4	57.8	87.6	3721	inefficient
+1274	     4	54.1	83.6	3791	inefficient
+1275	 80000	56.1	89.1	3809	very high noise
+1276	 80000	56.2	84.8	3732	very high noise
+1277	     4	58.9	89.1	3738	inefficient
+1278	     4	58.5	93.4	3751	inefficient
+1279	     4	56.9	85.3	3902	inefficient
+1280	 80000	62.7	95.0	3632	very high noise
+1281	     4	60.4	91.9	3642	inefficient
+1282	 80000	62.2	112.3	3648	very high noise
+1283	 80000	62.3	96.8	3573	very high noise
+1284	     4	61.6	92.9	3622	inefficient
+1285	     4	61.1	90.3	3576	inefficient
+1286	 80000	60.2	91.6	3553	very high noise
+1287	 80000	60.9	95.7	3593	very high noise
+1288	 80000	61.4	91.9	3571	very high noise
+1289	 80000	60.0	96.6	3563	very high noise
+1290	     4	60.8	88.4	3585	inefficient
+1291	 80000	60.9	91.2	3567	very high noise
+1292	 80000	61.2	96.3	3567	very high noise
+1293	 80000	59.2	87.3	3542	very high noise
+1294	 80000	59.7	89.2	3584	very high noise
+1295	     4	62.8	86.8	3547	inefficient
+1296	     4	60.7	91.7	3653	inefficient
+1297	 80000	60.3	92.7	3604	very high noise
+1298	 80000	60.5	92.5	3641	very high noise
+1299	 80000	61.0	94.2	3616	very high noise
+1300	     4	59.0	89.8	3650	inefficient
+1301	     4	62.4	91.1	3631	inefficient
+1302	 80000	62.9	103.7	3561	very high noise
+1303	     4	60.2	92.5	3583	inefficient
+1304	     4	61.1	90.3	3582	inefficient
+1305	     4	62.6	94.0	3569	inefficient
+1306	     4	61.7	89.6	3615	inefficient
+1307	     4	59.2	90.1	3611	inefficient
+1308	     4	60.9	91.3	3600	inefficient
+1309	     4	59.3	88.0	3590	inefficient
+1310	 80000	59.0	90.0	3640	very high noise
+1311	     4	58.4	88.2	3602	inefficient
+1312	     4	60.8	89.5	3682	inefficient
+1313	     4	61.9	92.9	3596	inefficient
+1314	 80000	57.6	93.0	3677	very high noise
+1315	 80000	60.4	89.0	3516	very high noise
+1316	 80000	60.4	90.8	3645	very high noise
+1317	     4	60.4	90.8	3616	inefficient
+1318	 80000	61.3	91.1	3617	very high noise
+1319	     4	60.5	93.6	3629	inefficient
+1320	 80000	60.6	92.5	3627	very high noise
+1321	 80000	59.5	96.6	3612	very high noise
+1322	     4	61.9	91.9	3605	inefficient
+1323	 80000	60.5	95.9	3621	very high noise
+1324	     4	61.3	91.6	3639	inefficient
+1325	 80000	60.3	89.7	3624	very high noise
+1326	     4	61.8	91.8	3633	inefficient
+1327	     4	63.5	90.2	3679	inefficient
+1328	 80000	60.0	93.6	3656	very high noise
+1329	     4	61.1	88.7	3549	inefficient
+1330	 80000	60.3	89.5	3656	very high noise
+1331	     4	61.0	94.7	3651	inefficient
+1332	 80000	61.3	92.1	3588	very high noise
+1333	     4	61.1	78.9	3618	inefficient
+1334	     4	63.8	94.0	3601	inefficient
+1335	     4	62.3	90.3	3590	inefficient
+1336	     4	62.5	94.0	3604	inefficient
+1337	     4	62.4	91.6	3616	inefficient
+1338	 80000	63.0	97.3	3596	very high noise
+1339	 80000	61.5	90.1	3624	very high noise
+1340	     4	62.8	93.5	3576	inefficient
+1341	 80000	61.5	168.4	3569	very high noise
+1342	     4	63.7	95.2	3619	inefficient
+1343	     4	64.5	100.8	3675	inefficient
+1344	     4	63.9	94.0	3553	inefficient
+1345	     4	63.7	99.3	3634	inefficient
+1346	     4	61.4	94.9	3624	inefficient
+1347	     4	60.8	83.4	3611	inefficient
+1348	 80000	61.0	95.0	3650	very high noise
+1349	 80000	60.9	88.6	3581	very high noise
+1350	 80000	60.3	89.1	3598	very high noise
+1351	 80000	63.2	96.0	3518	very high noise
+1352	     4	61.2	94.4	3646	inefficient
+1353	     4	61.4	92.7	3537	inefficient
+1354	     4	61.6	92.8	3637	inefficient
+1355	 80000	61.8	94.1	3602	very high noise
+1356	     4	61.3	95.7	3603	inefficient
+1357	     4	61.7	92.1	3625	inefficient
+1358	     4	59.6	91.1	3558	inefficient
+1359	 80000	60.3	101.7	3558	very high noise
+1360	     4	61.5	90.7	3546	inefficient
+1361	 80000	58.9	93.5	3654	very high noise
+1362	 80000	61.6	91.2	3551	very high noise
+1363	     4	60.0	92.4	3581	inefficient
+1364	 80000	59.1	89.0	3599	very high noise
+1365	 80000	62.5	133.6	3557	very high noise
+1366	 80000	60.4	90.2	3581	very high noise
+1367	 80000	59.0	91.1	3602	very high noise
+1368	     4	60.1	84.7	3560	inefficient
+1369	 80000	61.2	92.1	3613	very high noise
+1370	     4	61.3	91.1	3620	inefficient
+1371	 80000	58.9	87.1	3564	very high noise
+1372	 80000	59.1	88.9	3543	very high noise
+1373	     4	58.2	89.2	3625	inefficient
+1374	     4	60.5	93.0	3628	inefficient
+1375	 80000	59.8	90.6	3563	very high noise
+1376	     4	61.2	91.0	3587	inefficient
+1377	 80000	59.2	93.2	3539	very high noise
+1378	 80000	60.8	95.2	3588	very high noise
+1379	     4	60.7	93.5	3595	inefficient
+1380	 80000	61.0	96.7	3593	very high noise
+1381	 80000	61.0	94.2	3614	very high noise
+1382	 80000	57.3	95.6	3655	very high noise
+1383	 80000	60.4	92.3	3549	very high noise
+1384	 80000	58.8	90.3	3518	very high noise
+1385	 80000	58.9	88.8	3576	very high noise
+1386	     4	58.3	92.6	3581	inefficient
+1387	     4	60.7	92.3	3589	inefficient
+1388	     4	58.8	91.8	3565	inefficient
+1389	     4	60.0	88.6	3518	inefficient
+1390	     4	59.5	92.9	3612	inefficient
+1391	 80000	59.0	116.6	3582	very high noise
+1392	     4	60.2	88.6	3690	inefficient
+1393	 80000	61.6	92.5	3531	very high noise
+1394	 80000	60.3	100.7	3575	very high noise
+1395	 80000	60.8	104.7	3594	very high noise
+1396	 80000	61.8	91.0	3525	very high noise
+1397	 80000	59.3	95.0	3622	very high noise
+1398	 80000	60.0	94.6	3573	very high noise
+1399	 80000	59.6	89.1	3623	very high noise
+1400	 80000	59.3	89.6	3601	very high noise
+1401	 80000	59.7	92.3	3610	very high noise
+1402	     4	62.3	92.4	3625	inefficient
+1403	 80000	63.8	96.1	3575	very high noise
+1404	 80000	61.9	95.4	3582	very high noise
+1405	     4	63.0	93.4	3612	inefficient
+1406	     4	64.9	97.4	3604	inefficient
+1407	 80000	66.2	116.1	3559	very high noise
+1408	     4	60.0	88.1	3521	inefficient
+1409	     4	63.4	96.6	3461	inefficient
+1410	     4	60.3	89.0	3464	inefficient
+1411	 80000	63.4	93.2	3370	very high noise
+1412	     4	60.4	89.2	3480	inefficient
+1413	     4	60.7	91.3	3479	inefficient
+1414	 80000	61.7	92.2	3445	very high noise
+1415	     4	61.6	89.5	3463	inefficient
+1416	 80000	62.0	135.6	3389	very high noise
+1417	 80000	63.7	93.1	3395	very high noise
+1418	 80000	58.9	89.1	3458	very high noise
+1419	 80000	62.6	90.9	3397	very high noise
+1420	     4	64.1	88.3	3453	inefficient
+1421	 80000	58.3	86.3	3440	very high noise
+1422	     4	62.4	84.9	3404	inefficient
+1423	 80000	59.7	96.9	3412	very high noise
+1424	     4	61.6	88.7	3393	inefficient
+1425	     4	61.4	93.0	3462	inefficient
+1426	 80000	58.2	88.8	3393	very high noise
+1427	 80000	59.8	93.0	3422	very high noise
+1428	 80000	61.9	92.3	3415	very high noise
+1429	     4	62.5	87.0	3387	inefficient
+1430	     4	60.7	93.9	3440	inefficient
+1431	     4	63.0	92.6	3460	inefficient
+1432	 80000	60.7	98.8	3464	very high noise
+1433	 80000	62.6	91.2	3364	very high noise
+1434	     4	58.6	87.1	3434	inefficient
+1435	 80000	58.9	87.8	3417	very high noise
+1436	     4	63.8	88.1	3443	inefficient
+1437	     4	59.8	90.0	3444	inefficient
+1438	 80000	59.3	86.8	3380	very high noise
+1439	 80000	61.7	120.3	3406	very high noise
+1440	     4	58.2	90.7	3421	inefficient
+1441	     4	60.9	87.5	3449	inefficient
+1442	     4	59.1	88.1	3392	inefficient
+1443	 80000	61.1	93.1	3406	very high noise
+1444	     4	60.0	91.7	3495	inefficient
+1445	 80000	61.4	92.5	3422	very high noise
+1446	 80000	59.7	88.1	3402	very high noise
+1447	 80000	59.9	89.5	3466	very high noise
+1448	     4	59.2	89.0	3434	inefficient
+1449	 80000	59.4	89.6	3409	very high noise
+1450	 80000	59.0	93.6	3434	very high noise
+1451	 80000	61.2	90.5	3398	very high noise
+1452	 80000	59.6	86.2	3415	very high noise
+1453	 80000	61.5	93.0	3449	very high noise
+1454	 80000	60.1	90.6	3370	very high noise
+1455	 80000	60.5	89.3	3430	very high noise
+1456	 80000	60.0	90.3	3424	very high noise
+1457	     4	59.4	93.3	3465	inefficient
+1458	 80000	61.6	94.1	3449	very high noise
+1459	     4	59.7	87.1	3498	inefficient
+1460	     4	58.1	83.2	3430	inefficient
+1461	     4	63.3	96.4	3427	inefficient
+1462	     4	61.4	96.3	3530	inefficient
+1463	     4	62.0	90.2	3437	inefficient
+1464	     4	62.6	92.3	3462	inefficient
+1465	 80000	61.3	91.5	3462	very high noise
+1466	 80000	60.4	95.8	3448	very high noise
+1467	     4	62.1	93.3	3477	inefficient
+1468	 80000	63.5	94.6	3472	very high noise
+1469	 80000	61.6	90.6	3476	very high noise
+1470	 80000	62.4	112.7	3453	very high noise
+1471	     4	63.7	93.9	3523	inefficient
+1472	 80000	61.7	90.8	3463	very high noise
+1473	     4	59.3	85.2	3450	inefficient
+1474	 80000	58.3	88.8	3462	very high noise
+1475	 80000	61.3	90.4	3423	very high noise
+1476	     4	58.9	87.4	3506	inefficient
+1477	 80000	62.2	89.6	3414	very high noise
+1478	     4	59.4	85.5	3485	inefficient
+1479	     4	59.5	86.0	3431	inefficient
+1480	 80000	59.9	87.3	3436	very high noise
+1481	 80000	60.4	91.8	3418	very high noise
+1482	 80000	58.8	88.5	3444	very high noise
+1483	     4	58.7	88.6	3438	inefficient
+1484	 80000	56.7	95.2	3459	very high noise
+1485	     4	58.8	80.5	3478	inefficient
+1486	     4	59.4	79.6	3427	inefficient
+1487	 80000	59.4	88.5	3428	very high noise
+1488	 80000	59.9	88.8	3400	very high noise
+1489	     4	59.0	87.4	3475	inefficient
+1490	 80000	58.3	91.4	3412	very high noise
+1491	     4	59.0	80.7	3511	inefficient
+1492	     4	57.9	86.6	3433	inefficient
+1493	     4	60.2	88.6	3428	inefficient
+1494	 80000	59.8	88.2	3414	very high noise
+1495	 80000	57.5	88.7	3432	very high noise
+1496	 80000	58.9	86.8	3395	very high noise
+1497	 80000	57.3	90.2	3450	very high noise
+1498	 80000	60.0	89.3	3428	very high noise
+1499	 80000	58.1	89.3	3391	very high noise
+1500	     4	57.7	88.8	3417	inefficient
+1501	 80000	57.0	89.8	3435	very high noise
+1502	 80000	55.4	90.9	3474	very high noise
+1503	 80000	60.8	143.8	3427	very high noise
+1504	 80000	58.6	89.9	3472	very high noise
+1505	 80000	59.1	91.1	3430	very high noise
+1506	     4	58.1	86.1	3428	inefficient
+1507	 80000	59.7	89.7	3435	very high noise
+1508	 80000	57.7	90.1	3445	very high noise
+1509	 80000	57.8	93.2	3450	very high noise
+1510	 80000	56.6	85.3	3377	very high noise
+1511	 80000	58.3	86.3	3443	very high noise
+1512	 80000	58.1	86.3	3444	very high noise
+1513	 80000	56.7	85.2	3407	very high noise
+1514	 80000	55.0	86.1	3467	very high noise
+1515	 80000	56.0	85.9	3456	very high noise
+1516	 80000	57.2	92.5	3497	very high noise
+1517	 80000	57.5	89.9	3471	very high noise
+1518	 80000	55.9	88.9	3492	very high noise
+1519	 80000	58.6	93.4	3446	very high noise
+1520	 80000	56.6	90.0	3475	very high noise
+1521	     4	57.2	87.1	3484	inefficient
+1522	 80000	58.8	88.1	3380	very high noise
+1523	 80000	58.6	92.0	3441	very high noise
+1524	 80000	57.7	88.2	3436	very high noise
+1525	 80000	56.6	88.1	3415	very high noise
+1526	 80000	57.4	87.4	3481	very high noise
+1527	 80000	57.8	89.1	3408	very high noise
+1528	 80000	55.6	88.2	3480	very high noise
+1529	 80000	58.6	90.1	3419	very high noise
+1530	 80000	56.5	91.7	3494	very high noise
+1531	     4	58.0	90.2	3429	inefficient
+1532	 80000	56.2	91.9	3525	very high noise
+1533	 80000	58.1	91.3	3415	very high noise
+1534	     4	60.2	73.3	3476	inefficient
+1535	     4	62.2	90.4	3402	inefficient
+1536	 80000	60.3	85.6	3528	very high noise
+1537	     4	61.6	90.2	3599	inefficient
+1538	     4	59.1	82.8	3611	inefficient
+1539	 80000	62.8	98.2	3527	very high noise
+1540	     4	58.1	87.6	3545	inefficient
+1541	 80000	60.2	101.0	3579	very high noise
+1542	 80000	59.1	91.2	3548	very high noise
+1543	     4	59.6	91.4	3592	inefficient
+1544	     4	59.3	93.9	3604	inefficient
+1545	     4	58.7	85.5	3625	inefficient
+1546	 80000	56.9	96.2	3617	very high noise
+1547	 80000	59.2	93.9	3577	very high noise
+1548	 80000	55.9	84.6	3588	very high noise
+1549	     4	58.6	86.7	3600	inefficient
+1550	 80000	58.0	90.9	3583	very high noise
+1551	     4	57.3	89.3	3612	inefficient
+1552	     4	57.8	83.7	3591	inefficient
+1553	     4	58.3	83.5	3579	inefficient
+1554	 80000	59.2	93.2	3633	very high noise
+1555	     4	58.2	86.2	3660	inefficient
+1556	 80000	60.3	158.2	3545	very high noise
+1557	     4	58.1	83.8	3542	inefficient
+1558	     4	59.2	86.7	3633	inefficient
+1559	 80000	60.0	97.0	3566	very high noise
+1560	 80000	60.4	100.3	3626	very high noise
+1561	     4	60.0	88.7	3596	inefficient
+1562	     4	58.3	88.1	3638	inefficient
+1563	 80000	59.9	90.2	3571	very high noise
+1564	 80000	58.8	91.5	3600	very high noise
+1565	     4	61.5	86.2	3605	inefficient
+1566	     4	59.3	87.2	3593	inefficient
+1567	 80000	59.9	96.9	3658	very high noise
+1568	     4	59.4	87.5	3636	inefficient
+1569	 80000	56.7	91.1	3604	very high noise
+1570	 80000	59.1	89.5	3615	very high noise
+1571	 80000	56.8	91.3	3588	very high noise
+1572	     4	59.4	89.9	3596	inefficient
+1573	     4	60.0	89.1	3569	inefficient
+1574	     4	58.7	91.6	3651	inefficient
+1575	 80000	60.7	99.9	3632	very high noise
+1576	     4	60.4	95.7	3633	inefficient
+1577	 80000	59.1	89.7	3518	very high noise
+1578	     4	58.2	90.2	3625	inefficient
+1579	     4	60.3	89.8	3628	inefficient
+1580	     4	58.7	88.0	3616	inefficient
+1581	 80000	58.4	97.0	3609	very high noise
+1582	 80000	58.8	95.6	3586	very high noise
+1583	     4	57.5	88.0	3667	inefficient
+1584	     4	59.6	88.4	3628	inefficient
+1585	 80000	60.5	101.9	3592	very high noise
+1586	     4	58.6	96.4	3670	inefficient
+1587	     4	61.3	91.6	3585	inefficient
+1588	     4	60.1	88.9	3594	inefficient
+1589	     4	59.3	83.4	3668	inefficient
+1590	     4	54.6	82.3	3590	inefficient
+1591	     4	57.9	84.1	3634	inefficient
+1592	 80000	58.9	91.0	3588	very high noise
+1593	     4	59.0	93.6	3607	inefficient
+1594	     4	62.7	89.1	3646	inefficient
+1595	     4	61.7	92.5	3665	inefficient
+1596	     4	62.2	96.0	3633	inefficient
+1597	 80000	60.3	93.4	3681	very high noise
+1598	     4	63.5	92.3	3657	inefficient
+1599	     4	63.7	95.8	3641	inefficient
+1600	 80000	60.0	90.0	3577	very high noise
+1601	 80000	63.7	105.0	3635	very high noise
+1602	     4	58.2	87.5	3630	inefficient
+1603	     4	58.6	89.3	3636	inefficient
+1604	 80000	55.8	95.2	3583	very high noise
+1605	 80000	57.6	90.3	3656	very high noise
+1606	     4	58.6	87.6	3657	inefficient
+1607	 80000	58.1	93.7	3581	very high noise
+1608	     4	58.3	91.4	3606	inefficient
+1609	     4	59.0	87.2	3577	inefficient
+1610	     4	57.8	84.4	3634	inefficient
+1611	 80000	58.4	87.6	3572	very high noise
+1612	     4	60.0	89.0	3624	inefficient
+1613	     4	57.3	88.0	3658	inefficient
+1614	 80000	59.7	92.9	3542	very high noise
+1615	     4	59.0	91.9	3623	inefficient
+1616	     4	60.2	93.3	3595	inefficient
+1617	 80000	58.6	90.6	3575	very high noise
+1618	     4	59.4	93.5	3655	inefficient
+1619	     4	58.7	65.6	3650	inefficient
+1620	     4	56.4	85.8	3606	inefficient
+1621	 80000	59.5	93.8	3617	very high noise
+1622	     4	59.0	81.8	3623	inefficient
+1623	     4	60.9	88.4	3621	inefficient
+1624	     4	57.7	86.6	3650	inefficient
+1625	     4	56.7	90.5	3639	inefficient
+1626	 80000	57.9	88.0	3601	very high noise
+1627	     4	59.1	88.4	3587	inefficient
+1628	     4	57.6	87.5	3666	inefficient
+1629	     4	60.0	91.1	3649	inefficient
+1630	 80000	58.5	90.0	3580	very high noise
+1631	     4	60.1	91.1	3586	inefficient
+1632	     4	59.5	84.1	3595	inefficient
+1633	     4	60.8	92.8	3597	inefficient
+1634	 80000	57.1	87.1	3662	very high noise
+1635	     4	61.3	91.6	3605	inefficient
+1636	 80000	61.4	95.2	3636	very high noise
+1637	 80000	61.2	93.4	3562	very high noise
+1638	     4	58.6	90.3	3599	inefficient
+1639	 80000	60.1	92.7	3573	very high noise
+1640	 80000	59.8	94.6	3571	very high noise
+1641	     4	60.0	85.9	3684	inefficient
+1642	     4	59.1	89.6	3587	inefficient
+1643	     4	58.9	85.3	3636	inefficient
+1644	     4	60.8	95.7	3589	inefficient
+1645	 80000	59.5	177.3	3512	very high noise
+1646	     4	58.5	91.5	3670	inefficient
+1647	 80000	58.8	99.4	3601	very high noise
+1648	 80000	55.8	88.2	3617	very high noise
+1649	     4	57.7	88.8	3623	inefficient
+1650	 80000	57.4	91.5	3608	very high noise
+1651	 80000	59.7	89.1	3582	very high noise
+1652	 80000	57.3	92.2	3687	very high noise
+1653	     4	58.7	84.4	3676	inefficient
+1654	 80000	58.5	90.2	3608	very high noise
+1655	 80000	57.5	89.0	3615	very high noise
+1656	     4	56.6	75.9	3624	inefficient
+1657	     4	60.5	88.6	3680	inefficient
+1658	     4	59.3	91.3	3684	inefficient
+1659	 80000	62.9	95.7	3565	very high noise
+1660	     4	60.0	91.5	3655	inefficient
+1661	     4	58.9	88.5	3604	inefficient
+1662	 80000	62.6	98.5	3666	very high noise
+1663	     4	62.4	96.4	3569	inefficient
+1664	 80000	59.6	100.6	3538	very high noise
+1665	 80000	61.5	101.2	3584	very high noise
+1666	 80000	60.0	95.2	3579	very high noise
+1667	 80000	60.5	98.0	3525	very high noise
+1668	 80000	60.5	98.1	3562	very high noise
+1669	     4	59.8	87.2	3522	inefficient
+1670	     4	63.4	90.9	3580	inefficient
+1671	 80000	59.1	92.0	3559	very high noise
+1672	 80000	58.6	87.4	3556	very high noise
+1673	     4	59.2	89.6	3549	inefficient
+1674	 80000	57.2	87.7	3537	very high noise
+1675	 80000	61.6	179.0	3458	very high noise
+1676	     4	62.7	93.9	3564	inefficient
+1677	 80000	60.8	89.9	3559	very high noise
+1678	 80000	59.4	90.2	3550	very high noise
+1679	     4	60.8	89.0	3533	inefficient
+1680	 80000	59.3	88.6	3521	very high noise
+1681	     4	58.0	89.9	3564	inefficient
+1682	     4	59.2	89.4	3540	inefficient
+1683	     4	59.5	89.1	3592	inefficient
+1684	     4	59.4	87.0	3600	inefficient
+1685	     4	60.6	83.4	3577	inefficient
+1686	 80000	59.2	87.2	3530	very high noise
+1687	     4	60.5	87.1	3538	inefficient
+1688	     4	60.4	87.6	3616	inefficient
+1689	     4	62.3	90.8	3526	inefficient
+1690	 80000	60.4	92.0	3503	very high noise
+1691	 80000	58.3	91.3	3474	very high noise
+1692	 80000	59.4	91.6	3593	very high noise
+1693	     4	60.0	93.1	3558	inefficient
+1694	     4	60.5	86.7	3517	inefficient
+1695	 80000	60.4	94.8	3560	very high noise
+1696	 80000	57.9	83.8	3509	very high noise
+1697	     4	59.6	92.0	3515	inefficient
+1698	 80000	60.5	92.9	3532	very high noise
+1699	     4	61.0	91.1	3557	inefficient
+1700	     4	61.5	83.6	3602	inefficient
+1701	     4	60.5	86.9	3507	inefficient
+1702	 80000	59.9	90.6	3543	very high noise
+1703	 80000	59.2	89.2	3542	very high noise
+1704	 80000	58.6	93.8	3538	very high noise
+1705	 80000	62.6	93.4	3480	very high noise
+1706	     4	59.0	86.1	3526	inefficient
+1707	 80000	61.3	93.9	3586	very high noise
+1708	 80000	61.7	95.8	3515	very high noise
+1709	 80000	59.3	90.2	3533	very high noise
+1710	 80000	58.4	83.5	3519	very high noise
+1711	     4	59.4	85.7	3604	inefficient
+1712	 80000	58.8	93.0	3561	very high noise
+1713	     4	61.0	92.2	3598	inefficient
+1714	     4	60.1	87.1	3511	inefficient
+1715	     4	60.5	88.3	3571	inefficient
+1716	     4	59.7	91.4	3544	inefficient
+1717	     4	58.1	82.4	3544	inefficient
+1718	 80000	59.5	88.7	3535	very high noise
+1719	     4	60.0	85.8	3519	inefficient
+1720	     4	59.1	88.3	3549	inefficient
+1721	     4	60.3	85.7	3634	inefficient
+1722	 80000	60.5	89.9	3578	very high noise
+1723	 80000	60.6	93.6	3531	very high noise
+1724	 80000	60.9	90.1	3545	very high noise
+1725	 80000	61.4	90.4	3505	very high noise
+1726	 80000	61.8	102.2	3584	very high noise
+1727	     4	64.2	98.8	3566	inefficient
+1728	 80000	61.4	97.7	3522	very high noise
+1729	     4	61.3	88.5	3471	inefficient
+1730	 80000	58.3	90.5	3563	very high noise
+1731	 80000	64.3	95.2	3500	very high noise
+1732	 80000	62.4	91.7	3523	very high noise
+1733	 80000	61.2	90.2	3463	very high noise
+1734	     4	61.0	86.8	3589	inefficient
+1735	 80000	62.9	94.8	3440	very high noise
+1736	 80000	60.1	91.6	3489	very high noise
+1737	     4	61.1	94.1	3489	inefficient
+1738	     4	61.2	88.7	3526	inefficient
+1739	     4	63.5	85.4	3552	inefficient
+1740	     4	61.8	89.1	3430	inefficient
+1741	     4	62.2	93.3	3533	inefficient
+1742	     4	61.1	85.0	3557	inefficient
+1743	 80000	63.2	92.8	3481	very high noise
+1744	     4	64.7	93.6	3479	inefficient
+1745	 80000	62.1	91.5	3475	very high noise
+1746	 80000	62.8	93.3	3430	very high noise
+1747	     4	62.1	92.4	3537	inefficient
+1748	     4	62.2	88.5	3458	inefficient
+1749	     4	61.8	93.6	3520	inefficient
+1750	     4	60.1	89.9	3519	inefficient
+1751	     4	59.6	90.8	3516	inefficient
+1752	 80000	62.1	90.9	3397	very high noise
+1753	     4	60.5	93.2	3531	inefficient
+1754	     4	59.8	90.3	3493	inefficient
+1755	 80000	59.5	87.4	3485	very high noise
+1756	 80000	58.5	87.0	3497	very high noise
+1757	     4	60.3	90.6	3459	inefficient
+1758	 80000	59.6	88.1	3471	very high noise
+1759	 80000	60.7	93.5	3470	very high noise
+1760	 80000	58.5	92.1	3475	very high noise
+1761	     4	60.6	88.3	3464	inefficient
+1762	 80000	59.4	92.8	3461	very high noise
+1763	 80000	60.8	94.0	3452	very high noise
+1764	 80000	59.7	90.0	3505	very high noise
+1765	 80000	60.6	93.5	3482	very high noise
+1766	 80000	60.9	91.7	3525	very high noise
+1767	     4	60.2	85.7	3482	inefficient
+1768	     4	60.5	88.1	3510	inefficient
+1769	     4	59.8	86.7	3496	inefficient
+1770	 80000	60.1	93.8	3453	very high noise
+1771	 80000	61.5	91.8	3438	very high noise
+1772	 80000	58.3	89.4	3554	very high noise
+1773	 80000	62.1	108.2	3479	very high noise
+1774	     4	59.4	84.8	3468	inefficient
+1775	     4	59.4	88.2	3487	inefficient
+1776	 80000	56.8	85.1	3511	very high noise
+1777	 80000	62.0	97.4	3440	very high noise
+1778	 80000	58.8	89.1	3471	very high noise
+1779	 80000	58.3	87.9	3450	very high noise
+1780	     4	60.6	89.5	3485	inefficient
+1781	 80000	59.7	86.7	3479	very high noise
+1782	 80000	60.8	91.4	3485	very high noise
+1783	 80000	60.7	94.6	3481	very high noise
+1784	     4	61.3	88.4	3456	inefficient
+1785	 80000	61.2	89.7	3456	very high noise
+1786	 80000	61.4	90.0	3450	very high noise
+1787	     4	59.8	91.9	3475	inefficient
+1788	     4	65.0	89.8	3490	inefficient
+1789	 80000	59.9	88.5	3478	very high noise
+1790	 80000	64.0	95.8	3489	very high noise
+1791	     4	62.9	90.4	3536	inefficient
+1792	     4	64.8	94.7	3601	inefficient
+1793	     4	65.8	99.8	3536	inefficient
+1794	     4	64.9	92.4	3490	inefficient
+1795	     4	65.9	94.7	3600	inefficient
+1796	     4	62.6	89.6	3570	inefficient
+1797	     4	63.2	93.5	3553	inefficient
+1798	     4	62.6	91.2	3557	inefficient
+1799	     4	61.8	75.9	3567	inefficient
+1800	     4	64.0	91.3	3577	inefficient
+1801	     4	63.4	89.4	3555	inefficient
+1802	     4	63.3	97.1	3538	inefficient
+1803	 80000	63.1	95.2	3503	very high noise
+1804	 80000	63.1	92.7	3536	very high noise
+1805	 80000	61.9	93.4	3534	very high noise
+1806	     4	63.6	89.5	3508	inefficient
+1807	     4	64.0	99.4	3544	inefficient
+1808	     4	61.7	85.6	3559	inefficient
+1809	     4	62.0	87.4	3532	inefficient
+1810	     4	65.0	94.6	3538	inefficient
+1811	     4	63.7	91.3	3624	inefficient
+1812	 80000	63.1	93.7	3542	very high noise
+1813	 80000	61.3	91.8	3506	very high noise
+1814	     4	61.9	91.2	3593	inefficient
+1815	     4	61.6	89.5	3585	inefficient
+1816	 80000	60.2	92.8	3534	very high noise
+1817	     4	61.9	92.4	3579	inefficient
+1818	 80000	61.0	93.8	3599	very high noise
+1819	     4	62.9	92.4	3541	inefficient
+1820	     4	61.8	92.9	3548	inefficient
+1821	 80000	66.2	139.3	3494	very high noise
+1822	     4	65.3	95.5	3599	inefficient
+1823	     4	63.3	89.0	3558	inefficient
+1824	 80000	64.1	93.3	3520	very high noise
+1825	     4	65.0	93.5	3573	inefficient
+1826	     4	64.5	91.1	3578	inefficient
+1827	     4	61.8	78.3	3630	inefficient
+1828	     4	60.6	92.3	3509	inefficient
+1829	     4	62.6	94.7	3534	inefficient
+1830	     4	61.0	79.2	3640	inefficient
+1831	     4	65.5	92.5	3557	inefficient
+1832	 80000	63.4	95.4	3558	very high noise
+1833	     4	64.6	94.8	3555	inefficient
+1834	     4	58.2	87.9	3617	inefficient
+1835	     4	61.3	91.3	3557	inefficient
+1836	     4	61.0	91.3	3596	inefficient
+1837	     4	63.8	91.2	3546	inefficient
+1838	     4	60.0	90.4	3582	inefficient
+1839	     4	62.6	89.2	3581	inefficient
+1840	 80000	63.2	94.7	3546	very high noise
+1841	     4	64.5	91.9	3549	inefficient
+1842	     4	63.3	86.5	3476	inefficient
+1843	 80000	61.3	91.4	3536	very high noise
+1844	     4	61.6	90.7	3539	inefficient
+1845	     4	64.2	90.8	3520	inefficient
+1846	 80000	62.1	89.8	3597	very high noise
+1847	 80000	63.7	97.5	3528	very high noise
+1848	     4	63.0	94.7	3590	inefficient
+1849	     4	63.2	92.6	3594	inefficient
+1850	     4	65.9	95.2	3532	inefficient
+1851	     4	64.5	97.0	3573	inefficient
+1852	     4	63.7	100.2	3656	inefficient
+1853	     4	67.4	97.1	3584	inefficient
+1854	     4	65.4	94.4	3578	inefficient
+1855	     4	65.0	96.2	3655	inefficient
+1856	     4	65.9	90.3	3554	inefficient
+1857	 80000	62.9	92.4	3541	very high noise
+1858	     4	63.6	91.7	3595	inefficient
+1859	     4	62.9	92.7	3619	inefficient
+1860	     4	61.2	92.6	3558	inefficient
+1861	     4	61.7	91.0	3603	inefficient
+1862	 80000	62.5	152.3	3488	very high noise
+1863	     4	60.5	87.9	3581	inefficient
+1864	     4	61.8	92.7	3556	inefficient
+1865	 80000	63.3	96.8	3540	very high noise
+1866	     4	60.6	71.8	3625	inefficient
+1867	 80000	61.5	89.0	3545	very high noise
+1868	 80000	62.6	94.3	3542	very high noise
+1869	     4	61.6	93.2	3568	inefficient
+1870	 80000	60.2	91.6	3569	very high noise
+1871	     4	62.1	91.0	3611	inefficient
+1872	     4	62.4	88.4	3578	inefficient
+1873	     4	61.9	86.0	3552	inefficient
+1874	     4	62.2	90.8	3597	inefficient
+1875	 80000	60.9	101.0	3578	very high noise
+1876	     4	60.1	86.9	3595	inefficient
+1877	 80000	60.0	88.2	3536	very high noise
+1878	     4	65.0	91.1	3530	inefficient
+1879	     4	61.7	92.6	3603	inefficient
+1880	     4	61.9	97.1	3600	inefficient
+1881	     4	59.9	90.5	3598	inefficient
+1882	     4	62.8	95.4	3560	inefficient
+1883	     4	62.7	86.4	3539	inefficient
+1884	 80000	62.1	92.4	3579	very high noise
+1885	     4	60.7	86.0	3564	inefficient
+1886	     4	62.1	92.1	3555	inefficient
+1887	     4	60.4	84.0	3579	inefficient
+1888	 80000	60.7	99.2	3565	very high noise
+1889	 80000	62.3	93.4	3554	very high noise
+1890	 80000	60.8	90.1	3515	very high noise
+1891	 80000	62.2	95.0	3573	very high noise
+1892	     4	63.4	99.0	3585	inefficient
+1893	     4	60.1	88.7	3574	inefficient
+1894	 80000	60.8	108.5	3602	very high noise
+1895	     4	63.1	91.5	3608	inefficient
+1896	     4	63.7	95.7	3547	inefficient
+1897	     4	62.0	93.1	3625	inefficient
+1898	 80000	62.9	106.6	3549	very high noise
+1899	 80000	65.1	100.1	3544	very high noise
+1900	 80000	64.6	99.0	3511	very high noise
+1901	 80000	63.6	94.6	3541	very high noise
+1902	     4	61.3	93.1	3604	inefficient
+1903	     4	62.1	85.3	3588	inefficient
+1904	     4	60.3	89.9	3534	inefficient
+1905	     4	57.9	90.0	3683	inefficient
+1906	     4	61.7	93.2	3593	inefficient
+1907	     4	61.5	92.0	3582	inefficient
+1908	 80000	63.7	96.9	3559	very high noise
+1909	     4	63.0	94.1	3555	inefficient
+1910	     4	61.6	93.0	3584	inefficient
+1911	     4	63.6	90.3	3582	inefficient
+1912	 80000	62.5	94.5	3557	very high noise
+1913	     4	63.3	95.6	3576	inefficient
+1914	     4	62.2	88.7	3599	inefficient
+1915	 80000	64.1	112.2	3543	very high noise
+1916	     4	59.3	89.0	3617	inefficient
+1917	     4	62.3	86.6	3618	inefficient
+1918	     4	64.9	92.5	3613	inefficient
+1919	     4	65.2	91.2	3586	inefficient
+1920	     4	56.8	81.0	4211	inefficient
+1921	     4	63.6	93.0	3795	inefficient
+1922	     4	60.8	86.9	3758	inefficient
+1923	     4	61.7	91.7	3632	inefficient
+1924	 80000	65.1	109.4	3594	very high noise
+1925	     4	59.5	85.1	3678	inefficient
+1926	 80000	59.6	95.0	3629	very high noise
+1927	 80000	59.5	90.6	3527	very high noise
+1928	 80000	60.2	96.5	3559	very high noise
+1929	 80000	60.0	94.9	3582	very high noise
+1930	 80000	57.3	83.1	3557	very high noise
+1931	     4	58.9	90.9	3584	inefficient
+1932	     4	59.3	78.4	3552	inefficient
+1933	 80000	59.6	91.4	3613	very high noise
+1934	     4	59.3	88.0	3571	inefficient
+1935	     4	59.5	88.8	3547	inefficient
+1936	 80000	58.1	87.4	3514	very high noise
+1937	 80000	60.6	88.3	3529	very high noise
+1938	     4	58.8	89.2	3548	inefficient
+1939	     4	61.2	93.5	3569	inefficient
+1940	     4	59.6	87.7	3574	inefficient
+1941	     4	60.6	86.9	3521	inefficient
+1942	     4	59.5	90.4	3642	inefficient
+1943	 80000	59.3	91.6	3526	very high noise
+1944	     4	62.6	90.1	3554	inefficient
+1945	     4	59.6	89.8	3539	inefficient
+1946	 80000	58.7	86.8	3575	very high noise
+1947	     4	61.5	85.1	3554	inefficient
+1948	 80000	59.7	92.8	3570	very high noise
+1949	     4	60.0	91.8	3528	inefficient
+1950	     4	56.7	67.9	3626	inefficient
+1951	 80000	60.5	88.5	3477	very high noise
+1952	 80000	58.4	152.4	3495	very high noise
+1953	 80000	59.7	85.2	3503	very high noise
+1954	     4	61.3	87.3	3551	inefficient
+1955	     4	61.6	89.6	3527	inefficient
+1956	 80000	59.4	88.7	3495	very high noise
+1957	     4	59.2	85.0	3532	inefficient
+1958	 80000	58.9	91.3	3546	very high noise
+1959	     4	60.5	87.0	3610	inefficient
+1960	 80000	59.9	89.7	3579	very high noise
+1961	     4	59.4	84.5	3567	inefficient
+1962	 80000	61.2	98.9	3502	very high noise
+1963	 80000	59.9	89.2	3535	very high noise
+1964	     4	60.3	89.0	3546	inefficient
+1965	 80000	60.9	93.0	3527	very high noise
+1966	 80000	58.4	84.9	3550	very high noise
+1967	     4	62.2	91.3	3614	inefficient
+1968	 80000	63.3	93.8	3624	very high noise
+1969	 80000	60.8	95.6	3619	very high noise
+1970	     4	62.4	90.2	3555	inefficient
+1971	     4	58.6	88.2	3589	inefficient
+1972	 80000	62.4	95.0	3510	very high noise
+1973	 80000	63.1	92.2	3533	very high noise
+1974	     4	58.6	82.4	3583	inefficient
+1975	     4	62.3	91.8	3487	inefficient
+1976	     4	62.6	88.5	3574	inefficient
+1977	     4	63.1	90.2	3537	inefficient
+1978	 80000	60.3	92.2	3516	very high noise
+1979	 80000	60.3	87.2	3527	very high noise
+1980	     4	64.6	91.8	3600	inefficient
+1981	     4	64.4	90.5	3584	inefficient
+1982	     4	62.0	88.4	3563	inefficient
+1983	 80000	62.2	90.9	3479	very high noise
+1984	     4	63.9	91.5	3447	inefficient
+1985	     4	64.4	89.3	3530	inefficient
+1986	     4	61.4	92.2	3474	inefficient
+1987	 80000	61.2	91.5	3494	very high noise
+1988	     4	58.5	76.9	3483	inefficient
+1989	 80000	62.6	94.3	3460	very high noise
+1990	 80000	59.7	89.4	3496	very high noise
+1991	     4	61.1	92.1	3498	inefficient
+1992	     4	60.9	89.8	3524	inefficient
+1993	     4	64.0	92.6	3477	inefficient
+1994	 80000	61.1	94.5	3523	very high noise
+1995	 80000	58.4	102.1	3540	very high noise
+1996	 80000	62.1	95.6	3430	very high noise
+1997	     4	60.9	88.6	3480	inefficient
+1998	 80000	60.9	89.1	3476	very high noise
+1999	 80000	61.7	92.3	3471	very high noise
+2000	     4	61.1	92.3	3544	inefficient
+2001	 80000	60.2	87.3	3439	very high noise
+2002	 80000	61.1	87.6	3474	very high noise
+2003	     4	60.4	90.8	3532	inefficient
+2004	     4	60.1	90.2	3480	inefficient
+2005	     4	61.1	87.6	3529	inefficient
+2006	 80000	61.5	93.6	3502	very high noise
+2007	     4	61.6	86.8	3449	inefficient
+2008	     4	61.6	86.7	3445	inefficient
+2009	 80000	63.0	93.5	3494	very high noise
+2010	     4	60.4	91.4	3450	inefficient
+2011	     4	60.5	87.2	3537	inefficient
+2012	     4	60.1	90.9	3536	inefficient
+2013	     4	60.1	83.6	3418	inefficient
+2014	     4	60.7	90.5	3547	inefficient
+2015	     4	61.6	89.5	3406	inefficient
+2016	 80000	62.4	92.1	3462	very high noise
+2017	 80000	61.4	96.5	3487	very high noise
+2018	     4	62.1	90.6	3538	inefficient
+2019	     4	62.8	90.0	3427	inefficient
+2020	 80000	62.7	99.2	3502	very high noise
+2021	 80000	62.9	94.1	3517	very high noise
+2022	     4	63.0	89.3	3453	inefficient
+2023	     4	63.7	96.9	3499	inefficient
+2024	     4	62.4	88.7	3531	inefficient
+2025	     4	61.3	85.1	3519	inefficient
+2026	     4	62.4	90.7	3486	inefficient
+2027	 80000	61.2	86.1	3456	very high noise
+2028	 80000	61.3	90.2	3442	very high noise
+2029	     4	60.0	89.8	3458	inefficient
+2030	     4	60.8	90.4	3502	inefficient
+2031	 80000	62.3	87.9	3490	very high noise
+2032	     4	58.2	82.8	3516	inefficient
+2033	     4	61.6	92.5	3535	inefficient
+2034	 80000	62.4	93.1	3406	very high noise
+2035	 80000	61.9	94.8	3427	very high noise
+2036	 80000	62.9	94.4	3466	very high noise
+2037	 80000	61.5	92.4	3483	very high noise
+2038	 80000	61.2	90.5	3407	very high noise
+2039	     4	64.4	89.8	3430	inefficient
+2040	 80000	62.4	91.8	3470	very high noise
+2041	 80000	64.1	98.7	3442	very high noise
+2042	 80000	63.3	92.3	3441	very high noise
+2043	     4	62.9	91.9	3507	inefficient
+2044	 80000	62.2	90.1	3427	very high noise
+2045	     4	62.2	94.0	3520	inefficient
+2046	 80000	65.7	94.1	3462	very high noise
+2047	 80000	64.8	96.9	3457	very high noise
